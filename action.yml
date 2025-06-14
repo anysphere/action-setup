@@ -2,7 +2,7 @@ name: Setup pnpm
 description: Install pnpm package manager
 branding:
   icon: package
-  color: orange
+  color: blue
 inputs:
   version:
     description: Version of pnpm to install
