@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "write-json-file@4.0.0",
+        "scope": null,
+        "escapedName": "write-json-file",
+        "name": "write-json-file",
+        "rawSpec": "4.0.0",
+        "spec": "4.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest"
+    ]
+  ],
+  "_from": "write-json-file@4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "write-json-file@4.0.0",
+  "_location": "/write-json-file",
+  "_nodeVersion": "8.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/write-json-file_4.0.0_1558427625329_0.3037884876251329"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {
+    "is-plain-obj": "2.1.0"
+  },
+  "_requested": {
+    "raw": "write-json-file@4.0.0",
+    "scope": null,
+    "escapedName": "write-json-file",
+    "name": "write-json-file",
+    "rawSpec": "4.0.0",
+    "spec": "4.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/npm-resolver",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/write-project-manifest"
+  ],
+  "_resolved": "https://registry.npmjs.org/write-json-file/-/write-json-file-4.0.0.tgz",
+  "_shasum": "a04889c36fde42ac4100f05dfd9793d09c97d6c5",
+  "_shrinkwrap": null,
+  "_spec": "write-json-file@4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/write-json-file/issues"
+  },
+  "dependencies": {
+    "detect-indent": "^6.0.0",
+    "graceful-fs": "^4.1.15",
+    "make-dir": "^3.0.0",
+    "sort-keys": "^3.0.0",
+    "write-file-atomic": "^2.4.2"
+  },
+  "description": "Stringify and write JSON to a file atomically",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tempy": "^0.3.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-ak8Ww3Me8G9jD1XcFyXV4HTX0HGISBrJu09JYx/v+WINBOdJAge7wVH1BGhOnJxaFM1ufUevjlrrgiZz8Vwj7w==",
+    "shasum": "a04889c36fde42ac4100f05dfd9793d09c97d6c5",
+    "tarball": "https://registry.npmjs.org/write-json-file/-/write-json-file-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7206,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc47fpCRA9TVsSAnZWagAA824P/iuJpVRdM60c7sPFQZZO\nPG0iuKhjB7RJnxzkyAiAMlZKShbDFOXmCtmVRWHh8djJl7q7FcJHPMipIF0G\nLIjBemcd0n6IlMBEzwv6Fu0J13LNgFK1iNFKfMnOTSFzsdN8/FFf6bcQVsxU\nNu+0LnfPSQ+BmQxwn+gRUfo8HoOiP+S372olXeQ2E99uGPbCYtgmxDwvgYWB\nF77CGJVP5xoy7revH+QOsU3IxsNYDgRSFqwzU1q3TVwbs7go/0IT00NVJ6QM\nPVc8fBKtwXTRs6m9Ot1SIBvMPGVp+yptRVeZmlGRqxqY4i+QhigKlhLkmvW2\ngu0dQsAuSJ25EZ7NY+swSL6lz9WpiVolPXpS6aIM4LzyUSGzkyHY5OlPj04r\nUQ43lswh7izWK9R6sSzRA5DhS0+NJ5ryULRXaO/esuWjjFnUcOFtzYVae0QG\nJGupWvsMa9AG4PVEy7bjmaRdt24jSGSDCQgnSPadL7KgnbwZHcBBPiEc1Ig5\nYJI8y3MIUfqRIGdMZJUFSt27RplGulo6mSWCY3+j6K+ZoTxgDOuDeXn6XHeR\nvZChWuVTiLMiKDIzuQwKkJV6ind4e1RvGLmjlQOox70P7+XYVTj1NmcvczE9\nYz98ee0LfryPPvIgyFkeMCyKpBsX+WXM9hJdOMw2uEYFSVLKK6EiyIPUOLX+\ncVng\r\n=/Exw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "79f7061a70da64d2fc38b2e9bd56eaea126c7413",
+  "homepage": "https://github.com/sindresorhus/write-json-file#readme",
+  "keywords": [
+    "write",
+    "json",
+    "stringify",
+    "file",
+    "fs",
+    "graceful",
+    "stable",
+    "sort",
+    "newline",
+    "indent",
+    "atomic",
+    "atomically"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "write-json-file",
+  "optionalDependencies": {},
+  "readme": "# write-json-file [![Build Status](https://travis-ci.org/sindresorhus/write-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/write-json-file)\n\n> Stringify and write JSON to a file [atomically](https://github.com/npm/write-file-atomic)\n\nCreates directories for you as needed.\n\n\n## Install\n\n```\n$ npm install write-json-file\n```\n\n\n## Usage\n\n```js\nconst writeJsonFile = require('write-json-file');\n\n(async () => {\n\tawait writeJsonFile('foo.json', {foo: true});\n})();\n```\n\n\n## API\n\n### writeJsonFile(filePath, data, [options])\n\nReturns a `Promise`.\n\n### writeJsonFile.sync(filePath, data, [options])\n\n#### options\n\nType: `object`\n\n##### indent\n\nType: `string | number`<br>\nDefault: `'\\t'`\n\nIndentation as a string or number of spaces.\n\nPass in `undefined` for no formatting.\n\n##### detectIndent\n\nType: `boolean`<br>\nDefault: `false`\n\nDetect indentation automatically if the file exists.\n\n##### sortKeys\n\nType: `boolean | Function`<br>\nDefault: `false`\n\nSort the keys recursively.<br>\nOptionally pass in a [`compare`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) function.\n\n##### replacer\n\nType: `Function`\n\nPassed into [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#The_replacer_parameter).\n\n##### mode\n\nType: `number`<br>\nDefault: `0o666`\n\n[Mode](https://en.wikipedia.org/wiki/File_system_permissions#Numeric_notation) used when writing the file.\n\n\n## Related\n\n- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file\n- [make-dir](https://github.com/sindresorhus/make-dir) - Make a directory and its parents if needed\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/write-json-file.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.0.0"
+}

@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "split-cmd@1.0.1",
+        "scope": null,
+        "escapedName": "split-cmd",
+        "name": "split-cmd",
+        "rawSpec": "1.0.1",
+        "spec": "1.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "split-cmd@1.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "split-cmd@1.0.1",
+  "_location": "/split-cmd",
+  "_nodeVersion": "12.14.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/split-cmd_1.0.1_1579720706062_0.21045624023629306"
+  },
+  "_npmUser": {
+    "name": "thiagodp",
+    "email": "thiago-dp@bol.com.br"
+  },
+  "_npmVersion": "6.10.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "split-cmd@1.0.1",
+    "scope": null,
+    "escapedName": "split-cmd",
+    "name": "split-cmd",
+    "rawSpec": "1.0.1",
+    "spec": "1.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/split-cmd/-/split-cmd-1.0.1.tgz",
+  "_shasum": "ea1dd50bf1acf0b0d388243ba406ff202e123239",
+  "_shrinkwrap": null,
+  "_spec": "split-cmd@1.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Thiago Delgado Pinto",
+    "email": "thiago-dp@bol.com.br"
+  },
+  "bugs": {
+    "url": "https://github.com/thiagodp/split-cmd/issues"
+  },
+  "dependencies": {},
+  "description": "💦Split a command into an array or an object",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-HnyUFgtv7yNcGKK1+tO1O2eyXwEVnXqQzjshvroHsCu4M9fxS8lJ3bpW9XfD8YG0SdxW6hXNHdT/VFAxtNY1yw==",
+    "shasum": "ea1dd50bf1acf0b0d388243ba406ff202e123239",
+    "tarball": "https://registry.npmjs.org/split-cmd/-/split-cmd-1.0.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 10085,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeKKACCRA9TVsSAnZWagAAIokP/j1DdpIcaMKvKgO9CONC\nbqIyv0/6P+P0Jkk0LvoOEzMIAPTCegd6NkQi43Lgxueo96hVPQyqT7KwnTyb\nGpsJERzbUF65hz1tbRWzdZKc81StFIDMMq82cID5qT1Si8m8PtYEnabAimv5\nd00G5EffcagJrwT8C8BVFR81ZAB0BvFUuyHyrXbQ87tVG543hAeqQh/T/Lhf\nP3uP/upID5OewP5Iqa3h07fqsifz0pYmcQjVONbxvBAUu9+4RzUYrlxQshGP\nux61uHVvZPG4T5N9+0Z4TEiSOe9rla7bYFS9l6dmVL4RMDgULNWUp8LXw8rC\nkaJK79Zsbf+MNnDwK6QXDx5VTv2t6biP0TTrOzIm6Z+L/jErEiaaKFxvMfdv\nD2mmcrySdBe550UZgSRbDkna3a6yYdW4AgVpd7ox4o/ct4+YA+iHwtmckOsu\n16El9YGjqc+gaEy3lFDpNIm8MPhsfc6zNAr6DZXtuIjonxJljKt6vYhTgkEq\nFRfykyCwr1WoYh5F3njz4BK45Vk9UaDxKIXDRRpeXFs/ASm3fcnaJB3fc0gd\ni9u2KoU2WIzR7L6x88PE06+whh4aviAcHUFdD5LcIuinmjAOry0HcZUi3mxN\nmJmswRvmR/tApGSryWpUGSx8QZt93YFqTmDVgUsL27I6oeQigRFYAPcWmd5b\npoDM\r\n=AFCB\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "99c3b146602c56b484646f4de104e7c7f3786c92",
+  "homepage": "https://github.com/thiagodp/split-cmd#readme",
+  "keywords": [
+    "split",
+    "command",
+    "argument",
+    "args",
+    "cli",
+    "spawn",
+    "exec",
+    "process",
+    "child_process"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "thiagodp",
+      "email": "thiago-dp@bol.com.br"
+    }
+  ],
+  "name": "split-cmd",
+  "optionalDependencies": {},
+  "readme": "# split-cmd\r\n\r\n> 💦 Split a command into an array or an object\r\n\r\nUseful for splitting a command to use with NodeJS' [child process](https://nodejs.org/api/child_process.html) methods, like [spawn](https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options), [exec](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback), and [execFile](https://nodejs.org/api/child_process.html#child_process_child_process_execfile_file_args_options_callback), as well with libs like [execa](https://github.com/sindresorhus/execa). No external dependencies.\r\n\r\n## Install\r\n\r\n```bash\r\nnpm install --save split-cmd\r\n```\r\n\r\n## Examples\r\n\r\n### Splitting into an array\r\n\r\n```js\r\nvar split = require( 'split-cmd' ).split;\r\nvar arr = split( 'git commit -m \"some message with spaces\"' );\r\nconsole.log( arr ); // [ \"git\", \"commit\", \"-m\", \"some message with spaces\" ]\r\n```\r\n\r\n### Splitting into an object\r\n\r\n```js\r\nvar splitToObject = require( 'split-cmd' ).splitToObject;\r\nvar obj = splitToObject( 'git commit -m \"some message with spaces\"' );\r\nconsole.log( obj.command ); // git\r\nconsole.log( obj.args ); // [ \"commit\", \"-m\", \"some message with spaces\" ]\r\n```\r\n\r\n### Using it with execa\r\n\r\n```js\r\nconst { splitToObject } = require( 'split-cmd' );\r\nconst execa = require( 'execa' );\r\n\r\n// Executing a single command\r\nconst obj = splitToObject( 'echo \"I see unicorns\"' );\r\nexeca( obj.command, obj.args )\r\n    .then( result => console.log( result.stdout ) ) // I see unicorns\r\n    .catch( error => console.log( error ) );\r\n\r\n// Executing multiple commands in batch\r\n[\r\n    'echo \"I see unicorns\"',\r\n    'mkdir foo',\r\n    'touch foo/bar.txt'\r\n]\r\n.map( s => splitToObject( s ) )\r\n.forEach( obj => {\r\n    execa( obj.command, obj.args )\r\n        .then( result => console.log( result.stdout ) )\r\n        .catch( error => console.log( error ) );\r\n} );\r\n```\r\n\r\n## API\r\n\r\n```js\r\n/**\r\n * Split a command into an array.\r\n *\r\n * @param {string} command Command to split.\r\n * @returns {Array}\r\n */\r\nsplit( command: string ): string[]\r\n\r\n/**\r\n * Split a command into an object with the attributes `command` and `args`.\r\n *\r\n *\r\n * @param {string} command Command to split.\r\n * @returns {object}\r\n */\r\nsplitToObject( command: string ): object\r\n```\r\n\r\n## License\r\n\r\nMIT © [Thiago Delgado Pinto](https://github.com/thiagodp)",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagodp/split-cmd.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.1"
+}

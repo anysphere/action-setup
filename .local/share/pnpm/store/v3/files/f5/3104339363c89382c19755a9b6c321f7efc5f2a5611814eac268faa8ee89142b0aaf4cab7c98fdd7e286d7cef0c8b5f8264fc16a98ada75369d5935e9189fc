@@ -1,0 +1,138 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/store-connection-manager@0.2.18",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fstore-connection-manager",
+        "name": "@pnpm/store-connection-manager",
+        "rawSpec": "0.2.18",
+        "spec": "0.2.18",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-import"
+    ]
+  ],
+  "_from": "@pnpm/store-connection-manager@0.2.18",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/store-connection-manager@0.2.18",
+  "_location": "/@pnpm/store-connection-manager",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/store-connection-manager_0.2.18_1582976793007_0.5710969197945146"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/store-connection-manager@0.2.18",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fstore-connection-manager",
+    "name": "@pnpm/store-connection-manager",
+    "rawSpec": "0.2.18",
+    "spec": "0.2.18",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/plugin-commands-store"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/store-connection-manager/-/store-connection-manager-0.2.18.tgz",
+  "_shasum": "5d78ee05d9b90908242c02b5c2bf6ce6a7f93c03",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/store-connection-manager@0.2.18",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-import",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/default-fetcher": "5.1.13",
+    "@pnpm/default-resolver": "7.3.6",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/package-store": "8.0.4",
+    "@pnpm/server": "7.0.2",
+    "@pnpm/store-path": "2.1.1",
+    "delay": "4.3.0",
+    "diable": "4.0.2",
+    "dir-is-case-sensitive": "1.0.2",
+    "lru-cache": "5.1.1",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0"
+  },
+  "description": "Create a direct pnpm store controller or connect to a running store server",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/store-connection-manager": "link:",
+    "@types/lru-cache": "5.1.0",
+    "@types/mz": "^2.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-KDtHgp8S4agbb33Z8O39C34XATTtajTXYeWcBguOVY+712gWhZNLuVoFzmLbMkqS7jfOUWPjmSCT4pqXhG5gLw==",
+    "shasum": "5d78ee05d9b90908242c02b5c2bf6ce6a7f93c03",
+    "tarball": "https://registry.npmjs.org/@pnpm/store-connection-manager/-/store-connection-manager-0.2.18.tgz",
+    "fileCount": 13,
+    "unpackedSize": 13229,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk8ZCRA9TVsSAnZWagAA9F8QAKTUe0XY20ve9IdLSRl0\nVHt8KmKAFaAG2GcoMyg6QZ66KTG2waiiZKffBEHlabGJocDfOuzMQiLBqX9H\nq2uqR8SXamU0dssfVYid2ELWGLjEzjq/+jJapbFNK31CeAyb3LPkUQ1IAX/X\nJvrlHzeqTylp1B/OdW1Ts6dks7X0VXjgmT+8it+SPhPMG8OG8AeTIZdRaVIV\nwzdyeFpWc1UPp9+VEv1SuoCseMoGfIr94Ru7DMjgmG7jjWGoLdWNN7x1MsHg\nbhODSdygJKdhamN/EIWlyHU2D1YowbYfJr/FGG0E9Z0WlU3WLwuvINVt0Fk9\n1fLT5t2Me7hMZzCZ+jo44BSBJDNwSvkC385hueRsPl3DszBUUIICA9LTSxmA\ntNr1DYy4Ap4AsSoUTcEq1i8qcqewWEDtSEWy9U8SJI5rFSoHW4VPuLDu8t6N\nT0n9U4O7ZazyWbf4HfzOJ6TtY9hama9l2ZY3vWhwp7TDUVTabhMMKz2Ef496\nmAMlJtNiY+zoSE2N0Xwn6DNljOWarIR8LJEIrP7X5CW2NdEnZntJMCzMei+m\nefon6B/tsgg40+h52csLe470+zgVfyJ+iKzT+ZwVEJZ00QUcSLC6UmEd4pmJ\n1gMl7ck2I0klwpozvzWTd/0vIII51Myata/Yzkve2BtFuTY+HMyeIME0Cg3U\nuaAV\r\n=B6GU\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/store-connection-manager",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/store-connection-manager\n\n> Create a direct pnpm store controller or connect to a running store server\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/store-connection-manager.svg)](https://www.npmjs.com/package/@pnpm/store-connection-manager)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/store-connection-manager\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/store-connection-manager"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest": "rimraf node_modules/.bin/pnpm",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.18"
+}

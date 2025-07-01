@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/symlink-dependency@3.0.3",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fsymlink-dependency",
+        "name": "@pnpm/symlink-dependency",
+        "rawSpec": "3.0.3",
+        "spec": "3.0.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/symlink-dependency@3.0.3",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/symlink-dependency@3.0.3",
+  "_location": "/@pnpm/symlink-dependency",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/symlink-dependency_3.0.3_1582752638490_0.22572647401592527"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/symlink-dependency@3.0.3",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fsymlink-dependency",
+    "name": "@pnpm/symlink-dependency",
+    "rawSpec": "3.0.3",
+    "spec": "3.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/@pnpm/hoist",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/symlink-dependency/-/symlink-dependency-3.0.3.tgz",
+  "_shasum": "6cbaf15dc84c3ce167d46378ad085bb7a7edd161",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/symlink-dependency@3.0.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/types": "^5.0.0",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "symlink-dir": "3.1.2"
+  },
+  "description": "Symlink a dependency to node_modules",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@types/mz": "^2.7.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-Osu3nwCspKbztAENnpn4I2oE6eFV1fDuJECrZZmnWr+K4V7CEX+aexmeYvziZ1L8D8p6HTn2qvCsv/rXJ/jgRw==",
+    "shasum": "6cbaf15dc84c3ce167d46378ad085bb7a7edd161",
+    "tarball": "https://registry.npmjs.org/@pnpm/symlink-dependency/-/symlink-dependency-3.0.3.tgz",
+    "fileCount": 7,
+    "unpackedSize": 5780,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuN+CRA9TVsSAnZWagAAxGYP/3G96v19riU6X8ibAtcr\naEPjvdj7j4/eL+AuWJcafgN/Q1PL6xJpuFdbPXts+N6QhBIxWcIaV65Zh7f+\n1s2AdoZMj8RwBTUpoIa99cnMYqaTprg8l938ihXZhKWKKWd9fkgOREXj1MqE\nHtcNHwfg7AZKMsUkErdT5L/TpnZNh1GfJAb583FfKDFFzqEKdZEP3dcm3RSM\npKo/KPAJQYbqnxFLij1HeGTVbhP6iToFWrPC6FruSXWHsQCC8O+BztVmm83p\nVPwT4PLU4+wBWgQwSydxmyqlx755AZxOCYWR+uRAP0OzhnMApLcWXEpIsrMd\nsjLuygTKn8pBoDDyaAl74HmCC7VFae7AxWummX4xqAgyApR/ZxC8ZL+EQ3Df\nVTPow+7ADldLBz4FnXhTo1WvChpPbIK8xu/1u/+0he4VXnK3As5NX75DSbzi\ndEWxUwWVe2BpkSTG0GvSDj3ch29/5tWrBimCeqjEfbPvdnR/IOO06oCpOqgA\n6EiskPI83ZnHRFvb+VrvxCMMqE9q5QtzZvQnOIkFbVKstKW7GpS4YbLB60Vb\nYVpeHssxfEiKGSP2KjHOZ29ClJMvNfukCV3SVoPYJGkEXb3UN+XqNccmm6pv\nK3szn1hR/Au0Gxj+OzSjWB1V0aJRDDWNoHpnrmQAJd8emXtP93IKn5zVDKYu\nGM/m\r\n=NkXw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/symlink-dependency#readme",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/symlink-dependency",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/symlink-dependency\n\n> Symlink a dependency to node_modules\n\n## Installation\n\n```\npnpm install @pnpm/symlink-dependency\n```\n\n## Usage\n\n```ts\nimport symlinkDependency from '@pnpm/symlink-dependency'\n\nawait symlinkDependency('/home/src/foo', '/home/src/my-project/node_modules', 'foo')\n//> { reused: false }\n}\n```\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/symlink-dependency"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.3"
+}

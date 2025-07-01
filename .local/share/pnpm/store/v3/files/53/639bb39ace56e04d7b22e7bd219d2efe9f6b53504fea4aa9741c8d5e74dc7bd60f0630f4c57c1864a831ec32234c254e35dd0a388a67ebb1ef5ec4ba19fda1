@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "load-json-file@6.2.0",
+        "scope": null,
+        "escapedName": "load-json-file",
+        "name": "load-json-file",
+        "rawSpec": "6.2.0",
+        "spec": "6.2.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils"
+    ]
+  ],
+  "_from": "load-json-file@6.2.0",
+  "_hasShrinkwrap": false,
+  "_id": "load-json-file@6.2.0",
+  "_location": "/load-json-file",
+  "_nodeVersion": "10.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/load-json-file_6.2.0_1562833809799_0.8024028491579944"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "load-json-file@6.2.0",
+    "scope": null,
+    "escapedName": "load-json-file",
+    "name": "load-json-file",
+    "rawSpec": "6.2.0",
+    "spec": "6.2.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/check-package",
+    "/@pnpm/cli-utils",
+    "/@pnpm/npm-resolver",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-rebuild",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/load-json-file/-/load-json-file-6.2.0.tgz",
+  "_shasum": "5c7770b42cafa97074ca2848707c61662f4251a1",
+  "_shrinkwrap": null,
+  "_spec": "load-json-file@6.2.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/load-json-file/issues"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.15",
+    "parse-json": "^5.0.0",
+    "strip-bom": "^4.0.0",
+    "type-fest": "^0.6.0"
+  },
+  "description": "Read and parse a JSON file",
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-gUD/epcRms75Cw8RT1pUdHugZYM5ce64ucs2GEISABwkRsOQr0q2wm/MV2TKThycIe5e0ytRweW2RZxclogCdQ==",
+    "shasum": "5c7770b42cafa97074ca2848707c61662f4251a1",
+    "tarball": "https://registry.npmjs.org/load-json-file/-/load-json-file-6.2.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5594,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJvOSCRA9TVsSAnZWagAAVdQQAKHj7CWZGvoAceiFw8ng\nz7e9T+qVWDRAJCuB8cKwFGae2BN96KfhoIUBzuTsl/Au/qptRwp56SF1ZCmP\n7Uqbq1xenfbwCOWOmbr36PsY/zfqLC9eDnuv9KMriUhSYgR9r2g5HSrjLY24\nwZp278rLuMuImHjZLrA9f95ClFOnIIOZbnWJ5lz7kbmBgKSleSOkIClEujN8\nmBM9y++63dQwFaQmFr2UdnbeibOYBLDPugqG+yHwnmvc23fkE99yLMGGvPvb\nRUL2lztIMcDJTUaq8akydPiV5WIvyx3DLqbvRuoXPNxHPrDUzi/MywrtCUya\nqZekU1i6Vp9jG4lRPFY3XaDM4k20vZ+0ViUKIPkliHSaEIE8WxNKLvgUCMCX\nwYIUBGJAa/ANhAYMQjVP4hWESOIKZ2EYrf9gHQu66yl5BThZZj5p/altXLn3\nnqXk4RmeHbJSyldg8JIL50Ej9Nmtps2lyui59jSRAOr0jk2EXMYfv/PjqD0Y\nmhp64C78hP/MZI/KXj6fZR+gDRc8lJxEC6R9mPUMduufj1mr4poQ2pim/vhf\nYiFA2hryjxbdRFIu3SnDu9uXxh6IVmVKq+XCLPzV7bAncmDlQAR+7IpVhsld\nNXr78bktmJBIkSp2u9EW821VXKEpJEMVRHVSdFlZYbmXWhI8Fc4ElavHd5iv\nHF9W\r\n=Xisu\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "85fcfc5225fb3ac11d2e93c9e2bd4a9d43c52b69",
+  "homepage": "https://github.com/sindresorhus/load-json-file#readme",
+  "keywords": [
+    "read",
+    "json",
+    "parse",
+    "file",
+    "fs",
+    "graceful",
+    "load"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "load-json-file",
+  "optionalDependencies": {},
+  "readme": "# load-json-file [![Build Status](https://travis-ci.org/sindresorhus/load-json-file.svg?branch=master)](https://travis-ci.org/sindresorhus/load-json-file)\n\n> Read and parse a JSON file\n\n[Strips UTF-8 BOM](https://github.com/sindresorhus/strip-bom), uses [`graceful-fs`](https://github.com/isaacs/node-graceful-fs), and throws more [helpful JSON errors](https://github.com/sindresorhus/parse-json).\n\n\n## Install\n\n```\n$ npm install load-json-file\n```\n\n\n## Usage\n\n```js\nconst loadJsonFile = require('load-json-file');\n\n(async () => {\n\tconsole.log(await loadJsonFile('foo.json'));\n\t//=> {foo: true}\n})();\n```\n\n\n## API\n\n### loadJsonFile(filePath, options?)\n\nReturns a `Promise<unknown>` with the parsed JSON.\n\n### loadJsonFile.sync(filepath, options?)\n\nReturns the parsed JSON.\n\n#### options\n\nType: `object`\n\n##### beforeParse\n\nType: `Function`\n\nApplies a function to the JSON string before parsing.\n\n##### reviver\n\nType: `Function`\n\nPrescribes how the value originally produced by parsing is transformed, before being returned. See the [`JSON.parse` docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Using_the_reviver_parameter) for more.\n\n\n## Related\n\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-load-json-file?utm_source=npm-load-json-file&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/load-json-file.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "6.2.0"
+}

@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/prune-lockfile@2.0.6",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fprune-lockfile",
+        "name": "@pnpm/prune-lockfile",
+        "rawSpec": "2.0.6",
+        "spec": "2.0.6",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/prune-lockfile@2.0.6",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/prune-lockfile@2.0.6",
+  "_location": "/@pnpm/prune-lockfile",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/prune-lockfile_2.0.6_1582101646044_0.7234327733226147"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/prune-lockfile@2.0.6",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fprune-lockfile",
+    "name": "@pnpm/prune-lockfile",
+    "rawSpec": "2.0.6",
+    "spec": "2.0.6",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/prune-lockfile/-/prune-lockfile-2.0.6.tgz",
+  "_shasum": "2edc21edc19899e18234686cac09bf17f4700761",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/prune-lockfile@2.0.6",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/types": "5.0.0",
+    "dependency-path": "4.0.5",
+    "ramda": "0.27.0"
+  },
+  "description": "Prune a pnpm-lock.yaml",
+  "devDependencies": {
+    "@pnpm/prune-lockfile": "link:",
+    "@types/ramda": "^0.26.41",
+    "yaml-tag": "1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-kwlr2LaTIrNeqTMR57pmk1WSKis6PCdLnxSezYtqDmYGkSHSCRGGVHy37poDqSFuXplbQGEwMMHWFuer6oGpag==",
+    "shasum": "2edc21edc19899e18234686cac09bf17f4700761",
+    "tarball": "https://registry.npmjs.org/@pnpm/prune-lockfile/-/prune-lockfile-2.0.6.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10620,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPSOCRA9TVsSAnZWagAAoBYP/3y81562ctNHlD3sXTxo\ndcDBGBl34Tu9jxsFmCLfDSJ8MBK5IzZe1berXGk6UhZ/0UoAIakmG6LyULYH\nQfSa8mSHLXB6AZ/06C/2OFtU4d063VJ6dCsRK7/B0Uer9Qdc8II6i5woPk8x\nhloULgLD2KRRcQfvcHZO8/UUXjhjTLgxSEXqtMbDDdbWqcj66tXu4Ezo1jBW\nKfYGWXagEYDgAayyxyoB5bwcRcp6zpXdpnHCATUpPNP8Mm3IHUR9jIoDPwcd\ncXDK3k3D4rOi8+m7VXULuz2OhsPlC/5sgCd2+gd3AD/UlbHSvcsQ6EEOP3+F\nIhQWPz4ioBUrBB8id6S8NFoc72eTE6U+GT3Zi8GLXai0WAtgilIqwS74m2AX\nfv9gYrb+pwysVumdmwhTmLiMRIxaQy1brrGtYgUSj/gKlh/K+mv/w+LXVPt2\n8dVimuKCDbdfeB8Wm9C9aXgCp4HeqmRyMlC1ASh4hXolckLXrlqhxlay+aWy\nQ5SdZGX30a8bDnAtBqoIJqqTUO6QDDil0ANpsURy9eyUY7279aZFaKvoUlsU\n/gdpXrRSzOQsifODsBsV+SuG6/XfE+Ap4uAjuFfm4bTFpGhpJ6MFxvcTb3iz\n1ech2K40vR+13VaLabnz2GdefQFd0F0wMy47QoyrsxIIGZxEyBNuJ5/y8NsG\ncEkL\r\n=6HcV\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/prune-lockfile#readme",
+  "keywords": [
+    "pnpm",
+    "shrinkwrap",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/prune-lockfile",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/prune-lockfile\n\n> Prune a pnpm-lock.yaml\n\n## Install\n\n```\n<pnpm|yarn|npm> add @pnpm/prune-lockfile\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/prune-lockfile"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.6"
+}

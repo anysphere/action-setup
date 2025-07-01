@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "encode-registry@2.0.2",
+        "scope": null,
+        "escapedName": "encode-registry",
+        "name": "encode-registry",
+        "rawSpec": "2.0.2",
+        "spec": "2.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/dependency-path"
+    ]
+  ],
+  "_from": "encode-registry@2.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "encode-registry@2.0.2",
+  "_location": "/encode-registry",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/encode-registry_2.0.2_1573641130900_0.8585567079203307"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "encode-registry@2.0.2",
+    "scope": null,
+    "escapedName": "encode-registry",
+    "name": "encode-registry",
+    "rawSpec": "2.0.2",
+    "spec": "2.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver",
+    "/dependency-path",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/encode-registry/-/encode-registry-2.0.2.tgz",
+  "_shasum": "7aa3b73de336d0ca4214c96b31983779305454cf",
+  "_shrinkwrap": null,
+  "_spec": "encode-registry@2.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/dependency-path",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/encode-registry/issues"
+  },
+  "dependencies": {
+    "mem": "^6.0.0"
+  },
+  "description": "Encodes a registry URL. Memoized.",
+  "devDependencies": {
+    "package-preview": "^2.0.0",
+    "standard": "^14.0.0",
+    "tape": "^4.11.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-sdldVQE2HjzPNwpSHBVEs0ZKhMHcVxtQ9wQXLQlv7zIjO1gW41mCNw01Hu68tFfbn6qYhBySJH6jwxlJesvN4w==",
+    "shasum": "7aa3b73de336d0ca4214c96b31983779305454cf",
+    "tarball": "https://registry.npmjs.org/encode-registry/-/encode-registry-2.0.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3169,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdy9urCRA9TVsSAnZWagAACDoP/jfg2F6gY4JZGRjtQChf\nBZCtgylQSBH5QUN6uPQqIglrBlQP0Ic72UgHvv+4Yu8XjwwZupmN6G/rK6Ir\nhfCNc7wW6B9qp7RdVl4mARlfqhshBTbXfmGz/+Z8c1C1d0V0VQGstNlwZFZr\n2vDclm2cjxu/PhAcxt+B5vw6mY47rbBlE8KJQ9jNdOIeHqoPRW4xwAyF7UwS\nzanxLdrnGvR4DQfSnbaQ6UiE47l5cfElsICX3ufVxbUiiPQ81n4+CIniuO0f\nWkHDBvLNG47AIFHRdEtu9KsvoWi8NN7IN88BJZDLMvFrTBalDboxny9Eb4x5\nBVlm8LyrEU2LkzqaigqVB14cVh71cZlYcJIqWdLwHRsjiKVT8fRw0RBoC9L7\ngH9nwJL2XSmXm6qFFHAtGHWJproouhTR1HmhhuxwRhl+ZzhdE3E4YgPj3zwM\nMpx4t2PZ0nlzlDTCVBJn8n3OZoUH0EAOyGzRIghoVRxxrLnzivY0OKFJRxG6\nerHvN2KPiHw9wADbGf0bjLYGI5dCS2qkxEj9IWOitt4RrohTv+Xq2v/w7mT1\nrLL+4fybsr90qX+3Udw419o1BRya0FZ8n1rC6I69Py3F5jN38VqHqmbzYK21\nuyWCvYreR/VGKMI9YSd+4ktuBE04eqolaJng2zmDbKL13H5GVxQgxR1UFieR\nG6jg\r\n=7D95\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "db468d6d1dd4dfa500467a5822c5d31650fb1bff",
+  "homepage": "https://github.com/pnpm/encode-registry#readme",
+  "keywords": [
+    "registry"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "encode-registry",
+  "optionalDependencies": {},
+  "readme": "# encode-registry\n\n[![Status](https://travis-ci.org/pnpm/encode-registry.svg?branch=master)](https://travis-ci.org/pnpm/encode-registry \"See test builds\")\n\n> Encodes a registry URL. [Memoized](https://en.wikipedia.org/wiki/Memoization).\n\n## Install\n\n```\n<pnpm|yarn|npm> add encode-registry\n```\n\n## Usage\n\n```js\nconst encodeRegistry = require('encode-registry')\n\nencodeRegistry('https://registry.npmjs.org/')\n//> registry.npmjs.org\n\nencodeRegistry('https://localhost:4873/')\n//> localhost+4873\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/encode-registry.git"
+  },
+  "scripts": {
+    "test": "preview && node test && standard"
+  },
+  "typings": "index.d.ts",
+  "version": "2.0.2"
+}

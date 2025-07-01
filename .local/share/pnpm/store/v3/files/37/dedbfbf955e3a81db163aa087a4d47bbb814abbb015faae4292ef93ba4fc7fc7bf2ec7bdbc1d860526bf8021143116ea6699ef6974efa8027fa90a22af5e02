@@ -1,0 +1,137 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/utils@0.12.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2futils",
+        "name": "@pnpm/utils",
+        "rawSpec": "0.12.4",
+        "spec": "0.12.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils"
+    ]
+  ],
+  "_from": "@pnpm/utils@0.12.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/utils@0.12.4",
+  "_location": "/@pnpm/utils",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/utils_0.12.4_1580669258725_0.08067233086076975"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/utils@0.12.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2futils",
+    "name": "@pnpm/utils",
+    "rawSpec": "0.12.4",
+    "spec": "0.12.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/cli-utils",
+    "/@pnpm/headless",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/read-projects-context",
+    "/@pnpm/resolve-dependencies",
+    "/dependencies-hierarchy",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/utils/-/utils-0.12.4.tgz",
+  "_shasum": "808df380bee7e2203acf5b70c47a5267ef3365a9",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/utils@0.12.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/types": "5.0.0",
+    "mz": "2.7.0",
+    "normalize-registry-url": "1.0.0",
+    "validate-npm-package-name": "3.0.0"
+  },
+  "description": "Utils for pnpm",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/utils": "link:",
+    "@types/mz": "^2.7.0",
+    "@types/validate-npm-package-name": "3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-jKfMkTDH97G1q1z0YJBSnVcR22DdNgHs6mV4hr4y6jtlANBie+ltQB2lNzTbwSc4tvnY76cfFGv5HT6wsOxbZA==",
+    "shasum": "808df380bee7e2203acf5b70c47a5267ef3365a9",
+    "tarball": "https://registry.npmjs.org/@pnpm/utils/-/utils-0.12.4.tgz",
+    "fileCount": 21,
+    "unpackedSize": 10409,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeNxlLCRA9TVsSAnZWagAAciUP/30qMFc0CFA25zhZx18c\nNdnfW1iBkzBJwfGe0eCD2HPnllfCAfki2/9migsB2zGU9arYJf0o7khNbiLD\n+jkuyW3XCOWnWy1vCH2F3fwigD1nayVmiMcXG2C2FK8lZlwO7OgtP+yUYypq\nmXS/VypGJEoTTgpKxk8Sr0gp4AdDSNst2ysHoNRtGn3ETO2iuEi1TZAwdIBU\nZbWj2lSb3sW9b2EREkXMXUdY4Mo5VLp/c6sifY6ieEOIa8uiOnt/yIt3JEff\nSe6txoiMICh0f32iul0LXphguHPIEYV52zNAHVJBFJUbQZc3AZY1ZPywa9D/\nO+W8N7x3f/yhjcnQvrsYijkSr7fUgqsnBSPKYJooOm/gs9DUNkOX1AKIpn7C\nfVlgFwWEDXp5RxFJuRkgHfz6WHfte5wD2R+1sE14ZcwFomnaagoj1eKcEU+2\n6YE8rFm252k/ikHQ+NFl9eZPeq/mJr+73gMW4PEyvGchLZv5QvcXjw4zqkZm\nvF+N8iMgb4sttYSJJJseFSSjyXbaGnK+A2NK0twwMZJYCHPdyqpusI5PjjwU\nfgy6lBIqURmqkn03cSQnNnyS5AazvLnPEfLqVqKBQtxCC5UH8omQovTbYzEq\n3JvWsif3KgpbNbcgTc8XPWTpGhW8eK1M/MnhjBhHw7URLlyeEwJxDTyrklnX\nA0r/\r\n=+XWD\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/utils",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/utils\n\n> Utils for pnpm\n\nThis package was created to avoid circular dependency between `supi` and `@pnpm/headless`.\nThe functions used by `@pnpm/headless` from `supi` were moved here.\nEventually, this package has to be divided into smaller ones.\n\n## Installation\n\n```\npnpm i @pnpm/utils\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/utils"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.12.4"
+}

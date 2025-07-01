@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "rename-overwrite@2.0.2",
+        "scope": null,
+        "escapedName": "rename-overwrite",
+        "name": "rename-overwrite",
+        "rawSpec": "2.0.2",
+        "spec": "2.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store"
+    ]
+  ],
+  "_from": "rename-overwrite@2.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "rename-overwrite@2.0.2",
+  "_location": "/rename-overwrite",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/rename-overwrite_2.0.2_1566070298328_0.28317191782813955"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "rename-overwrite@2.0.2",
+    "scope": null,
+    "escapedName": "rename-overwrite",
+    "name": "rename-overwrite",
+    "rawSpec": "2.0.2",
+    "spec": "2.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/symlink-dir"
+  ],
+  "_resolved": "https://registry.npmjs.org/rename-overwrite/-/rename-overwrite-2.0.2.tgz",
+  "_shasum": "7741f4b15af3eb67c377a5b0509742f761bced81",
+  "_shrinkwrap": null,
+  "_spec": "rename-overwrite@2.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "rimraf": "^3.0.0"
+  },
+  "description": "Like `fs.rename` but overwrites existing file or directory",
+  "devDependencies": {
+    "load-json-file": "6.1.0",
+    "package-preview": "2.0.0",
+    "standard": "13.1.0",
+    "tape": "^4.7.0",
+    "tempy": "^0.3.0",
+    "write-json-file": "4.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-XodkUmbg11ZzZoAkYfJYEmj8FscfeRL2KHGALeDSB76ia8A1zqQq0+WkcepXm7QkuzmW0CE3uiFUBr/UJfin+w==",
+    "shasum": "7741f4b15af3eb67c377a5b0509742f761bced81",
+    "tarball": "https://registry.npmjs.org/rename-overwrite/-/rename-overwrite-2.0.2.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3742,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdWFYaCRA9TVsSAnZWagAAvWQP/Ra7lyA3AcsL4eQBFokb\nJ1Q7M67E+M9gprPkWkaVHy1k+w5V/I+v/uh/TcYyt78U4gamRlQ5fpGunjLR\n/n6ksO1j0/o2ZcpAydx/tgwu8kPzQNRv8/xKDcorMUVaZgWigQesFzUlPz+2\nninYOJIzA3YUSEop+tWx2oUBlx5OuYCFvTHvp1KAVU7EFIH38GmTjzJDZUVZ\ntEip00U9cgc4zipEEdgUy1ASzIFX76J5oSPoP0YCMdCo0CsEjrhYm4DHGuYH\nN8iiLrw5BwEZ6ywN0XiG0Io9i05/kYY7cEXzUK6bgKo2xQboRzYTkpAvnn0+\nDUiUaovttXmsV33gJlcSmRSD0k0MYYQRqCxZHAWD9dePnVxwR5MT2l1QT5Kq\nU1zQwXgLpeRUWCroUO6eemHxOTyi0HIW9jDPJaxp+0U7xXXcbasKrcLokSKR\nAB1bMKuRdxvM5wwqbmoGZSh29P6H7oYfU8W1RsT1bqdhyahhTWxFXSZnYWMB\ntXqqBJcg3deg9n4fNgC3Y/Vbv2BXS/5SPFTdz5aunVeFCzjZakCJRdZZoOVm\n4igdLyY3X1uMoaolqrXxqrjbd57kUHohQQdUdlu4jaRfFsJxNI/YJSmffhlz\naNf1cwpF/S8t51DkN2SIa0Z/wPqwY1PTwfXLfgih8ZWUoukiS5SbUzInOLfL\nBXKZ\r\n=pz19\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/rename-overwrite#readme",
+  "keywords": [
+    "rename",
+    "move",
+    "fs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "rename-overwrite",
+  "optionalDependencies": {},
+  "readme": "# rename-overwrite\n\n> Like `fs.rename` but overwrites existing file or directory\n\n## Install\n\nInstall it via npm.\n\n```\n<npm|yarn|pnpm> add rename-overwrite\n```\n\n## Usage\n\n```js\nconst renameOverwrite = require('rename-overwrite')\n\nrenameOverwrite('old-dir-name', 'new-dir-name')\n  .then(() => console.log('done'))\n  .catch(err => console.log(err))\n```\n\n## API\n\n### `renameOverwrite(oldPath, newPath) => Promise<void>`\n\nRenames a file or directory asynchronously. Overwrites existing file or directory.\n\n### `renameOverwrite.sync(oldPath, newPath)`\n\nRenames a file or directory synchronously. Overwrites existing file or directory.\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/rename-overwrite"
+  },
+  "scripts": {
+    "test": "standard && preview && node test"
+  },
+  "version": "2.0.2"
+}

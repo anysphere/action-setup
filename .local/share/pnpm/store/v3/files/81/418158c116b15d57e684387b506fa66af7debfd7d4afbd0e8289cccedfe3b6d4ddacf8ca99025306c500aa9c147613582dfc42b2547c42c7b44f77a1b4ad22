@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/read-projects-context@1.0.3",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fread-projects-context",
+        "name": "@pnpm/read-projects-context",
+        "rawSpec": "1.0.3",
+        "spec": "1.0.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/get-context"
+    ]
+  ],
+  "_from": "@pnpm/read-projects-context@1.0.3",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/read-projects-context@1.0.3",
+  "_location": "/@pnpm/read-projects-context",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/read-projects-context_1.0.3_1582101595082_0.016326478411056167"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/read-projects-context@1.0.3",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fread-projects-context",
+    "name": "@pnpm/read-projects-context",
+    "rawSpec": "1.0.3",
+    "spec": "1.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/get-context"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/read-projects-context/-/read-projects-context-1.0.3.tgz",
+  "_shasum": "7d42aa55bffe876857374eff4a019963a5113302",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/read-projects-context@1.0.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/get-context",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4"
+  },
+  "description": "Reads the current state of projects from modules manifest",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-TFFlZT0zWDrhdc/U4UgwxJDN7kVs5V7/A/PvQTErsX/GjQ4DUdxglUL++176FrWwUOVEYzUcdDZV8k7kH7xjHA==",
+    "shasum": "7d42aa55bffe876857374eff4a019963a5113302",
+    "tarball": "https://registry.npmjs.org/@pnpm/read-projects-context/-/read-projects-context-1.0.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5153,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPRbCRA9TVsSAnZWagAA1T8P/0AT7nN3XOo7iOPeCmBp\n2KmCsVxXvE0FzK7+u+Cn0FTNWjcKV+seO9RVCIVOZlECKlYSc+qQeQLAWQFN\nn5oLapAOx9GCPMYqSbjwSjMNJE6ov1qFOqR2JWhcSRnNx/nfSGj4pIVIrU3A\nEZOrj8MEuwEcHHw03avZoHp1/cBV8HBvvkTxX78EFI4pUpllkCfjiSDHHCHd\nNbR6gkyrj3XTX8CbCK8ToboXj0Yo47hjL0YamsVgS5z8gKWH1Px9GoQhSNl5\nnIokaFcJ+rSIZngMNl9BeUAWYy76UnMCAMp0kttIDiPSHz3rjA4yTzOumL+c\nXyBE9cePZ1/IkbEFtOo7A06krQiOWxJZWIL3A+5BoJmKdcwLJTFpt3PpUNJa\n5qHT0eL0ijmVhAvhrXhSSBfUjcDt+XGESvqglV+FmSjq6YC2DFLzcJjJADOu\n9uYlPlyvcbJWyQEPa2I9sS/ENmXndgRNyi7l/kAJdxWOh2ADlVPzk0sYarG+\nj1c1v3b2v7cYbgS+OiIfR8Vq6xryuOuYXmjeuQqiMvxp4bisGf1qKv1zyH0L\n1S1NomxLWBQNe2jyFj9s7/qfYdSxQ0TiEhYVAJvUgJQzktQP7Qulc2Z6vnAF\nA/3pa5KH9Lf1qBKvvQhxSiEDN41mdKvdim+lNC6pBdjWuMulPOAUdaE8vGU7\ndKa8\r\n=5DUc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/read-projects-context#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/read-projects-context",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/read-projects-context\n\n> Reads the current state of projects from modules manifest\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/read-projects-context"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.3"
+}

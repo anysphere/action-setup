@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "fastq@^1.6.0",
+        "scope": null,
+        "escapedName": "fastq",
+        "name": "fastq",
+        "rawSpec": "^1.6.0",
+        "spec": ">=1.6.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@nodelib/fs.walk"
+    ]
+  ],
+  "_from": "fastq@^1.6.0",
+  "_hasShrinkwrap": false,
+  "_id": "fastq@1.6.1",
+  "_location": "/fastq",
+  "_nodeVersion": "12.16.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fastq_1.6.1_1582834293634_0.8592684038623051"
+  },
+  "_npmUser": {
+    "name": "matteo.collina",
+    "email": "hello@matteocollina.com"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "fastq@^1.6.0",
+    "scope": null,
+    "escapedName": "fastq",
+    "name": "fastq",
+    "rawSpec": "^1.6.0",
+    "spec": ">=1.6.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@nodelib/fs.walk"
+  ],
+  "_resolved": "https://registry.npmjs.org/fastq/-/fastq-1.6.1.tgz",
+  "_shasum": "4570c74f2ded173e71cf0beb08ac70bb85826791",
+  "_shrinkwrap": null,
+  "_spec": "fastq@^1.6.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@nodelib/fs.walk",
+  "author": {
+    "name": "Matteo Collina",
+    "email": "hello@matteocollina.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mcollina/fastq/issues"
+  },
+  "dependencies": {
+    "reusify": "^1.0.4"
+  },
+  "description": "Fast, in memory work queue",
+  "devDependencies": {
+    "async": "^3.1.0",
+    "neo-async": "^2.6.1",
+    "nyc": "^15.0.0",
+    "pre-commit": "^1.2.2",
+    "snazzy": "^8.0.0",
+    "standard": "^14.0.0",
+    "tape": "^4.13.0",
+    "typescript": "^3.5.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-mpIH5sKYueh3YyeJwqtVo8sORi0CgtmkVbK6kZStpQlZBYQuTzG2CZ7idSiJuA7bY0SFCWUc5WIs+oYumGCQNw==",
+    "shasum": "4570c74f2ded173e71cf0beb08ac70bb85826791",
+    "tarball": "https://registry.npmjs.org/fastq/-/fastq-1.6.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 24028,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWCJ2CRA9TVsSAnZWagAAsMgP/0xyDnpeCChHwkVp/gUJ\nHJ6YHUDLFuda9CI55B6IoFpeUhBRNdNR5WGLT1zhKJNwMEOxFYiu/nDSzpOq\ns1t9H8G0rtwCt9OqpqYRaj4tTogSpkuJ/eV7n+y+M+EeQnA8CQQaNSYrGqbE\nOdRMsIaWobRTwpwrbySXzlvQeew/5N9k9PyRCWwC5YiqMNK+12cDn0rEfgYi\n6xrJcAndK5/HeuV4Os59C16kn5ijWvsXGmFLKAN/NDORwiHQSOFPRcN6J2DC\nrZX7stcPtPX0PBc6KaNF8yldS1N4+gzjY/c07IJ3HhVqWL7DYI/MmIJ1Ks8Q\n3vpCJ2EzeYdm0WDDPM8ixQjiJSkOg227cMl4MYvflsfUrsZvrWBfEI4/GMGH\nhXRtjCNyJthuICVIiBC4D/rim02KfbuiXlgx8HNVVpsCO7+Md/i/eMusSYIg\nUi2mlRAD1iMFTaSxJwATTqHuDfz4SLgUy0p2ouJve1yiiMBDj9vDSIeY1WK3\nOG/khJOhrk2Q/GGhMeaqkq3Vfoo9Fr9i+F/lCxcjg/kQVOxg9K4LEdmQiVih\nAyaazTj8P+TFkuCdRcvBoJ91SwkEzfvYcHezu2Gb0OzASyRPltpXOdbhFFnL\nPw//WRA+Id41fnyot4ynUYGXgsFlW9qyDmSgmZcFudihPjc9a9FMf3vtHHwv\nrRSQ\r\n=69b6\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "19771feef6694c51213a4bd6b4bc07192fd0830c",
+  "homepage": "https://github.com/mcollina/fastq#readme",
+  "keywords": [
+    "fast",
+    "queue",
+    "async",
+    "worker"
+  ],
+  "license": "ISC",
+  "main": "queue.js",
+  "maintainers": [
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    }
+  ],
+  "name": "fastq",
+  "optionalDependencies": {},
+  "pre-commit": [
+    "test"
+  ],
+  "readme": "# fastq\n\n![ci][ci-url]\n[![npm version][npm-badge]][npm-url]\n[![Dependency Status][david-badge]][david-url]\n\nFast, in memory work queue. `fastq` is API compatible with\n[`async.queue`](https://github.com/caolan/async#queueworker-concurrency)\n\nBenchmarks (1 million tasks):\n\n* setImmediate: 812ms\n* fastq: 854ms\n* async.queue: 1298ms\n* neoAsync.queue: 1249ms\n\nObtained on node 12.16.1, on a dedicated server.\n\nIf you need zero-overhead series function call, check out\n[fastseries](http://npm.im/fastseries). For zero-overhead parallel\nfunction call, check out [fastparallel](http://npm.im/fastparallel).\n\n[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)\n\n  * <a href=\"#install\">Installation</a>\n  * <a href=\"#usage\">Usage</a>\n  * <a href=\"#api\">API</a>\n  * <a href=\"#license\">Licence &amp; copyright</a>\n\n## Install\n\n`npm i fastq --save`\n\n## Usage\n\n```js\n'use strict'\n\nvar queue = require('fastq')(worker, 1)\n\nqueue.push(42, function (err, result) {\n  if (err) { throw err }\n  console.log('the result is', result)\n})\n\nfunction worker (arg, cb) {\n  cb(null, 42 * 2)\n}\n```\n\n### Setting this\n\n```js\n'use strict'\n\nvar that = { hello: 'world' }\nvar queue = require('fastq')(that, worker, 1)\n\nqueue.push(42, function (err, result) {\n  if (err) { throw err }\n  console.log(this)\n  console.log('the result is', result)\n})\n\nfunction worker (arg, cb) {\n  console.log(this)\n  cb(null, 42 * 2)\n}\n```\n\n## API\n\n* <a href=\"#fastqueue\"><code>fastqueue()</code></a>\n* <a href=\"#push\"><code>queue#<b>push()</b></code></a>\n* <a href=\"#unshift\"><code>queue#<b>unshift()</b></code></a>\n* <a href=\"#pause\"><code>queue#<b>pause()</b></code></a>\n* <a href=\"#resume\"><code>queue#<b>resume()</b></code></a>\n* <a href=\"#idle\"><code>queue#<b>idle()</b></code></a>\n* <a href=\"#length\"><code>queue#<b>length()</b></code></a>\n* <a href=\"#kill\"><code>queue#<b>kill()</b></code></a>\n* <a href=\"#killAndDrain\"><code>queue#<b>killAndDrain()</b></code></a>\n* <a href=\"#concurrency\"><code>queue#<b>concurrency</b></code></a>\n* <a href=\"#drain\"><code>queue#<b>drain</b></code></a>\n* <a href=\"#empty\"><code>queue#<b>empty</b></code></a>\n* <a href=\"#saturated\"><code>queue#<b>saturated</b></code></a>\n\n-------------------------------------------------------\n<a name=\"fastqueue\"></a>\n### fastqueue([that], worker, concurrency)\n\nCreates a new queue.\n\nArguments:\n\n* `that`, optional context of the `worker` function.\n* `worker`, worker function, it would be called with `that` as `this`,\n  if that is specified.\n* `concurrency`, number of concurrent tasks that could be executed in\n  parallel.\n\n-------------------------------------------------------\n<a name=\"push\"></a>\n### queue.push(task, done)\n\nAdd a task at the end of the queue. `done(err, result)` will be called\nwhen the task was processed.\n\n-------------------------------------------------------\n<a name=\"unshift\"></a>\n### queue.unshift(task, done)\n\nAdd a task at the beginning of the queue. `done(err, result)` will be called\nwhen the task was processed.\n\n-------------------------------------------------------\n<a name=\"pause\"></a>\n### queue.pause()\n\nPause the processing of tasks. Currently worked tasks are not\nstopped.\n\n-------------------------------------------------------\n<a name=\"resume\"></a>\n### queue.resume()\n\nResume the processing of tasks.\n\n-------------------------------------------------------\n<a name=\"idle\"></a>\n### queue.idle()\n\nReturns `false` if there are tasks being processed or waiting to be processed.\n`true` otherwise.\n\n-------------------------------------------------------\n<a name=\"length\"></a>\n### queue.length()\n\nReturns the number of tasks waiting to be processed (in the queue).\n\n-------------------------------------------------------\n<a name=\"kill\"></a>\n### queue.kill()\n\nRemoves all tasks waiting to be processed, and reset `drain` to an empty\nfunction.\n\n-------------------------------------------------------\n<a name=\"killAndDrain\"></a>\n### queue.killAndDrain()\n\nSame than `kill` but the `drain` function will be called before reset to empty.\n\n-------------------------------------------------------\n<a name=\"concurrency\"></a>\n### queue.concurrency\n\nProperty that returns the number of concurrent tasks that could be executed in\nparallel. It can be altered at runtime.\n\n-------------------------------------------------------\n<a name=\"drain\"></a>\n### queue.drain\n\nFunction that will be called when the last\nitem from the queue has been processed by a worker.\nIt can be altered at runtime.\n\n-------------------------------------------------------\n<a name=\"empty\"></a>\n### queue.empty\n\nFunction that will be called when the last\nitem from the queue has been assigned to a worker.\nIt can be altered at runtime.\n\n-------------------------------------------------------\n<a name=\"saturated\"></a>\n### queue.saturated\n\nFunction that will be called when the queue hits the concurrency\nlimit.\nIt can be altered at runtime.\n\n## License\n\nISC\n\n[ci-url]: https://github.com/mcollina/fastq/workflows/ci/badge.svg\n[npm-badge]: https://badge.fury.io/js/fastq.svg\n[npm-url]: https://badge.fury.io/js/fastq\n[david-badge]: https://david-dm.org/mcollina/fastq.svg\n[david-url]: https://david-dm.org/mcollina/fastq\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/fastq.git"
+  },
+  "scripts": {
+    "coverage": "nyc --reporter=html --reporter=cobertura --reporter=text tape test/test.js",
+    "legacy": "tape test/test.js",
+    "lint": "standard --verbose | snazzy",
+    "test": "npm run lint && npm run unit && npm run typescript",
+    "test:report": "npm run lint && npm run unit:report",
+    "typescript": "tsc --project ./test/tsconfig.json",
+    "unit": "nyc --lines 100 --branches 100 --functions 100 --check-coverage --reporter=text tape test/test.js"
+  },
+  "version": "1.6.1"
+}

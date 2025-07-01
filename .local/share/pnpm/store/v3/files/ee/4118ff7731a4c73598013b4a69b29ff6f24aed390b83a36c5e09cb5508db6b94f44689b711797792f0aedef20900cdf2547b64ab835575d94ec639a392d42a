@@ -1,0 +1,179 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/headless@12.1.10",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fheadless",
+        "name": "@pnpm/headless",
+        "rawSpec": "12.1.10",
+        "spec": "12.1.10",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/headless@12.1.10",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/headless@12.1.10",
+  "_location": "/@pnpm/headless",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/headless_12.1.10_1582752618300_0.024643353995983608"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/headless@12.1.10",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fheadless",
+    "name": "@pnpm/headless",
+    "rawSpec": "12.1.10",
+    "spec": "12.1.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/headless/-/headless-12.1.10.tgz",
+  "_shasum": "1b90e281046e40cffae596c97aa9d93dce001577",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/headless@12.1.10",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/build-modules": "4.1.5",
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/filter-lockfile": "3.0.8",
+    "@pnpm/hoist": "2.1.7",
+    "@pnpm/lifecycle": "8.0.2",
+    "@pnpm/link-bins": "5.1.5",
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/matcher": "1.0.0",
+    "@pnpm/modules-cleaner": "8.0.8",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/package-requester": "11.0.4",
+    "@pnpm/pkgid-to-filename": "2.0.0",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/symlink-dependency": "3.0.3",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "dependency-path": "4.0.5",
+    "p-limit": "2.2.2",
+    "path-absolute": "1.0.1",
+    "path-exists": "4.0.0",
+    "ramda": "0.27.0"
+  },
+  "description": "Fast installation using only pnpm-lock.yaml",
+  "devDependencies": {
+    "@pnpm/assert-project": "2.0.0",
+    "@pnpm/default-fetcher": "5.1.13",
+    "@pnpm/default-resolver": "7.3.5",
+    "@pnpm/headless": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/package-store": "8.0.4",
+    "@pnpm/read-projects-context": "1.0.3",
+    "@pnpm/store-path": "2.1.1",
+    "@types/fs-extra": "^8.1.0",
+    "@types/mz": "^2.7.0",
+    "@types/ramda": "^0.26.42",
+    "@types/rimraf": "^2.0.3",
+    "@types/sinon": "^7.5.2",
+    "@types/tape-promise": "4.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "fs-extra": "8.1.0",
+    "is-windows": "1.0.2",
+    "isexe": "2.0.0",
+    "mz": "2.7.0",
+    "npm-run-all": "4.1.5",
+    "read-yaml-file": "1.1.0",
+    "sinon": "9.0.0",
+    "tape-promise": "4.0.0",
+    "tempy": "0.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-KP73Rgqd65VKnGQe8uhR1sglnxeQzA8jHcglzdeRiKzIZRUM/mL6SIM+wy3FffM9FS+C7RDhYVQX8uaJPMW5jQ==",
+    "shasum": "1b90e281046e40cffae596c97aa9d93dce001577",
+    "tarball": "https://registry.npmjs.org/@pnpm/headless/-/headless-12.1.10.tgz",
+    "fileCount": 5,
+    "unpackedSize": 31631,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuNqCRA9TVsSAnZWagAARHEQAIAzHVu0LOXx0F9skpvo\n7C6nkvWwDN58rALFWyPVe4YYtVh8oSf2U7gL0aYDgWs02p3YHNIAOcAIQHlj\nz6xGgFCc71y8n/Wt9/s2AxbhpoGrx0xPco09jRgXGNgvogaGsaE2cRnhbFek\nU6jN0KRtA0u2TCA9+nc00UGhmtT1G3sKZfLGy+RMYMZai5gR3GDL8smeI9w9\nSYRz7HxRS3hv+uzPsZD5TDeJc9JGFt7rX5ppZ+5VVUHai63kSasZj4vFtecz\n25hQYfrA3i3YXQG+cx3D3AloOh7W4gCga7O0YOTPZQfSFbm9p9i7W4TdV9ot\nvbzGmgH9PgpLlR+s6/QG7JaV6O0dmOl1pLP9wipyIAIGcKDPuQDuLllFZMl5\n593saqqIR430PjubbHkc+OPCip2Wv2pbfxROX0oeUfPfPceZyBWcH6L6GC+E\njtZIabNbF0caskr4AHl4+BzpJPXSD5bG4iDDCeJme6LFtQB6S47ltfqdUARM\nyCtiBKpJzTm2wNMSlt/JSGx27FexNWP5kKq7jdas+zDBRHo70pSs1Gf9rpy5\nHAEupX4S21lKuHTIEByORzdtuuUEEK+xNncjs2nnQf2lKlEiKart02ezSHkO\nKntAJa/6qdSOXqBgdFrxCA+oOLlrADTeo2WeVBhNOdYvZG6ICnuSqqMnBWLr\n39lZ\r\n=5jMM\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/headless#readme",
+  "keywords": [
+    "pnpm",
+    "install",
+    "installer"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/headless",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/headless\n\n> Fast installation using only pnpm-lock.yaml\n\n## Installation\n\n```\npnpm install @pnpm/headless\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/headless"
+  },
+  "scripts": {
+    "commit": "commit",
+    "commitmsg": "commitlint -e",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepareFixtures": "registry-mock prepare && run-p -r registry-mock runPrepareFixtures",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "rimraf ../.tmp/ && registry-mock prepare && ts-node test/pretest",
+    "registry-mock": "registry-mock",
+    "runPrepareFixtures": "node ../pnpm/lib/bin/pnpm.js m i -C test/fixtures --no-shared-workspace-lockfile --no-link-workspace-packages --lockfile-only --registry http://localhost:4873/ --ignore-scripts --force",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7770 pnpm run test:e2e",
+    "test-with-preview": "pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "12.1.10"
+}

@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/pnpmfile@0.1.5",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fpnpmfile",
+        "name": "@pnpm/pnpmfile",
+        "rawSpec": "0.1.5",
+        "spec": "0.1.5",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation"
+    ]
+  ],
+  "_from": "@pnpm/pnpmfile@0.1.5",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/pnpmfile@0.1.5",
+  "_location": "/@pnpm/pnpmfile",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pnpmfile_0.1.5_1582101699641_0.8611878834337772"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/pnpmfile@0.1.5",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fpnpmfile",
+    "name": "@pnpm/pnpmfile",
+    "rawSpec": "0.1.5",
+    "spec": "0.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/pnpmfile/-/pnpmfile-0.1.5.tgz",
+  "_shasum": "ea39390c12a689f7dd98dacd3abc75735d35268c",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/pnpmfile@0.1.5",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "chalk": "3.0.0",
+    "path-absolute": "1.0.1",
+    "ramda": "0.27.0"
+  },
+  "description": "Reading a pnpmfile.js",
+  "devDependencies": {
+    "@pnpm/logger": "^3.1.0",
+    "@pnpm/pnpmfile": "link:",
+    "@types/ramda": "^0.26.41"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-ltuapzWT57nNf1xzi+I89RLFRZmeZ7f8V/vb/CQRZXHsOtqnVhJwK7R2b8sSo2k04qzP6x3aEjiw3eDHCXP+LA==",
+    "shasum": "ea39390c12a689f7dd98dacd3abc75735d35268c",
+    "tarball": "https://registry.npmjs.org/@pnpm/pnpmfile/-/pnpmfile-0.1.5.tgz",
+    "fileCount": 9,
+    "unpackedSize": 9169,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPTECRA9TVsSAnZWagAAFIsP/3DGHXp78VMnZlSJUcgO\n2qpUoX9KzlNAYtrYaSHLZYhcLiNtTLyXMaNIUD7hSjlZyBCbHFAcyP0DyXWn\nyARav2g+eMv9AS/AgEOGLb1+cRByXHDs7DhXiTJD+F8wiMMrv6GczNFSgpiS\nrch5TJSx4LFsIIQuKNXYoKO9/5crPjYzTXrcYMRDDwPlht+9z1OVUZ1LNTNX\nieyn5KRoyZ+qJOH4JgOzP4lYH9uuIBf4vV6E1p6sWIPQw7Q1W1RS9mvIsLvr\noGfl5bbCvUS0dQvNzjipb8WVRJTWhPizLpZ4O3vCfes6bCxGnp8Bh6bU1tn1\neuSwFCeU3spw2ulJort6Un4F21c55hWbNz0NuTZth7qlr2Zprx2DGrISPaI6\nr5lIJET2Q5K1i5OPhwavHCM8RVrNWRYuq5T9g2j6H0h2h+92JS+jx0Nfq3iG\n+e3d4mQ2l+vKwmC7fxzWBWWPg54bAIfuhMpMX0EQyy6uO3wqUkBTqbx3g4gN\n6FGx3eNNKDJSxQbVKcWlEbD6Rk3ETWa6FpK6jz6f1PxaUpuM7bFmb0lG4F/N\nTE7QxgOnJZzdmYN9L5KnHgdedXeOm+gsD6zjs04Lh9b3GbZKNJT/oQb4bSYG\nGiHHShiYtLiQUEShHMV0mG23u17Dj5Er01BRsZkKs+rESDuEoxDIlr3icAWM\nmFe+\r\n=IlXX\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/pnpmfile",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/pnpmfile\n\n> Reading a pnpmfile.js\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/pnpmfile.svg)](https://www.npmjs.com/package/@pnpm/pnpmfile)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/pnpmfile\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/pnpmfile"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.5"
+}

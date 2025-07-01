@@ -1,0 +1,159 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/types@5.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ftypes",
+        "name": "@pnpm/types",
+        "rawSpec": "5.0.0",
+        "spec": "5.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/types@5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/types@5.0.0",
+  "_location": "/@pnpm/types",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/types_5.0.0_1578428955629_0.09606239097505709"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/types@5.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ftypes",
+    "name": "@pnpm/types",
+    "rawSpec": "5.0.0",
+    "spec": "5.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/audit",
+    "/@pnpm/build-modules",
+    "/@pnpm/config",
+    "/@pnpm/core-loggers",
+    "/@pnpm/default-reporter",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/find-workspace-packages",
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/hoist",
+    "/@pnpm/lifecycle",
+    "/@pnpm/link-bins",
+    "/@pnpm/list",
+    "/@pnpm/local-resolver",
+    "/@pnpm/lockfile-file",
+    "/@pnpm/lockfile-utils",
+    "/@pnpm/lockfile-walker",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/modules-yaml",
+    "/@pnpm/npm-resolver",
+    "/@pnpm/outdated",
+    "/@pnpm/package-bins",
+    "/@pnpm/package-is-installable",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-listing",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/pnpmfile",
+    "/@pnpm/prune-lockfile",
+    "/@pnpm/read-package-json",
+    "/@pnpm/read-project-manifest",
+    "/@pnpm/read-projects-context",
+    "/@pnpm/resolve-dependencies",
+    "/@pnpm/resolver-base",
+    "/@pnpm/server",
+    "/@pnpm/store-controller-types",
+    "/@pnpm/symlink-dependency",
+    "/@pnpm/utils",
+    "/@pnpm/write-project-manifest",
+    "/dependencies-hierarchy",
+    "/dependency-path",
+    "/find-packages",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/types/-/types-5.0.0.tgz",
+  "_shasum": "522be0fc8cd3efed8df36e496f7e3edadad8d807",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/types@5.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "Basic types used by pnpm",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "522be0fc8cd3efed8df36e496f7e3edadad8d807",
+    "tarball": "https://registry.npmjs.org/@pnpm/types/-/types-5.0.0.tgz",
+    "integrity": "sha512-atnG7xWrtf22WNXFHQCqK+/LJnCuUNsWxUTg2uhvSq6OlcdviPe67AveqDv/q9KGkpBrEcqg7ChlhJyRjNE9zg==",
+    "fileCount": 13,
+    "unpackedSize": 6031,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOocCRA9TVsSAnZWagAAyM4QAJdmUETTxHrk1U1pReVT\nFJK12W5bnvxAZ5ZFtUBweKgiCqxCkelPaaDkEhqidP5wxVKDs7XCH8gjNb63\nKmbzEH0MxQqHx4g4M3NEfcY5g8MNh7T7bz1UZ7bRyLwtXX8wL6M4EcAVb85I\npq4Srp7PrptFaWC5LBw785rXp8snwzzEZbFpWNsWwLApUwQEibMxV3XWPBfA\nyVSGsvMmFkVuIFB7A3CUbJbb309UyTTgUrvrOCTpx61VoHfd9IVShQZ3e9wc\npqhngClwSqtqLqyeSg8HXObD5A/U3Q2+J34a7P6QocT3yjryQDoKgEI2i5Ny\nrsyQ/U0ED5VlzGwDvSCoVMbGqmp3tiv2FwvO+ZRtEp30+GDRyymszyNYWQBR\nqt6DKJBXE/Riz9HOrNLDW6THZTrqAkQVyh1Xr4inznsJtUL7vr0dlSZZl8gW\n0wbWCZGmuqB/PwT3FpJnYxW/pOxUxtRYnahGkAPfEJ1kbQ2Xv3aVXCOI2Ud4\noYGL5kUxEHgrT7vmfCI4RaZD8HGZ2LzLlb0r9FTrswdFUlNr7V9O8jUPCQDe\ndWW+8UhEpo/0LDGxC7WkSNQv5pnJggXOU9aNhLk7WkgusKrxy9oI829c0HTF\nPo6ji4dv/dVv7VKOpphZ88NllF0Fxzbq3ZP+O3YFktftN2htI9Z1EOXAvdrQ\nmIyo\r\n=Sjjl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/types#readme",
+  "keywords": [
+    "pnpm",
+    "types"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/types",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/types\n\n> Basic types used by pnpm\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/types.svg)](https://www.npmjs.com/package/@pnpm/types)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/types\n```\n\n## Usage\n\n```ts\nimport { PackageManifest } from '@pnpm/types'\n\nconst pkg: PackageManifest = {\n  name: 'foo',\n  version: '1.0.0',\n}\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/types"
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.0.0"
+}

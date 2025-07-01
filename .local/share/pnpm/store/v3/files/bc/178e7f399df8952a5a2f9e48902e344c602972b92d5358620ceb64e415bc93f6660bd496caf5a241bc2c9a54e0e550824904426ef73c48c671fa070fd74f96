@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "render-help@1.0.0",
+        "scope": null,
+        "escapedName": "render-help",
+        "name": "render-help",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "render-help@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "render-help@1.0.0",
+  "_location": "/render-help",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/render-help_1.0.0_1582369891982_0.3450683562360548"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "render-help@1.0.0",
+    "scope": null,
+    "escapedName": "render-help",
+    "name": "render-help",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/plugin-commands-audit",
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-listing",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners",
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/plugin-commands-store"
+  ],
+  "_resolved": "https://registry.npmjs.org/render-help/-/render-help-1.0.0.tgz",
+  "_shasum": "1d63f1735184c4c2a8f270139434b600312ae587",
+  "_shrinkwrap": null,
+  "_spec": "render-help@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "table": "^5.4.6"
+  },
+  "description": "Creates a nice output for a CLI --help",
+  "devDependencies": {
+    "@types/common-tags": "1.8.0",
+    "@types/jest": "25.1.3",
+    "@types/node": "^12.12.14",
+    "@types/table": "4.0.7",
+    "common-tags": "1.8.0",
+    "jest": "25.1.0",
+    "ts-jest": "25.2.1",
+    "typescript": "3.8.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-guyG8QWDU7XQjmRMg+7kdQkE0734OKm8CQjq8ycYS1/x7qyFGjSFg0ZCFQa8Fk63o9qd4q8HP4k6LRhge3psEw==",
+    "shasum": "1d63f1735184c4c2a8f270139434b600312ae587",
+    "tarball": "https://registry.npmjs.org/render-help/-/render-help-1.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 9676,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeUQxkCRA9TVsSAnZWagAAIDwP/3QCW6K/2bQWJveqaRlz\n1RcpJqCiA3/y/kzRuxNbmzsNa0gzDYc7HN3jZ/Kxs/mdT+pQBhpoygyLK/RB\neFjoVH9RZuQbyDn5qIk6Hwhm77WRn9kidR2/fOBCvJIvxzR+/s0hd4/jM/TD\nz9ZRzBha6i7/GCGv40OnhZVfEHfgw2uygmSQMdeX0canBOSWhjFoBUyBrLyb\nnH6nJLBcPgDRagSPa0LJT/jdXIh5ar00WU2LDxkj9YuHlhM0Q7Y/qWC88pe7\nqmReDIO0Pkk78XBKfRN+5hcrcOPMzJ2rIkOBS7bBMKhIYVr09W/sCso1XCny\nQ9thPQ1oGU20D99DH/mZnkC9b1il9mIviHG6guWB4wqhh4hjouENJMT52QKH\nPygRgF9Lkzs8TTR5E9LB40HLz577ET9V73cEBcsrQQrIKUe/qqIGMdEPiH4A\nJFTwoVPy4nBWYUDXEnkuDzxGdtoAQpAj46gE3KbJ0hfdMjPoYuKF2Ju7Znvv\nlb5l30uZGgqGtrWwejF1WgjS0IGO1BBk/npYpNl28JzbNyNmyRavCEtbhtND\naf7rgcsXHkUDGQOxLjtnz/vIQpKQuSrAL22LEV901ZlJyMirZ2v1hNjD2EjB\nNoJw3v7bijqf2fWL+6SHiZdEI2mVU6e0vok2024PRqvZmBEnfNmLkfKSEZGY\npVWG\r\n=uul8\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/render-help#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "cli",
+    "help",
+    "bin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "render-help",
+  "optionalDependencies": {},
+  "readme": "# render-help\n\n> Creates a nice output for a CLI --help\n\n[![npm version](https://img.shields.io/npm/v/render-help.svg)](https://www.npmjs.com/package/render-help)\n\n## Installation\n\n```\n<pnpm|yarn|npm> add render-help\n```\n\n## Usage\n\n```JavaScript\nconst renderHelp = require('./lib')\n\nconst output = renderHelp({\n  usages: ['pnpm install [options]'],\n  aliases: ['i'],\n  description: 'Install all dependencies',\n  descriptionLists: [\n    {\n      title: 'Options',\n      list: [\n        {\n          name: '--force',\n          shortAlias: '-f',\n          description: 'Do some dangerous things'\n        },\n        {\n          name: '--lockfile-only',\n          description: \"Don't create node_modules. Just generate pnpm-lock.yaml\"\n        }\n      ]\n    }\n  ],\n  url: 'https://pnpm.js.org/en/cli/install'\n})\nconsole.log(output)\n// Usage: pnpm install [options]\n//\n// Alias: i\n//\n// Install all dependencies\n//\n// Options:\n//   -f, --force               Do some dangerous things\n//       --lockfile-only       Don't create node_modules. Just generate pnpm-lock.yaml\n//\n// Visit https://pnpm.js.org/en/cli/install for documentation about this command.\n```\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/render-help"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "jest"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

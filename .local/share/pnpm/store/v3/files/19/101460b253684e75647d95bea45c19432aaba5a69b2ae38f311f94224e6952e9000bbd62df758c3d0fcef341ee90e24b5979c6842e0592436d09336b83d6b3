@@ -1,0 +1,131 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mem@^6.0.0",
+        "scope": null,
+        "escapedName": "mem",
+        "name": "mem",
+        "rawSpec": "^6.0.0",
+        "spec": ">=6.0.0 <7.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/encode-registry"
+    ]
+  ],
+  "_from": "mem@^6.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "mem@6.0.1",
+  "_location": "/mem",
+  "_nodeVersion": "13.2.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mem_6.0.1_1575034176954_0.8670781925593525"
+  },
+  "_npmUser": {
+    "name": "bfred-it",
+    "email": "npm@bfred.it"
+  },
+  "_npmVersion": "6.13.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mem@^6.0.0",
+    "scope": null,
+    "escapedName": "mem",
+    "name": "mem",
+    "rawSpec": "^6.0.0",
+    "spec": ">=6.0.0 <7.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/tarball-fetcher",
+    "/encode-registry",
+    "/p-memoize"
+  ],
+  "_resolved": "https://registry.npmjs.org/mem/-/mem-6.0.1.tgz",
+  "_shasum": "3f8ad1b0f8c4e00daf07f104e95b9d78131d7908",
+  "_shrinkwrap": null,
+  "_spec": "mem@^6.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/encode-registry",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/mem/issues"
+  },
+  "dependencies": {
+    "map-age-cleaner": "^0.1.3",
+    "mimic-fn": "^3.0.0"
+  },
+  "description": "Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "delay": "^4.1.0",
+    "serialize-javascript": "^2.1.0",
+    "tsd": "^0.11.0",
+    "xo": "^0.25.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-uIRYASflIsXqvKe+7aXbLrydaRzz4qiK6amqZDQI++eRtW3UoKtnDcGeCAOREgll7YMxO5E4VB9+3B0LFmy96g==",
+    "shasum": "3f8ad1b0f8c4e00daf07f104e95b9d78131d7908",
+    "tarball": "https://registry.npmjs.org/mem/-/mem-6.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10429,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd4R1BCRA9TVsSAnZWagAAAAwP/RqVMRanVop8joy5Ixu5\nDfZFgJppajqPgFaaD2Q6hv9iyoQh6x7ua3625lmk5N2VmVIwz6FyYBbZ7tLv\ns6n0NOZj4f7j4uk8ri+Y5Tpzk1tdFEbf8IwTTiypSF79gQ5JI2wZLypw+R2g\n5Yrd/0ElvMj0cX4jPEnSLaV5zqw5Qx/zdPZYm9opf3gJ9e2JUB9z77Z7shjD\n9NlDwPrzAhUcCnUbt1hJWAQ0yu/EUQRi9z5Q8tLw3Bp9F8eP+ta6hdiHheIs\nvjEDqPa9MHMe/UyR9U5g1fjJ42OFsGFUYF/YLzh3ICnrokl/dJHuhXBMYDDK\nAbDnme6yRcPhFN+NoBSXGnTVOjc+J6W7KjEzMuU2C8lkGWmwj1DYVM1WLMX9\nrUQ1l68ZM3WcKOUWcB8YlUaoTU/7Wz9bJrtp+BMeNYZsu43lUaJDci4tA5zs\nrt0M4I6pZ78XySQC+hNtMHm+7A2tsAq4zUelcdPXSuGTtAGDnWU/hRddFcUo\nJRQ2pbb3XD8ovx1zvmqpsTFW5ZvP4k0mq32ms2Vg4lJbK3t8wgiePoSQGHqf\n7xLmvuVh9JAe2tPqTluE15BAto0BTf7Q8q4We0/W7NOjf6ZiT23MVK9dNWEr\nUMU6igz0gxlwFRjBhfCWjg5qs5QEBuWbMY0Hdc1U+m4yBuOUM0UP0HebJPsc\nSnQU\r\n=V5Wl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "9d5661e63642c250818306f37af8497eb61e2c11",
+  "homepage": "https://github.com/sindresorhus/mem#readme",
+  "keywords": [
+    "memoize",
+    "function",
+    "mem",
+    "memoization",
+    "cache",
+    "caching",
+    "optimize",
+    "performance",
+    "ttl",
+    "expire",
+    "promise"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "bfred-it",
+      "email": "npm@bfred.it"
+    },
+    {
+      "name": "fregante",
+      "email": "opensource@bfred.it"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "mem",
+  "optionalDependencies": {},
+  "readme": "# mem [![Build Status](https://travis-ci.org/sindresorhus/mem.svg?branch=master)](https://travis-ci.org/sindresorhus/mem)\n\n> [Memoize](https://en.wikipedia.org/wiki/Memoization) functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input\n\nMemory is automatically released when an item expires or the cache is cleared.\n\nBy default, **only the first argument is considered** and it only works with [primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive). If you need to cache multiple arguments or cache `object`s *by value*, use the `cacheKey` option.\n\n\n## Install\n\n```\n$ npm install mem\n```\n\n\n## Usage\n\n```js\nconst mem = require('mem');\n\nlet i = 0;\nconst counter = () => ++i;\nconst memoized = mem(counter);\n\nmemoized('foo');\n//=> 1\n\n// Cached as it's the same argument\nmemoized('foo');\n//=> 1\n\n// Not cached anymore as the argument changed\nmemoized('bar');\n//=> 2\n\nmemoized('bar');\n//=> 2\n\n// Only the first argument is considered by default\nmemoized('bar', 'foo');\n//=> 2\n```\n\n##### Works fine with promise returning functions\n\n```js\nconst mem = require('mem');\n\nlet i = 0;\nconst counter = async () => ++i;\nconst memoized = mem(counter);\n\n(async () => {\n\tconsole.log(await memoized());\n\t//=> 1\n\n\t// The return value didn't increase as it's cached\n\tconsole.log(await memoized());\n\t//=> 1\n})();\n```\n\n```js\nconst mem = require('mem');\nconst got = require('got');\nconst delay = require('delay');\n\nconst memGot = mem(got, {maxAge: 1000});\n\n(async () => {\n\tawait memGot('sindresorhus.com');\n\n\t// This call is cached\n\tawait memGot('sindresorhus.com');\n\n\tawait delay(2000);\n\n\t// This call is not cached as the cache has expired\n\tawait memGot('sindresorhus.com');\n})();\n```\n\n\n## API\n\n### mem(fn, options?)\n\n#### fn\n\nType: `Function`\n\nFunction to be memoized.\n\n#### options\n\nType: `object`\n\n##### maxAge\n\nType: `number`\\\nDefault: `Infinity`\n\nMilliseconds until the cache expires.\n\n##### cacheKey\n\nType: `Function`\\\nDefault: `arguments_ => arguments_[0]`\\\nExample: `arguments_ => JSON.stringify(arguments_)`\n\nDetermines the cache key for storing the result based on the function arguments. By default, **only the first argument is considered**.\n\nA `cacheKey` function can return any type supported by `Map` (or whatever structure you use in the `cache` option).\n\nYou can have it cache **all** the arguments by value with `JSON.stringify`, if they are compatible:\n\n```js\nconst mem = require('mem');\n\nmem(function_, {cacheKey: JSON.stringify});\n```\n\nOr you can use a more full-featured serializer like [serialize-javascript](https://github.com/yahoo/serialize-javascript) to add support for `RegExp`, `Date` and so on.\n\n```js\nconst mem = require('mem');\nconst serializeJavascript = require('serialize-javascript');\n\nmem(function_, {cacheKey: serializeJavascript});\n```\n\n##### cache\n\nType: `object`\\\nDefault: `new Map()`\n\nUse a different cache storage. Must implement the following methods: `.has(key)`, `.get(key)`, `.set(key, value)`, `.delete(key)`, and optionally `.clear()`. You could for example use a `WeakMap` instead or [`quick-lru`](https://github.com/sindresorhus/quick-lru) for a LRU cache.\n\n### mem.clear(fn)\n\nClear all cached data of a memoized function.\n\n#### fn\n\nType: `Function`\n\nMemoized function.\n\n\n## Tips\n\n### Cache statistics\n\nIf you want to know how many times your cache had a hit or a miss, you can make use of [stats-map](https://github.com/SamVerschueren/stats-map) as a replacement for the default cache.\n\n#### Example\n\n```js\nconst mem = require('mem');\nconst StatsMap = require('stats-map');\nconst got = require('got');\n\nconst cache = new StatsMap();\nconst memGot = mem(got, {cache});\n\n(async () => {\n\tawait memGot('sindresorhus.com');\n\tawait memGot('sindresorhus.com');\n\tawait memGot('sindresorhus.com');\n\n\tconsole.log(cache.stats);\n\t//=> {hits: 2, misses: 1}\n})();\n```\n\n\n## Related\n\n- [p-memoize](https://github.com/sindresorhus/p-memoize) - Memoize promise-returning & async functions\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-mem?utm_source=npm-mem&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/mem.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "6.0.1"
+}

@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/common-cli-options-help@0.1.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fcommon-cli-options-help",
+        "name": "@pnpm/common-cli-options-help",
+        "rawSpec": "0.1.4",
+        "spec": "0.1.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/common-cli-options-help@0.1.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/common-cli-options-help@0.1.4",
+  "_location": "/@pnpm/common-cli-options-help",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/common-cli-options-help_0.1.4_1578603917704_0.8718524770933371"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/common-cli-options-help@0.1.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fcommon-cli-options-help",
+    "name": "@pnpm/common-cli-options-help",
+    "rawSpec": "0.1.4",
+    "spec": "0.1.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-listing",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners",
+    "/@pnpm/plugin-commands-server"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/common-cli-options-help/-/common-cli-options-help-0.1.4.tgz",
+  "_shasum": "a590ccf6054f6d66caaba9c7d5ef7cac06abc8e1",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/common-cli-options-help@0.1.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "Help for some common CLI options",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-tOJqx4cNllXDQgSGnyW0O3N6PKO+4tKFhP/zeV6aJdIGpldiPhvmwvX5e172y9Jmmlt2lj523CE+hQQf/IDUpQ==",
+    "shasum": "a590ccf6054f6d66caaba9c7d5ef7cac06abc8e1",
+    "tarball": "https://registry.npmjs.org/@pnpm/common-cli-options-help/-/common-cli-options-help-0.1.4.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6878,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeF5WOCRA9TVsSAnZWagAAMXUP/jVef0RxSeOC+Q5SF0CK\noOAeS1gG0QkrGTtDJEp4UYzyq9VFcSQjkFQACGWCaQgxcmUH2ryp0On+WC38\nYoLYjsuNqF680WXB8InPR/PE84xTLavP3OSWQreIEcPc9ICBRVgpmS1Tyjvj\ndrXItvCJ+vtdlcLFMV/ElSnu1evqlIfA879235vAqEr2exvONY98Sc8Ya1WY\nHC9KXTjTWayG4rTVFQmOTHiSeKCycdU4YVecWyI8XhKZ3nXK7Mt8XsV+cKIN\nM08He89TpLxGRnapxjSuCgV/De2ict7Z7RMuUqhKwyB2PdCImVeKipOZxcGv\nToYODSk9reF54sQ1CI3pi3gul+olMcOasIro3F4cSfp/81A6IrluBMxUclOJ\njT/cV+KKb9d0dvlAzf8J/QgYT4kWPy/8iEx9TQFKYQeOdqbf4zWqnqeiLXYC\nwIJbBZh/WYtBwVPlGCVGsALuvkV+KYJdoEaK3aocuGHlZjOPbfDXhquLAdeZ\nYbbVjBJUT1ts5ptFOjjGbTFEfPRnEb1I3VUPFRccjZxWmg0CEoxySSzlsZPj\nMtpIBfgX10GqeT9GhePEMuNyrKTtWkcWN65TX9Gz5cv1htmUE4ZQdc+MPZ4z\nUNCqV783wkJWHB3QqtGuSHEuPPGzA0acwWACWyRdHaqDc4y/VzeMaXHZhEKS\nPmAO\r\n=htxN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/common-cli-options-help",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/common-cli-options-help\n\n> Help for some common CLI options\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/common-cli-options-help.svg)](https://www.npmjs.com/package/@pnpm/common-cli-options-help)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/common-cli-options-help\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/common-cli-options-help"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.4"
+}

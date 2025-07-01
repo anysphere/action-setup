@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "process-exists@4.0.0",
+        "scope": null,
+        "escapedName": "process-exists",
+        "name": "process-exists",
+        "rawSpec": "4.0.0",
+        "spec": "4.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-server"
+    ]
+  ],
+  "_from": "process-exists@4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "process-exists@4.0.0",
+  "_location": "/process-exists",
+  "_nodeVersion": "10.17.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/process-exists_4.0.0_1577035709057_0.6870012319138306"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "process-exists@4.0.0",
+    "scope": null,
+    "escapedName": "process-exists",
+    "name": "process-exists",
+    "rawSpec": "4.0.0",
+    "spec": "4.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-server"
+  ],
+  "_resolved": "https://registry.npmjs.org/process-exists/-/process-exists-4.0.0.tgz",
+  "_shasum": "dc12d87798c17b3f129f716631e2ccdaf240b4ab",
+  "_shrinkwrap": null,
+  "_spec": "process-exists@4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-server",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/process-exists/issues"
+  },
+  "dependencies": {
+    "ps-list": "^6.3.0"
+  },
+  "description": "Check if a process is running",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "noop-process": "^4.0.0",
+    "tsd": "^0.11.0",
+    "xo": "^0.25.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-BnlcYPiZjSW+fye12g9B7UeCzMAOdMkxuTz3zcytJ2BHwYZf2RoKvuuwUcJLeXlGj58x9YQrvhT21PmKhUc4UQ==",
+    "shasum": "dc12d87798c17b3f129f716631e2ccdaf240b4ab",
+    "tarball": "https://registry.npmjs.org/process-exists/-/process-exists-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4366,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd/6e9CRA9TVsSAnZWagAAiE4QAIArCM2xGP8cGb9qIWtH\nx1ONYELW6QAk25xvVO6HXea1m9stAi53MlC16Ui8Osh47I2LZssdyT5I3KFM\n+T4D8FNwgb57cijrR8OU1pf61isJ2kUMbTpVfB47Wxqdinn+uwGGbl9c2gVS\nPgXrTa1YCk3WJnlgjdVluuKBWEf/JQAyRVh+xJYBhJoL0tIwopBIFCMy4fFU\nKxHz9Msty38QQ/XIGiEN3ovEEqVkwI3sHkcIzi8+7Z6VpPTMAJCKndw8rtH8\nhZwPQzGsl6z7oPj/gXbfjSOulPpiScqe97jgFxZ7fh/fh+HSRBDXqJrQPCSE\n2bxaLw4Lq+RWdeK/7QL2qJhqchTP+ZW5FVse0uPqPUJ+DJK1MXqoQZn8TQTg\n9q4Je0sAgzFClJPfdbkm6aBz5wFgWRh+7II+tFxBSCc/uyC5wNmyDUUTkGxN\ng9lg99nRtF+i+gqrLAI6DjUJHlqRoPzbegMWhu+mXSx7Umovukon9OLfg1YQ\niq5GkUhIZIUvnOrJT7iwR1q1z53ZhhRARJOZYnOlAN+CwIAezjHr/nER2ufT\nSvrW7Y5l4Af6V/yGheWTzoZI9wQQOH74EOAGafNv1OaONmXn5BHqJR7u0/x/\nAlg1AvH7WBc05zqKnv9vG3kmAoJoucax+2kjxbYAKCjdOf2urrt0zgEiFEUL\nnZTS\r\n=D0AI\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "gitHead": "8a82519fc268f2dd7d6a6d45c3f058f159523654",
+  "homepage": "https://github.com/sindresorhus/process-exists#readme",
+  "keywords": [
+    "process",
+    "processes",
+    "proc",
+    "ps",
+    "pid",
+    "test",
+    "testing",
+    "exists",
+    "running",
+    "check"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "process-exists",
+  "optionalDependencies": {},
+  "readme": "# process-exists [![Build Status](https://travis-ci.org/sindresorhus/process-exists.svg?branch=master)](https://travis-ci.org/sindresorhus/process-exists)\n\n> Check if a process is running\n\n## Install\n\n```\n$ npm install process-exists\n```\n\n## Usage\n\n```js\nconst processExists = require('process-exists');\n\n(async () => {\n\tconsole.log(await processExists(process.pid));\n\t//=> true\n\n\tconst exists = await processExists.all([process.pid, 'foo']);\n\n\tconsole.log(exists.get(process.pid));\n\t//=> true\n\n\tconsole.log(exists.get('foo'));\n\t//=> false\n\n\tconsole.log(processExists.filterExists(exists));\n\t//=> [process.pid]\n})();\n```\n\n## API\n\n### processExists(input)\n\nReturns a `Promise<boolean>`.\n\n#### input\n\nType: `number | string`\n\nProcess ID or name to check.\n\n### processExists.all(input)\n\nReturns a `Promise<Map>` with the process name/ID as key and the status as a boolean value.\n\n#### input\n\nType: `Array<number | string>`\n\nProcess IDs or names to check.\n\n### processExists.filterExists(input)\n\nReturns an `Array<number | string>` with the processes that exist.\n\n#### input\n\nType: `Array<number | string>`\n\nProcess IDs or names to check.\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/process-exists.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.0.0"
+}

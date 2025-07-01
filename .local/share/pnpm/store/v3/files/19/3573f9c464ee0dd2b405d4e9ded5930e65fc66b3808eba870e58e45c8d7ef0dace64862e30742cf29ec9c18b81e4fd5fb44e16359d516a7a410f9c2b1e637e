@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "daty@^1.0.7",
+        "scope": null,
+        "escapedName": "daty",
+        "name": "daty",
+        "rawSpec": "^1.0.7",
+        "spec": ">=1.0.7 <2.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/bug-killer"
+    ]
+  ],
+  "_from": "daty@^1.0.7",
+  "_hasShrinkwrap": false,
+  "_id": "daty@1.2.0",
+  "_location": "/daty",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/daty_1.2.0_1566460987836_0.7958468620443735"
+  },
+  "_npmUser": {
+    "name": "ionicabizau",
+    "email": "bizauionica@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "daty@^1.0.7",
+    "scope": null,
+    "escapedName": "daty",
+    "name": "daty",
+    "rawSpec": "^1.0.7",
+    "spec": ">=1.0.7 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/bug-killer"
+  ],
+  "_resolved": "https://registry.npmjs.org/daty/-/daty-1.2.0.tgz",
+  "_shasum": "cc2d30bc8faf0123a41e4f2afe07af9f3ce41916",
+  "_shrinkwrap": null,
+  "_spec": "daty@^1.0.7",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/bug-killer",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/E2GKGYK.png"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/daty/issues"
+  },
+  "dependencies": {
+    "add-subtract-date": "^1.0.0",
+    "class-methods": "^1.0.4",
+    "date-unit-ms": "^1.1.0",
+    "diff-dates": "^1.0.0",
+    "formatoid": "^1.0.0"
+  },
+  "description": "A tiny library to manage date objects.",
+  "devDependencies": {
+    "tester": "^1.3.3"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-FAcA7F6OzCyc4hzo/6qcvqPwQ5y5gO8q0n9R5E8N0oMhMQo1oUMiqHGmHbhSj/n/a2wmCz+EBZb2luX/LkASbQ==",
+    "shasum": "cc2d30bc8faf0123a41e4f2afe07af9f3ce41916",
+    "tarball": "https://registry.npmjs.org/daty/-/daty-1.2.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 56287,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXkw8CRA9TVsSAnZWagAAtcYQAIKptC7YpbaYctvd3pTF\nD7Q5VQjwNKbsbiY2pp5P3syIRqa7+0RWuGkvkKCzJqCeLyeecwOIMFOAsnxc\npyMr/T221cTEHMxK0rfunzdyYTkf1bZ3uA/DLMXHVj337S74jNuvFpkT0QjD\n5JZBC9j1iirq2/PSq5uaZhNSGsnJeIqOy/Rbd9bqzj38vX+lYdlueeTs6hlX\nt//+0Zvl/G7k36IhorAUGMI1KUlKrz2OYxDRRAv4PFPWCGvmR45zJwEjSsms\n0Kc1ujsP+lYttkjXmzo49L0KEHwvSpUzgZ32D+pE/5yTFDsgGAM3Ppg1LEgQ\nAYBr9SPovQ4bOGN84pL4BT7xUp/PeoFNmBp3jeME07T+/BYCnS6tWWwbhtLE\ndixpClLzvqWhv0q7z81M2byckuQdEadp2RRGP7R8xvuG+lGyuS+E4dMkv/08\nRkXJSpwnW9rCnX5kOoXvJ2wIATMwzckq9ofjX3XFq/1Ve4EJ1SMJUvzKk/RT\nNTIY1BIeHF3wMLEafGwbWkDOd77NEk5hHZTLX7g5d9edxki7hoPfTlB/H3Hi\nrFYiq9XasTp5QwjdJClVNUoF3T9qnwRGKMBiJY9O+CLoUgf/IaOc8UPi9x0V\n/w9EoGNeFy7c7FkmqV9880IJt7wTj2IzqTTll29C2HdfSNvqgd4N/eQlrAd8\nVvHw\r\n=uzTL\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "gitHead": "59149918746dda639b81e45d19ca75e3b571a2a8",
+  "homepage": "https://github.com/IonicaBizau/daty#readme",
+  "keywords": [
+    "date",
+    "object",
+    "tiny"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "ionicabizau",
+      "email": "bizauionica@gmail.com"
+    }
+  ],
+  "name": "daty",
+  "optionalDependencies": {},
+  "readme": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n![daty](http://i.imgur.com/E2GKGYK.png)\n\n\n\n\n# daty\n\nA tiny library to manage date objects.\n\n\n\n\n## Installation\n\n```sh\n$ npm i daty\n```\n\n\n\n\n\n\n\n\n\n## Example\n\n\n\n\n\n\n```js\nconst Daty = require(\"daty\");\n\n// You can initialize Daty using the date parameters\nconst d = new Daty(2015, 11, 16, 18, 42);\n\n// ...but you have friendly date formatting\nconsole.log(d.format(\"LL\"));\n// => December 16, 2015\n\nconsole.log(d.format(\"LLLL\"));\n// => Wednesday, December 16, 2015 6:42 PM\n\nconsole.log(d.utc().format(\"LLLL\"));\n// => Wednesday, December 16, 2015 4:42 PM\n\n// Go back in the history, when the Romanian revolution started in 1989\n// We will clone the current date since we will need it later.\n// Also, subtract 26 years.\nconst revolutionDate = d.clone().subtract(26, \"years\");\nconsole.log(revolutionDate.format(\"LLL\"));\n// => December 16, 1989 12:00 AM\n\n// Make a difference in years\nconst difference = new Daty().diff(revolutionDate, \"years\");\n\nconsole.log(`Right now there are ${difference} years since the Romanian revolution, 1989.`);\n// => Right now there are 26 years since the Romanian revolution, 1989.\n\n```\n\n\n\n\n\n\n## Documentation\n\n\n\n\n\n### `format(s)`\nFormats the date by specifying the format.\n\n#### Params\n- **String** `s`: The date format using the [`formatoid`](https://github.com/IonicaBizau/formatoid) supported fields or the presets:\n - `L` : `M/D/YYYY`\n - `LL`: `MMMM D, YYYY`\n - `LLL`: `MMMM D, YYYY hh:mm A`\n - `LLLL`: `dddd, MMMM D, YYYY h:m A`\n\nIf not specified, the date object will be stringified using the native `toString()` method.\n\n#### Return\n- **String** The formated date.\n\n### `fromNow()`\nReturns the \"from now\" value which is human readable.\n\n#### Return\n- **String** The human readable \"from now\" value.\n\n### `add(count, what)`\nAdds a specified number of units to the date.\n\n#### Params\n- **String** `count`: The number of units to subtract.\n- **String** `what`: One of the units supported by [`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date).\n\n#### Return\n- **Daty** The `Daty` instance.\n\n### `subtract(count, what)`\nSubtracts a specified number of units to the date.\n\n#### Params\n- **String** `count`: The number of units to subtract.\n- **String** `what`: One of the units supported by [`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date).\n\n#### Return\n- **Daty** The `Daty` instance.\n\n### `clone()`\nClones the `Daty` instance.\n\n#### Return\n- **Daty** A new `Daty` instance that is cloned from the first one.\n\n### `diff(d, units)`\nMakes the difference between the current instance and a specified `Daty` instance.\n\n#### Params\n- **Daty|Date** `d`: The date object.\n- **String** `units`: One of the units supported by [`diff-dates`](https://github.com/IonicaBizau/diff-dates)\n\n#### Return\n- **Number** The difference result (in units).\n\n### `isEqual(d)`\nChecks if the date instance is equal to another date object.\n\n#### Params\n- **Daty|Date** `d`: The date object.\n\n#### Return\n- **Boolean** `true` if they are equal, `false` otherwise.\n\n### `isBefore(d)`\nChecks if the date instance is before to another date object.\n\n#### Params\n- **Daty|Date** `d`: The date object.\n\n#### Return\n- **Boolean** `true` if the date object is before the specified date or `false` otherwise.\n\n### `isAfter(d)`\nChecks if the date instance is after another date object.\n\n#### Params\n- **Daty|Date** `d`: The date object.\n\n#### Return\n- **Boolean** `true` if the date object is after the specified date or `false` otherwise.\n\n### `isAfter()`\nisValid\nChecks if the date instance is valid.\n\n#### Return\n- **Boolean** `true` if the date object is valid, `false` otherwise.\n\n### `utc()`\nUseful to format the date in UTC.\n\n#### Return\n- **Daty** A new `Daty` instance which will be formatted in UTC output.\n\n\n\n\n\n\n## How to contribute\nHave an idea? Found a bug? See [how to contribute][contributing].\n\n\n\n## License\nSee the [LICENSE][license] file.\n\n\n[license]: /LICENSE\n[contributing]: /CONTRIBUTING.md\n[docs]: /DOCUMENTATION.md\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/daty.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "1.2.0"
+}

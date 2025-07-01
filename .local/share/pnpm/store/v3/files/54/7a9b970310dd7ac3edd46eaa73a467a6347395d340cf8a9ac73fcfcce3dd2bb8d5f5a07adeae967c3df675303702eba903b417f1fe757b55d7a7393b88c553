@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-locate@^4.1.0",
+        "scope": null,
+        "escapedName": "p-locate",
+        "name": "p-locate",
+        "rawSpec": "^4.1.0",
+        "spec": ">=4.1.0 <5.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/locate-path"
+    ]
+  ],
+  "_from": "p-locate@^4.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-locate@4.1.0",
+  "_location": "/p-locate",
+  "_nodeVersion": "8.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-locate_4.1.0_1554354165996_0.6426620981467144"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-locate@^4.1.0",
+    "scope": null,
+    "escapedName": "p-locate",
+    "name": "p-locate",
+    "rawSpec": "^4.1.0",
+    "spec": ">=4.1.0 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/locate-path"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz",
+  "_shasum": "a3428bb7088b3a60292f66919278b7c297ad4f07",
+  "_shrinkwrap": null,
+  "_spec": "p-locate@^4.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/locate-path",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-locate/issues"
+  },
+  "dependencies": {
+    "p-limit": "^2.2.0"
+  },
+  "description": "Get the first fulfilled promise that satisfies the provided testing function",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "delay": "^4.1.0",
+    "in-range": "^1.0.0",
+    "time-span": "^3.0.0",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==",
+    "shasum": "a3428bb7088b3a60292f66919278b7c297ad4f07",
+    "tarball": "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7285,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpY/2CRA9TVsSAnZWagAALQMP/3vN0BSJiCM4ZVUWhqjQ\nL3PQu0gcZuncKRGoX4Vpm7nhfubo13PwinE5dDOrueBPoCrdYJQk/uuYBJQS\nugePB/oxbLwK1vL0ZanyaJTRYWrdNJsZmciYRkQ09Pci/oyZ39c6sjtkGj7v\nU8dLhR47iNBHf5RhOlxlEGEaxAHIn7xumDwRnK+xDOZCVJp4HmHcT0XK8J08\ncuraQ3ZDCGDFSJUzoL9XGUhFWlxwLfLsHwcjfBfD7kGdLBchlgrgN1uVIa0m\n8ta73mV2JtzYxrRE2WmDyDqfVdNAE0pSoUrTRrGKVrI60TguIv5c+AhEVR+R\nVYl8gnq0FbesgxhYRHz8h64HfArEBkzrOdDFNARBwZh0HYIxLIEO1gzyBKj4\nfGiyMVXKeAiGrxUWfD47Bra9fCQlxjO2IkA7c4PqWj9Al8C6Q2DfGp6e73JP\n3bXxOTNMQVxAjI/Xej7XEHaAB500KvEmrXv4Mz+wyIT3c8pdpwv8MJtw1PLf\naP1iItAWF2FZl5pyxcX9PRGLkIRz452ncq30ZLRbPohdg8+Lcqrq6zeqAucH\nkmY37n1qWmvT9btNTcHz/TsO658ty+3aiZeXh6Aw9V7SvKfxECVWs2t6rtaU\nojg73RJjxBFDr8eju0DuRXJv2EdFoHe/IgymO+eFXk9K7sw3B1RjMzlwt4Ag\nQLSM\r\n=XPFA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "a650b26e49713a8cca58f669a7f8aef9b655554c",
+  "homepage": "https://github.com/sindresorhus/p-locate#readme",
+  "keywords": [
+    "promise",
+    "locate",
+    "find",
+    "finder",
+    "search",
+    "searcher",
+    "test",
+    "array",
+    "collection",
+    "iterable",
+    "iterator",
+    "race",
+    "fulfilled",
+    "fastest",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "p-locate",
+  "optionalDependencies": {},
+  "readme": "# p-locate [![Build Status](https://travis-ci.org/sindresorhus/p-locate.svg?branch=master)](https://travis-ci.org/sindresorhus/p-locate)\n\n> Get the first fulfilled promise that satisfies the provided testing function\n\nThink of it like an async version of [`Array#find`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/find).\n\n\n## Install\n\n```\n$ npm install p-locate\n```\n\n\n## Usage\n\nHere we find the first file that exists on disk, in array order.\n\n```js\nconst pathExists = require('path-exists');\nconst pLocate = require('p-locate');\n\nconst files = [\n\t'unicorn.png',\n\t'rainbow.png', // Only this one actually exists on disk\n\t'pony.png'\n];\n\n(async () => {\n\tconst foundPath = await pLocate(files, file => pathExists(file));\n\n\tconsole.log(foundPath);\n\t//=> 'rainbow'\n})();\n```\n\n*The above is just an example. Use [`locate-path`](https://github.com/sindresorhus/locate-path) if you need this.*\n\n\n## API\n\n### pLocate(input, tester, [options])\n\nReturns a `Promise` that is fulfilled when `tester` resolves to `true` or the iterable is done, or rejects if any of the promises reject. The fulfilled value is the current iterable value or `undefined` if `tester` never resolved to `true`.\n\n#### input\n\nType: `Iterable<Promise | unknown>`\n\nAn iterable of promises/values to test.\n\n#### tester(element)\n\nType: `Function`\n\nThis function will receive resolved values from `input` and is expected to return a `Promise<boolean>` or `boolean`.\n\n#### options\n\nType: `Object`\n\n##### concurrency\n\nType: `number`<br>\nDefault: `Infinity`<br>\nMinimum: `1`\n\nNumber of concurrently pending promises returned by `tester`.\n\n##### preserveOrder\n\nType: `boolean`<br>\nDefault: `true`\n\nPreserve `input` order when searching.\n\nDisable this to improve performance if you don't care about the order.\n\n\n## Related\n\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [p-filter](https://github.com/sindresorhus/p-filter) - Filter promises concurrently\n- [p-any](https://github.com/sindresorhus/p-any) - Wait for any promise to be fulfilled\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-locate.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.1.0"
+}

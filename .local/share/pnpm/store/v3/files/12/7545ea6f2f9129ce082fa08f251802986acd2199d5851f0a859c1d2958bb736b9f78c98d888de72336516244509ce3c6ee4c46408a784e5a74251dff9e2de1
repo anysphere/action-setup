@@ -1,0 +1,297 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@zeit/fetch-retry@4.1.0",
+        "scope": "@zeit",
+        "escapedName": "@zeit%2ffetch-retry",
+        "name": "@zeit/fetch-retry",
+        "rawSpec": "4.1.0",
+        "spec": "4.1.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/fetch"
+    ]
+  ],
+  "_from": "@zeit/fetch-retry@4.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "@zeit/fetch-retry@4.1.0",
+  "_location": "/@zeit/fetch-retry",
+  "_nodeVersion": "12.14.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fetch-retry_4.1.0_1577991872109_0.8331283696985079"
+  },
+  "_npmUser": {
+    "name": "lucleray",
+    "email": "luc.leray@gmail.com"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@zeit/fetch-retry@4.1.0",
+    "scope": "@zeit",
+    "escapedName": "@zeit%2ffetch-retry",
+    "name": "@zeit/fetch-retry",
+    "rawSpec": "4.1.0",
+    "spec": "4.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/fetch"
+  ],
+  "_resolved": "https://registry.npmjs.org/@zeit/fetch-retry/-/fetch-retry-4.1.0.tgz",
+  "_shasum": "a960e335b3ecf01f219e045a4b8819b6ef34b1f4",
+  "_shrinkwrap": null,
+  "_spec": "@zeit/fetch-retry@4.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/fetch",
+  "dependencies": {
+    "async-retry": "^1.3.1",
+    "debug": "^3.1.0"
+  },
+  "description": "A layer on top of `fetch` (via [node-fetch](https://www.npmjs.com/package/node-fetch)) with sensible defaults for retrying to prevent common errors.",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "node-fetch": "^1.7.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-2/vtTzIs3/Bp5tNOmCpICCRooa+v0wL4e+3Afl4etyqZrjOmCMfKshWPSHTxLe20qfsn010qXy/hK6yqD4t0zg==",
+    "shasum": "a960e335b3ecf01f219e045a4b8819b6ef34b1f4",
+    "tarball": "https://registry.npmjs.org/@zeit/fetch-retry/-/fetch-retry-4.1.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 7391,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeDj7ACRA9TVsSAnZWagAAfJUQAKGXps22V7RDHIgLf45Q\nFefwSUqweDi5L42EyFFpJQikXk+ds8o2AZNJEAtltma0z3ECM+F7v6u1PpQm\n0Wp4DXwe64evrdm3GokUDHIEAtvWwjtO2CtWdNtvSyZQimE6jzytUml5ahKU\nHVo8Tf/+WtpRIU5CZ52P+O5BJzl8Nlwhy3aH3mcrJpjni86odCLCQuaXEh+R\npFlm/RajsH9cLltS9sRerXxhDYA7MWH6Ojw7I6NDqEla8W5/dOJebfAi2wEs\nkCVwwiqNyI/4nn/F8SdFco/aMUrlSEl9pSfu1VvbG7TKkvVlXDhaWzsLlg+C\nzHr6/ADILo1dNdvTDm2mmsCtt8DUBbf+KCykJfK3xFcBYMEg6Qmj4/JpMllh\nN/3rjAQ+IWWepvUPxIc8O2O9/PFNzXQzHnyhuLMe+rIkiWIfHErvLQpuzcdl\n8GnZUsvjHJMa3G5RbfiCYLkoHfuVTqnbWZLcKe2+PEyKuQNulaQEn0jKgEiD\nvEk76ydP/vpjTo1rfo+hXZOGCiDnManwf/gLU3NZEWHCvRLPL4UzkPo/AYid\nH6wuduZZdIL7kJ5zI64WrP4R0nJDuBElOubVrlX0gGH/9iIUzd5D7dkeRKov\nAYDhIvk6bzz7eVu4HwyxWI20PeMHdVmRz4NxNLRTk3+NbdCEPizQSjPbYQjX\nBWuU\r\n=5+sk\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "532d20923783d8f3d774f48c1a49c52be24a3e20",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "alexaltea",
+      "email": "alexandro@phi.nz"
+    },
+    {
+      "name": "anatrajkovska",
+      "email": "ana.trajkovska2015@gmail.com"
+    },
+    {
+      "name": "andybitz",
+      "email": "artzbitz@gmail.com"
+    },
+    {
+      "name": "arunoda",
+      "email": "arunoda.susiripala@gmail.com"
+    },
+    {
+      "name": "arzafran",
+      "email": "franco@basement.studio"
+    },
+    {
+      "name": "atcastle",
+      "email": "atcastle@gmail.com"
+    },
+    {
+      "name": "caarlos0",
+      "email": "caarlos0@gmail.com"
+    },
+    {
+      "name": "cleishm",
+      "email": "chris@leishman.org"
+    },
+    {
+      "name": "codetheory",
+      "email": "thecodetheory@gmail.com"
+    },
+    {
+      "name": "coetry",
+      "email": "allenhai03@gmail.com"
+    },
+    {
+      "name": "dav-is",
+      "email": "mail@connordav.is"
+    },
+    {
+      "name": "developit",
+      "email": "jason@developit.ca"
+    },
+    {
+      "name": "fivepointseven",
+      "email": "fivepointseven@icloud.com"
+    },
+    {
+      "name": "gmonaco",
+      "email": "gbmonaco@google.com"
+    },
+    {
+      "name": "guybedford",
+      "email": "guybedford@gmail.com"
+    },
+    {
+      "name": "housseindjirdeh",
+      "email": "houssein.djirdeh@gmail.com"
+    },
+    {
+      "name": "iamevilrabbit",
+      "email": "hello@evilrabb.it"
+    },
+    {
+      "name": "igorklopov",
+      "email": "igor@klopov.com"
+    },
+    {
+      "name": "ijjk",
+      "email": "jj@jjsweb.site"
+    },
+    {
+      "name": "janicklas-ralph",
+      "email": "janicklasralph036@gmail.com"
+    },
+    {
+      "name": "jaredpalmer",
+      "email": "jared@palmer.net"
+    },
+    {
+      "name": "javivelasco",
+      "email": "javier.velasco86@gmail.com"
+    },
+    {
+      "name": "jkrems",
+      "email": "jan.krems@gmail.com"
+    },
+    {
+      "name": "joecohens",
+      "email": "joecohenr@gmail.com"
+    },
+    {
+      "name": "juancampa",
+      "email": "juancampa@gmail.com"
+    },
+    {
+      "name": "keanulee",
+      "email": "npm@keanulee.com"
+    },
+    {
+      "name": "kikobeats",
+      "email": "josefrancisco.verdu@gmail.com"
+    },
+    {
+      "name": "leo",
+      "email": "mindrun@icloud.com"
+    },
+    {
+      "name": "lfades",
+      "email": "luisito453@gmail.com"
+    },
+    {
+      "name": "lucleray",
+      "email": "luc.leray@gmail.com"
+    },
+    {
+      "name": "manovotny",
+      "email": "manovotny@gmail.com"
+    },
+    {
+      "name": "marcosnils",
+      "email": "marcosnils@gmail.com"
+    },
+    {
+      "name": "matheuss",
+      "email": "me@matheus.top"
+    },
+    {
+      "name": "mfix22",
+      "email": "mrfix84@gmail.com"
+    },
+    {
+      "name": "mglagola",
+      "email": "mark.glagola@gmail.com"
+    },
+    {
+      "name": "msweeneydev",
+      "email": "mail@msweeneydev.com"
+    },
+    {
+      "name": "nkzawa",
+      "email": "naoyuki.kanezawa@gmail.com"
+    },
+    {
+      "name": "paco",
+      "email": "pvco.coursey@gmail.com"
+    },
+    {
+      "name": "paulogdm",
+      "email": "paulogdemitri@gmail.com"
+    },
+    {
+      "name": "prateekbh",
+      "email": "prateek89born@gmail.com"
+    },
+    {
+      "name": "quietshu",
+      "email": "ds303077135@gmail.com"
+    },
+    {
+      "name": "rabaut",
+      "email": "rabautse@gmail.com"
+    },
+    {
+      "name": "ragojose",
+      "email": "ragojosefrancisco@gmail.com"
+    },
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    },
+    {
+      "name": "sarupbanskota",
+      "email": "sbanskota08@gmail.com"
+    },
+    {
+      "name": "skllcrn",
+      "email": "skllcrn@zeit.co"
+    },
+    {
+      "name": "spanicker",
+      "email": "shubhie@gmail.com"
+    },
+    {
+      "name": "styfle",
+      "email": "steven@ceriously.com"
+    },
+    {
+      "name": "timer",
+      "email": "timer150@gmail.com"
+    },
+    {
+      "name": "timneutkens",
+      "email": "tim@timneutkens.nl"
+    },
+    {
+      "name": "tootallnate",
+      "email": "nathan@tootallnate.net"
+    },
+    {
+      "name": "umegaya",
+      "email": "iyatomi@gmail.com"
+    },
+    {
+      "name": "williamli",
+      "email": "williamli@bbi.io"
+    },
+    {
+      "name": "zeit-bot",
+      "email": "team@zeit.co"
+    }
+  ],
+  "name": "@zeit/fetch-retry",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "node-fetch": "*"
+  },
+  "readme": "# fetch-retry [![CircleCI](https://circleci.com/gh/zeit/fetch-retry.svg?style=svg)](https://circleci.com/gh/zeit/fetch-retry)\n\nA layer on top of `fetch` (via [node-fetch](https://www.npmjs.com/package/node-fetch))\nwith sensible defaults for retrying to prevent common errors.\n\n## How to use\n\n`fetch-retry` is a drop-in replacement for `fetch`:\n\n```js\nconst fetch = require('@zeit/fetch-retry')(require('node-fetch'))\n\nmodule.exports = async () => {\n  const res = await fetch('http://localhost:3000')\n  console.log(res.status);\n}\n```\n\nMake sure to `yarn add @zeit/fetch-retry` in your main package.\n\nNote that you can pass [retry options](https://github.com/zeit/async-retry) to using `opts.retry`.\nWe also provide a `opts.onRetry` which is a customized version of `opts.retry.onRetry` and passes\nnot only the `error` object in each retry but also the current `opts` object.\n\n## Rationale\n\nSome errors are very common in production (like the underlying `Socket`\nyielding `ECONNRESET`), and can easily and instantly be remediated\nby retrying.\n\nThe default behavior of `fetch-retry` is to attempt retries **10**, **50**\nand **250** milliseconds (a total of 3 retires) after\na *network error* or *5xx* error occur.\n\nThe idea is to provide a sensible default: most applications should\ncontinue to perform correctly with a worst case scenario of a given\nrequest having an additional 250ms overhead. \n\nOn the other hand, most applications that use `fetch-retry` instead of\nvanilla `fetch` should see lower rates of common errors and fewer 'glitches'\nin production.\n\n## Tests\n\nTo run rests, execute\n\n```console\nnpm test\n```\n",
+  "readmeFilename": "readme.md",
+  "scripts": {
+    "test": "jest test"
+  },
+  "version": "4.1.0"
+}

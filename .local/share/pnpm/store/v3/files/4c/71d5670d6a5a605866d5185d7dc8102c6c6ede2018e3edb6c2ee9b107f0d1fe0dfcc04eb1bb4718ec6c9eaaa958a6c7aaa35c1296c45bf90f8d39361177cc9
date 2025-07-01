@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/lockfile-walker@2.0.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flockfile-walker",
+        "name": "@pnpm/lockfile-walker",
+        "rawSpec": "2.0.1",
+        "spec": "2.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit"
+    ]
+  ],
+  "_from": "@pnpm/lockfile-walker@2.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/lockfile-walker@2.0.1",
+  "_location": "/@pnpm/lockfile-walker",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lockfile-walker_2.0.1_1582101416286_0.16011889809077506"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/lockfile-walker@2.0.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flockfile-walker",
+    "name": "@pnpm/lockfile-walker",
+    "rawSpec": "2.0.1",
+    "spec": "2.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/audit",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/hoist",
+    "/@pnpm/plugin-commands-rebuild",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/lockfile-walker/-/lockfile-walker-2.0.1.tgz",
+  "_shasum": "3e045df66ce7311d378a4ca347f1ab3c9e04dfd9",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/lockfile-walker@2.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/types": "5.0.0",
+    "dependency-path": "4.0.5",
+    "ramda": "0.27.0"
+  },
+  "description": "Walk over all the dependencies in a lockfile",
+  "devDependencies": {
+    "@pnpm/lockfile-walker": "link:",
+    "@types/ramda": "^0.26.41",
+    "tempy": "0.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-mF5cc7V0JZzD4lCoi5DheaK+wj9b5lonDPuOtdb7AZ0X9mZR4uRMw5twQBtt4nR4R5VVFzSavlT0zt+QE1JRig==",
+    "shasum": "3e045df66ce7311d378a4ca347f1ab3c9e04dfd9",
+    "tarball": "https://registry.npmjs.org/@pnpm/lockfile-walker/-/lockfile-walker-2.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8009,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPOoCRA9TVsSAnZWagAAiFIP+QEVyiT71yua8G2FIqw6\nLk5Klv5irWrVbqOJlzvTALjtfJ77kt4t617gJM4rFU2VhWYDcfj4ScmTzOJX\nUWlf+yZ8GZhYMQFXcjTMIABsbSWulPu1VMXtyYKkGDEv3frtvtVluYQ4YE+a\nzVmk6e/3WQc6K0OAKLqyHurdbmAabGjsqPvdV+JQ0fyVIjDPxI7k0ZPsgkcB\n6W+9CKvpEZb2wBQsThaMkrHrQh02LJdkbONry0YpLrCU6ZN2R75qA/ptJRQ+\nQL/ijbHq3JAaqff3jH5B4YZUpTh8WZbLMINESLQv3kd7ZMJDtysYM85eKPEy\nNNPop7rBBrHW9FT2trKnMxF3w9A1SeYM2pQkyoGLuPf5ethX+g4j7+F2Q2FH\nuHUACNwtmwMwDNd+wtJMYu07UzBAvxOUxBQAp1AFnlvdhLhOunhZye6iI5gs\nQV9hQsGIr1I6ki/y+czPENs+ZJyFPoI7c6olUZWcbaF35q7yAaxg/NQTS1MY\nDbL5AugdZ7m+PDrPTY8NwYSEs82MBA4yAxkqIle/3Xqcx+PesnarZNxAm/vt\nIQaC5VuX0vk9f2yV9wGYrwSzeKS2nlWhsWCwiEiJZrzqxQKZ42RQwQSpJfY1\nYejSZfsWnYfnbLboDoh3jv9ZlvkAZplS1qxiTFjXybg5RmosMuPB/DEmjC1m\neen3\r\n=aTJ6\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-walker#readme",
+  "keywords": [
+    "pnpm",
+    "shrinkwrap",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/lockfile-walker",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/lockfile-walker\n\n> Walk over all the dependencies in a lockfile\n\n## Install\n\n```\n<pnpm|yarn|npm> add @pnpm/lockfile-walker\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-walker"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.1"
+}

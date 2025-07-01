@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "string-length@4.0.0",
+        "scope": null,
+        "escapedName": "string-length",
+        "name": "string-length",
+        "rawSpec": "4.0.0",
+        "spec": "4.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-reporter"
+    ]
+  ],
+  "_from": "string-length@4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "string-length@4.0.0",
+  "_location": "/string-length",
+  "_nodeVersion": "10.18.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/string-length_4.0.0_1582282735738_0.6335634559747516"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "string-length@4.0.0",
+    "scope": null,
+    "escapedName": "string-length",
+    "name": "string-length",
+    "rawSpec": "4.0.0",
+    "spec": "4.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-reporter"
+  ],
+  "_resolved": "https://registry.npmjs.org/string-length/-/string-length-4.0.0.tgz",
+  "_shasum": "16fda4aa6a5d0e0ca31d9f86ea238c9c8624f69e",
+  "_shrinkwrap": null,
+  "_spec": "string-length@4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-reporter",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/string-length/issues"
+  },
+  "dependencies": {
+    "char-regex": "^1.0.2",
+    "strip-ansi": "^6.0.0"
+  },
+  "description": "Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes",
+  "devDependencies": {
+    "ava": "^3.1.0",
+    "tsd": "^0.11.0",
+    "xo": "^0.25.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-GWDgJDQvvIwP4e5IEu0tuOyRUs/bVvQNNdh0HhMnZwo0Kuo4NKmjI/as/9I34+GHYWKkuS0nUrHubgRTs4O4fw==",
+    "shasum": "16fda4aa6a5d0e0ca31d9f86ea238c9c8624f69e",
+    "tarball": "https://registry.npmjs.org/string-length/-/string-length-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4050,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeT7fwCRA9TVsSAnZWagAAZwsP/3LJb1ofHdZVvcsGdvJ6\nCWaCIKscBP96eRWJblHF4h2zIkCqoDs9UZA25KrZ478K3B6HH+9Y8WMkI60e\nlhrc0nq14fGd6dxOtzXMlokemRVIUzzIjC/iCD76bhF9+fWa1cvb3j/HeF45\nEUNFabhVKuZzyg5a1HPipt7eHVSv6RQv9RWwHFqNsLgOddWhoLL1EZDLKX8+\ntEbtrxGgf6Dbnm+YeEpyB5jph/uprZpqtVkf88LpxZppx8DvCSW5PPzkeevR\noAiuFanyHuM6TeS8kEk0inHNkqFauaobywvgCS0PetZg4eKVzrVQA04Wf6qd\n7upcQfyhtdLOnLQseEC8uuAEnizrXG2u4xPTty+iCR5ioW+FKWr1lIfXm2Lz\nbedA1WqA44qAUpHT5lQstLEfvbIUM7n+moW/bUgBp5Ph2qGblno/twSkYhAz\nyNrjDP2Bf4WbPt2HHRdVz3a5YscPddHWrUZ8gE9j/UewXpH6mq80DVbt7vLu\nwd2sho6vLAHYks0XLs9OPmWoela093J6YtRk60B2BlKizv/wpBSxqdJOtc39\n074Q9m43fy1gq5R08oifJ/zMsL4mG+tAdmcQDAXv6bUAAmBztMhtGhcIc0hv\nrNsVUkyqQ+UrvF3xmgPYvKZ5idXLEGWG3eYyBWWOZwG66hb2rKRS2C7ydxnP\nnTA/\r\n=zvjD\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "ad032d35f027513ee0aa3d80112625133f8b1b25",
+  "homepage": "https://github.com/sindresorhus/string-length#readme",
+  "keywords": [
+    "unicode",
+    "string",
+    "length",
+    "size",
+    "count",
+    "astral",
+    "symbol",
+    "surrogates",
+    "codepoints",
+    "ansi",
+    "escape",
+    "codes"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "string-length",
+  "optionalDependencies": {},
+  "readme": "# string-length [![Build Status](https://travis-ci.org/sindresorhus/string-length.svg?branch=master)](https://travis-ci.org/sindresorhus/string-length)\n\n> Get the real length of a string - by correctly counting astral symbols and ignoring [ansi escape codes](https://github.com/sindresorhus/strip-ansi)\n\n`String#length` errornously counts [astral symbols](https://web.archive.org/web/20150721114550/http://www.tlg.uci.edu/~opoudjis/unicode/unicode_astral.html) as two characters.\n\n## Install\n\n```\n$ npm install string-length\n```\n\n## Usage\n\n```js\nconst stringLength = require('string-length');\n\n'🐴'.length;\n//=> 2\n\nstringLength('🐴');\n//=> 1\n\nstringLength('\\u001B[1municorn\\u001B[22m');\n//=> 7\n```\n\n## Related\n\n- [string-length-cli](https://github.com/LitoMore/string-length-cli) - CLI for this module\n- [string-width](https://github.com/sindresorhus/string-width) - Get visual width of a string\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-string-length?utm_source=npm-string-length&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/string-length.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.0.0"
+}

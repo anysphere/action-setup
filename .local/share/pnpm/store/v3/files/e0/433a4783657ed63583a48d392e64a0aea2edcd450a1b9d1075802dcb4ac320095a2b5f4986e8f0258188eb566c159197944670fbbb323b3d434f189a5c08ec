@@ -1,0 +1,120 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/git-fetcher@2.0.10",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fgit-fetcher",
+        "name": "@pnpm/git-fetcher",
+        "rawSpec": "2.0.10",
+        "spec": "2.0.10",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-fetcher"
+    ]
+  ],
+  "_from": "@pnpm/git-fetcher@2.0.10",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/git-fetcher@2.0.10",
+  "_location": "/@pnpm/git-fetcher",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/git-fetcher_2.0.10_1576769714056_0.7447649853695011"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/git-fetcher@2.0.10",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fgit-fetcher",
+    "name": "@pnpm/git-fetcher",
+    "rawSpec": "2.0.10",
+    "spec": "2.0.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/git-fetcher/-/git-fetcher-2.0.10.tgz",
+  "_shasum": "078815d4fc912445c44d9eb41900afea6a8d6697",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/git-fetcher@2.0.10",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@zkochan/rimraf": "1.0.0",
+    "dint": "4.0.0",
+    "execa": "4.0.0",
+    "path-temp": "2.0.0"
+  },
+  "description": "A fetcher for git-hosted packages",
+  "devDependencies": {
+    "@pnpm/git-fetcher": "link:",
+    "rimraf": "3.0.0",
+    "tempy": "0.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "078815d4fc912445c44d9eb41900afea6a8d6697",
+    "tarball": "https://registry.npmjs.org/@pnpm/git-fetcher/-/git-fetcher-2.0.10.tgz",
+    "integrity": "sha512-a+LdisRuVFdyEb4TcqE0rAwdpmYlqB9j/zB7NwHLtSjqZxdFBFkHY9GraC5Xebtp8g1EIDWcaB5Ka/2Jv4x0lQ==",
+    "fileCount": 5,
+    "unpackedSize": 3786,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd+5i1CRA9TVsSAnZWagAA07MP/0HmMPsjfSDzvqP337K5\nZ3SrYrfEeqzDVLeQkWYZ1hJAJdiyb2lLkJr2R8eDlSYUpdnEqBGvc8EzEYy6\nfhH1O89MnE2omEK9NNtQX4FwRGUILnvULUO8+MQDUoY9NCxLL8DHByb220pl\nUCGHBZiOpSGrUxG2j9GeQD8NCsaz/mN7uF65Rnzlk+kgkrA4UtM0EUPA+2u7\neXUhQSXflliU81OqlBnjAiM0zk057g+wE+DPb0kR+nyf/7Y8hlJdeQ7hwMGb\nUvwYl2xeNjKr00M+0JE63D9nF3luWIYem6K3mk/lQsnj++R9MYYjnTXbEBih\nzFmM4y4YGSYl9A62cs8mcgmiejByBkNGgR6T1/cuyB3lJREfLlnC4+nnOEVZ\nV536TX0+MYi41v7W6mNu/wZKyRvTie8dSBtrbRJcvPZ4StbJ/W3eqAP8cKsr\nT7mqt5aGC7iAq88qWtAo6mNh7LW3+i4U8SgYHLHGKWl1ib0XLDW8Vq6NRGYU\nsL5daa0uRiQYfAWzp3ptNsjL6Bar7VYWuP/WUFuGVm2YwY3ITvcM9pu0cKRo\n/9pIqP2f+G89732JkAx1QO7w1rQ6H6corEi7DIvk0EsaTUiDZXXEdxpTgVKJ\nYJn7ep1XCaUO5wazYTVcbEbA+zNGf7dRW8LshxsxnQp3DjoFsVxuS9+2PoKc\npXQr\r\n=opPA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/git-fetcher#readme",
+  "keywords": [
+    "pnpm",
+    "fetcher"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/git-fetcher",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/git-fetcher\n\n> Fetcher for git-hosted packages\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/git-fetcher.svg)](https://www.npmjs.com/package/@pnpm/git-fetcher)\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/git-fetcher\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/git-fetcher"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && pnpm run lint && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.10"
+}

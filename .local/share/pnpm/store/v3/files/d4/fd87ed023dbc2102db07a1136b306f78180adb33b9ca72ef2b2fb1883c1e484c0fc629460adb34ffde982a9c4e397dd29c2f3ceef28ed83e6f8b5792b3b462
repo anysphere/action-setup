@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "parse-npm-tarball-url@3.0.0",
+        "scope": null,
+        "escapedName": "parse-npm-tarball-url",
+        "name": "parse-npm-tarball-url",
+        "rawSpec": "3.0.0",
+        "spec": "3.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/npm-resolver"
+    ]
+  ],
+  "_from": "parse-npm-tarball-url@3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "parse-npm-tarball-url@3.0.0",
+  "_location": "/parse-npm-tarball-url",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/parse-npm-tarball-url_3.0.0_1559001009080_0.8234295762422699"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "parse-npm-tarball-url@3.0.0",
+    "scope": null,
+    "escapedName": "parse-npm-tarball-url",
+    "name": "parse-npm-tarball-url",
+    "rawSpec": "3.0.0",
+    "spec": "3.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/parse-npm-tarball-url/-/parse-npm-tarball-url-3.0.0.tgz",
+  "_shasum": "4bcdd84b7eb824b9539182dea082f7bde2cbb24f",
+  "_shrinkwrap": null,
+  "_spec": "parse-npm-tarball-url@3.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/npm-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/parse-npm-tarball-url/issues"
+  },
+  "dependencies": {
+    "semver": "^6.1.0"
+  },
+  "description": "Parse a tarball URL hosted in the npm registry",
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "@types/semver": "^6.0.0",
+    "@types/tape": "^4.2.29",
+    "package-preview": "^2.0.0",
+    "rimraf": "^2.6.2",
+    "tape": "^4.6.3",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.0.0",
+    "typescript": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-InpdgIdNe5xWMEUcrVQUniQKwnggBtJ7+SCwh7zQAZwbbIYZV9XdgJyhtmDSSvykFyQXoe4BINnzKTfCwWLs5g==",
+    "shasum": "4bcdd84b7eb824b9539182dea082f7bde2cbb24f",
+    "tarball": "https://registry.npmjs.org/parse-npm-tarball-url/-/parse-npm-tarball-url-3.0.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 5626,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc7HeyCRA9TVsSAnZWagAAnMEP/2LgtUGPhDgK1HSbayEq\nOCyfPAAk8rcbotB8Uv4bL2jIYTsOj2zgFbbHa7avSGYjne6Y+MKALhBSCvY4\nnhPKlKgmOVtvf+A1NlIOAyv/Up+3t4kxpxiBdc+lFkU/gNTCXUS7I5DQYORf\ni2m5LS+Z3deuOMY5ZpgC9H/Qd95heQ/UZElcl0bAiGehTQWi6CnHYha2ivoU\n8lslKzpSuRpYoTJiySEPLufze/BUC2WFX3Vfqm4zjPeTy7CFa1QzLGnrGrMt\nG7onQL6T1kp2+TqqzT4aSfgXQlKjxQcBdrbib0+SFPLSNNHto2fd9kRvT5k1\nn4MP0/O3yy4FTY5kq33rbuBHOH6ICu+qb+0fMGgKSiFzgnO18ptnPwO+hcBH\nM2+Uu+8RzIVawk9WNM6GwFqnMRaw3TfMTBSUMzdqEIkVh+QRTXCiliaLma6F\nHQInTv47ZNHGLfcL8ysB018E0APnkhbsnK/+Gs58Nzg0fG0ZjQ5sOUstvHJP\nN3Kw95JJII0D+S3ZckO5+r2iE/TTUS5TiFGwaAbXgb1JuiR1l2LPGMS5eU+H\nSZ6X/YeTHojZE8czjamdNRQtYc8W9Cz6O3tpCOeVWNo/MOrdpQ7F/gVUIOfQ\nCGCeBjPhINBDBGW1jHfQut1PbQ9J0yyfZ9PEGkLpHElzs7mVrOtXGoXqcdaZ\nGMS3\r\n=NDRR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "2624645f7e6739c1b873afd3f98d558789246e37",
+  "homepage": "https://github.com/pnpm/parse-npm-tarball-url#readme",
+  "keywords": [
+    "npm",
+    "parse",
+    "url",
+    "tarball"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "parse-npm-tarball-url",
+  "optionalDependencies": {},
+  "readme": "# parse-npm-tarball-url\n\n[![Build Status](https://travis-ci.org/pnpm/parse-npm-tarball-url.svg?branch=master)](https://travis-ci.org/pnpm/parse-npm-tarball-url)\n\n> Parse a tarball URL hosted in the npm registry\n\n## Installation\n\n```\n<pnpm|yarn|npm> add parse-npm-tarball-url\n```\n\n## Usage\n\n```js\nimport parseNpmTarbalUrl from 'parse-npm-tarball-url'\n\nconst pkg = parseNpmTarbalUrl('http://registry.npmjs.org/foo/-/foo-1.0.0.tgz')\n\nconsole.log(pkg)\n// {\n//   host: 'registry.npmjs.org',\n//   name: 'foo',\n//   version: '1.0.0'\n// }\n```\n\n## Related\n\n- [get-npm-tarball-url](https://github.com/pnpm/get-npm-tarball-url) - Create the tarball URL of a npm package\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/parse-npm-tarball-url.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json --project .",
+    "prepublishOnly": "npm run tsc",
+    "test": "npm run lint && preview && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.0"
+}

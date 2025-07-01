@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@zkochan/npm-conf@2.0.0",
+        "scope": "@zkochan",
+        "escapedName": "@zkochan%2fnpm-conf",
+        "name": "@zkochan/npm-conf",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config"
+    ]
+  ],
+  "_from": "@zkochan/npm-conf@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@zkochan/npm-conf@2.0.0",
+  "_location": "/@zkochan/npm-conf",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/npm-conf_2.0.0_1582975891472_0.055962360069932826"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "5.10.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@zkochan/npm-conf@2.0.0",
+    "scope": "@zkochan",
+    "escapedName": "@zkochan%2fnpm-conf",
+    "name": "@zkochan/npm-conf",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/config"
+  ],
+  "_resolved": "https://registry.npmjs.org/@zkochan/npm-conf/-/npm-conf-2.0.0.tgz",
+  "_shasum": "6c835407028fe17eb76494ebd3bb10adb9fd0bef",
+  "_shrinkwrap": null,
+  "_spec": "@zkochan/npm-conf@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/zkochan/npm-conf/issues"
+  },
+  "dependencies": {
+    "config-chain": "^1.1.11"
+  },
+  "description": "Get the npm config",
+  "devDependencies": {
+    "babel-generator": "^6.24.1",
+    "babel-traverse": "^6.24.1",
+    "babylon": "^6.17.1",
+    "eslint-import-resolver-node": "^0.3.2",
+    "jest": "^25.1.0",
+    "npm": "^5.0.4",
+    "pify": "^4.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-RMFanFCfD7KSqokE8DZV9Vx/WCqxp5Zfvco2oIBPv9PPa01Z61Gy6VwFxTNmszUWQpaeNvdZBJFdjtFcXUq8GA==",
+    "shasum": "6c835407028fe17eb76494ebd3bb10adb9fd0bef",
+    "tarball": "https://registry.npmjs.org/@zkochan/npm-conf/-/npm-conf-2.0.0.tgz",
+    "fileCount": 11,
+    "unpackedSize": 23365,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWkuTCRA9TVsSAnZWagAAoDcP/izHQgXx92Lz36bYIXjM\nZwaqF523Kkwek+NprQHbDkNPpufSvJUtsEeS/XUFOyUgKMjJ1GF7Og03k8Yq\nX0O2MZoZNebYj25CRfNEWKKE2Ex9rU+xPbs6OD5v6xOFyPMET6NvAaktpms9\noiV+gUxmXp8AmSOPIUdaN9D5i81+YFnK7MwteyOsO8EM5wT+rb89jqHI4Lfs\n3+qImdlHf99rcprKWTcVUuCi1d2xnCeBHZH2bpbmtsvjhJ7mtcktEuLpFOA4\nqIcwq57UsF9aq1nJ0ZflLWvhl/lPMry5o+7R4/7Bv06LgGRPx0+qKCrH/eFq\nj7MqiERsJvro2dMFCJUO8UIaPDTLTJhFVyPhFg450IwxlpnK4y8E8isfEy52\nflRwqNBIWnERKz3btlNi/dj/FWl7s+vvCUb2g8m5nGzZkGK4digSDiMmKRmt\nvREzvfA90m4bGDBp/K26ISjmapKkwTJB3vrn0xitk1Tm1fWlNRYrZMNDde5S\nNP8MJyeAXB1DRjQm4SDKiXrfIBTm/PJ56jZ6NzmX72+LUi/NYSBD8ycqzxzZ\nulJRsCeFCF7yZ1qAyMThIpY1U7Z16F7ulnk8CsRDaydIBakV01p/r/3CaCEQ\n6JaamLkoew/7wdFVNJq5xIsllfPYIjXHRBOmiS620pPJOjLsGBV0Ou++4T51\nNhnr\r\n=gL6Y\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "gitHead": "a1a086868009e0bcfacb4d7c3debdf88f7a08bea",
+  "homepage": "https://github.com/zkochan/npm-conf#readme",
+  "keywords": [
+    "conf",
+    "config",
+    "global",
+    "npm",
+    "path",
+    "prefix",
+    "rc"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@zkochan/npm-conf",
+  "optionalDependencies": {},
+  "readme": "# @zkochan/npm-conf [![Build Status](https://travis-ci.com/zkochan/npm-conf.svg?branch=master)](https://travis-ci.com/zkochan/npm-conf)\n\n> Get the npm config\n\n\n## Install\n\n```\n$ pnpm add @zkochan/npm-conf\n```\n\n\n## Usage\n\n```js\nconst npmConf = require('@zkochan/npm-conf');\n\nconst conf = npmConf();\n\nconf.get('prefix')\n//=> //=> /Users/unicorn/.npm-packages\n\nconf.get('registry')\n//=> https://registry.npmjs.org/\n```\n\nTo get a list of all available `npm` config options:\n\n```bash\n$ npm config list --long\n```\n\n\n## API\n\n### npmConf()\n\nReturns the `npm` config.\n\n### npmConf.defaults\n\nReturns the default `npm` config.\n\n\n## License\n\nMIT\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/npm-conf.git"
+  },
+  "scripts": {
+    "prepublish": "node lib/make.js",
+    "test": "jest"
+  },
+  "version": "2.0.0"
+}

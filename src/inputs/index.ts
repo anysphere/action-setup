@@ -1,4 +1,4 @@
-import { getBooleanInput, getInput, InputOptions } from '@actions/core'
+import { getBooleanInput, getInput } from '@actions/core'
 import expandTilde from 'expand-tilde'
 import { RunInstall, parseRunInstall } from './run-install'
 
@@ -10,17 +10,13 @@ export interface Inputs {
   readonly standalone: boolean
 }
 
-const options: InputOptions = {
-  required: true,
-}
-
-const parseInputPath = (name: string) => expandTilde(getInput(name, options))
+const parseInputPath = (name: string, required = true) => expandTilde(getInput(name, { required }))
 
 export const getInputs = (): Inputs => ({
   version: getInput('version'),
   dest: parseInputPath('dest'),
   runInstall: parseRunInstall('run_install'),
-  packageJsonFile: parseInputPath('package_json_file'),
+  packageJsonFile: parseInputPath('package_json_file', false) || 'package.json',
   standalone: getBooleanInput('standalone'),
 })
 

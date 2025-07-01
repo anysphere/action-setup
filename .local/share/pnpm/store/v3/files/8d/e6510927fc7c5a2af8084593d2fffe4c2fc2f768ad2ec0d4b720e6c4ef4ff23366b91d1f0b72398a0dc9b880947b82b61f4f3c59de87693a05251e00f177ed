@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/matcher@1.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fmatcher",
+        "name": "@pnpm/matcher",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/filter-workspace-packages"
+    ]
+  ],
+  "_from": "@pnpm/matcher@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/matcher@1.0.0",
+  "_location": "/@pnpm/matcher",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/matcher_1.0.0_1570370015936_0.474436161814898"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/matcher@1.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fmatcher",
+    "name": "@pnpm/matcher",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/filter-workspace-packages",
+    "/@pnpm/headless",
+    "/@pnpm/list",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-outdated",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/matcher/-/matcher-1.0.0.tgz",
+  "_shasum": "fa0f2ed8555955143a121d3e20905331bcc7f65d",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/matcher@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/filter-workspace-packages",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "escape-string-regexp": "2.0.0"
+  },
+  "description": "A simple pattern matcher for pnpm",
+  "devDependencies": {
+    "@pnpm/matcher": "link:",
+    "rimraf": "3.0.0",
+    "tape": "4.11.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-ajXy+gUkbCUqlug3uVoyXCHqAaq2ChkJH7y/grCYwTiWLd1yUXi+jGSj81Y1OUayZQTLlK/ouBJCzthh+Yu80w==",
+    "shasum": "fa0f2ed8555955143a121d3e20905331bcc7f65d",
+    "tarball": "https://registry.npmjs.org/@pnpm/matcher/-/matcher-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3347,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdmfHgCRA9TVsSAnZWagAAND4P/2bD5uZXcViukiJoGOSI\nzpb2i6oevWigg9pjnnIvcFwl5l8/YHDyfZJFMYeP7Y1Vyb42LYsF/PwOUllw\nXNNDW8KBgfPq0W4I5K+g9kvblwTnFJuUpfrkwt4GP0a4ixrvTDrNFogfpqtE\ni1oMaB0pn5L7KlbT1d6RMrrJWClxKAx/yElSfE6YlRBCUi7dD6Iv8+pBe9Cp\nA63UIRgcIU9uNoWC/psCUH8wKgDZD9b7VseZ6+5v1Yehy+foCJTCSnr6oX3X\n+BoXtrKrPLVqT4TfJ31rLAoy7z7VK0cSXuDcvpYLEsQPzs7lhCrDqIcUkOWx\nUuGrEM8YkT5l+VRaTtig0wBAqgjQwp/MI5LqOqUYQdpzKNcNqOo+gc/mjhzR\nGI59SXY0TXBK+R3kQdpW4kOlk+el7opKtJ7OqFGhAncr91OT7FO1ICh93eZ3\n6SXidmlHfYwr42lnWupkaKE7BnxGVnNEb3AFDzpCPoxW/aJ+MpEhEof1qqPR\ni8MxS02/FqDmvmExZDZvRt8cZbgKIOL74BEIwrAV+A9GcwBJoPjN1v17pndp\nsS07ieO+gQbgKEMGyiRMCXS7h1PJzsmyEzMqI3QtM7rZHToDl09Em9g4CnEN\nEcE9VcGIYJFDepYhfh4CQfFkjB4l3vCLfOpuA+6MC8jKGQKyrv6fF5fEojf0\nAbDX\r\n=lVAp\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/matcher#readme",
+  "keywords": [
+    "pnpm",
+    "match",
+    "wildcard",
+    "pattern"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/matcher",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/matcher\n\n> A simple pattern matcher for pnpm\n\n## Install\n\n```\n<pnpm|yarn|npm> add @pnpm/matcher\n```\n\n## Usage\n\n```ts\nimport matcher from '@pnpm/matcher'\n\nconst match = matcher(['eslint-*'])\nmatch('eslint-plugin-foo')\n//> true\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/matcher"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && pnpm run lint && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

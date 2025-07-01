@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "is-subdir@1.1.1",
+        "scope": null,
+        "escapedName": "is-subdir",
+        "name": "is-subdir",
+        "rawSpec": "1.1.1",
+        "spec": "1.1.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config"
+    ]
+  ],
+  "_from": "is-subdir@1.1.1",
+  "_hasShrinkwrap": false,
+  "_id": "is-subdir@1.1.1",
+  "_location": "/is-subdir",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/is-subdir_1.1.1_1570399774257_0.7357700826282281"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "is-subdir@1.1.1",
+    "scope": null,
+    "escapedName": "is-subdir",
+    "name": "is-subdir",
+    "rawSpec": "1.1.1",
+    "spec": "1.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/config",
+    "/@pnpm/filter-workspace-packages",
+    "/@pnpm/link-bins",
+    "/@pnpm/package-bins",
+    "/@pnpm/plugin-commands-installation",
+    "/is-inner-link",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/is-subdir/-/is-subdir-1.1.1.tgz",
+  "_shasum": "423e66902f9c5f159b9cc4826c820df083059538",
+  "_shrinkwrap": null,
+  "_spec": "is-subdir@1.1.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config",
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "better-path-resolve": "1.0.0"
+  },
+  "description": "Return whether a directory is a subdirectory of another directory",
+  "devDependencies": {
+    "is-windows": "1.0.2",
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "tape": "^4.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-VYpq0S7gPBVkkmfwkvGnx1EL9UVIo87NQyNcgMiNUdQCws3CJm5wj2nB+XPL7zigvjxhuZgp3bl2yBcKkSIj1w==",
+    "shasum": "423e66902f9c5f159b9cc4826c820df083059538",
+    "tarball": "https://registry.npmjs.org/is-subdir/-/is-subdir-1.1.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3192,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdmmYeCRA9TVsSAnZWagAASzEP/3rmu72MlmEfjHgq8XBi\nl7ukfzQvv9G+htzJ/BHezwqGYryMmuM/PFCEeaF/MCRCi0wb3ozETbECGZCZ\n3JbhQBP8JWnFh80b9qtu1nz4Zlu4KKyfENNJcNCilbgDAZHHPccrFrUzSUCA\nvUTHndSEOm/0o4CQ3yujL39smZX1AXYnv5sAf7z6ndvrMiYW+WBNfVapQmHy\no47Wbszil+Im79CKHkiCWNOufOlW0wuTMUpwIvFEj34D++RYKkLPTxd2B5Kz\nMUqHBDrZsuMQhW4YkfvMnW6Zfnkg7Y3d9kg4VmZXdrDgFm+x62qOwibfj1n+\nvMV5X7ZpanjBFkYG8+DvXrftHxQ7t4J0a/uSperUTLn+ZhrNyPPmAWSpYEx9\n29tkY8r7fehT0soR5BFKiGfzEjNGYZ/NtxjfyZltvBKE4uLok0X9KkZ6QbJZ\nmTFdv4XtFta2GVmmcjt0+Bz6ClemYzFYjGFu1BIquXSOmfw11PZAY27L0OUZ\nwdqKZbOxbpY7y/wbDMfBU5XzYXrnB6y0ID5l5JHh5TJENANWyBjuzD2fBz6u\nlX2RaHIq3gD7f40AR9WdBKfJ7Wb7Ekiie12jX1hLLyaYVd0sUcotSMUOczPf\nSzaW5YqA829h3+czcyGJ5n/a/R6AO8OOltZEeEEmMOB86zpp8fDhH8LfAozR\n6xY6\r\n=FJTR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/is-subdir#readme",
+  "keywords": [
+    "subdirectory",
+    "subfolder",
+    "subpath",
+    "directory",
+    "folder",
+    "path"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "is-subdir",
+  "optionalDependencies": {},
+  "readme": "# is-subdir\n\n> Return whether a directory is a subdirectory of another directory\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/is-subdir.svg)](https://www.npmjs.com/package/is-subdir)\n<!--/@-->\n\nCross-platform. Works correctly on Windows, where directory paths can start with disk drive letters in different casings. Like `c:\\foo` and `C:\\foo\\bar`.\n\nReturns `true` when the directories match.\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add is-subdir\n```\n\n## Usage\n\n```js\n'use strict'\nconst path = require('path')\nconst isSubdir = require('is-subdir')\n\nconsole.log(isSubdir(process.cwd(), path.resolve('node_modules')))\n//> true\n```\n\n## API\n\n### `isSubdir(parentDir, subdir): boolean`\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/is-subdir"
+  },
+  "scripts": {
+    "md": "mos",
+    "test": "node test"
+  },
+  "version": "1.1.1"
+}

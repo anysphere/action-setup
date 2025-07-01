@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/find-workspace-packages@2.1.9",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffind-workspace-packages",
+        "name": "@pnpm/find-workspace-packages",
+        "rawSpec": "2.1.9",
+        "spec": "2.1.9",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/filter-workspace-packages"
+    ]
+  ],
+  "_from": "@pnpm/find-workspace-packages@2.1.9",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/find-workspace-packages@2.1.9",
+  "_location": "/@pnpm/find-workspace-packages",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/find-workspace-packages_2.1.9_1582976718717_0.37765300214886643"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/find-workspace-packages@2.1.9",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffind-workspace-packages",
+    "name": "@pnpm/find-workspace-packages",
+    "rawSpec": "2.1.9",
+    "spec": "2.1.9",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/filter-workspace-packages",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/find-workspace-packages/-/find-workspace-packages-2.1.9.tgz",
+  "_shasum": "821b68bb90e9d37b3fcd5a144ca3ecdfc25be1ef",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/find-workspace-packages@2.1.9",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/filter-workspace-packages",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/types": "5.0.0",
+    "find-packages": "7.0.3",
+    "read-yaml-file": "1.1.0"
+  },
+  "description": "Finds packages inside a workspace",
+  "devDependencies": {
+    "@pnpm/find-workspace-packages": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-b0IV02oIdiyjttz9yaGHaMY5LInR9Ar3LbkFEViv3X5aIuIYOx1NQCqZr7Voz6+8SbidRPri9WGe3ezBoDbSdg==",
+    "shasum": "821b68bb90e9d37b3fcd5a144ca3ecdfc25be1ef",
+    "tarball": "https://registry.npmjs.org/@pnpm/find-workspace-packages/-/find-workspace-packages-2.1.9.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4449,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk7PCRA9TVsSAnZWagAAF8wP/RkdKIoPSD5iztk2dd7y\nMnFV6QkFopD7TEHoeIIy7DZN45RHrBZPqXogIXdgawO9aI+d1NjMhNkNAt27\nEtKYExpgUOpi/b/10/Dsn6MroP/hoGhXV0nHRypskaJrAwOnM8HqBrEsK6f0\n0kzNqvIalOQDvTha4vHqJibWhlZ/J0XkyDsaLXEMe4daLitEBKquydh9azul\nZVbvHAB2X29G/SnhPry8NIKtc8Q7LqrIyn52fRu1bmBQYWqD746PIVf+j+ek\nqbQp3u2g0Ur2vSzSrxTGumhujrAtHl2CPgAHdxw0znZQ3Uh1+W8Lpnm1ck2Z\nr4dw2IZpLSVvX/EuDV/OIyiZuVCsJRCX12cZ8iS761a4yDwx/QoeUZ/zmKGX\nFDdc7xdqBybTgUfxihImPVMdoSS53DFHCcuB71/xOk9aEy02pcAicmGBKf3a\nSnSTRps5JkGpzSbH2vE29hFVBzuOdux86gXlYy+Tl0akmS1JzqOiURxxUPo5\nga+PbbfHQj2rBH43SlCofFcTGdKe1o9ZePfEkIPcwmePMe5aNUSLrEjR5xaK\nhhpSjW7jHovTutpFet+Kk7bs5yn1INgb4HA0kWFSG/lqhHSr+KXdFtAlw2cB\nTXj9cz0Hdo1VrjeRPWb7C1KtQbu2rvlAxeplj1LjKSlLJDdCxkohvP2EXS2A\nUywE\r\n=RKUW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/find-workspace-packages",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/find-workspace-packages\n\n> Finds packages inside a workspace\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/find-workspace-packages.svg)](https://www.npmjs.com/package/@pnpm/find-workspace-packages)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/find-workspace-packages\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/find-workspace-packages"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.1.9"
+}

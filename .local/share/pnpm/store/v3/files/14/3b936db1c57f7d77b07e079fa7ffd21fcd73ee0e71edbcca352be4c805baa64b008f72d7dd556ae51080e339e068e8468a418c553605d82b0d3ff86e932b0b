@@ -1,0 +1,135 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@most/prelude@^1.4.0",
+        "scope": "@most",
+        "escapedName": "@most%2fprelude",
+        "name": "@most/prelude",
+        "rawSpec": "^1.4.0",
+        "spec": ">=1.4.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/most"
+    ]
+  ],
+  "_from": "@most/prelude@^1.4.0",
+  "_hasShrinkwrap": false,
+  "_id": "@most/prelude@1.7.3",
+  "_location": "/@most/prelude",
+  "_nodeVersion": "12.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/prelude_1.7.3_1561502947190_0.139469963773722"
+  },
+  "_npmUser": {
+    "name": "briancavalier",
+    "email": "brian@hovercraftstudios.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@most/prelude@^1.4.0",
+    "scope": "@most",
+    "escapedName": "@most%2fprelude",
+    "name": "@most/prelude",
+    "rawSpec": "^1.4.0",
+    "spec": ">=1.4.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@most/multicast",
+    "/most"
+  ],
+  "_resolved": "https://registry.npmjs.org/@most/prelude/-/prelude-1.7.3.tgz",
+  "_shasum": "51db3f3ba3ed65431b6eea89ecb0a31826af640c",
+  "_shrinkwrap": null,
+  "_spec": "@most/prelude@^1.4.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/most",
+  "author": {
+    "name": "Brian Cavalier",
+    "email": "brian@hovercraftstudios.com",
+    "url": "github.com/briancavalier"
+  },
+  "bugs": {
+    "url": "https://github.com/mostjs/prelude/issues"
+  },
+  "dependencies": {},
+  "description": "prelude",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-annotate-pure-calls": "^0.2.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "cpy-cli": "^2.0.0",
+    "cross-env": "^5.2.0",
+    "flow-bin": "^0.101.0",
+    "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
+    "rollup": "^0.50.0",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-qWWEnA22UP1lzFfKx75XMut6DUUXGRKe7qv2k+Bgs7ju8lwb5RjsZYyQZ+VcsYvHcIavHKzseLlBMLOe2CvUZw==",
+    "shasum": "51db3f3ba3ed65431b6eea89ecb0a31826af640c",
+    "tarball": "https://registry.npmjs.org/@most/prelude/-/prelude-1.7.3.tgz",
+    "fileCount": 10,
+    "unpackedSize": 40501,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdEqTjCRA9TVsSAnZWagAAmT0P/Am5fGrVkEDDiQuCjQWW\nkRdnFrlP7GsUgww8aRxzCkNUqhUl3s8alKs9dXlYVCt456Pnkfvn1gei1/pW\n+XFqWGbCAfZoiAe4nlfBf53HlRd1IWc2eQTLFvaMZ8tJpeaNCLnmeGrxqfdA\nCDywMIoNkeco4YEB+8A95bKso99JUii14jOhoZaWnfzaOX9iMmz13lzxro14\nM8gCOHnlpvhsidui9A/BqaEitdQcomrUfkYFq6DbPvNw7LclhS57G/by0bUe\nsAymoainwnKoZ41ElTa5A7XOEwMvqpys8I/Qusjy/5D7Qu5hwufKBRoz+bp8\njDz6IGmbPeBZURIJXet/4JHpQodOrl3blDOa7Du1HoYsA036metH3LtVId04\nBTgS0AW2UoYqqAAmbm27wM9p69PsGqtjOHEF8UtIFt4OOqCcylwJG3oaxeKX\n/hDEo324iC0JdOhPfak5EgAnLaq2g7dBUJ3Z4etppyejwbB/i6SL/XZIdl1R\nka/UHOHKYkz5PEbHAY+ph++EsJD8qTd1FIAWgh13HJtjPopSz7nPka/7fXq3\nOVSGonyKzNujHY1bZlkCOi1R91kQ0F8IOocZaJquUDxSkypuIhdhXveRDL3t\nqt40R/Utekka5D7J1C5wprwvsFfYa2VwL5RpsWPVMfoUnoJ0xvipkTEHubDK\nOwdM\r\n=91r8\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "dist",
+    "type-definitions"
+  ],
+  "homepage": "https://github.com/mostjs/prelude#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "briancavalier",
+      "email": "brian@hovercraftstudios.com"
+    },
+    {
+      "name": "davidchase",
+      "email": "davidchase03@gmail.com"
+    },
+    {
+      "name": "most",
+      "email": "brian@hovercraftstudios.com"
+    },
+    {
+      "name": "tylors",
+      "email": "tlsteinberger167@gmail.com"
+    }
+  ],
+  "module": "dist/index.es.js",
+  "name": "@most/prelude",
+  "optionalDependencies": {},
+  "readme": "# most prelude\n\nCore set of function and immutable array combinators for `@most` packages.\n\n## install\n\n```\nnpm install --save @most/prelude\n```\n\n## API\n\n*Coming soon*\n\nFor now, check [the source](src).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostjs/prelude.git"
+  },
+  "scripts": {
+    "build": "npm run build:dist && npm run build:flow",
+    "build:dist": "rollup -c",
+    "build:flow": "cpy src/index.js.flow dist",
+    "prepare": "npm run build",
+    "test": "npm run test:lint && npm run test:unit && npm run test:flow",
+    "test:flow": "flow check",
+    "test:lint": "standard --fix 'src/**/*.js' 'test/**/*.js' --verbose | snazzy",
+    "test:unit": "cross-env NODE_ENV=test nyc --reporter=text-summary mocha -r babel-register --reporter dot"
+  },
+  "standard": {
+    "ignore": [
+      "test/perf",
+      "test/flow"
+    ]
+  },
+  "typings": "type-definitions/index.d.ts",
+  "version": "1.7.3"
+}

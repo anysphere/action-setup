@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/npm-registry-agent@2.0.3",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fnpm-registry-agent",
+        "name": "@pnpm/npm-registry-agent",
+        "rawSpec": "2.0.3",
+        "spec": "2.0.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/fetch-from-npm-registry"
+    ]
+  ],
+  "_from": "@pnpm/npm-registry-agent@2.0.3",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/npm-registry-agent@2.0.3",
+  "_location": "/@pnpm/npm-registry-agent",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/npm-registry-agent_2.0.3_1582101469408_0.17082761839817096"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/npm-registry-agent@2.0.3",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fnpm-registry-agent",
+    "name": "@pnpm/npm-registry-agent",
+    "rawSpec": "2.0.3",
+    "spec": "2.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/fetch-from-npm-registry"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/npm-registry-agent/-/npm-registry-agent-2.0.3.tgz",
+  "_shasum": "841d4dc0f25513cb7428d2958333420409eb88fe",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/npm-registry-agent@2.0.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/fetch-from-npm-registry",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "agentkeepalive": "4.0.0",
+    "http-proxy-agent": "4.0.1",
+    "https-proxy-agent": "3.0.1",
+    "lru-cache": "5.1.1",
+    "socks-proxy-agent": "5.0.0"
+  },
+  "description": "HTTP agent for fetching from npm registry",
+  "devDependencies": {
+    "@types/http-proxy-agent": "^2.0.2",
+    "@types/lru-cache": "5.1.0",
+    "@types/proxyquire": "1.3.28",
+    "proxyquire": "2.1.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-feEHOgsyC4qQtESkEuNfIwC3+yU1NYC4BiaoK3JOVwJ6u5+bef4KDCdw5XNy8qvoSVtUmn0Sn+eD50neLTDBMw==",
+    "shasum": "841d4dc0f25513cb7428d2958333420409eb88fe",
+    "tarball": "https://registry.npmjs.org/@pnpm/npm-registry-agent/-/npm-registry-agent-2.0.3.tgz",
+    "fileCount": 7,
+    "unpackedSize": 8101,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPPdCRA9TVsSAnZWagAAU20P/2s5TmmPokOx/+L0HH85\n0HSwQeyxmTA7tEX4Xbr2lwKV5PL3JFlMMKrPcSRE3WlOFUsDIZb73oaHjqR1\nCypnuKf1ZGlklG/m/Nihfsq7EobvhwhnNu40l5TIJ/i7jA/HUBHc1PVPyR1m\nk1WXF815IhxanOrzouNP+DHck6zvTJdGCyX0EhK+zzt8uHXERnZePNi6kXRG\n1HnX6ntLs0t/HlRhkePiC48pkRlulszeqUox1zS2EFyM3ecAoP5Q5JGjoqD5\nrE3lZ4AsfueYEQvR07syIZPluMIqlsmLY2L2N9xcmPuVfwosdk9aMlbDh1hb\nbWhtRnaTXZS69/7+OYxiQr7eivl625AZGYEllNGGNsDpKaFaUCiHCntQLXri\nfd+Zgrz+9RPHB+f6EzfEyJXWFDcWAQMTdc5ljeLqxaM4jPJh2+GmAgz04+kq\nLGildxbKUck9nrT8i20CFL3rxDOjlvE8Neo6JmuzQeKi/vnL0jlNTOvgdsUV\nFocf1cmfZu7L+XSMTkt+Lc0HKbr0dU2dEk+9u2rwqkWCcrAQQmGcsuxwTUZ2\nJZFRcH+CibrcaBKBNCwdUISHeytea9mTf/Z+6ayJYisvg385lScF8wQVoAnX\ntiMWy3sXntvQMOQo9sTchlgf+oFD6FAp2QD1uIT4hnC98Fv0F/RAM8ECSGaC\nIe2l\r\n=/B8W\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "env": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/npm-registry-agent#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/npm-registry-agent",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/npm-registry-agent\n\n> HTTP agent for fetching from npm registry\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/npm-registry-agent"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.3"
+}

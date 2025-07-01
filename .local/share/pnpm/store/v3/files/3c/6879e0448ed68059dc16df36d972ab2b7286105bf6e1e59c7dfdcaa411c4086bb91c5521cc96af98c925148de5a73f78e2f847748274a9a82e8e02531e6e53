@@ -1,0 +1,120 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/package-is-installable@4.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fpackage-is-installable",
+        "name": "@pnpm/package-is-installable",
+        "rawSpec": "4.0.4",
+        "spec": "4.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils"
+    ]
+  ],
+  "_from": "@pnpm/package-is-installable@4.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/package-is-installable@4.0.4",
+  "_location": "/@pnpm/package-is-installable",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/package-is-installable_4.0.4_1582101321144_0.09281682634681543"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/package-is-installable@4.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fpackage-is-installable",
+    "name": "@pnpm/package-is-installable",
+    "rawSpec": "4.0.4",
+    "spec": "4.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/cli-utils",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/resolve-dependencies"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/package-is-installable/-/package-is-installable-4.0.4.tgz",
+  "_shasum": "64f2c2d5d78d4d8fe27cccd0a56a8a8b8db2c7b4",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/package-is-installable@4.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "semver": "7.1.3"
+  },
+  "description": "Checks if a package is installable on the current system",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/package-is-installable": "link:",
+    "@types/semver": "^7.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-WKYGHzW9KOpKYyBo79zP7UmmdelEzwQbQODNszvT8qAydBJPg8Tt75uQICAablAkd6vcxU3ck/DNdWd29rNRSA==",
+    "shasum": "64f2c2d5d78d4d8fe27cccd0a56a8a8b8db2c7b4",
+    "tarball": "https://registry.npmjs.org/@pnpm/package-is-installable/-/package-is-installable-4.0.4.tgz",
+    "fileCount": 9,
+    "unpackedSize": 8788,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPNJCRA9TVsSAnZWagAAGpYP/jS6+d/rWWVlA/zYxUtW\nyKKn/dPElEiylBroawVVm9a80AojgwQO0Sro9poNf8jm+u6NMRV7uG8Ivwpz\n1iODDmlXAlNOn3jmnTw1Daob5t30tT3dioz0bDOztjF0DvBhJrExrBFefwyA\nq6g2PPKl3P1Ri2me7aT7A8Ag3gsKTqLYi0sXi1Fw2q+/zvPSLPSDxIK7wHdP\n7gnrcWEzL93vMG86H+nJVUr/nG/LHtu9TtWQoXum8qN4gt47DD7es+N0Outl\nwBWbJP5A6PIQpeOUM0qeorq2rRvl1bVAXO33r9zIWKSBi4bB+kLSUJU0R/Ks\neuWVQtWemWKB37WwD+6HqyFbKiQsLQQOF2FQKCv9Km53JQ0WOUXDQ3Rr/mDY\nhJ4Oj9UumSMJs2d6QNecImSX9qsv9ezRExFZbn+hQjysxruH7o/YE+lOEEMy\n68O2salzHk9VeN+xX3aROpMugJ7hqdsw0eb3xhpdZWPILwwDQ3SxQahIiU1b\nLJbtyithfeJuyy2pGBUwqRip5rToQd3tHGyZFJCvLZzIPCQ9xaueGHn09xPc\nicxXWvGztzzNOlu5OM2Sf5uGghP2XtKvAEm7G1sjnZRiTJ4ZlxCW07IKzUiI\nbs8e2rh8VaBZWB7VLXamTPPK3sb399J9VwIr3cmDqFoOIXczrQ63SsHqxZOQ\nVQPY\r\n=bkVv\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/package-is-installable#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/package-is-installable",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/package-is-installable\n\n> Checks if a package is installable on the current system\n\n## Install\n\n```\npnpm install @pnpm/package-is-installable\n```\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/package-is-installable"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.4"
+}

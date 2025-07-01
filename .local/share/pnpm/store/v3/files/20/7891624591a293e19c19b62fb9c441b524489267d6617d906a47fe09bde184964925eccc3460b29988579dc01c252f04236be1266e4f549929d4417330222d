@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/logger@3.1.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flogger",
+        "name": "@pnpm/logger",
+        "rawSpec": "3.1.0",
+        "spec": "3.1.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/logger@3.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/logger@3.1.0",
+  "_location": "/@pnpm/logger",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/logger_3.1.0_1570317321156_0.15180593962173194"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/logger@3.1.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flogger",
+    "name": "@pnpm/logger",
+    "rawSpec": "3.1.0",
+    "spec": "3.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/logger/-/logger-3.1.0.tgz",
+  "_shasum": "280e857d01602a9889916c904706f174c014104b",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/logger@3.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/logger/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "node ./node_modules/validate-commit-msg/index.js"
+    }
+  },
+  "dependencies": {
+    "bole": "^3.0.2",
+    "ndjson": "^1.5.0"
+  },
+  "description": "Logger for pnpm",
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "@types/tape": "^4.2.31",
+    "commitizen": "^3.0.0",
+    "ghooks": "^2.0.0",
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "package-preview": "^2.0.0",
+    "rimraf": "^3.0.0",
+    "tape": "^4.8.0",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.0.0",
+    "typescript": "^3.0.0",
+    "validate-commit-msg": "^2.8.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-dn+xLuispMqu6DthmWix3DFgky9dk7fs2vsj5paUSR7yhrgM8N71FfWUQA4Ls0Dbn23inO622slugoTlmdu1MQ==",
+    "shasum": "280e857d01602a9889916c904706f174c014104b",
+    "tarball": "https://registry.npmjs.org/@pnpm/logger/-/logger-3.1.0.tgz",
+    "fileCount": 15,
+    "unpackedSize": 7738,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdmSQJCRA9TVsSAnZWagAAu1AP/25CYBa8intahEEAVLXK\nJGoiYZxNG7L/4L9MGGbc9MbLlsYQ8+Yo0ureCfLJNQZ4/JUawyPZ0mX3aWIc\nCK2+rwJR8SdOg54+dqVdwjflaGJZw/tGAIXSkHzzylVbB+d9dINUDQo1xGCj\n66hj/Kg7glrfP8HCZwHVqjmuYSxcr1NEtXEGHaf22CGo/ISykhakdgQXiyxb\n/ajTN74POprkwMAfHnlMcYK4rbmx2yPhpSMYHLwZcWVfx21kCchpraRNzzO4\n0lH87iOWS6bq2cTgVHUxO+muHMUAt5Ml+NNknJ/TX/QJhTEzTVjwoWm4xzIK\n5mo/pL33SJrvwpG5ae2DHWcVZgRY0irBRBElVPpEHTwGNc/HmToXi3Dy4q+d\nfW12er5JlWgBuk+I5ZTXrZHTNX5TwG4gKg+syCZP+SFbDwPjs7RNC7HEugyz\nwJqwVxTD0XKx/Aakd3IpB4woB8VCr4UQpYQxxdY62kd1ry0kCEFEnIAxOKrW\nmJ7X/BcvhSiIjrJsyKR+LJm6HtXmeg0iq9mgbr3cdVn+4jUZRRYAH29IxPrQ\nxpPxM/yRxCuIpbJX+idukmVW07S0Y++joIvUmGnmR+MW1zMS5C3FdPF7xWZK\nhfMVi8q6PfPjXEutggxTdB9I9GE1v57F/ZEqwiy6CbgArhOBqnaKColGBzM3\nrgqP\r\n=oYQW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "df8f58ea5b4958e71eb8cc8431d102434e724849",
+  "homepage": "https://github.com/pnpm/logger#readme",
+  "keywords": [
+    "pnpm",
+    "logger"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "@pnpm/logger",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/logger\n\n> Logger for pnpm\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/logger.svg)](https://www.npmjs.com/package/@pnpm/logger) [![Build Status](https://img.shields.io/travis/pnpm/logger/master.svg)](https://travis-ci.org/pnpm/logger)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/logger\n```\n\n## Usage\n\n`@pnpm/logger` is mostly just a wrapper over [bole](https://www.npmjs.com/package/bole).\nLogging is done the same way as in bole. To listed for logs, use `streamParser` or create\na new parser with `createStreamParser()`.\n\n```typescript\nimport logger, {streamParser} from '@pnpm/logger'\n\nlogger.debug({ foo: 'bar' })\n\nstreamParser.on('data', msg => {\n  // ...\n})\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/logger.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run tsc",
+    "test": "tslint -c tslint.json --project . && preview && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.1.0"
+}

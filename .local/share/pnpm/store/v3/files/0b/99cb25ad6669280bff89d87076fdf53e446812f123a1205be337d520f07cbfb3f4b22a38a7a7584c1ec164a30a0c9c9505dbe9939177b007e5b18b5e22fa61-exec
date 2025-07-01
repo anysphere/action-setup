@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/find-workspace-dir@1.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffind-workspace-dir",
+        "name": "@pnpm/find-workspace-dir",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/find-workspace-dir@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/find-workspace-dir@1.0.0",
+  "_location": "/@pnpm/find-workspace-dir",
+  "_nodeVersion": "10.17.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/find-workspace-dir_1.0.0_1575824896038_0.8090127490659005"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/find-workspace-dir@1.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffind-workspace-dir",
+    "name": "@pnpm/find-workspace-dir",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/parse-cli-args",
+    "/@pnpm/plugin-commands-installation"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/find-workspace-dir/-/find-workspace-dir-1.0.0.tgz",
+  "_shasum": "cd2e5ff08f7e9625bf2a18dd4554f144835ae9b0",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/find-workspace-dir@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "find-up": "4.1.0"
+  },
+  "description": "Finds the root of a pnpm workspace",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-XE1CmL2ROByfu23mSHQrMBzbncL0RitQ2bxCVRoe/3RqsMiKr9ieH9wQj6Mfwsee2dQSYS8mGs8PhHAyxFu2tg==",
+    "shasum": "cd2e5ff08f7e9625bf2a18dd4554f144835ae9b0",
+    "tarball": "https://registry.npmjs.org/@pnpm/find-workspace-dir/-/find-workspace-dir-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2829,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd7S4ACRA9TVsSAnZWagAAankP/jKNoFxJnM+orSXEa4Ik\nuqpoUQRXeUHpARHn9yIiPuegbmym3APXyrp2h4+uT4hn2T9riOkiVx7xoarJ\nS98ODz+upDTb8Q0MkVBR/ngbNPPqZotog88Q99P6SwpT82XmPmpBuybI4w/9\n3X+rsg/g4+X1SKeyTqCv4obCAPukhA3UfW5LgX3oRxHmVdmhVa4WuL9N1dEf\nydhk1uz8xNtzGU7MEz3wwDKPV6/8XXI+Jigcrsd4yP0ADrGVZTOt4Uzaylyx\n5J3gdXK2doatR+H7qD/ISh9xdlMp88UHBES5XVQvQBYiQkJ/QYa0X3n7YsP4\nIQdR4oP55VFc8/z90rfFZZbjh8eer9/G2/5SFEuOwg7WlkxITRUjIxZMx9ym\n8uELexr/fy9ZQBkDx+kDv4oadIGLot+5oGRJE8kk84XO0/d0fAhASUMNn3I5\nIlgG9WNv9ujxxJM5kwbR+MIn6Z3ZEwJRejWUg9xk20x3TYp0uMdXWh+8auxZ\nLai3WNPhf4Lp4h33ZLyOy4EopkuewXyZzmx09U0+p2yTGjImCsPqVJGWpCfe\nqvneYXEXfo+cXm6Ih8x2aH6BBPhZx9tReTlifJE41RFyrjzONRuBtA+Du9YA\ndg/GZmOv+b2lvzfgD3QzRuI/d32rRePBKch+clRzd7TJIHrPi+yQZ+0YNKUo\nYrCB\r\n=VJd/\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/find-workspace-dir",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/find-workspace-dir\n\n> Finds the root of a pnpm workspace\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/find-workspace-dir.svg)](https://www.npmjs.com/package/@pnpm/find-workspace-dir)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/find-workspace-dir\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/find-workspace-dir"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && pnpm run lint",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

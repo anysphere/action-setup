@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "credentials-by-uri@2.0.0",
+        "scope": null,
+        "escapedName": "credentials-by-uri",
+        "name": "credentials-by-uri",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher"
+    ]
+  ],
+  "_from": "credentials-by-uri@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "credentials-by-uri@2.0.0",
+  "_location": "/credentials-by-uri",
+  "_nodeVersion": "10.18.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/credentials-by-uri_2.0.0_1580667188605_0.9364921041392116"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "credentials-by-uri@2.0.0",
+    "scope": null,
+    "escapedName": "credentials-by-uri",
+    "name": "credentials-by-uri",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver",
+    "/@pnpm/tarball-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/credentials-by-uri/-/credentials-by-uri-2.0.0.tgz",
+  "_shasum": "7c464f24998ccb7106400293280a1b9d97eb8f79",
+  "_shrinkwrap": null,
+  "_spec": "credentials-by-uri@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/credentials-by-uri/issues"
+  },
+  "dependencies": {
+    "nerf-dart": "^1.0.0"
+  },
+  "description": "Gets credentials for URI from npm configs",
+  "devDependencies": {
+    "c8": "^7.0.1",
+    "safe-buffer": "^5.1.1",
+    "standard": "^14.3.1",
+    "tape": "^4.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-HptfRWLKfaeewvzKPybPFsR8TRbLSsu5MvHQLc6FWqvIS1CqFHze+IteKQlpLXzx4KwSteZa0MdsN/jEYESVXA==",
+    "shasum": "7c464f24998ccb7106400293280a1b9d97eb8f79",
+    "tarball": "https://registry.npmjs.org/credentials-by-uri/-/credentials-by-uri-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4710,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeNxE1CRA9TVsSAnZWagAAbpkQAJ3OlHV8YSmn73qaZO1O\nx6M7bBNj0KXeFtoWE3xOlGYVKQa34+/04h/yhHMFK+EL5x2E3i/1yDJEiDu5\nNFlSTBBf7TKHrhK9u1O8CMZ+cLv0Ax84ocTZWu6g376LLn0csDCElzAjIYDZ\nv2m4p8F35MLXAZ5VGM9C5adiqmlow/Uni2I4C/rc9qtGyuUfLu6+UohnrXiz\noyBDpF95/o4o0ChtoRMyaoCNsi5CwErFnCdUhZi9UmTqwsUCz96zx4KXHVA2\nvEB3s/JYuphZWsy8g+l3WgrLrQOiUeQrDuwLulp/Tk4WwthSJ7WeaXrbo46r\n799Y7S2J0ZbpFIO9K68xrXUrb8Ky4nAMUHVSrTE7cVnh53owaj7VgvRScWqY\n8XiiFHUqdHOmRp0GWy7IpDTRzVGzp5mUXttMG54JxqcAtUbRvQzr+dsteblo\nTJh3p2V+oEskt1c58nvEUl+BIk0JDnFjBkAV9Q7iIfO+aEH1aGrzjHOsEgZ+\nbx/9AX03qDNAGjjjS0hwEVgQM/2FeFg0mGrBbeVkaK2n0UjrjD5sMG2SNyo6\nXib/TiOdXbygFEHfzn+mNr8gqMs9kMg5j2GS/Z4EAcZfWWTzVuqbk0ue4F5K\nHiSJYfejyp8MPxuDMeZuykKnLpT/YsURuosSW4wYxShI+IeRgo+/2k6VcNAI\nZHj/\r\n=G4Gy\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "708d059772cc6044ce6c0453b74f91a9eebcabad",
+  "homepage": "https://github.com/pnpm/credentials-by-uri#readme",
+  "keywords": [
+    "npm",
+    "config",
+    "credentials"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "credentials-by-uri",
+  "optionalDependencies": {},
+  "readme": "# credentials-by-uri\n\n[![npm version](https://img.shields.io/npm/v/credentials-by-uri.svg)](https://www.npmjs.com/package/credentials-by-uri)\n[![Status](https://travis-ci.org/pnpm/credentials-by-uri.svg?branch=master)](https://travis-ci.org/pnpm/credentials-by-uri \"See test builds\")\n\n> Gets credentials for URI from npm configs\n\n## Install\n\n```\npnpm add credentials-by-uri\n```\n\n## Usage\n\n```js\nconst credentialsByUri = require('credentials-by-uri')\n\nconst config = {\n  '//registry.com/:_authToken': 'f23jj93f32dsaf==',\n  '//registry.com/:always-auth': 'false'\n}\n\nconsole.log(\n  credentialsByUri(config, 'https://registry.com')\n)\n> { authHeaderValue: 'Bearer f23jj93f32dsaf==', alwaysAuth: false }\n```\n\n## Related\n\n* [registry-auth-token](https://github.com/rexxars/registry-auth-token) - Get the auth token set for an npm registry\n\n## License\n\n[MIT](https://github.com/pnpm/credentials-by-uri/blob/master/LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/credentials-by-uri.git"
+  },
+  "scripts": {
+    "test": "standard && c8 node test"
+  },
+  "typings": "index.d.ts",
+  "version": "2.0.0"
+}

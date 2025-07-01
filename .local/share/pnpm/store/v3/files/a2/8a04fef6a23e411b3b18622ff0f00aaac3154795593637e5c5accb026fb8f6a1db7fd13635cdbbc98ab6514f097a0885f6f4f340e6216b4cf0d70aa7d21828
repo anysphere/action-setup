@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/filter-lockfile@3.0.8",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffilter-lockfile",
+        "name": "@pnpm/filter-lockfile",
+        "rawSpec": "3.0.8",
+        "spec": "3.0.8",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/filter-lockfile@3.0.8",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/filter-lockfile@3.0.8",
+  "_location": "/@pnpm/filter-lockfile",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/filter-lockfile_3.0.8_1582101574578_0.978361203440935"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/filter-lockfile@3.0.8",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffilter-lockfile",
+    "name": "@pnpm/filter-lockfile",
+    "rawSpec": "3.0.8",
+    "spec": "3.0.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/@pnpm/modules-cleaner",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/filter-lockfile/-/filter-lockfile-3.0.8.tgz",
+  "_shasum": "2347ec6f6c5c26eb2f5aab6741338596d94a56bf",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/filter-lockfile@3.0.8",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/lockfile-walker": "2.0.1",
+    "@pnpm/package-is-installable": "4.0.4",
+    "@pnpm/types": "5.0.0",
+    "dependency-path": "4.0.5",
+    "ramda": "0.27.0"
+  },
+  "description": "Filters a lockfile",
+  "devDependencies": {
+    "@pnpm/filter-lockfile": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/ramda": "^0.26.41",
+    "tempy": "0.4.0",
+    "write-yaml-file": "3.0.1",
+    "yaml-tag": "1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-7TzdEEXFwttbTPWiYP8Oec+dhk4qpwvsSj4w8UFEZSE2JB5Rrk0UYAGHH7d/76PV4UMV6f8ukW/XfULAZ2HmAw==",
+    "shasum": "2347ec6f6c5c26eb2f5aab6741338596d94a56bf",
+    "tarball": "https://registry.npmjs.org/@pnpm/filter-lockfile/-/filter-lockfile-3.0.8.tgz",
+    "fileCount": 13,
+    "unpackedSize": 13654,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPRGCRA9TVsSAnZWagAA+dsQAKO14vDXbu71l7qRXqfL\ntqCCKk9SSPfbv5sFazQk0MZLujkVFpU4w6mx5IN14BAVmZC43oK3HqHgSLs8\nId3II1tvfmTaZ3+IxTxOdLa4EpsgOfj4mFIfbqOr/KOFhicWd75kLrs0ywJa\nQQugs6FCtNs9E8aMxsZThQTuWxFrSU8JujXrA0ZE6/yjON2sLAMjg5PX77SU\ntuIG5Tln/5lmkngtQp5rKYBiH+Zdl9o/57sO+pF3LBuIOC7ktvHBa/u8DQN0\nVZTd9A3wRNNCG0An3xGqsfhHs/PTpAnWS2y+8j7EO88xJyvVPjJxXdzzahMB\n6Sxq+sSmCV1KX3iLoQRhxVKV8heDuWgLCfEhMcqOrCVta2sbGK49QBptEYxF\nu3Lal2ZzLsKpW4LIqc2hjroryr8YC8xxndnbMni/Qdsrp5a60dQCJnpFtg9J\nKyYYokbATbSKtmTd40uqyzjaVe/KCUgW0HR6hSHsm840uyKMecL3/tVnTPaZ\nYs0BgOLAYcyWszEbsL7k81u3MS3kvCMfuiew5G5SOOng1GHkl1bprI9aiUp5\nXO75eJ1yXvYk2YmrzxiOFwjKfVhdCllublDt5EZ/yl5K1H4ghN2bbsEZW+rN\nrQveu+6fznIKQr69BfTXtW/ztpFMbiCL5KmQ7/YEU7qeTRBIdoEsCrxPVh4b\nfQ0z\r\n=aFXh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/filter-lockfile#readme",
+  "keywords": [
+    "pnpm",
+    "shrinkwrap",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/filter-lockfile",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/filter-lockfile\n\n> Filters a lockfile\n\n## Install\n\n```\n<pnpm|yarn|npm> add @pnpm/filter-lockfile\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/filter-lockfile"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.8"
+}

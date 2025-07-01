@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "pkgs-graph@5.1.3",
+        "scope": null,
+        "escapedName": "pkgs-graph",
+        "name": "pkgs-graph",
+        "rawSpec": "5.1.3",
+        "spec": "5.1.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "pkgs-graph@5.1.3",
+  "_hasShrinkwrap": false,
+  "_id": "pkgs-graph@5.1.3",
+  "_location": "/pkgs-graph",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pkgs-graph_5.1.3_1582101354938_0.7366239652030484"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pkgs-graph@5.1.3",
+    "scope": null,
+    "escapedName": "pkgs-graph",
+    "name": "pkgs-graph",
+    "rawSpec": "5.1.3",
+    "spec": "5.1.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/filter-workspace-packages"
+  ],
+  "_resolved": "https://registry.npmjs.org/pkgs-graph/-/pkgs-graph-5.1.3.tgz",
+  "_shasum": "bcb7881a4471eed2265a6abd118c3affa8f1e9db",
+  "_shrinkwrap": null,
+  "_spec": "pkgs-graph@5.1.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@zkochan/npm-package-arg": "^1.0.2",
+    "ramda": "^0.27.0",
+    "semver": "7.1.3"
+  },
+  "description": "Create a graph from an array of packages",
+  "devDependencies": {
+    "@types/ramda": "^0.26.41",
+    "@types/semver": "^7.1.0",
+    "better-path-resolve": "1.0.0",
+    "pkgs-graph": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-WkuhGdIjMEGilPgviwPUBs0PTh2aMUC3tg8g0btiNEw7wYSWoYXSoizaIeMoFW1EZ0UtMhyYTTM+sJbDTiHcjw==",
+    "shasum": "bcb7881a4471eed2265a6abd118c3affa8f1e9db",
+    "tarball": "https://registry.npmjs.org/pkgs-graph/-/pkgs-graph-5.1.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6715,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPNrCRA9TVsSAnZWagAAMlkQAIWGwoDNNQC5vRSfv4kt\nh7uOljhh7EyTmsia3Y7kDzfPNYGxhxgc+VrUGxuDWakvHpsWXEcdk+cjMJ9M\nVSlU+VDH4hS3mWOdZj+4l2hcT/ofUneXo7W5MOdsLVD1lcfI3AbaC6uzkCm8\n9SbPmWzkVnbHrsLCSkPFCwxHmx9Qw5Bk1iJuBXrGnNLZJEc1SDid8jhYWHF/\nOClrp2ebvf7iWvHhj7RIzmdsupnzURmJjKCA/mEv+Iucwls1VLxHpaXll9J4\nKfxTlVaykGLhCA6N35/CjnNaoTeIctH36g0SWjcSJ3D7GF2tQQegnuTa5jq0\nBTfo+2e2LxGl13guNnsxaixAal6Mi/5JDmnI/uJQqz/9qvCHW6v1blGVmzky\ngdiJ3iKeCLeGKKJVCxSQEPb5cuZNspq9oQRT9GYhzOvd97591QOd13TfSqDw\nJXhNgmTHPDizIw41hwYx20gHX8Yh/yQxXUQ7z4bV1u1k32fzu8UHDci4+Ly8\nFdtGYXu9K770Xqdc5Wbe28Q/z0wnn4mCvIn5i7uEGh1PiVMK1elCSI4TEOHw\nzZIfh6XzJQ4O6OlQjw1RwfK9of0W2hQC05DHdRAbJM1JhBMtvI6Hp+0aAymu\nv31b+rNWfyeXqmhcZyeam78c1OzHj5odKx8DfO19eJKIh8ipOyo+1d6dvkxP\nw+s4\r\n=4hhF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/pkgs-graph#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "pkgs-graph",
+  "optionalDependencies": {},
+  "readme": "# pkgs-graph\n\n> Create a graph from an array of packages\n\n[![npm version](https://img.shields.io/npm/v/pkgs-graph.svg)](https://www.npmjs.com/package/pkgs-graph)\n\n## Installation\n\n```\n<npm|yarn|pnpm> add pkgs-graph\n```\n\n## Usage\n\n```js\nimport createPkgsGraph from 'pkgs-graph'\n\nconst {graph} = createPkgsGraph([\n  {\n    dir: '/home/zkochan/src/foo',\n    manifest: {\n      name: 'foo',\n      version: '1.0.0',\n      dependencies: {\n        bar: '^1.0.0',\n      },\n    },\n  },\n  {\n    dir: '/home/zkochan/src/bar',\n    manifest: {\n      name: 'bar',\n      version: '1.1.0',\n    },\n  }\n])\n\nconsole.log(graph)\n//> {\n//    '/home/zkochan/src/foo': {\n//      dependencies: ['/home/zkochan/src/bar'],\n//      manifest: {\n//        name: 'foo',\n//        version: '1.0.0',\n//        dependencies: {\n//          bar: '^1.0.0',\n//        },\n//      },\n//    },\n//    '/home/zkochan/src/bar': {\n//      dependencies: [],\n//      manifest: {\n//        name: 'bar',\n//        version: '1.1.0',\n//      },\n//    },\n//  }\n```\n\n## Related\n\n* [find-packages](https://github.com/zkochan/find-packages) - Find all packages inside a directory\n* [sort-pkgs](https://github.com/zkochan/sort-pkgs) - Sort packages. Dependents first.\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/pkgs-graph"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "tsc"
+  },
+  "types": "lib/index.d.ts",
+  "version": "5.1.3"
+}

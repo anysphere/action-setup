@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@zkochan/rimraf@1.0.0",
+        "scope": "@zkochan",
+        "escapedName": "@zkochan%2frimraf",
+        "name": "@zkochan/rimraf",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-file"
+    ]
+  ],
+  "_from": "@zkochan/rimraf@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@zkochan/rimraf@1.0.0",
+  "_location": "/@zkochan/rimraf",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/rimraf_1.0.0_1566084252176_0.40499925093075584"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@zkochan/rimraf@1.0.0",
+    "scope": "@zkochan",
+    "escapedName": "@zkochan%2frimraf",
+    "name": "@zkochan/rimraf",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/get-context",
+    "/@pnpm/git-fetcher",
+    "/@pnpm/lockfile-file",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-publishing",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@zkochan/rimraf/-/rimraf-1.0.0.tgz",
+  "_shasum": "e633952d921665cbdf991b567e703d61e5c37c45",
+  "_shrinkwrap": null,
+  "_spec": "@zkochan/rimraf@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-file",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "@types/glob": "*",
+    "@types/node": "*",
+    "rimraf": "^3.0.0"
+  },
+  "description": "rm -rf for Node. Similar to rimraf but returns a promise",
+  "devDependencies": {
+    "standard": "13.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-uWMEF7fdc6C3VGTaW6Z9G9rYS41ulS0Lz+a3lGlDGji42kI6FSVVLI9s8bZ4ZR4l4Hs28MJHHVN8cOqvNlN86w==",
+    "shasum": "e633952d921665cbdf991b567e703d61e5c37c45",
+    "tarball": "https://registry.npmjs.org/@zkochan/rimraf/-/rimraf-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3260,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdWIydCRA9TVsSAnZWagAA0M8P/jX2GrKdmLWni+wtxmB4\nTuQINoPHExqbaK9AGyutUnZLZlpjc1bubPx/gjMp9kyVQr9NO3xmVO7lrJAp\nUF7aX5mG5tAoOm22ZsEJ+Emj8zHtN75qEmLmLmY1pF8ZH8Yog1izp6nXH0q/\nN2duSEZ324Kt3UCnMjnIX1Cp2/fkuvecGmWGcI7PrkTRdR6nvciu1VM2WP5c\nDiWwZp+7sf7f9jWowzGaL4ZVAndNIV/s/o5LtfkZ5DdZlqxmHI5Hcl6uqNU+\ng7vprI90JVSQLlrVa57aKsMvk9AXQk62wghV4ghPojlAvqOS7dSXm08VHIl/\n9mgKRZ3cTKJwrKuLMVKdRmiQg5KlKimQVF41el60wuOorzoeeRIIwtIeKLPH\nW6sunMhTx5YRQeYUTRqihVo4py9JBbWTyisOJb9id+1i2kCym5oop7UHEzET\na0UNrFSmo3aN2ZREejMgSta++BWaIzLlDR8q3jiUhaCzi8Oous9kXb7CsiFN\nn8Lxi7GiGFXsACWUqSsV+5jWCg6FGESA/ObVfRpXK27MV6CQ7LPy380evpSy\nVn0UfeI+wUNRz3lIQS/2MkXlqoiNW4nKx4QYK3HKePaVdJe9CVLt4Ut0zWEe\nprxDt8yIAlmsiyRZEL27Zq8Bbz4Gyxmg6fqUvzkTsKtWUhu1+DX6z5vNEjn3\n3aET\r\n=9vtU\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/rimraf#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@zkochan/rimraf",
+  "optionalDependencies": {},
+  "readme": "# @zkochan/rimraf\n\n> rm -rf for Node. Similar to rimraf but returns a promise\n\n[![npm version](https://img.shields.io/npm/v/@zkochan/rimraf.svg)](https://www.npmjs.com/package/@zkochan/rimraf)\n\n## Installation\n\n```\n<npm|yarn|pnpm> add @zkochan/rimraf\n```\n\n## Usage\n\n```js\nconst rimraf = require('@zkochan/rimraf')\n\nawait rimraf('node_modules')\n```\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/rimraf"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.0"
+}

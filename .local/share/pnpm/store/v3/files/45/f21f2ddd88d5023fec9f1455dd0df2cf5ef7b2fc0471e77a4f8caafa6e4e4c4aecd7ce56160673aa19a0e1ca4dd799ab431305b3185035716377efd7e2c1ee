@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/read-package-json@3.0.2",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fread-package-json",
+        "name": "@pnpm/read-package-json",
+        "rawSpec": "3.0.2",
+        "spec": "3.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/utils"
+    ]
+  ],
+  "_from": "@pnpm/read-package-json@3.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/read-package-json@3.0.2",
+  "_location": "/@pnpm/read-package-json",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/read-package-json_3.0.2_1578428837460_0.30864341223565384"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/read-package-json@3.0.2",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fread-package-json",
+    "name": "@pnpm/read-package-json",
+    "rawSpec": "3.0.2",
+    "spec": "3.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/build-modules",
+    "/@pnpm/headless",
+    "/@pnpm/lifecycle",
+    "/@pnpm/link-bins",
+    "/@pnpm/list",
+    "/@pnpm/package-requester",
+    "/@pnpm/utils",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/read-package-json/-/read-package-json-3.0.2.tgz",
+  "_shasum": "ad0bd0f5467a8475a21204c591f2f9cd15b53747",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/read-package-json@3.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "^5.0.0",
+    "read-package-json": "2.1.1"
+  },
+  "description": "Read a package.json",
+  "devDependencies": {
+    "@pnpm/read-package-json": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ad0bd0f5467a8475a21204c591f2f9cd15b53747",
+    "tarball": "https://registry.npmjs.org/@pnpm/read-package-json/-/read-package-json-3.0.2.tgz",
+    "integrity": "sha512-FxUuHEkwkdAjstO0ioqrTnzTyAKwcZQQ0PKImIoehO3SlNNqjV9PLIjwfLdMqdxl4ll9C0qh83RxYWpak/XdqA==",
+    "fileCount": 5,
+    "unpackedSize": 3861,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOmlCRA9TVsSAnZWagAAxiUP/2fP54VGFB4KoIXODp+U\nGsOVDlSf4fmXiluBiJIl9vgCkDZ21YcojUAZpAj/cKpqxzU7yQ2vkxgGZQ9Q\njZzZkD/gsLUzrbmqoqoIiIVa13PrxIUSrwHBF5UINwXakW0YiULUPMFbtpva\nvJhDFM161qWTL+RJk1uY3QnOmwcwtS9FGFXChDBxYkhGaoWLQg3bEXs8Bozh\nqx+AXpLuVKbnHYh4L8PqP9V3rnVfp5Tu8kAbEMMCcAh15kre5epWJHdZQgGr\nN6U+LMNqoK6s7EFXgYSdGK4XehUFsUzvSqw6fQyDlRjphnP8XDsHv42e65L4\nCYnAPWnwkicRsE/nTvCVtC4AKlGeC40rAbVxpR57fWBNObbDZQS0S60Qqkm3\nmHSsUYlBmoXeWc9fSaY+JZ6g00V65GwYIPEBi+8uP/3lxtXREBGXMVSSfI9h\n7vzKU6siejTG4jXOsVuR29fn48y6+AP5haozEU+F91pkbHGqpbYOKPj7hudC\nL+Yum8s416KqVZbl5EgxuYxjsn1fWPShF08I0p54DoyZbrMNV/l827WVdNGc\nmSFxpQFZrcz39u2v1E2zOgbj3cYSvd9a4jJwTu4bIyyO2ybgj739JvWyYYjx\nYZUbZjNCg6eoct/WUoGd1qRdlo1XGL6mkZu6Xvuroq5S8MYZtR9Z8mxUCd7q\nT6Ki\r\n=KW4m\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/read-package-json#readme",
+  "keywords": [
+    "pnpm",
+    "outdated"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/read-package-json",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/read-package-json\n\n> Read a package.json\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/read-package-json.svg)](https://www.npmjs.com/package/@pnpm/read-package-json)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/read-package-json\n```\n\n## Usage\n\n```ts\nimport readPackageJson from '@pnpm/read-package-json'\n\nconst pkgJson = await readPackageJson('package.json')\n```\n\n## API\n\n### default: `readPackageJson(path): Promise<PackageManifest>`\n\n### Arguments\n\n- `path` - _String_ - path to the `package.json`\n\n### `fromDir(path): Promise<PackageManifest>`\n\n### Arguments\n\n- `path` - _String_ - path to the directory with the `package.json`\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/read-package-json"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.2"
+}

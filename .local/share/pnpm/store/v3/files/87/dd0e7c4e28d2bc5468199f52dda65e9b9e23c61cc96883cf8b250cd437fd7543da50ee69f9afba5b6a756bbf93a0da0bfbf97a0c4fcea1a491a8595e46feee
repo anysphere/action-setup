@@ -1,0 +1,159 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/package-store@8.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fpackage-store",
+        "name": "@pnpm/package-store",
+        "rawSpec": "8.0.4",
+        "spec": "8.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "@pnpm/package-store@8.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/package-store@8.0.4",
+  "_location": "/@pnpm/package-store",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/package-store_8.0.4_1582752554538_0.9722958023626971"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/package-store@8.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fpackage-store",
+    "name": "@pnpm/package-store",
+    "rawSpec": "8.0.4",
+    "spec": "8.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/package-store/-/package-store-8.0.4.tgz",
+  "_shasum": "7c2421e3b1ef1d14ee539a2fdbf4a12efaf168a5",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/package-store@8.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/fetcher-base": "6.0.0",
+    "@pnpm/fs-locker": "3.0.1",
+    "@pnpm/package-requester": "11.0.4",
+    "@pnpm/pkgid-to-filename": "2.0.0",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "load-json-file": "6.2.0",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "ncp": "2.0.0",
+    "p-filter": "2.1.0",
+    "p-limit": "2.2.2",
+    "path-exists": "4.0.0",
+    "path-temp": "2.0.0",
+    "ramda": "0.27.0",
+    "rename-overwrite": "2.0.2",
+    "write-json-file": "4.0.0"
+  },
+  "description": "A storage for packages",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/package-store": "link:",
+    "@pnpm/tarball-fetcher": "5.1.10",
+    "@types/mz": "^2.7.0",
+    "@types/ncp": "2.0.3",
+    "@types/proxyquire": "1.3.28",
+    "@types/ramda": "^0.26.42",
+    "@types/sinon": "^7.5.2",
+    "proxyquire": "2.1.3",
+    "sinon": "9.0.0",
+    "tempy": "0.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-JnwpDHF5BnioTMd+7qBrun1V3iII4P/EWcHac12odHxjo6NoIbPDBHteTwjcpXx774TEQG/ahTI067Q8zRTFSQ==",
+    "shasum": "7c2421e3b1ef1d14ee539a2fdbf4a12efaf168a5",
+    "tarball": "https://registry.npmjs.org/@pnpm/package-store/-/package-store-8.0.4.tgz",
+    "fileCount": 13,
+    "unpackedSize": 18493,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuMrCRA9TVsSAnZWagAAjCwP/RsoNsA3quNJqKUIQ1RO\nzqrGIHTF2441dowyp2KkcbbPE+VMjbrxxVXO3ST6IekMU597gCibRYgCff1j\noATa1p/xUpYDM+OM2gGBiMXOgC+pPdh9z79mCjWOq7D5hje0X0IuBnK5z1Eg\nqn+3SDPKd1ZLWfOHWZKVozE9DFQvLF5u5FAe9YAVH0WOAmT3zPQvj0WdRsaJ\nqm+ZJUSBkToyNQp1Pxlu3WNcuQKuNufi2QCNWUYiQKzfRuaVOnnKjdX9TvD4\nKDfCYGDcrgQOCnNX9h18jo6IuZPzPzdpWgzYBUzgrIWPN7RMprq27ZG+e7zP\nxA4ssnI11jKa/b9yFqW41y1MuaM0kX/ESiLu++c//r6exvFSJZ/1kd5YDVin\nfai+KIyPSO11Cox6btRfLy42YlAEId0bFUqUZ0gMxe9RtEhQEFEeSGPGT1CU\nmfhZ4RUi2L2c+WIxwCqGD09uhrtaIRm/rjwGcSAlTJWOPtr0k0TX4wYJYFhh\naandTJ8FKv6qoAbvKxsVUFKExt4Pn6Z0cpCsCEQAvq34hLRZ9IEH2LhJy1rr\n9HbQTZCJBD2DajEdnU4XDWwmmg6pOuKmjeNEtHnF3NspNs+LH/cK6xZt/etq\nK5dvK5qMpFempwYYC4et9lGlRXRj3+nlt5BoViloGs4Fn5EfUtkt0b50Ih9z\n3vtG\r\n=JeWI\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/package-store#readme",
+  "keywords": [
+    "store",
+    "storage",
+    "global store",
+    "maching store",
+    "central storage",
+    "cache",
+    "packages"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/package-store",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/package-store\n\n> A storage for packages\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/package-store\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/package-store"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest": "rimraf .tmp",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "8.0.4"
+}

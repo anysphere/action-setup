@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/constants@3.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fconstants",
+        "name": "@pnpm/constants",
+        "rawSpec": "3.0.0",
+        "spec": "3.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config"
+    ]
+  ],
+  "_from": "@pnpm/constants@3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/constants@3.0.0",
+  "_location": "/@pnpm/constants",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/constants_3.0.0_1573258020426_0.9907200989104812"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/constants@3.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fconstants",
+    "name": "@pnpm/constants",
+    "rawSpec": "3.0.0",
+    "spec": "3.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/build-modules",
+    "/@pnpm/config",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/find-workspace-packages",
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/hoist",
+    "/@pnpm/lockfile-file",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-audit",
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/prune-lockfile",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/constants/-/constants-3.0.0.tgz",
+  "_shasum": "c86b01e08b88fb0e0b13a13f23548b27ce7d6f5c",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/constants@3.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/config",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "pnpm constants",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-N+FCVHl3V8vlqeCH3k2qVoVrxGCmgWMYKjgG2yfS69lJlW2PNXpQ408gP00gctOCllFEFOmlHoRnrICVJ57ENw==",
+    "shasum": "c86b01e08b88fb0e0b13a13f23548b27ce7d6f5c",
+    "tarball": "https://registry.npmjs.org/@pnpm/constants/-/constants-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2806,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdxgMkCRA9TVsSAnZWagAAdAoP/0rivw9n5kbuaGaMmiaq\nB8zr0rMfvL6uHXPdq6XV+O+HfXuO/2/j28/HkB5hvoWM6m4CiKmO1tDR/ma5\ngzLv3nff/E/cY1Gz6C5r1oGfawZRbXJeVhHF4sIzfk2BhKXbG9X3DgzNlDcS\nzYyaZAfxBlp8UPO4gvOkItSPeEqWdM5f9ouemZvYekaqyzlY0uKuULyGi2Ud\niUY3xvPF28qD7fOIb5wZBHkjEBZPiwzZyH5GoHaZ+9aQmWvBMOgeYnRLWAAe\nTFgYtM/at3hZuFn2XcOspI9AShge8YGcrJiXrsinPyL9IirnNSrNOhzSOzhk\niIJuaSw4xzHOUT7Noe1RKPTjHj2oajrqaBVZh1WQWatEjBEeK4R0QhWmaSrL\nLUDzIapIenBXqV0tE8NNNnzBpWyrT9mK5CW689jYSyesTgJJdKHJMJW+Fz63\nXCx2WXOp8LWUTHQ4i8F6RjgBcqJTuK8GTmI2L7DX0ZzAADIuA+glHM8atdAM\nn+6amNLdYpt+Tq+p0PNafCvppVrUBC7tZkItqOveS5MyHZXVQHlLrXX9Y2Ge\nckd0AE34/QhPSd92bOWi/MV51+RbrhazBuN25HtUMWMS+mLQMsqJmNJHOeI6\n+aS/YfcpYFAICC5Q/h/NrKJJu0rz7DgT3i6qbtF2WLvs0YpqQn+GQ4Dimkwd\n4C7V\r\n=jEWC\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/constants#readme",
+  "keywords": [
+    "pnpm",
+    "constants"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/constants",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/constants\n\n> pnpm constants\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/constants.svg)](https://www.npmjs.com/package/@pnpm/constants)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/constants\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/constants"
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && tslint -c tslint.json -p .",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.0"
+}

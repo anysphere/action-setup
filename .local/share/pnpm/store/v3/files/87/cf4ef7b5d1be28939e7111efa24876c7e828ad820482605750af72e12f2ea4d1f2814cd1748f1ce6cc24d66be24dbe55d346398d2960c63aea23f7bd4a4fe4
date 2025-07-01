@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "run-groups@2.0.2",
+        "scope": null,
+        "escapedName": "run-groups",
+        "name": "run-groups",
+        "rawSpec": "2.0.2",
+        "spec": "2.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "run-groups@2.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "run-groups@2.0.2",
+  "_location": "/run-groups",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/run-groups_2.0.2_1578427398558_0.666227986906823"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "run-groups@2.0.2",
+    "scope": null,
+    "escapedName": "run-groups",
+    "name": "run-groups",
+    "rawSpec": "2.0.2",
+    "spec": "2.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/build-modules",
+    "/@pnpm/lifecycle",
+    "/@pnpm/plugin-commands-rebuild",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/run-groups/-/run-groups-2.0.2.tgz",
+  "_shasum": "166c62e199c77377d63b58e89a62c6175795baa6",
+  "_shrinkwrap": null,
+  "_spec": "run-groups@2.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io"
+  },
+  "dependencies": {
+    "p-limit": "2.2.2"
+  },
+  "description": "Runs a sequence of concurrent task groups",
+  "devDependencies": {
+    "@types/tape": "^4.2.33",
+    "delay": "4.3.0",
+    "package-preview": "3.0.0",
+    "tape": "4.11.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-h8HUidVzSLFaHgCFW4nRTKOBmTqxlfbzvpJe7jBNPuVto5QnLeP0H1zTzxUcu4vS8Bm9dvdRvWF/NI8Wdlc/jw==",
+    "shasum": "166c62e199c77377d63b58e89a62c6175795baa6",
+    "tarball": "https://registry.npmjs.org/run-groups/-/run-groups-2.0.2.tgz",
+    "fileCount": 6,
+    "unpackedSize": 3175,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOQHCRA9TVsSAnZWagAAsSEP+gI8LCNM4yS6c5Lc28+U\nATMg18LHSp0ngxSk+aYJWFFRN3i3I5pZZ2pagXKq4va7oprQEtpp9vuCH/rN\nys6TvtqRQ8PWgvk+KzzXoPkePgNcoPSWdiZ7+QfhfS4jjLll/+eZCekG3pXE\nyy0Mcpcb+9sfzcgFou0AddCbKKMR7m+LtH/JL3+z/ai7IzOEMMOm01AjU847\nkU+bSwYnFzPi3qmdaOTsNRQxz+vxT/Bt4ZlkeG3/d87EO5PGBN4bIhtXNSBa\n57EY+y8gcJyASt/PEwhF4ZKrnDwkgklNctvIt5ZCfh0lSl40HICjImCjsOGC\n2LinvDA+L3OYbhv0/Vgd/0PuYcze2UXTI7nPLSIXECWE3ccIlDxf7lvJGHVk\nYGsNGfOe5oW1Wmqvq2YRwIaiKGznwKtyu4s+MNmhjiJAHy9RYWFQkjuyNP0t\nOcdXdB/ILPa8+ZyDH5S0xZSb9KiF5cD5kjzSn4tZSbpKtW0VbwFZE/IYvBQI\ngPqE/oZqA+t0y17FAf4GvILLvdwYTlAOYj9N10iGTlqvz37m7/zwotPCEBt8\ncKQIfBF5lip2Ox6QAgufTIymb9IONP8kFLypBsKrrohEh7Rr7gbwf8SPxmt5\nDFCaWQ/b2Nh+pGzz7RZlNIhaP0LByHxs100UN7fwZHYTFTXUSukmuHYR3/7w\nkea8\r\n=gssr\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/run-groups#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "run-groups",
+  "optionalDependencies": {},
+  "readme": "# run-groups\n\n> Runs a sequence of concurrent task groups\n\n## Installation\n\n```\n<npm|yarn|pnpm> add run-groups\n```\n\n## Usage\n\n```ts\nimport runGroups from 'run-groups'\n\nawait runGroups(10, [\n  [\n    async () => {},\n    async () => {},\n  ],\n  [\n    async () => {},\n    async () => {},\n    async () => {},\n  ],\n  [\n    async () => {},\n  ],\n])\n```\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/run-groups"
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm run tsc",
+    "test": "preview && ts-node test",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.2"
+}

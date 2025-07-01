@@ -1,0 +1,125 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/file-reporter@0.1.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffile-reporter",
+        "name": "@pnpm/file-reporter",
+        "rawSpec": "0.1.0",
+        "spec": "0.1.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/file-reporter@0.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/file-reporter@0.1.0",
+  "_location": "/@pnpm/file-reporter",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/file-reporter_0.1.0_1560726013788_0.5129316805100523"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/file-reporter@0.1.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffile-reporter",
+    "name": "@pnpm/file-reporter",
+    "rawSpec": "0.1.0",
+    "spec": "0.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/file-reporter/-/file-reporter-0.1.0.tgz",
+  "_shasum": "9e5915c7447fffe21844f02baa83b16036d98dfb",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/file-reporter@0.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/file-reporter/issues"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.15",
+    "path-exists": "^4.0.0"
+  },
+  "description": "A file reporter for pnpm",
+  "devDependencies": {
+    "@types/graceful-fs": "^4.1.3",
+    "@types/node": "^12.0.8",
+    "@types/tape": "^4.2.33",
+    "exists-file": "^3.0.2",
+    "ndjson": "^1.5.0",
+    "rimraf": "^2.6.3",
+    "tape": "^4.10.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-CMPclTpDRqgT241w6yKt/e3Mer/L5wFCAKTG5rGlhRz7f3BGhbuj4nblIVB/BTXhJty34Y57gKg4gbu3FVeQIA==",
+    "shasum": "9e5915c7447fffe21844f02baa83b16036d98dfb",
+    "tarball": "https://registry.npmjs.org/@pnpm/file-reporter/-/file-reporter-0.1.0.tgz",
+    "fileCount": 6,
+    "unpackedSize": 6559,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBsn+CRA9TVsSAnZWagAAfwIP/245rcSR3x2Enw5I3Jwk\nNMvXIk5wLLfhQfBX9glfGRCkkV1ix7zLcDF385PgwJNEdjU2/lFx4nKT68m4\nuhLVUt16BUU/YItdf96NkBf8XyNvUjxEBCAPXk1RQThp+nTmUiYhFvtns9Wa\nLt9KOJLepxXOaHffafLrb+sA97jZepgwB1OTvBiuzxwrxwUCfI+PxAJVji8a\nMeDYggw7iaM2vbgMwbhiMsSHqgael26hdQZnVGqhUFs7yHST08yg7XVAKuKI\n8RYhVUkLb14qV/7oOQIY/KiPLG0UP89Ne8sBK62SDGwWc3tOrfVmaxcQTU5t\nzw2LLhZnXqOIE0xsA33Qxkp4zASINSWI4dK3VDYTUNx/+t2tsUCg1rnknI0O\nMXpVIH7Eyn8DeyKxbpHonHM/zmhPk+A857XhJiO2dvJmiJ00Z5vyAuaI0Grl\nS8RKL7Qd6w4jzJMNkxUGvpjh/WIYMyJniE+BMKEeCaycOgNXRTxZodDA6hfI\nMO7Jh5KZhm432mFG4PFYlM3U+8Yp0N8CJCVO5/IK4BqktSqqKjLgKsJuJHJT\nWo8oVTp1kqesmHr8I303AuUFkoqceNy+Z9lIGNjTazeki4v3xaPioYbYno0C\nlY9nBZrJcQeNKnC/zt/HVMKiCAHIspyCJduHZugzl9qeKROVb7AGbLmJMnMq\ne/Ae\r\n=Hsvw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "122e719ca55992ee52047fce0d79098264c4086a",
+  "homepage": "https://github.com/pnpm/file-reporter#readme",
+  "keywords": [
+    "pnpm-reporter"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/file-reporter",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/file-reporter\n\n> A file reporter for pnpm\n\n[![Build Status](https://img.shields.io/travis/pnpm/file-reporter/master.svg?style=flat-square)](https://travis-ci.org/pnpm/file-reporter) [![npm version](https://img.shields.io/npm/v/@pnpm/file-reporter.svg?style=flat-square)](https://www.npmjs.com/package/@pnpm/file-reporter)\n\n## Installation\n\n```\n<pnpm|yarn|npm> add @pnpm/file-reporter\n```\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/file-reporter.git"
+  },
+  "scripts": {
+    "prepublish": "pnpm run tsc",
+    "pretest": "pnpm run tsc",
+    "test": "tslint -c tslint.json --project . && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.0"
+}

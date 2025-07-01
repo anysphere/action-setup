@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "is-plain-obj@^2.0.0",
+        "scope": null,
+        "escapedName": "is-plain-obj",
+        "name": "is-plain-obj",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/write-json-file/node_modules/sort-keys"
+    ]
+  ],
+  "_from": "is-plain-obj@^2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "is-plain-obj@2.1.0",
+  "_location": "/is-plain-obj",
+  "_nodeVersion": "10.17.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/is-plain-obj_2.1.0_1579602874103_0.307245956613454"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "is-plain-obj@^2.0.0",
+    "scope": null,
+    "escapedName": "is-plain-obj",
+    "name": "is-plain-obj",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-publishing/sort-keys",
+    "/@pnpm/plugin-commands-publishing/write-json-file",
+    "/sort-keys",
+    "/write-json-file/sort-keys"
+  ],
+  "_resolved": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-2.1.0.tgz",
+  "_shasum": "45e42e37fccf1f40da8e5f76ee21515840c09287",
+  "_shrinkwrap": null,
+  "_spec": "is-plain-obj@^2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/write-json-file/node_modules/sort-keys",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/is-plain-obj/issues"
+  },
+  "dependencies": {},
+  "description": "Check if a value is a plain object",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-YWnfyRwxL/+SsrWYfOpUtz5b3YD+nyfkHvjbcanzk8zgyO4ASD67uVMRt8k5bM4lLMDnXfriRhOpemw+NfT1eA==",
+    "shasum": "45e42e37fccf1f40da8e5f76ee21515840c09287",
+    "tarball": "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3689,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeJtO6CRA9TVsSAnZWagAA9+sP/RNI3Nz3+RHIT867XUnI\nYxRxb6touhnjUu0QEtksRjLqLMxWl8ABxSEMQsMHRYpsMXz1k9R44n1OgidM\nT/jYiScrChKyKt54OFqAHyIOUuWwYx69jaG5qk9hrctAYJCby6J5btPlDXGf\nU2bAGnl41XP3EdPhTS70U+ajjw6r1O/aNbrdH5QJkixcd9wVujttQMYPcPdv\nwQtzy93PqlJIWgYu/yGCKZc8tHVebr0PYViBbjSHrYNKbW5SjT8BE4lHbRFX\n1B9CrgZ89JU8v/fCRpoxLZ20zQpd2N46oUGMJJ9aG7C2Mx9/o+w+htPyBx8S\nTt7lLRgqol9M/jeRAAeBsXbBfgdA0+a0ADKaiNN0A6cJCa9rhZs/2Oh9POFU\n+vCFzevAIcR2LSOhAaWgUDYc7OX83N/HJc9xw7B7jiumXsuIrUlf3p+enApl\nvZYoLsP6Di0Fw5I2uZZ4VyUm7ESopYyi26UqOEnXFoDfn0PG8ckAoQCeIJgM\n8uXBpL61Rnhjo8H2a0srjpfFo9SFPfEuMMCtjLTdctxahG8vO6K09MQOPBmI\nkDFqMpX2ZzUUv/ocVWcx3/xXic6CoJHHb8Xu1xP5YzvKNt4pP5GXnPf/rrmM\nyEIIJ+WDx88NEv+FhtyJympqgtWHX8GkyA87NYAsCQZMX0zXr+KZoSLVKrTk\n67ky\r\n=Npvh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "247fd10f4209c36fae7eb8f8562753c77bd78390",
+  "homepage": "https://github.com/sindresorhus/is-plain-obj#readme",
+  "keywords": [
+    "object",
+    "is",
+    "check",
+    "test",
+    "type",
+    "plain",
+    "vanilla",
+    "pure",
+    "simple"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "is-plain-obj",
+  "optionalDependencies": {},
+  "readme": "# is-plain-obj [![Build Status](https://travis-ci.org/sindresorhus/is-plain-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/is-plain-obj)\n\n> Check if a value is a plain object\n\nAn object is plain if it's created by either `{}`, `new Object()`, or `Object.create(null)`.\n\n\n## Install\n\n```\n$ npm install is-plain-obj\n```\n\n\n## Usage\n\n```js\nconst isPlainObject = require('is-plain-obj');\n\nisPlainObject({foo: 'bar'});\n//=> true\n\nisPlainObject(new Object());\n//=> true\n\nisPlainObject(Object.create(null));\n//=> true\n\nisPlainObject([1, 2, 3]);\n//=> false\n\nclass Unicorn {}\nisPlainObject(new Unicorn());\n//=> false\n```\n\n\n## Related\n\n- [is-obj](https://github.com/sindresorhus/is-obj) - Check if a value is an object\n- [is](https://github.com/sindresorhus/is) - Type check values\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-is-plain-obj?utm_source=npm-is-plain-obj&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/is-plain-obj.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "2.1.0"
+}

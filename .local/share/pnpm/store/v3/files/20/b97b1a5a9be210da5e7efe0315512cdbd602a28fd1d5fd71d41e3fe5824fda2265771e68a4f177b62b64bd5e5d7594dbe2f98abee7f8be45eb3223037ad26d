@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-script-runners@0.2.10",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-script-runners",
+        "name": "@pnpm/plugin-commands-script-runners",
+        "rawSpec": "0.2.10",
+        "spec": "0.2.10",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-script-runners@0.2.10",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-script-runners@0.2.10",
+  "_location": "/@pnpm/plugin-commands-script-runners",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-script-runners_0.2.10_1582976922735_0.06318452163508681"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-script-runners@0.2.10",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-script-runners",
+    "name": "@pnpm/plugin-commands-script-runners",
+    "rawSpec": "0.2.10",
+    "spec": "0.2.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-script-runners/-/plugin-commands-script-runners-0.2.10.tgz",
+  "_shasum": "b7adfac3c6464ccda78153c59f6fee52814a510a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-script-runners@0.2.10",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/command": "0.1.0-0",
+    "@pnpm/common-cli-options-help": "0.1.4",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lifecycle": "8.0.2",
+    "@pnpm/sort-packages": "1.0.4",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "common-tags": "1.8.0",
+    "p-limit": "2.2.2",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0"
+  },
+  "description": "Commands for running scripts",
+  "devDependencies": {
+    "@pnpm/filter-workspace-packages": "2.0.2",
+    "@pnpm/logger": "^3.1.0",
+    "@pnpm/plugin-commands-script-runners": "link:",
+    "@pnpm/prepare": "0.0.0",
+    "@types/common-tags": "^1.8.0",
+    "@types/mz": "^2.7.0",
+    "@types/ramda": "^0.26.43",
+    "@zkochan/rimraf": "1.0.0",
+    "execa": "4.0.0",
+    "mz": "2.7.0",
+    "write-yaml-file": "3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-+giw6ENjmJqM9UiC0lhzktcmZAxROCiBqLuYGX+txrOgRXSGHGGivBFP002LP88VhIQtjnp1v8QLX1dfwJcdWw==",
+    "shasum": "b7adfac3c6464ccda78153c59f6fee52814a510a",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-script-runners/-/plugin-commands-script-runners-0.2.10.tgz",
+    "fileCount": 19,
+    "unpackedSize": 24294,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk+bCRA9TVsSAnZWagAAsYQP/A95h6ZKEXImGghbPnwZ\nRdqaMZ2rgKcaThm5aHIxZ43+xrdIU0a37X7RFOIAziDnsOSIgzDSzS4zbeA3\nlZa2tHe7QQAHd7MZCnGjk9exGIhnQtKVigUX/x97M7+2A8Y+1lsBzVveVSMG\n1cuwKNS8x9ozawqrmO7QLsNXZ//9Yifcms0kWceFUd0PkwT7yNQhrvCsJiI3\nb7f14bvk7b34woBC9ym0mt4vCzVKPCsWXH9o3INzM6MtjzW5kWoZEenECtkj\n7aetq8Coq8RjaXtEsVWUjOQ6U2IMfxj0kdBh/s5+GoRc447e0LXl+mBpT9C/\nSn9/PZJb3OTQwoYubSOGcGstN+oH+7YOfxC+0y/iHjMVjmrevEyOPxfWUut4\n1O18IGxycLhrC95yaGQ7YZxYiSu6eP7pQMj7PJG67aBKjv7TTYNwu+GqxUQv\nJVlhlQul8RoMcYmgX7ZOQUChHgiPyTGrlxvyQHLEJDJgVdAzVMWaH+1zKJqG\nsHtWkddgIuBDLXiuGZxdXPpyL/ZE25wb3YVpP9Jn+Nfwwx13o3GFTH545zSk\ntGxMn0USZKvowovg3Zv0SGjZ/5xu0cMdKgGvDclrF7mI6kgKeIJD1RHOalu8\n47SmkfB4RkrdoawxZps/3RgdJL+zz69/Llmw4OJBE6Vck9jVBtaHtsqkT3Ch\nqXS1\r\n=oERk\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "scripts"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-script-runners",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/plugin-commands-script-runners\n\n> Commands for running scripts\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-script-runners.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-script-runners)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-script-runners\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-script-runners"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7775 pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.10"
+}

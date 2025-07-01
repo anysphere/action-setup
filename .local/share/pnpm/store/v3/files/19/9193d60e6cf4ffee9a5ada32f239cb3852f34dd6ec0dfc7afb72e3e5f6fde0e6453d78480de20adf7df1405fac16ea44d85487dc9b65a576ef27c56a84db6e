@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/write-project-manifest@1.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fwrite-project-manifest",
+        "name": "@pnpm/write-project-manifest",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/read-project-manifest"
+    ]
+  ],
+  "_from": "@pnpm/write-project-manifest@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/write-project-manifest@1.0.0",
+  "_location": "/@pnpm/write-project-manifest",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/write-project-manifest_1.0.0_1578428971704_0.9957990729938542"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/write-project-manifest@1.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fwrite-project-manifest",
+    "name": "@pnpm/write-project-manifest",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/read-project-manifest"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/write-project-manifest/-/write-project-manifest-1.0.0.tgz",
+  "_shasum": "e792eb2107c495df876f2fe1157f529b45bf31a8",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/write-project-manifest@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/read-project-manifest",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "^5.0.0",
+    "write-json-file": "4.0.0",
+    "write-json5-file": "2.1.2",
+    "write-yaml-file": "3.0.1"
+  },
+  "description": "Write a project manifest (called package.json in most cases)",
+  "devDependencies": {
+    "@pnpm/write-project-manifest": "link:",
+    "tempy": "0.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e792eb2107c495df876f2fe1157f529b45bf31a8",
+    "tarball": "https://registry.npmjs.org/@pnpm/write-project-manifest/-/write-project-manifest-1.0.0.tgz",
+    "integrity": "sha512-XNg0udEoe81rq1jTe3J9itbg8a4GwR/d1I7vSBdYdNU7qmmTilEy+2E+pu/VAL8PMIDRldplV3VkGDoiuN07Vw==",
+    "fileCount": 5,
+    "unpackedSize": 3851,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOosCRA9TVsSAnZWagAATE0P/RuBVt7Ug4iaQa9rHfch\n0goDzAMRAKl/zwxWT+STBSw2aoM3bdHurjI9zR5XP+SQfTSPAhEVQDPVMPag\n8E9AQDcwrZhUDNfp2QqMTDbhPFpL1pyDgyS6Co9oVP7KO2msfJhla7npnF5K\nNHrqTnJGq6GAZ59diEeIEVsnYVFKdnqEHSA7bv0Xw+ytKxr5gVN79VesQMoO\nMS79TJHOI8WePpMV3JfKVPYY5Grd+DC9RYj7xeU5pelSIEDiPMfr+Z4bQwMK\nKsuiQrwiYHkGzA/ayJpDvH580ETmo9oyua9+1PvzxyVPOEFtug91o9cjyDuy\nQs9UL7XHVh71V7h2Roue9vJA3tkAbL6wVF27Vyl6TR4/Fs68DMwoyX+oaRa1\npecSAhFvuXHLsmgM98W6P1HmCbewiApGPxK5JqkM2QWgU5ymuX7M1Sw/k9Nr\nTygtMyopu+lR8T4zZ3JMcpZ5epeHLbcpIe0iwFeIxVdSvYLjSAWmyKJnDETE\n2aK6SlwHSlMvKUBQa6r3Oet6AuR3+3UeKCITuA5qKcwTIgWc5ZFZyKkUUpXF\ndryiClOFF5Y/yDP0BncQ8tmGjsyh0/puZqHkBz28WLuJsB8XlI49z9Cav22d\nqE/2yLWIFkKHrV3p850i7mzMGLVfNd5r7w5g63hDw8U3FLlXsMJENBeC3HPq\nx93e\r\n=m26m\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/write-project-manifest#readme",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/write-project-manifest",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/write-project-manifest\n\n> Write a project manifest (called package.json in most cases)\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/write-project-manifest.svg)](https://www.npmjs.com/package/@pnpm/write-project-manifest)\n<!--/@-->\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add @pnpm/write-project-manifest\n```\n\n## Usage\n\n```ts\nimport writeProjectManifest from '@pnpm/write-project-manifest'\nimport path = require('path')\n\n(async () => await writeProjectManifest(path.resolve('package.yaml'), { name: 'foo', version: '1.0.0' }))()\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/write-project-manifest"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

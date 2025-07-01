@@ -1,0 +1,130 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/modules-cleaner@8.0.8",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fmodules-cleaner",
+        "name": "@pnpm/modules-cleaner",
+        "rawSpec": "8.0.8",
+        "spec": "8.0.8",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/modules-cleaner@8.0.8",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/modules-cleaner@8.0.8",
+  "_location": "/@pnpm/modules-cleaner",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/modules-cleaner_8.0.8_1582101635970_0.25103203477547065"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/modules-cleaner@8.0.8",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fmodules-cleaner",
+    "name": "@pnpm/modules-cleaner",
+    "rawSpec": "8.0.8",
+    "spec": "8.0.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/modules-cleaner/-/modules-cleaner-8.0.8.tgz",
+  "_shasum": "0fca89b5c73c91692e8612ce4f00eaae130f461b",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/modules-cleaner@8.0.8",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/filter-lockfile": "3.0.8",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/package-bins": "4.0.3",
+    "@pnpm/read-modules-dir": "2.0.1",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "@zkochan/rimraf": "1.0.0",
+    "dependency-path": "4.0.5",
+    "fs-vacuum": "1.2.10",
+    "is-windows": "1.0.2",
+    "ramda": "0.27.0"
+  },
+  "description": "Exports util functions to clean up node_modules",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/modules-cleaner": "link:",
+    "@types/is-windows": "^1.0.0",
+    "@types/ramda": "^0.26.41"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-tx1D/g3FK09vs/MzGj1t6NowiUSZ5h3pI+vb3uEKDI2VPzyVavDbHE2suO/22bcWT3LqkoYSi4lXtsywpEwxgg==",
+    "shasum": "0fca89b5c73c91692e8612ce4f00eaae130f461b",
+    "tarball": "https://registry.npmjs.org/@pnpm/modules-cleaner/-/modules-cleaner-8.0.8.tgz",
+    "fileCount": 9,
+    "unpackedSize": 14088,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPSECRA9TVsSAnZWagAAZ0cP/3SfO5Yv2L+Mn+yWjqOy\nXMl7kbp1i5LnNREpQ89dRgtGqnSxi0gL7436YFHsKsr6FU7271j9d6ox2KKy\n3o2aPB2EOe7oZYinZrT5zXZ4GFgmAusc0SQX91KtcWyjoDVeLCZ8FuATqnNw\nPT6YEWzK9p9U1FHLJHT22lSoLIjAXP6ic8/3o1Sf3HnkH5j9+17Xl8jNkrnt\nLil49l5/agxtL9O9d/Yi+8CrgR0BnWU5dq1lxNkAtxv51e256auUKEdmmt/X\nT2gTBvWCwlhUf5MwZop1SLNapPBCrZi7xJ0jHys9fLmT3EjXaPm78tyzoQd9\nyWPXGVlO0NWt1GP09hwUCt0KjhF8wMr2uUP7WbYVY8qcXrJiFfC+00CH4Z3N\nbF4Ime7h/T2Skgrr+xYV3tiVXFahqY64wRBAhpFZEOGIZxTGn+7AENCKemnm\niaKANg9iRmKNLkFY36q0AjvTcbd+M3LF5W/vT8WKwIUgb8TugDLdEpAli9WC\noGferc4hFhcN7dYQAuF/TUJyqcezNop8javxR27gh+Fnis/kXCkb0iIW2lyA\nRiPOSRNc6idQGYWnhjoUfySoziP/99NXsRRtflvSuyCrEFEfZ4Mh7kTO96Qp\nGwGPF7ZEn27JgOeymMVffec4mmmx51gnIlHVDBUIlx8lFExVYKxqxGHIrME3\nXlYV\r\n=y+ng\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/modules-cleaner#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/modules-cleaner",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/modules-cleaner\n\n> Exports util functions to clean up node_modules\n\n## Install\n\n```\npnpm install @pnpm/modules-cleaner\n```\n\n## API\n\n### `prune(...args)`\n\nCompares the wanted lockfile with the current one and removes redundant packages from `node_modules`.\n\n### `removeDirectDependency(...args)`\n\nRemoves a direct dependency from `node_modules`.\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/modules-cleaner"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "8.0.8"
+}

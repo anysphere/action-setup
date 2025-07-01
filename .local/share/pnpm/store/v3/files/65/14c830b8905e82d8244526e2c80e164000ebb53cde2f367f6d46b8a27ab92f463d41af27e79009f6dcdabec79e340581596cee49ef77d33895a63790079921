@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "find-packages@7.0.3",
+        "scope": null,
+        "escapedName": "find-packages",
+        "name": "find-packages",
+        "rawSpec": "7.0.3",
+        "spec": "7.0.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/find-workspace-packages"
+    ]
+  ],
+  "_from": "find-packages@7.0.3",
+  "_hasShrinkwrap": false,
+  "_id": "find-packages@7.0.3",
+  "_location": "/find-packages",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/find-packages_7.0.3_1582578889485_0.2107629393461452"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "find-packages@7.0.3",
+    "scope": null,
+    "escapedName": "find-packages",
+    "name": "find-packages",
+    "rawSpec": "7.0.3",
+    "spec": "7.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/find-workspace-packages"
+  ],
+  "_resolved": "https://registry.npmjs.org/find-packages/-/find-packages-7.0.3.tgz",
+  "_shasum": "870b7b6c03bd198957c226386b7b5e61afb44d08",
+  "_shrinkwrap": null,
+  "_spec": "find-packages@7.0.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/find-workspace-packages",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "fast-glob": "3.2.2",
+    "p-filter": "^2.1.0"
+  },
+  "description": "Find all packages inside a directory",
+  "devDependencies": {
+    "find-packages": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-1mz0S9gVbLi8j4NCW8l3qBTlZR0w386HPJsKAbkyge5lFy/YbsmnuaeCQ5KHcLpvEtrfdzXMUx5zHUA1LSIR0w==",
+    "shasum": "870b7b6c03bd198957c226386b7b5e61afb44d08",
+    "tarball": "https://registry.npmjs.org/find-packages/-/find-packages-7.0.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6028,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVDzJCRA9TVsSAnZWagAAv8UP/ipPRlFFBaoTDJMFRfeq\nS+dnhmVzc7SCqYZSfiIeJAaC8gvleO8K1aGUMYyqZhIhPfA8hZ21k305G+fv\ndwt0uP/lMzJ9nPX2kqAIXnqhgy8kxII+ygyv8rcUGyFygmu8DcDxq4FEY8Qz\nH9+1A/S5P4jXxA3TfyRuLy8WiMx53uTzSqUTpCzh574dgVLqz1dhPC6Bfz9O\nHkV0d/M3MJC2U6M+odZmz8X4un8a0ZCyt4MW2cowKIO3KBn8isEjIDS5wl3h\nnS6tZ4+F5Zo31knNPXqEFs9IpcIFKgF5TQZqA/dt8z/RJLsWjQJZZzXQrUUG\nJn3xnlhxt5vg6mGcapV36H2yA8P7VnCEpl57ul6jCNtgxf4a8Z/YJTZmtLs6\nFVKpZx1vVToBjnUO2cCUlzxtPUBqqKpN9iHOaIpza3lQobI4pGQpbkgL/8s+\nOY+o6Nz20Of/fzbNY7ljZJSB9WtR08bH7exHIP1huiZ7Lr2kTP9Nnk3deHkv\nPzEFDURggAFIo+pn+KteAKbp07z3FknI30AystiSCKPyvkJpj2VEnKbdxn+D\nwfJYr1nARyBl9Cjb0RZzZVkQprrH8Kf28wE/yj2rEwnTNtNlKvadA2VULIRy\n6C9d/bspNd14WlKjSlUMFLSKQ2WSmBW0DWr1vMnSwg6UEUDQzBU8SZM4ThGJ\njN6L\r\n=zUQ7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/find-packages#readme",
+  "keywords": [
+    "find",
+    "package"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "find-packages",
+  "optionalDependencies": {},
+  "readme": "# find-packages\n\n> Find all packages inside a directory\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/find-packages.svg)](https://www.npmjs.com/package/find-packages)\n<!--/@-->\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add find-packages\n```\n\n## Usage\n\n```js\nconst path = require('path')\nconst findPkgs = require('find-packages')\n\nfindPkgs(path.join(__dirname, 'test', 'fixture'))\n  .then(pkgs => console.log(pkgs))\n  .catch(err => console.error(err))\n  //> [ { path: '/home/zkochan/src/find-packages/test/fixture/pkg',\n  //      manifest: { name: 'foo', version: '1.0.0' },\n  //      writeProjectManifest: [AsyncFunction] } ]\n```\n\n## API\n\n### `findPackages(dir, [opts])`\n\n#### `dir`\n\nThe directory in which to search for packages.\n\n#### `opts`\n\nParameters normally passed to [glob](https://www.npmjs.com/package/glob)\n\n#### `opts.patterns`\n\nArray of globs to use as package locations. For example: `['packages/**', 'utils/**']`.\n\n#### `opts.ignore`\n\nPatterns to ignore when searching for packages. By default: `**/node_modules/**`, `**/bower_components/**`, `**/test/**`, `**/tests/**`.\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/find-packages"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.0.3"
+}

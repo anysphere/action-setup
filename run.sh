@@ -4,5 +4,6 @@ export HOME="$(pwd)"
 export INPUT_VERSION=4.11.1
 export INPUT_DEST='~/pnpm.temp'
 export INPUT_RUN_INSTALL=null
-export INPUT_standalone=false
+export INPUT_PACKAGE_JSON_FILE='package.json'
+export INPUT_STANDALONE=false
 exec node dist/index.js

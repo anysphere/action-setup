@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/fetcher-base@6.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffetcher-base",
+        "name": "@pnpm/fetcher-base",
+        "rawSpec": "6.0.0",
+        "spec": "6.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher"
+    ]
+  ],
+  "_from": "@pnpm/fetcher-base@6.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/fetcher-base@6.0.0",
+  "_location": "/@pnpm/fetcher-base",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fetcher-base_6.0.0_1578428460426_0.27753229641038035"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/fetcher-base@6.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffetcher-base",
+    "name": "@pnpm/fetcher-base",
+    "rawSpec": "6.0.0",
+    "spec": "6.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/tarball-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/fetcher-base/-/fetcher-base-6.0.0.tgz",
+  "_shasum": "ee740fd20257376d59bb74d35441d5e4be88c51a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/fetcher-base@6.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/resolver-base": "7.0.0",
+    "@types/ssri": "6.0.1"
+  },
+  "description": "Types for pnpm-compatible fetchers",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ee740fd20257376d59bb74d35441d5e4be88c51a",
+    "tarball": "https://registry.npmjs.org/@pnpm/fetcher-base/-/fetcher-base-6.0.0.tgz",
+    "integrity": "sha512-5ZPdAtvwUVNM6kITDKTpN+uHJpxfFdUMdCqLWpH6BwQKp9ZiyVCPhB8BhAI1w/4/sJ7VVzpAMqXc99ExxWqyng==",
+    "fileCount": 5,
+    "unpackedSize": 3533,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOgsCRA9TVsSAnZWagAAqG0QAJ+LeKwsJskqlccI4fI+\n/RV2kukXCMpchHKHZuFiRJpC8Ih3DWj4y1kJmMS7t/LY/qstVHoB/Pw5RX/G\n+slk9Q58Cggombo86dK1JATYJMWW90mtHQMOB7hNdcIUw2HmV8dAW7tODUNf\nvD1ux8BobxkqLhPP3Ys7y+DDFbu1sq51Vj2JiycH2U2qbTE4QUXGnmNsPhmk\nHA5UF5IG9mh+ujewATXqZ0JDfASR+wJ7U2Ja+Y7/F4yAwrSTf8TE68dFTwmh\nUMC6g4ljvXjmIZBKUHgDGqKMVajBcywSRMBkLdL4tmXKa28rICrng2/vgG8p\nRaUirCvuXK5LYUErh8PpuohiBNeVquLtVV22bsKUUz8PgU5Vw3XgbAq6d177\nMIPmUqq6g0maLI6NUkvrmCgSF7CWMH0aZkW6FVtdJz0rHnF6fjVCMtnKATMJ\nTQCMpIKCRHysJaJxmLAaN/a9E9+LBeJ7ekC0D2u2OUCz5FxWGxchTNrc57Vq\nSgRt3G/YZkjZqHpVEYRDt4j4Jq0I8kmywM5KFkQ+ZhKCz7fULaVdrT6VAA1Y\nY1njA5qogXe0ObzYAwZ5EIh6cEDY6J5BlsHo01Ky1o7oOGdYa6fDnoQeHk4K\nCOS7NrWJc/bMNJU+yoAIlYINXfgknPDOrKVZev6yuSgqC9mnk2W6Y83SSxHH\nPuSL\r\n=e5nk\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/fetcher-base#readme",
+  "keywords": [
+    "pnpm",
+    "fetcher"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/fetcher-base",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/fetcher-base\n\n> Types for pnpm-compatible fetchers\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/fetcher-base.svg)](https://www.npmjs.com/package/@pnpm/fetcher-base)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/fetcher-base\n```\n\n## Usage\n\nHere's a template for a fetcher using types from `@pnpm/fetcher-base`:\n\n```ts\nimport {Resolution} from '@pnpm/resolver-base'\nimport {\n  FetchOptions,\n  FetchResult,\n} from '@pnpm/fetcher-base'\n\nexport async function (\n  resolution: Resolution,\n  targetFolder: string,\n  opts: FetchOptions,\n): Promise<FetchResult>\n  // ...\n  return {\n    filesIndex,\n    tempLocation,\n  }\n}\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/fetcher-base"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc --pretty"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "6.0.0"
+}

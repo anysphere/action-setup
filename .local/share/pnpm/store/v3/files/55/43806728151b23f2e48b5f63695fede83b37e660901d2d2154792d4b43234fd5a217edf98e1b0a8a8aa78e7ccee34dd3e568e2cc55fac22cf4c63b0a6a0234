@@ -1,0 +1,139 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/store-path@2.1.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fstore-path",
+        "name": "@pnpm/store-path",
+        "rawSpec": "2.1.1",
+        "spec": "2.1.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "@pnpm/store-path@2.1.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/store-path@2.1.1",
+  "_location": "/@pnpm/store-path",
+  "_nodeVersion": "10.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/store-path_2.1.1_1571528332835_0.8528990126495495"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/store-path@2.1.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fstore-path",
+    "name": "@pnpm/store-path",
+    "rawSpec": "2.1.1",
+    "spec": "2.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/store-path/-/store-path-2.1.1.tgz",
+  "_shasum": "debba5d3dacf2ccf4e7f0d612b12cddd8e9fc996",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/store-path@2.1.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/store-path/issues"
+  },
+  "dependencies": {
+    "can-link": "1.0.2",
+    "make-dir": "^3.0.0",
+    "mz": "2.7.0",
+    "path-absolute": "1.0.1",
+    "path-temp": "2.0.0",
+    "root-link-target": "2.0.0",
+    "touch": "3.1.0"
+  },
+  "description": "Resolves the pnpm store path",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/node": "^12.0.0",
+    "@types/rimraf": "^2.0.2",
+    "@types/tape": "^4.2.33",
+    "@types/touch": "^3.1.1",
+    "jest": "^24.9.0",
+    "package-preview": "^2.0.0",
+    "rimraf": "^3.0.0",
+    "tape": "^4.10.1",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-KBcGPWLkkiOsqk3rSegE4pUMHPKnL9xJ8F6Yi0Z5Q4MDyEXZeeZQSegHK3fKU+HGkkmKuC3jVz9apGEgbafZBQ==",
+    "shasum": "debba5d3dacf2ccf4e7f0d612b12cddd8e9fc996",
+    "tarball": "https://registry.npmjs.org/@pnpm/store-path/-/store-path-2.1.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 8864,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdq56NCRA9TVsSAnZWagAACoMP+gNs9RkyP5AY+9Yru+S/\nhahQuPxFnqSXSUFLA/3tukbFm9OdqGdUWWEyJE3+VfVzoRED16KiANn4U4RY\naJReHJcT9Z4H+D9vNbjpZutXau+lopvlvpyXUxqY68tIbfI7JbMveQvJQWQZ\nNRoh7DSqlmJVTS+beAY8F7THSVSxRizFtoxv+1drSRpihpPeaYdPJx3mtMY6\nkhOciAY7rgZsQ1wv3jrr5JJooyIDcqIkNpCowTv7sPosNWO7IQ7ACSvMxjFk\nPIFtd7u9VuG6zFB4n6JwsVO2Z5QTsY0cB0U+sCBztrQ7tgbFiScAwAUikTE+\nV5jeEKFAet2hktyZ3BLvB2cJXfMxy6tnk6+O7/wC1a/TrXobYr2IU3Sqmxaq\nse6HLl01CFT7tqOiiLwgNbx0zD5S4Uh726yTORrzXukdD/zQE8hzSU5ZZJtT\nvrdLqiRsqu8FPWKtIMhyaxUKSY77jdTf8FcYlVGIPN3SToK0oH8QwlLOyevR\n9rqd0qIopTokaImJXGNhGYB88k079eF80E2IzvnK/Hv2yenoYxHL8aRcUFW0\nECcN7SOFnJmr0hbmbScucZ3Wu6oHwDgG8HeUbuz6/0k1x0OculK5SGRwkivC\nr58Vzv6unV6a/AkaQUu8GJgPu9muJkttEMWfjYp2CtOKPHU7yf49WUduJ06p\n5c4P\r\n=RHPm\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "49c3c9c6d9b5f0d5e79b4d0120c6e68cc06e4e59",
+  "homepage": "https://github.com/pnpm/store-path#readme",
+  "keywords": [
+    "pnpm",
+    "store"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/store-path",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/store-path\n\n> Resolves the pnpm store path\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/store-path.svg)](https://www.npmjs.com/package/@pnpm/store-path) [![Build Status](https://img.shields.io/travis/pnpm/store-path/master.svg)](https://travis-ci.org/pnpm/store-path)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/store-path\n```\n\n## Usage\n\n```ts\nimport resolveStorePath from '@pnpm/store-path'\n\nawait resolveStorePath('F:\\\\project', 'pnpm-store')\n//> F:\\\\pnpm-store\\\\2\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/store-path.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json --project .",
+    "prepublishOnly": "npm run tsc",
+    "test": "npm run lint && jest --coverage",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.1.1"
+}

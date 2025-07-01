@@ -1,0 +1,139 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "symlink-dir@3.1.2",
+        "scope": null,
+        "escapedName": "symlink-dir",
+        "name": "symlink-dir",
+        "rawSpec": "3.1.2",
+        "spec": "3.1.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester"
+    ]
+  ],
+  "_from": "symlink-dir@3.1.2",
+  "_hasShrinkwrap": false,
+  "_id": "symlink-dir@3.1.2",
+  "_location": "/symlink-dir",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/symlink-dir_3.1.2_1582744187495_0.08013146540957727"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "symlink-dir@3.1.2",
+    "scope": null,
+    "escapedName": "symlink-dir",
+    "name": "symlink-dir",
+    "rawSpec": "3.1.2",
+    "spec": "3.1.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/package-requester",
+    "/@pnpm/symlink-dependency"
+  ],
+  "_resolved": "https://registry.npmjs.org/symlink-dir/-/symlink-dir-3.1.2.tgz",
+  "_shasum": "81a33e9acc4690b5ddcdab90c0189280576acd17",
+  "_shrinkwrap": null,
+  "_spec": "symlink-dir@3.1.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bin": {
+    "symlink-dir": "dist/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zkochan/symlink-dir/issues"
+  },
+  "dependencies": {
+    "better-path-resolve": "^1.0.0",
+    "graceful-fs": "^4.1.11",
+    "make-dir": "^3.0.0",
+    "rename-overwrite": "^2.0.1"
+  },
+  "description": "Cross-platform directory symlinking",
+  "devDependencies": {
+    "@types/node": "^12.0.3",
+    "@types/tape": "^4.2.32",
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "rimraf": "^3.0.0",
+    "tape": "^4.9.1",
+    "tempy": "^0.4.0",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-wuqI+beQTU3XQq6bHTg4tcFiXlAN5uWNus+R0/I/R9O/ORpVHdCo2JQp04dCexBIb94VarosKFU+kjVEgzIQpQ==",
+    "shasum": "81a33e9acc4690b5ddcdab90c0189280576acd17",
+    "tarball": "https://registry.npmjs.org/symlink-dir/-/symlink-dir-3.1.2.tgz",
+    "fileCount": 9,
+    "unpackedSize": 9963,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVsJ8CRA9TVsSAnZWagAANwsQAIJjbTlXNvaRli2PCzr8\nu+5sWhtbXXOSi3cLaR1DS3jVE91RgVgNYTjfgH5UvRGJxAG9Leo7y57neK7/\nnMYmC2Ct4SZPisoC4Q67kd08x/uMwnhuSsm6DmyB42lqiAUXCK+OdnWLpaYZ\nGKOfISpcS4k4KYiE7hZ6bE0VEGZIQOuP1bJ0TyAp5b7M/UHiaqJurRteTZCT\naFIq1Eokd1nWZ6LHA5ZU/qwJ3T5Lea2UWBq6WkpKseeBo10XMemTJzLMIxkh\nvwZsorveg5DSo0X+maZ+RmtQgLi1nxLVNV1Vxf6loMQLuTvqbNpCp+d+CTk3\ndympejYkV3KJqFc3cRZa1CF0kPybJ4hJC80OfoGo75oikYaVxc9tIP2IVaj+\njailrLDo877EkRhN85lBcFEzyo+B60so3HrIlRKwV+fDj0ZoO+ci89nnqHf2\nfNNfPZqkukocXGCmEV2IJAqZO2koLIO0hlEttinOnixayJZrg33nIeMaFJmo\n1uGvFapKafB0TPn5l6joVvqMy8Q7wzo0yZhZCpK8XKzdyJduixYWXs23MBko\n524WKqnHXtej7MSBjMrZkhMwLIfwZg45AudEwiqlu5sLHt2O83MO2DGst3c2\nGh+SnYnLM2SmRIWb4hxVkpz1isCJCrNskTRIfJiP7MDk/cfzC5vYf16KgTBW\n84n1\r\n=0taJ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "dist/"
+  ],
+  "gitHead": "28d96c9264683c469f6bec2110ae2cc4b3990a14",
+  "homepage": "https://github.com/zkochan/symlink-dir#readme",
+  "keywords": [
+    "symlink",
+    "symlinking",
+    "junction",
+    "directory",
+    "dir",
+    "folder"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "symlink-dir",
+  "optionalDependencies": {},
+  "readme": "# symlink-dir\n\n> Cross-platform directory symlinking\n\n<!--@shields('npm', 'travis', 'appveyor')-->\n[![npm version](https://img.shields.io/npm/v/symlink-dir.svg)](https://www.npmjs.com/package/symlink-dir) [![Build Status](https://img.shields.io/travis/zkochan/symlink-dir/master.svg)](https://travis-ci.org/zkochan/symlink-dir) [![Build Status on Windows](https://img.shields.io/appveyor/ci/zkochan/symlink-dir/master.svg)](https://ci.appveyor.com/project/zkochan/symlink-dir/branch/master)\n<!--/@-->\n\n* Always uses \"junctions\" on Windows. Even though support for \"symbolic links\" was added in Vista+, users by default lack permission to create them\n* Any file or directory, that has the destination name, is renamed before creating the link\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add symlink-dir\n```\n\n## CLI Usage\n\nLets suppose you'd like to self-require your package. You can link it to its own node_modules:\n\n```sh\n# from -> to\nsymlink-dir . node_modules/my-package\n```\n\n## API Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst symlinkDir = require('symlink-dir')\nconst path = require('path')\n\nsymlinkDir('src', 'node_modules/src')\n  .then(result => {\n    console.log(result)\n    //> { reused: false }\n\n    return symlinkDir('src', 'node_modules/src')\n  })\n  .then(result => {\n    console.log(result)\n    //> { reused: true }\n  })\n  .catch(err => console.error(err))\n```\n<!--/@-->\n\n## API\n\n### `symlinkDir(src, dest): Promise<{ reused: boolean, warn?: string }>`\n\nCreates a symlink in `dest` that points to `src`.\n\nResult:\n\n* `reused` - *boolean* - is `true` if the symlink already existed pointing to the `src`.\n* `warn` - *string* - any issues that happened during linking (it does mean a failure).\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/symlink-dir.git"
+  },
+  "scripts": {
+    "md": "mos",
+    "premd": "rimraf node_modules/src && npm run tsc",
+    "prepublishOnly": "npm run tsc",
+    "pretest": "rimraf node_modules/src",
+    "test": "ts-node test",
+    "test-md": "mos t",
+    "tsc": "rimraf dist && tsc"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "3.1.2"
+}

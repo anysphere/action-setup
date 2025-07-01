@@ -1,0 +1,129 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "delay@4.3.0",
+        "scope": null,
+        "escapedName": "delay",
+        "name": "delay",
+        "rawSpec": "4.3.0",
+        "spec": "4.3.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "delay@4.3.0",
+  "_hasShrinkwrap": false,
+  "_id": "delay@4.3.0",
+  "_location": "/delay",
+  "_nodeVersion": "8.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/delay_4.3.0_1560363214298_0.22394889349231395"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "delay@4.3.0",
+    "scope": null,
+    "escapedName": "delay",
+    "name": "delay",
+    "rawSpec": "4.3.0",
+    "spec": "4.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/delay/-/delay-4.3.0.tgz",
+  "_shasum": "efeebfb8f545579cb396b3a722443ec96d14c50e",
+  "_shrinkwrap": null,
+  "_spec": "delay@4.3.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/delay/issues"
+  },
+  "dependencies": {},
+  "description": "Delay a promise a specified amount of time",
+  "devDependencies": {
+    "abort-controller": "^3.0.0",
+    "ava": "1.4.1",
+    "currently-unhandled": "^0.4.1",
+    "in-range": "^1.0.0",
+    "time-span": "^3.0.0",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Lwaf3zVFDMBop1yDuFZ19F9WyGcZcGacsbdlZtWjQmM50tOcMntm1njF/Nb/Vjij3KaSvCF+sEYGKrrjObu2NA==",
+    "shasum": "efeebfb8f545579cb396b3a722443ec96d14c50e",
+    "tarball": "https://registry.npmjs.org/delay/-/delay-4.3.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9287,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAUDPCRA9TVsSAnZWagAAg9YQAI75nNDWtHM3XLDFvRq5\nGhdusABNxhVoMeIaUBHMIEmNTQffAFqW+mMqT26wuwjYOaBctmc1nzn/proA\nugCVoZHa/AlfQWUMsZ0tJKut1sUUJcHneBpiHnIUNpdw5Ytur2F4Xd1ohMKm\nvu8mVDpAlNgSAWR4Etkf0+ZmX8YDR9qcseQVuN3IDNCdZhWib9/0SklNt4Mc\nQa8q6E70eCupYaRM7v+rAzDEhd8GxY9Ala8a9Q9fMe3nt3n7Ax7RHCBJqLxN\nH/dpkzrXCyu7Zd4Ovuubh3o6U8ljZ70Hori7mjMS80SktsTI6xgLeLbXjfy6\nfiX4wdGiPmINbc2sccKWas4o+txu+ooAtbaH3LvnE+jcXdQdC87ZbNtoyMkK\nHxdIJDAWYrjUhG6IvgDP9O7Hb+F/SsW3313HbJquTtIGpiqMSQmGx5BhrKuJ\ndXv7Nmzo5tLMML2Nu59yR8iVmqlVenPFSjW/ThZtVgt9xNBhzKYBaLL+fV3p\ngC6Y2MKMBqMf1XJ5irfDmyWXw4QSn6IVFf5wIlJcw/nX4CmFYDoYcx9FWsfJ\ncKBvTebmNWNPIQLCDcYR4FAuxNvBkAbrGj7alzNpQXn+Ws3X3P78M3rSbv5Y\nPWgfFe/eR9pSvseJUSD6UsYxreGx46/Cqm+1YndLJ0d3XCKcvtO7veXY7tW9\n8y5L\r\n=ouPQ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "1fa312b57450a6d8d39d52ac55f476109474bfe3",
+  "homepage": "https://github.com/sindresorhus/delay#readme",
+  "keywords": [
+    "promise",
+    "resolve",
+    "delay",
+    "defer",
+    "wait",
+    "stall",
+    "timeout",
+    "settimeout",
+    "event",
+    "loop",
+    "next",
+    "tick",
+    "delay",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "jamestalmage",
+      "email": "james@talmage.io"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "delay",
+  "optionalDependencies": {},
+  "readme": "# delay [![Build Status](https://travis-ci.org/sindresorhus/delay.svg?branch=master)](https://travis-ci.org/sindresorhus/delay)\n\n> Delay a promise a specified amount of time\n\n\n## Install\n\n```\n$ npm install delay\n```\n\n\n## Usage\n\n```js\nconst delay = require('delay');\n\n(async () => {\n\tbar();\n\n\tawait delay(100);\n\n\t// Executed 100 milliseconds later\n\tbaz();\n})();\n```\n\n\n## API\n\n### delay(milliseconds, [options])\n\nCreate a promise which resolves after the specified `milliseconds`.\n\n### delay.reject(milliseconds, [options])\n\nCreate a promise which rejects after the specified `milliseconds`.\n\n#### milliseconds\n\nType: `number`\n\nMilliseconds to delay the promise.\n\n#### options\n\nType: `Object`\n\n##### value\n\nType: `any`\n\nOptional value to resolve or reject in the returned promise.\n\n##### signal\n\nType: [`AbortSignal`](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal)\n\nThe returned promise will be rejected with an AbortError if the signal is aborted. AbortSignal is available in all modern browsers and there is a [ponyfill for Node.js](https://github.com/mysticatea/abort-controller).\n\n### delayPromise.clear()\n\nClears the delay and settles the promise.\n\n### delay.createWithTimers({clearTimeout, setTimeout})\n\nCreates a new `delay` instance using the provided functions for clearing and setting timeouts. Useful if you're about to stub timers globally, but you still want to use `delay` to manage your tests.\n\n## Advanced usage\n\nPassing a value:\n\n```js\nconst delay = require('delay');\n\n(async() => {\n\tconst result = await delay(100, {value: '🦄'});\n\n\t// Executed after 100 milliseconds\n\tconsole.log(result);\n\t//=> '🦄'\n})();\n```\n\nUsing `delay.reject()`, which optionally accepts a value and rejects it `ms` later:\n\n```js\nconst delay = require('delay');\n\n(async () => {\n\ttry {\n\t\tawait delay.reject(100, {value: new Error('🦄')});\n\n\t\tconsole.log('This is never executed');\n\t} catch (error) {\n\t\t// 100 milliseconds later\n\t\tconsole.log(error);\n\t\t//=> [Error: 🦄]\n\t}\n})();\n```\n\nYou can settle the delay early by calling `.clear()`:\n\n```js\nconst delay = require('delay');\n\n(async () => {\n\tconst delayedPromise = delay(1000, {value: 'Done'});\n\n\tsetTimeout(() => {\n\t\tdelayedPromise.clear();\n\t}, 500);\n\n\t// 500 milliseconds later\n\tconsole.log(await delayedPromise);\n\t//=> 'Done'\n})();\n```\n\nYou can abort the delay with an AbortSignal:\n\n```js\nconst delay = require('delay');\n\n(async () => {\n\tconst abortController = new AbortController();\n\n\tsetTimeout(() => {\n\t\tabortController.abort();\n\t}, 500);\n\n\ttry {\n\t\tawait delay(1000, {signal: abortController.signal});\n\t} catch (error) {\n\t\t// 500 milliseconds later\n\t\tconsole.log(error.name)\n\t\t//=> 'AbortError'\n\t}\n})();\n```\n\nCreate a new instance that is unaffected by libraries such as [lolex](https://github.com/sinonjs/lolex/):\n\n```js\nconst delay = require('delay');\n\nconst customDelay = delay.createWithTimers({clearTimeout, setTimeout});\n\n(async() => {\n\tconst result = await customDelay(100, {value: '🦄'});\n\n\t// Executed after 100 milliseconds\n\tconsole.log(result);\n\t//=> '🦄'\n})();\n```\n\n\n## Related\n\n- [delay-cli](https://github.com/sindresorhus/delay-cli) - CLI for this module\n- [p-cancelable](https://github.com/sindresorhus/p-cancelable) - Create a promise that can be canceled\n- [p-min-delay](https://github.com/sindresorhus/p-min-delay) - Delay a promise a minimum amount of time\n- [p-immediate](https://github.com/sindresorhus/p-immediate) - Returns a promise resolved in the next event loop - think `setImmediate()`\n- [p-timeout](https://github.com/sindresorhus/p-timeout) - Timeout a promise after a specified amount of time\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/delay.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.3.0"
+}

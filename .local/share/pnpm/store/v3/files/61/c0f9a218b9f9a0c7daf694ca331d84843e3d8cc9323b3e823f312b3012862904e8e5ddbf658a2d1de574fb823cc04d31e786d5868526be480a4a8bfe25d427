@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mimic-fn@^3.0.0",
+        "scope": null,
+        "escapedName": "mimic-fn",
+        "name": "mimic-fn",
+        "rawSpec": "^3.0.0",
+        "spec": ">=3.0.0 <4.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/p-memoize"
+    ]
+  ],
+  "_from": "mimic-fn@^3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "mimic-fn@3.0.0",
+  "_location": "/p-memoize/mimic-fn",
+  "_nodeVersion": "12.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mimic-fn_3.0.0_1560442040132_0.7815444311909043"
+  },
+  "_npmUser": {
+    "name": "ehmicky",
+    "email": "ehmicky@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mimic-fn@^3.0.0",
+    "scope": null,
+    "escapedName": "mimic-fn",
+    "name": "mimic-fn",
+    "rawSpec": "^3.0.0",
+    "spec": ">=3.0.0 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/p-memoize"
+  ],
+  "_resolved": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-3.0.0.tgz",
+  "_shasum": "76044cfa8818bbf6999c5c9acadf2d3649b14b4b",
+  "_shrinkwrap": null,
+  "_spec": "mimic-fn@^3.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/p-memoize",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/mimic-fn/issues"
+  },
+  "dependencies": {},
+  "description": "Make a function mimic another one",
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-PiVO95TKvhiwgSwg1IdLYlCTdul38yZxZMIcnDSFIBUm4BNZha2qpQ4GpJ++15bHoKDtrW2D69lMfFwdFYtNZQ==",
+    "shasum": "76044cfa8818bbf6999c5c9acadf2d3649b14b4b",
+    "tarball": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7974,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdAnS5CRA9TVsSAnZWagAAjLIP/RhJrjpk1/tjsB8+LVq5\nZntLv9nY2kv5incmfrpbM7SZr6UbPaC2Az6GSoYbmZj5Gvp+Byzo5wVg1OWn\nXBr1lahmNUjAyMOEoSdKNv1CBpIzE6ShjelYuPt6Lifn+2kABzG8NvrrALri\nHfKAHYDFxSFb60WdVc+R/8nDgPlac5Tcd5nyyUACXFdseskIDBBOADVi+Uis\nXJRLVanRlrwiYB4RJqJGeEk1YhhnxTqxViRG7zIFUKJS/sdrkBPQosqtqkMt\n1RkgBhefaLj39F231sRrdl0W1lRu96doig7+zoVhj9m4K/HyGseVGVSTnj9+\nOOhk0R21BJ+7N+uJqIucUdVfFXR4GMF4dcTtZJ4wupr0YENNF1kDG+FaklKN\nALI7dqfCQX8+O/wBI481xLNs40+rJb63Ume8VZmhyaAvZkq21CfWLRecyHAh\nCQ4RvGUcuwOWJPJRoj4uoAOAsk9yiNgkq1LtINPMTGkId/npy5xL7q2vxjvz\nqZ7TzCs9E2YVWOUhmskee7SNFB+hOTeKugLyjOKisGkh2CVF7q1OiB7a54d5\n/J54/JdqDDVsujtJVs3L9MPCSF+zLgcKZRdHYHH5uBnOSj/NoCvWxelpgDs3\nnzNYpORi3eFCdcDLDbKkV8RhZIVO3vy+Uk8kpvepoD8O99LpVdNaC+p37hqr\n8zR0\r\n=2irg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "a08e9cdca1b94f0cae6e11d2d805f2205a153878",
+  "homepage": "https://github.com/sindresorhus/mimic-fn#readme",
+  "keywords": [
+    "function",
+    "mimic",
+    "imitate",
+    "rename",
+    "copy",
+    "inherit",
+    "properties",
+    "name",
+    "func",
+    "fn",
+    "set",
+    "infer",
+    "change"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "ehmicky",
+      "email": "ehmicky@gmail.com"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "mimic-fn",
+  "optionalDependencies": {},
+  "readme": "<img src=\"media/logo.svg\" alt=\"mimic-fn\" width=\"400\">\n<br>\n\n[![Build Status](https://travis-ci.org/sindresorhus/mimic-fn.svg?branch=master)](https://travis-ci.org/sindresorhus/mimic-fn)\n\n> Make a function mimic another one\n\nUseful when you wrap a function in another function and like to preserve the original name and other properties.\n\n\n## Install\n\n```\n$ npm install mimic-fn\n```\n\n\n## Usage\n\n```js\nconst mimicFn = require('mimic-fn');\n\nfunction foo() {}\nfoo.unicorn = '🦄';\n\nfunction wrapper() {\n\treturn foo();\n}\n\nconsole.log(wrapper.name);\n//=> 'wrapper'\n\nmimicFn(wrapper, foo);\n\nconsole.log(wrapper.name);\n//=> 'foo'\n\nconsole.log(wrapper.unicorn);\n//=> '🦄'\n\nconsole.log(String(wrapper));\n//=> '/* Wrapped with wrapper() */\\nfunction foo() {}'\n```\n\n\n## API\n\n### mimicFn(to, from, options?)\n\nModifies the `to` function to mimic the `from` function. Returns the `to` function.\n\n`name`, `displayName`, and any other properties of `from` are copied. The `length` property is not copied. Prototype, class, and inherited properties are copied.\n\n`to.toString()` will return the same as `from.toString()` but prepended with a `Wrapped with to()` comment.\n\n#### to\n\nType: `Function`\n\nMimicking function.\n\n#### from\n\nType: `Function`\n\nFunction to mimic.\n\n#### options\n\nType: `object`\n\n##### ignoreNonConfigurable\n\nType: `boolean`<br>\nDefault: `false`\n\nSkip modifying [non-configurable properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor#Description) instead of throwing an error.\n\n## Related\n\n- [rename-fn](https://github.com/sindresorhus/rename-fn) - Rename a function\n- [keep-func-props](https://github.com/ehmicky/keep-func-props) - Wrap a function without changing its name and other properties\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-mimic-fn?utm_source=npm-mimic-fn&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/mimic-fn.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "3.0.0"
+}

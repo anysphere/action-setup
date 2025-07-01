@@ -1,0 +1,150 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-store@0.1.12",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-store",
+        "name": "@pnpm/plugin-commands-store",
+        "rawSpec": "0.1.12",
+        "spec": "0.1.12",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-store@0.1.12",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-store@0.1.12",
+  "_location": "/@pnpm/plugin-commands-store",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-store_0.1.12_1582976945269_0.2971353495586604"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-store@0.1.12",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-store",
+    "name": "@pnpm/plugin-commands-store",
+    "rawSpec": "0.1.12",
+    "spec": "0.1.12",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-store/-/plugin-commands-store-0.1.12.tgz",
+  "_shasum": "5eaaa69b23f9ba12d3b8634a43e91b7274149aa6",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-store@0.1.12",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/check-package": "3.0.1",
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/get-context": "1.1.0",
+    "@pnpm/store-connection-manager": "0.2.18",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/store-path": "2.1.1",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "archy": "1.0.0",
+    "common-tags": "1.8.0",
+    "dependency-path": "4.0.5",
+    "p-filter": "2.1.0",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0"
+  },
+  "description": "Commands for controlling the store",
+  "devDependencies": {
+    "@pnpm/assert-store": "1.0.0",
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/plugin-commands-store": "link:",
+    "@pnpm/prepare": "0.0.0",
+    "@types/archy": "0.0.31",
+    "@types/common-tags": "^1.8.0",
+    "@types/ramda": "^0.26.43",
+    "@types/sinon": "^7.5.2",
+    "@zkochan/rimraf": "1.0.0",
+    "execa": "4.0.0",
+    "load-json-file": "6.2.0",
+    "path-exists": "4.0.0",
+    "sinon": "9.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-68+uU5E1AF8BrzlhEjtDD7VedEu2lbKJZ2rGRy9jJaQvsvoDWdpFzPsdnWqyBowYeggybRAH28dZC1SE2rSsLA==",
+    "shasum": "5eaaa69b23f9ba12d3b8634a43e91b7274149aa6",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-store/-/plugin-commands-store-0.1.12.tgz",
+    "fileCount": 19,
+    "unpackedSize": 18889,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk+xCRA9TVsSAnZWagAAdPgP/iKTQRANvmG+Rp877/iY\nJWU9QejVefl9bpUps7SNqdmVpyaQRIbgPnOAhnuh8pfgEisQ8T1CsfPEQg4z\nezp9YR0slWr3gR+7TSeG3Vk6AsczDK+BWYZXw3X5ZhSYGl1VU6RyJaWCmnaa\nAVCXlptpDfOG6rg/ST1gvNIGPfXAa8PYS6hjbbsYY3HY11mpnpQMP7GsrTKC\nma/qsRB+zd3/0pWI9Pq+nHIHAz0gZI5UVI0KLBndv3KfYpc2OkVXa93W7bz6\nbNMOPkRGTVJHluOtuc2rUEXDBPZmlbRdgeAneWZfgmxGaCgn9uNzj+xhcmYN\ns1ioemrODvNN4V0isgczIhjxAD4Z8iwSPYTRDQUyuRW/30846gNuTXPp18vJ\nZX1nikR6d9/r7SrAP0pKtcSUZ982MIOzbPTcGxQbavEaXd/m8oNdhYrHW3d0\nNkbcCtCV59ijeKQ12+d61j3ErKMS/Onx/TdRXhh5wcZSRmx84Elhlm7H5fDD\nAYqD5QheGPiBfMgEFwWDOrdJ7VnfySVAWdaQJsC7SUY/qWQZJNUwwkEhjZDJ\njvwUuUYPkGIkAqqJV180a+1Jog81yx2h4abBbcFUDW7aD8+Vrytb8Nptp9qO\njf6VuAaGYcCVO9Xq3YAsPzz37EaH0InLgdLKafkLWbDrv6xH3UKnzr7cOBV5\no6zh\r\n=52yc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "scripts"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-store",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/plugin-commands-store\n\n> Commands for controlling the store\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-store.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-store)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-store\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-store"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7778 pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.12"
+}

@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/run-npm@2.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2frun-npm",
+        "name": "@pnpm/run-npm",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/run-npm@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/run-npm@2.0.0",
+  "_location": "/@pnpm/run-npm",
+  "_nodeVersion": "10.18.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/run-npm_2.0.0_1579383428755_0.8899367362059656"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/run-npm@2.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2frun-npm",
+    "name": "@pnpm/run-npm",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/plugin-commands-publishing"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/run-npm/-/run-npm-2.0.0.tgz",
+  "_shasum": "ffc609615db0d8af2ca65e9cf652a00a02289a9e",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/run-npm@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "cross-spawn": "7.0.1",
+    "path-name": "1.0.0"
+  },
+  "description": "Runs the npm CLI",
+  "devDependencies": {
+    "@pnpm/run-npm": "link:",
+    "@types/cross-spawn": "^6.0.1",
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-75p4jYd01X2cfcDGA9fBK7SDO7NNn/1lnmVy+pn3eEzXa7jhqhoXNFaam5V4i3yznD3i0MjWsZoRX5YrRM0Wog==",
+    "shasum": "ffc609615db0d8af2ca65e9cf652a00a02289a9e",
+    "tarball": "https://registry.npmjs.org/@pnpm/run-npm/-/run-npm-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3582,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeI3qFCRA9TVsSAnZWagAAQRYP/1qKlUOvSYpcy/YGNI8E\nIn3lTYFK38VL8XLcokkLjgfQiEHTa0jq8LKnoCn4r4TZjBAvqtE+crYyERBM\nFANFjyhFknr8z8v+vzggcRhNbtO40P5kTL/LKRSqqx2N/h1TnPevqnBZ5oCU\n/J6xOy8ySQ+Ew1mxpP3Y5Sg/UapMMwp3DOa+zm2SwM+UAghDjqGZSjTqvj7M\nO/uBeMgUrkYhKK6nxYTEQnz3Dl4R1iwz26Z/Q6YgcNDKHaD1DqFFPWelEOqh\nPDs6+nyM+yR4DPGZt3zGX5bgLVPge0BFO4ePPDn6sjDP8mygeqgK5mNr/MBd\n4zUVT9Frm8OuIHwwLShDh0z7KjyT1nlr2Z8ap4N2E8+3g2wT5UpmIvOcg9Ns\npBYdQzFhw7XeoHOB+RJOv99TDnBtb6OF9FgVCMydzfwW4xm136xiHsgpYZvp\nDGyVdJ4uhoQXPcHi36wLDeJARU20QOT2ud8f6svl4dhcEBrTaEPzCCqLEeuy\nafjMWwEI0tv9rB/unihV5fHAwz6UWWRQT5Vbmaks5Q/GdYBdSw3CHksYaiZ5\n/pGii1+mFgNBti/t8q7P9zh1VDpib9KLk0zmqU6zO+tEBNRE4CzKNxBKmS5Y\nnOMljZW3WcGc2jHJnGQhz4iCBoVry5rcpdUciSMEBXlLb7vDwcw0B47+bttx\nlT4+\r\n=ZLp6\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/run-npm",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/run-npm\n\n> Runs the npm CLI\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/run-npm.svg)](https://www.npmjs.com/package/@pnpm/run-npm)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/run-npm\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/run-npm"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.0.0"
+}

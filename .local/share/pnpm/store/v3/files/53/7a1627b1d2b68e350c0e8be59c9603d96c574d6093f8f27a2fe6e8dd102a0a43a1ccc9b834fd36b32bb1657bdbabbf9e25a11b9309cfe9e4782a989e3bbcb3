@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/fetch@1.0.2",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffetch",
+        "name": "@pnpm/fetch",
+        "rawSpec": "1.0.2",
+        "spec": "1.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit"
+    ]
+  ],
+  "_from": "@pnpm/fetch@1.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/fetch@1.0.2",
+  "_location": "/@pnpm/fetch",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fetch_1.0.2_1578428445674_0.8709707372517039"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/fetch@1.0.2",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffetch",
+    "name": "@pnpm/fetch",
+    "rawSpec": "1.0.2",
+    "spec": "1.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/audit",
+    "/@pnpm/git-resolver",
+    "/@pnpm/server",
+    "/fetch-from-npm-registry"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/fetch/-/fetch-1.0.2.tgz",
+  "_shasum": "e2f4737cc6e1df10ba6aaa9c45be0d901a35b393",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/fetch@1.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@zeit/fetch-retry": "4.1.0",
+    "node-fetch": "2.6.0",
+    "node-fetch-unix": "2.3.0"
+  },
+  "description": "node-fetch with retries",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "cpy-cli": "3.0.0",
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e2f4737cc6e1df10ba6aaa9c45be0d901a35b393",
+    "tarball": "https://registry.npmjs.org/@pnpm/fetch/-/fetch-1.0.2.tgz",
+    "integrity": "sha512-Df7zX4DgkM57O9CZlu0kV6Q5D9O0O3U784VMs+1QBEysjYQbMk5G0InKb8RB4PlYBVt5SNBBv3qKqwSMTuXZJg==",
+    "fileCount": 5,
+    "unpackedSize": 3636,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOgeCRA9TVsSAnZWagAAea0QAItGtaXCO0Vwaz+jATLb\nhi04pKJX0FwFIhGvoS10d0khewviaCquLBM7UyFv3dkQIps4kPBhABtS7pj6\nzQeMAVc5UrU1ls2nTcbu5QZY6mQK3eTTnrMmyP8/waKG6FvURgWOcPTqE0bS\n/eI23IUzE+f7q6DYWmHF+m6wW8wC9wKxZPG77pZjkkVdGlTdZSSEHqY1rZaE\n5JVgfXH01hBqVr4mm4v5PgLc6NhWAlX0KQdCFSLUxVkaFy/27RzXNv5nSPgN\nRsF1A6LHrVCKyuzmgJ9jX0kdiBdBeeNOfGEhzD5nPTq4jF/gVgJ53PLKXdXi\nErI9ZVRFCEDEjbjFaAx7BjYHVMmVNAZ5Mm4HSfjoy5px8MxSuv9rLL7nPnHL\nHOtPovx10ob0WIXCSjSOm4E9U7bOwHEK1Xn5gLn4Z44A8dldRdlTRFvvKZYV\nOATgd7PgwGth5DkI5sl9r7dwYdtb+6YPsAN0YA9TbShkN8RZ9i3phCoWWVxv\n/brQZWr6rxjO36Ks28eGW7MrkaWFU/ll8KfJRzi4TSKQcsoxUzEUkt3ZwDS9\n41HmQPj9oC3vi1UZ0yXpeOx6LFr/dJ28n1KBY2dTIqgU0VdNAV9bb02LRV7B\nIbgRFMdIX4rVqfe9hG+hqqayJ2BZiNundpBD/JulZ5c9LW+ykmXhIFvd+Lcn\nSnwW\r\n=iiQB\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/fetch#readme",
+  "keywords": [
+    "fetch",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/fetch",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/fetch\n\n> node-fetch with retries\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/fetch.svg)](https://www.npmjs.com/package/@pnpm/fetch)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/fetch\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/fetch"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc && cpy src/**/*.d.ts lib"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.2"
+}

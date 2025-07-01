@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/resolver-base@7.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fresolver-base",
+        "name": "@pnpm/resolver-base",
+        "rawSpec": "7.0.0",
+        "spec": "7.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-utils"
+    ]
+  ],
+  "_from": "@pnpm/resolver-base@7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/resolver-base@7.0.0",
+  "_location": "/@pnpm/resolver-base",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/resolver-base_7.0.0_1578428873393_0.6457529165475315"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/resolver-base@7.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fresolver-base",
+    "name": "@pnpm/resolver-base",
+    "rawSpec": "7.0.0",
+    "spec": "7.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-fetcher",
+    "/@pnpm/default-resolver",
+    "/@pnpm/fetcher-base",
+    "/@pnpm/git-resolver",
+    "/@pnpm/local-resolver",
+    "/@pnpm/lockfile-utils",
+    "/@pnpm/npm-resolver",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/resolve-dependencies",
+    "/@pnpm/store-controller-types",
+    "/@pnpm/tarball-resolver",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/resolver-base/-/resolver-base-7.0.0.tgz",
+  "_shasum": "67ea11992c12d0314e2332e889cef04b07d9c64f",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/resolver-base@7.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "@pnpm/types": "5.0.0"
+  },
+  "description": "Types for pnpm-compatible resolvers",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "67ea11992c12d0314e2332e889cef04b07d9c64f",
+    "tarball": "https://registry.npmjs.org/@pnpm/resolver-base/-/resolver-base-7.0.0.tgz",
+    "integrity": "sha512-5yosYxarG9JfNi9A1hP0NrBYTs3WSZla9c5MQSU7DAjCFROLaamhaj769vQhw09VwaVgsomv34QBjXDFaSvCJg==",
+    "fileCount": 5,
+    "unpackedSize": 4378,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOnJCRA9TVsSAnZWagAAw24QAJI9iP6Lg2hgQkDY4x1p\nH4ZkrdYTYzSGmqOEDPzjnr85sEMUn7Yq39v2v8x0jutpUzNm/zBK1v4aJRgH\nw04YS0Q7Yzm3sa4040uJN1oB6YBVBfUILLFKBNEbIspVd6/m8BCV+1L4JCli\n1RZo6YsNZKpFUNMqpZS7PDoUP7T+l9ZaHACn+fBnkyybTk2mRIOLDCHVCogo\nYvImSD5BM9vbabQqGNrEuHRqYXtfiReRxt7fIeUkFzrf03KhE92JDLq3cCoM\nfF+3mmrJXa+tFiF8VkVnmYg83bPEvAcA21fRgLFviViigCV4KdqAKx1UmgMD\nQkIpXHkYR7IHTILzeqIyVzY6IyQlzQvtlINjhDckqWeef945iSTTUQZee0Dt\nqEWJLkUPYJONOJJvy3MndAQSpSmNmbu+UrffIvwH1ZZU08JIZYyDwwM2Ik42\nEfFtmUf77UHNyromgNoVd4WW5V2m4QdQzsr7FuKavlSxYOhxWGqh8Ye1+bMN\nWn47foeKIqJqioCDEqtXbMTi5chplwyh33Rl/2TvRPQgSXlYLIIZ5VlSN+j+\n0qHLNKpfis1Jn6iZi3D2UaItk/Xr7WxY+vfgz7/TVumtJvh9rAQ3kFAL2lzM\ngwiKOUTweYeR4BHM/yE3OULf3zQk+nImJTz3m3y4otzwtKQOovvyR6hRPU2x\nDrNg\r\n=4LKZ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/resolver-base#readme",
+  "keywords": [
+    "pnpm",
+    "resolver"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/resolver-base",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/resolver-base\n\n> Types for pnpm-compatible resolvers\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/resolver-base.svg)](https://www.npmjs.com/package/@pnpm/resolver-base)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/resolver-base\n```\n\n## Usage\n\nHere's a template of a resolver using types from `@pnpm/resolver-base`:\n\n```ts\nimport {\n  ResolveOptions,\n  ResolveResult,\n  WantedDependency,\n} from '@pnpm/resolver-base'\n\nexport async function (\n  wantedDependency: WantedDependency,\n  opts: ResolveOptions,\n): Promise<ResolveResult> {\n  // ...\n  return {\n    id,\n    resolution,\n    package,\n    latest,\n    normalizedPref,\n  }\n}\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/resolver-base"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc --pretty"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.0.0"
+}

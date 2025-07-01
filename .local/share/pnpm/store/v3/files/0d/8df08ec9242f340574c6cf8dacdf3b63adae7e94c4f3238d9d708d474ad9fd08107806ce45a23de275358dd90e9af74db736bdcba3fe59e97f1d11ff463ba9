@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/default-resolver@7.3.6",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fdefault-resolver",
+        "name": "@pnpm/default-resolver",
+        "rawSpec": "7.3.6",
+        "spec": "7.3.6",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "@pnpm/default-resolver@7.3.6",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/default-resolver@7.3.6",
+  "_location": "/@pnpm/default-resolver",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/default-resolver_7.3.6_1582976802800_0.8839211323892"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/default-resolver@7.3.6",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fdefault-resolver",
+    "name": "@pnpm/default-resolver",
+    "rawSpec": "7.3.6",
+    "spec": "7.3.6",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/default-resolver/-/default-resolver-7.3.6.tgz",
+  "_shasum": "ca5d084a608a17f5e7e1d751b6dbe7f2b866570e",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/default-resolver@7.3.6",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/git-resolver": "4.0.9",
+    "@pnpm/local-resolver": "5.0.0",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/tarball-resolver": "3.0.4"
+  },
+  "description": "pnpm's default package resolver",
+  "devDependencies": {
+    "@pnpm/default-resolver": "link:",
+    "@pnpm/logger": "3.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-EQHoSHWQwS0W/16jXOKmSfoTZlNOt+QmC5rAiCqDSNic62uamJg/gi3/0Q3GVJ92CHztucTnh3rN7zbshKg4tA==",
+    "shasum": "ca5d084a608a17f5e7e1d751b6dbe7f2b866570e",
+    "tarball": "https://registry.npmjs.org/@pnpm/default-resolver/-/default-resolver-7.3.6.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3925,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk8jCRA9TVsSAnZWagAADnEQAKDDMR2LMhMitJndb5Tj\nik4DMk8ypoQAlpzB87lYkdRavkWQbeC0WIxxngipMxzgx6ECjZv2HLwxM9V5\nLyqAgBxmpa5+0KUh/h5gkf6MK45MUeMFOlAz8i/Su48G1npoAgS7gKYoON4e\nPod20+nh9mSa6oQV+NSCCl5lxJEzUtXuPnc8ruk3ox9tijJYGO61k9fZIDhh\nD6Vxdw7f8IO31Y6danJt9ri9InCwBfOwrRXQ3GeFM2ba3Ai4m0tATTptKnkf\nwkQYftq3D7htHwOXMgYQ5sOQizexPIuBIbPk5hi8ZfaY3w9Hc6ZQV3O60Q07\ngQWuLqIkLiBgEwDB5fBFiLlihK+nJVy31xLXR6p2VThECnpX156oQfpEpiU4\nch7sWj6yi7FOTj3gSG2vKbC1LMTuZKdc/z1LGMK0hriWwCfOl5b1p+h+NrLh\nfEDq82GIGnMN19GGTjP5b71nvrYH2+T6RP7/y9jYoIyHWNwrOVqIKHbHIe/C\nHjVGvGB5T/NwFgsguYI4sz9EUDkzeScdCodGefluhLdp9s5FIkf7553zDy0L\n/j+ez/88us0C30FXRyHmIdw/Zab3OUC+BQlyqBUf4vqoHYTZx7Lw1LoACmCb\nCNMPbqEKVyqfefzxYgquIi+IiKigGlWa3+nTVnHaPkPdRJWKvCi3IXIenB66\nxvPX\r\n=2CtN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/default-resolver",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/default-resolver\n\n> pnpm's default package resolver\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/default-resolver.svg)](https://www.npmjs.com/package/@pnpm/default-resolver)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/default-resolver\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/default-resolver"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.3.6"
+}

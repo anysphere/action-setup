@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/default-fetcher@5.1.13",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fdefault-fetcher",
+        "name": "@pnpm/default-fetcher",
+        "rawSpec": "5.1.13",
+        "spec": "5.1.13",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "@pnpm/default-fetcher@5.1.13",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/default-fetcher@5.1.13",
+  "_location": "/@pnpm/default-fetcher",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/default-fetcher_5.1.13_1582752515211_0.7657781679148197"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/default-fetcher@5.1.13",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fdefault-fetcher",
+    "name": "@pnpm/default-fetcher",
+    "rawSpec": "5.1.13",
+    "spec": "5.1.13",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/default-fetcher/-/default-fetcher-5.1.13.tgz",
+  "_shasum": "4d8b1ad10ed66a8e1d5f45e63e88ba2cfc5441f7",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/default-fetcher@5.1.13",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/git-fetcher": "2.0.10",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/tarball-fetcher": "5.1.10"
+  },
+  "description": "pnpm's default package fetcher",
+  "devDependencies": {
+    "@pnpm/default-fetcher": "link:",
+    "@pnpm/logger": "3.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-PeT03GaYUvbb4qwk5sIqLrsjXzkyad1GohTGQ78mSotgZj1U6Y4B9crVb6zASc0CI4Io80mn1AxS4546Gtok0w==",
+    "shasum": "4d8b1ad10ed66a8e1d5f45e63e88ba2cfc5441f7",
+    "tarball": "https://registry.npmjs.org/@pnpm/default-fetcher/-/default-fetcher-5.1.13.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3613,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuMDCRA9TVsSAnZWagAAZCAP/0PKa8YJuTsw7SvijrRV\ny9jjRT3N3ZsQLTf1ed3uGVsdv+4yvmKae0PXk821FM9ER74yStrvzLgmAkHc\nxLPHMHk4/57aI4VEPJO5usaZePXrD8CuUPKrih6n5rfYMEklyIvMCLUoo5P0\nGRw7G0EpBTd6hMT8WOM4045T28Bw78ZPFUP8V0ZpHJObt8e1QVgg9WBTAJZH\nna/me1ird+f0X73Cq1VMgPaRBuWQdt3f0rzDuNKOVD4t1EMdmBRPkTSf9tpv\n6/hyLOVMvDqog6RyB2HeG3z/Tfez71cyCOV5K55ZdW3Hs4kT/ubfrXayjn4/\n1Lt2Hs4lR5whCUAS5QFyeqMd+9tCVrN30y4DHfUJ55ZJXifAn45wF8NqPguA\nHOwLeq4xoit556hXWv1eM3j5AE3MOo3328WXCHu9dmZAQ82gzP5X0wPl0C5P\nPEst09HWql0jp/KHbzJyXtg+0TxwfTo33/BeInsYW1ghBp1P96rG4YBBYgCN\nMBIgM6kao233dRb1Cnjh8mdsawyc7DkuguJgg4zGRhHGMOQmXQVBvwPYWfo1\nUlUm50/mJ/fpXr5rC3Q1P+iLrI32ONA9iRvpo72GuWCdtHxtaaWnqImiMYBc\n0kMkHwowXtMzwoJhc9vS8503Am4II/PUi+8o4iPephcv2I2CuDUvXo6WxFOX\nmJbJ\r\n=48a1\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/default-fetcher",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/default-fetcher\n\n> pnpm's default package fetcher\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/default-fetcher.svg)](https://www.npmjs.com/package/@pnpm/default-fetcher)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/default-fetcher\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/default-fetcher"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.1.13"
+}

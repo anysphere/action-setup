@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "run-parallel@^1.1.9",
+        "scope": null,
+        "escapedName": "run-parallel",
+        "name": "run-parallel",
+        "rawSpec": "^1.1.9",
+        "spec": ">=1.1.9 <2.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@nodelib/fs.scandir"
+    ]
+  ],
+  "_from": "run-parallel@>=1.1.9 <2.0.0",
+  "_id": "run-parallel@1.1.9",
+  "_inCache": true,
+  "_location": "/run-parallel",
+  "_nodeVersion": "8.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/run-parallel_1.1.9_1524705054493_0.12399995551668175"
+  },
+  "_npmUser": {
+    "name": "feross",
+    "email": "feross@feross.org"
+  },
+  "_npmVersion": "6.0.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "run-parallel@^1.1.9",
+    "scope": null,
+    "escapedName": "run-parallel",
+    "name": "run-parallel",
+    "rawSpec": "^1.1.9",
+    "spec": ">=1.1.9 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@nodelib/fs.scandir"
+  ],
+  "_resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.1.9.tgz",
+  "_shasum": "c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679",
+  "_shrinkwrap": null,
+  "_spec": "run-parallel@^1.1.9",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@nodelib/fs.scandir",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/run-parallel/issues"
+  },
+  "dependencies": {},
+  "description": "Run an array of functions in parallel",
+  "devDependencies": {
+    "airtap": "0.0.4",
+    "standard": "*",
+    "tape": "^4.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-DEqnSRTDw/Tc3FXf49zedI638Z9onwUotBMiUFKmrO2sdFKIbXamXGQ3Axd4qgphxKB4kw/qP1w5kTxnfU1B9Q==",
+    "shasum": "c9dd3a7cf9f4b2c4b6244e173a6ed866e61dd679",
+    "tarball": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.1.9.tgz",
+    "fileCount": 4,
+    "unpackedSize": 6119,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa4ScfCRA9TVsSAnZWagAALFgP/1+INLnEF7wZhzCZYGgt\nAv4wmMOi+6e17OSm7MBketwTxmGs74yxTi/DGHAH7qNwy9s2lKbJMcLTG7Qz\nFfinjAr1E5LFA7fAr1qeexRxcMSEMKlOPm4V4dDx6WmW9JpJVSQ4LDUFhG1C\nJFrlpxjB6ppQ0sqE8UGq6Y2MiuLp1A9mwn3/9wkZ8rka/HxOO/nMIsaNrupE\nkchduhq33CWJwvOEXFEQlzgn+gthfQHpYvryNF0GEODIv+TI9dvXK9BZaTAN\n0cq/M4JGIoSFy4p1rCjus12mWrJSs1rRpMfSp3rjntZjGDJWS0KBdkDLtcfn\nSA59J3S2WcJ6S6JeMqa16siSj6egY3b7J8TIkuUay+TcaYT9SjDK4AmmE5wN\newLKNnNu3O+sHXFw29IDMlSVPebimBtbkc1SElfNc5U9MeE+tKroXhQ4NYcs\nUz3gJR+GHt2eU4+EWS2UlxNbJHJ+DVOFF8QmJoT3Y7hopaqHrYYdLhYDCwl6\nU6AAVIt10Us+5nGZS0WmGrw/P+QQL30I7p58UFmJipg9PZNaEIgJRBApynky\nDMkDE6ICS82Pu/jv3d7enWE42GMgdc7mh+cp8ZQHkqWAD5YxGoWRIJgt3wAx\nky+bAmtR1mV8ZoqiCaDf+EAPXazquX/8SHzad41n3RxyB2qktQbYCDE2Z3z6\naS8I\r\n=A5eY\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "2a6d9dc8d18ea24a413bd5bc949d2ed3a22f6c7b",
+  "homepage": "https://github.com/feross/run-parallel",
+  "keywords": [
+    "parallel",
+    "async",
+    "function",
+    "callback",
+    "asynchronous",
+    "run",
+    "array",
+    "run parallel"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "feross",
+      "email": "feross@feross.org"
+    }
+  ],
+  "name": "run-parallel",
+  "optionalDependencies": {},
+  "readme": "# run-parallel [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]\n\n[travis-image]: https://img.shields.io/travis/feross/run-parallel/master.svg\n[travis-url]: https://travis-ci.org/feross/run-parallel\n[npm-image]: https://img.shields.io/npm/v/run-parallel.svg\n[npm-url]: https://npmjs.org/package/run-parallel\n[downloads-image]: https://img.shields.io/npm/dm/run-parallel.svg\n[downloads-url]: https://npmjs.org/package/run-parallel\n[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg\n[standard-url]: https://standardjs.com\n\n### Run an array of functions in parallel\n\n![parallel](https://raw.githubusercontent.com/feross/run-parallel/master/img.png) [![Sauce Test Status](https://saucelabs.com/browser-matrix/run-parallel.svg)](https://saucelabs.com/u/run-parallel)\n\n### install\n\n```\nnpm install run-parallel\n```\n\n### usage\n\n#### parallel(tasks, [callback])\n\nRun the `tasks` array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its callback, the main\n`callback` is immediately called with the value of the error. Once the `tasks` have\ncompleted, the results are passed to the final `callback` as an array.\n\nIt is also possible to use an object instead of an array. Each property will be run as a\nfunction and the results will be passed to the final `callback` as an object instead of\nan array. This can be a more readable way of handling the results.\n\n##### arguments\n\n- `tasks` - An array or object containing functions to run. Each function is passed a\n`callback(err, result)` which it must call on completion with an error `err` (which can\nbe `null`) and an optional `result` value.\n- `callback(err, results)` - An optional callback to run once all the functions have\ncompleted. This function gets a results array (or object) containing all the result\narguments passed to the task callbacks.\n\n##### example\n\n```js\nvar parallel = require('run-parallel')\n\nparallel([\n  function (callback) {\n    setTimeout(function () {\n      callback(null, 'one')\n    }, 200)\n  },\n  function (callback) {\n    setTimeout(function () {\n      callback(null, 'two')\n    }, 100)\n  }\n],\n// optional callback\nfunction (err, results) {\n  // the results array will equal ['one','two'] even though\n  // the second function had a shorter timeout.\n})\n```\n\nThis module is basically equavalent to\n[`async.parallel`](https://github.com/caolan/async#paralleltasks-callback), but it's\nhandy to just have the one function you need instead of the kitchen sink. Modularity!\nEspecially handy if you're serving to the browser and need to reduce your javascript\nbundle size.\n\nWorks great in the browser with [browserify](http://browserify.org/)!\n\n### see also\n\n- [run-auto](https://github.com/feross/run-auto)\n- [run-parallel-limit](https://github.com/feross/run-parallel-limit)\n- [run-series](https://github.com/feross/run-series)\n- [run-waterfall](https://github.com/feross/run-waterfall)\n\n### license\n\nMIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/run-parallel.git"
+  },
+  "scripts": {
+    "test": "standard && npm run test-node && npm run test-browser",
+    "test-browser": "airtap -- test/*.js",
+    "test-browser-local": "airtap --local -- test/*.js",
+    "test-node": "tape test/*.js"
+  },
+  "version": "1.1.9"
+}

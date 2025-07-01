@@ -1,0 +1,120 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/audit@1.0.7",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2faudit",
+        "name": "@pnpm/audit",
+        "rawSpec": "1.0.7",
+        "spec": "1.0.7",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-audit"
+    ]
+  ],
+  "_from": "@pnpm/audit@1.0.7",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/audit@1.0.7",
+  "_location": "/@pnpm/audit",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/audit_1.0.7_1582101374125_0.6656105145729787"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/audit@1.0.7",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2faudit",
+    "name": "@pnpm/audit",
+    "rawSpec": "1.0.7",
+    "spec": "1.0.7",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-audit"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/audit/-/audit-1.0.7.tgz",
+  "_shasum": "2841c28fb0afb8d2895d4dc4fcd976fb7bb08b20",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/audit@1.0.7",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-audit",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/fetch": "1.0.2",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/lockfile-walker": "2.0.1",
+    "@pnpm/types": "5.0.0"
+  },
+  "description": "Audit a lockfile",
+  "devDependencies": {
+    "@pnpm/audit": "link:",
+    "@pnpm/lockfile-file": "3.0.4"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-CPWH707QBUi4mf868YA66Ku/AXNTinPVo9rLXguwPHnio6cXZk4WOqEFH5FL+io6yFI/IJ93fBlRAYfRmWBliA==",
+    "shasum": "2841c28fb0afb8d2895d4dc4fcd976fb7bb08b20",
+    "tarball": "https://registry.npmjs.org/@pnpm/audit/-/audit-1.0.7.tgz",
+    "fileCount": 9,
+    "unpackedSize": 7818,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPN+CRA9TVsSAnZWagAA1KEP/2m97CCzGaTClOpJUe1r\nEfnOlAys3MB1rh7ueR/haNZsJZ8OsL3bOBGB2temTuikGjvRCcs5dnQZdFLl\nTeId0/R8mosiKCUGVJ6hvdIyerDQVnh0/3BoH6uWWecV6hva6Y+mDXqZ5iK8\n8wI/BWJbzt98nzwdLDqMxs41oudKgPEd0JZpvzRsKtSHIH6uwRUM55sh7pMy\n2vegRlAVXSccMmIQEqbWjGZGp2hQ2jdqub+Nru8R3Ja6f9+0kIM8FJfLfNuK\nlx+UGs2m0rTIicUJ+S2QqBRAVi+/BBS/DSs+LsTQPFz97l1HxmgwMdQQ3oyg\nwtPixpNpGKng+HkSz2cn5RXUIQgwcQhHNcYNeaboq2xwoCn2BKV6KR0wxhXn\ngmXwJBMZ6vcFfBtJOFlZz4968WqymL/02ffLdtx8dbX4RbB/Dt1zvgLTYO3K\nK6N6XbrrUrngUIcS5ynF98ugl0w6gaRCQgHLr12+FtRwNRI9vWxqjfe63Bu0\nSmgOpE76O6nwfu/+Zz4yqd9i0XTU6MvP+OCPA12EUdtiWdSup6nCdMt6gIH0\npcnK3WDM+zc6BwWMSLfd1PARPXTsvLxb9Zm5aDYoEtccSLRTpSql/HQTAhCN\nOiw5NtCdY2/bPUxVBJg03Ot4oOK90zRYVbWSvqrDF5nz8SC3Abe6oMfLp6y0\n0kFf\r\n=yc2K\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "audit"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/audit",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/audit\n\n> Audit a lockfile\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/audit.svg)](https://www.npmjs.com/package/@pnpm/audit)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/audit\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/audit"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.7"
+}

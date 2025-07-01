@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-reflect@^2.1.0",
+        "scope": null,
+        "escapedName": "p-reflect",
+        "name": "p-reflect",
+        "rawSpec": "^2.1.0",
+        "spec": ">=2.1.0 <3.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/promise-share"
+    ]
+  ],
+  "_from": "p-reflect@^2.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-reflect@2.1.0",
+  "_location": "/p-reflect",
+  "_nodeVersion": "8.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-reflect_2.1.0_1554269046665_0.8621619656430015"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-reflect@^2.1.0",
+    "scope": null,
+    "escapedName": "p-reflect",
+    "name": "p-reflect",
+    "rawSpec": "^2.1.0",
+    "spec": ">=2.1.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/p-settle",
+    "/promise-share"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-reflect/-/p-reflect-2.1.0.tgz",
+  "_shasum": "5d67c7b3c577c4e780b9451fc9129675bd99fe67",
+  "_shrinkwrap": null,
+  "_spec": "p-reflect@^2.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/promise-share",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-reflect/issues"
+  },
+  "dependencies": {},
+  "description": "Make a promise always fulfill with its actual fulfillment value or rejection reason",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-paHV8NUz8zDHu5lhr/ngGWQiW067DK/+IbJ+RfZ4k+s8y4EKyYCz8pGYWjxCg35eHztpJAt+NUgvN4L+GCbPlg==",
+    "shasum": "5d67c7b3c577c4e780b9451fc9129675bd99fe67",
+    "tarball": "https://registry.npmjs.org/p-reflect/-/p-reflect-2.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5809,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpEN3CRA9TVsSAnZWagAAWNMP/R1t2vf5STbvK1SqDZQs\n2Rv1Srw7dsMoiiy3tTR59EpLnlSxKXSvE6rIRu6E7544LfqLggkCTemPs+Q6\nPVKscgmqFdjZJREMwm6d/SMvgyEzh76mFHzFeD0An9ukL4JcCQe2XQjrH7xc\naAmKcl3I0YNcYQHJNxKdCugFLDc9ri5PvaqscKSs4Qnd10U8YmSwQDx/NIOE\nk2pkwqjjptPlBLmgljT1sJ+M+mykV9aej66n7ir1hiqwpIJw2gLcYGXFIav3\nMaJ7wbiID4Wc/qB3UHezyF0MJs0wMEaKmyBQ2zlB1dNcYMlzw+boSFXca/fG\n/bj6tMFV0cnRFtI9pzyUk6sh3wgVfjNbloo53k7RA1t9RWOMP33fFyv7kitO\nDOBb4A+Ac9OnXh24kbkFe9SYvRI9fEVl6/hMhxo5vkDgaKEFL73QkP+bLcuR\nC6cPtqom6OumvljVE3FoIwxRAeEd4YriR6B70eMUZlzXlIX7RamiHa5Tr7i9\nNxaWYljaao7fyzBDGjMYnLNvHZ6B9penmUnNZorphWArlR+NR04W0in02EB/\nvCD9e/9AzJG8Rq50jQfr4NxfYD04fG8m1fqnAaJYoZlZfkVQQDHt3cUees/Z\n+24kEFHPl/0NkZ0+Jql+GWWwl+GuEI4wr0j/0qrByPtRUoqBRns27GSfpSTn\njp/f\r\n=I3gh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "d0141ac1dd4319cd6eda7f88b6fa73384dded212",
+  "homepage": "https://github.com/sindresorhus/p-reflect#readme",
+  "keywords": [
+    "promise",
+    "reflect",
+    "inspect",
+    "debug",
+    "fulfill",
+    "reject",
+    "fulfilled",
+    "rejected",
+    "error",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "p-reflect",
+  "optionalDependencies": {},
+  "readme": "# p-reflect [![Build Status](https://travis-ci.org/sindresorhus/p-reflect.svg?branch=master)](https://travis-ci.org/sindresorhus/p-reflect)\n\n> Make a promise always fulfill with its actual fulfillment value or rejection reason\n\nUseful when you want a promise to fulfill no matter what and would rather handle the actual state afterwards.\n\n\n## Install\n\n```\n$ npm install p-reflect\n```\n\n\n## Usage\n\nHere, `Promise.all` would normally fail early because one of the promises rejects, but by using `p-reflect`, we can ignore the rejection and handle it later on.\n\n```js\nconst pReflect = require('p-reflect');\n\n(async () => {\n\tconst promises = [\n\t\tgetPromise(),\n\t\tgetPromiseThatRejects(),\n\t\tgetPromise()\n\t];\n\n\tconst results = await Promise.all(promises.map(pReflect));\n\n\tconsole.log(results);\n\t/*\n\t[\n\t\t{\n\t\t\tisFulfilled: true,\n\t\t\tisRejected: false,\n\t\t\tvalue: '🦄'\n\t\t},\n\t\t{\n\t\t\tisFulfilled: false,\n\t\t\tisRejected: true,\n\t\t\treason: [Error: 👹]\n\t\t},\n\t\t{\n\t\t\tisFulfilled: true,\n\t\t\tisRejected: false,\n\t\t\tvalue: '🐴'\n\t\t}\n\t]\n\t*/\n\n\tconst resolvedString = results\n\t\t.filter(result => result.isFulfilled)\n\t\t.map(result => result.value)\n\t\t.join('');\n\n\tconsole.log(resolvedString);\n\t//=> '🦄🐴'\n})();\n```\n\nThe above is just an example. Use [`p-settle`](https://github.com/sindresorhus/p-settle) if you need this.\n\n\n## API\n\n### pReflect(promise)\n\nReturns a `Promise<Object>`.\n\nThe object has the following properties:\n\n- `isFulfilled`\n- `isRejected`\n- `value` or `reason` *(Depending on whether the promise fulfilled or rejected)*\n\n#### promise\n\nType: `Promise`\n\nA promise to reflect upon.\n\n\n## Related\n\n- [p-settle](https://github.com/sindresorhus/p-settle) - Settle promises concurrently and get their fulfillment value or rejection reason\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-reflect.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "2.1.0"
+}

@@ -1,0 +1,147 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/tabtab@0.0.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ftabtab",
+        "name": "@pnpm/tabtab",
+        "rawSpec": "0.0.1",
+        "spec": "0.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/tabtab@0.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/tabtab@0.0.1",
+  "_location": "/@pnpm/tabtab",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tabtab_0.0.1_1580338892992_0.21450542606081457"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {
+    "ms": "2.1.2"
+  },
+  "_requested": {
+    "raw": "@pnpm/tabtab@0.0.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ftabtab",
+    "name": "@pnpm/tabtab",
+    "rawSpec": "0.0.1",
+    "spec": "0.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/tabtab/-/tabtab-0.0.1.tgz",
+  "_shasum": "b9e300979e21b8f64164e49de9f818641ef920bd",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/tabtab@0.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "mklabs"
+  },
+  "auto-changelog": {
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false,
+    "ignoreCommitPattern": "changelog|readme|^test"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/tabtab/issues"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "enquirer": "^2.3.4",
+    "minimist": "^1.2.0",
+    "mkdirp": "^1.0.3",
+    "untildify": "^4.0.0"
+  },
+  "description": "tab completion helpers, for node cli programs. Inspired by npm completion.",
+  "devDependencies": {
+    "auto-changelog": "^1.8.0",
+    "c8": "^3.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-mklabs": "^1.0.9",
+    "inquirer-test": "^2.0.1",
+    "jsdoc-to-markdown": "^4.0.1",
+    "mocha": "^7.0.1",
+    "npm-watch": "^0.4.0",
+    "remark-cli": "^5.0.0",
+    "remark-toc": "^5.0.0",
+    "serve": "^10.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-XLx1tSzrLxvmsNdh6AjiYy6lhMq/Sw08ELFDjlPmbdPYJ9E3l6RtSX4bxXoJt7dZHKskNypF5ksx1rt5oqPsDg==",
+    "shasum": "b9e300979e21b8f64164e49de9f818641ef920bd",
+    "tarball": "https://registry.npmjs.org/@pnpm/tabtab/-/tabtab-0.0.1.tgz",
+    "fileCount": 34,
+    "unpackedSize": 975531,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeMg7NCRA9TVsSAnZWagAAXggP/i0R/ddmYAMlnjW5jBoD\nFD4E/+6GrEEiPnAqCcotN7pjvBmaY20BybTiFTjXMppkAfylrEo5C947VPhE\nHHzQs5DLcIRwEBU8UycGDa5JslUsOVpXo46dY4Ll2WMut9aSDZskPwnnoDBC\nYJMZ0OfigZi/uYAgZUj+Eh47V9B56qusw5QLDIGiipzhAD3tB2R4A2qISIqS\nY7v1RrLVGwOpw2QaqRrvmbSvboX7FKRYAowjL5a4CyVjfjAuEhaJRV8k9geU\n3z5o7lUDXWJwaR/zwerF9PEiIGJ8Fv/SPkkzJ2EaGuH6sXlzloVGbsTQo3ZQ\nqjhR+G3HlM8R5sLpZpjbBljkYYYMRBOoW1Rlf2zorzPmg8cD9Tqit4Hb8tsF\nRTVZdpbqzbX9JRx+Yn+a5YDqMIj59snDRtb7DZj9GVdL8BMIoih6Yphjit6r\nsBR/UhZyHXTACsx/TMmFZAv+0K0GTVlINPKTU3G4Z+sGmTnPu//+6Owfknhr\nuFKY0m5SZHswY8ZX1AKIr2Mde0oE2cvrVrIg5391090lz2Sh3WuVdg7j8CiP\nykkIdLK11I2MImMvYJnuBnxXm8aVpb5tbAfSs1S8TSh5hSaT5GWKwvp4B9vu\nzEKJTa1NlVPYj2BZQM8D8SkbZFQ5ia3o/u90LBZ5855cQia6RFglwvrutEM7\n6Cga\r\n=TBMF\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "gitHead": "e0e5d0adc530e07bcb9b66eb9189d8448f2fc9d6",
+  "homepage": "https://github.com/pnpm/tabtab#readme",
+  "keywords": [
+    "terminal",
+    "tab",
+    "unix",
+    "console",
+    "complete",
+    "completion"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/tabtab",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/tabtab\n\n[![Build Status](https://travis-ci.com/pnpm/tabtab.svg?branch=master)](https://travis-ci.com/pnpm/tabtab)\n\nA node package to do some custom command line `<tab><tab>` completion for any\nsystem command, for Bash, Zsh, and Fish shells.\n\nMade possible using the same technique as npm (whose completion is quite\nawesome) relying on a shell script bridge to do the actual completion from\nnode's land.\n\n![tabtab](https://user-images.githubusercontent.com/113832/46506243-deb39b00-c833-11e8-8f5f-7136987e7341.gif)\n\n**Warning / Breaking changes**\n\n-   Windows is not supported\n-   Cache has been removed\n-   Now only support node `> 7.10.1`, for previous version with support for node\n    6 be sure to use tabtab `2.2.x`\n\n## Table of Contents\n\n-   [Goal of this 3.0.0 version](#goal-of-this-300-version)\n\n-   [Installation](#installation)\n\n-   [Usage](#usage)\n\n    -   [1. Install completion](#1-install-completion)\n    -   [2. Log completion](#2-log-completion)\n    -   [3. Parsing env](#3-parsing-env)\n\n-   [Completion mechanism](#completion-mechanism)\n\n    -   [Completion install](#completion-install)\n    -   [Completion uninstall](#completion-uninstall)\n\n-   [Debugging](#debugging)\n\n-   [API Documentation](#api-documentation)\n\n-   [Changelog](#changelog)\n\n-   [Credits](#credits)\n\n## Goal of this 3.0.0 version\n\nSimplify everything, major overhaul, rewrite from scratch.\n\nFunctional, less abstraction, clearer documentation, good test coverage,\nsupport for node 10 without babel.\n\nUp to date dependencies, easier to debug, easier to test.\n\nShould still support bash, zsh and fish but bash is the primary focus of this\nalpha version.\n\nNo binary file anymore, just a library (still debating with myself)\n\nThe goal of this rewrite is two-folded:\n\n-   Integrate nicely with [yo](https://github.com/yeoman/yo) (Yeoman)\n-   Have a robust and fast enough library for [yarn-completions](https://github.com/mklabs/yarn-completions)\n\n## Installation\n\n    npm install tabtab\n\n## Usage\n\nWriting completion is a two-step process: Installation and Logging. Tabtab\nprovides just that.\n\nHere is a basic example using\n[minimist](https://www.npmjs.com/package/minimist) to parse arguments.\n\n```js\n#! /usr/bin/env node\n\nconst tabtab = require('tabtab');\nconst opts = require('minimist')(process.argv.slice(2), {\n  string: ['foo', 'bar'],\n  boolean: ['help', 'version', 'loglevel']\n});\n\nconst args = opts._;\nconst completion = env => {\n  if (!env.complete) return;\n\n  // Write your completions there\n\n  if (env.prev === 'foo') {\n    return tabtab.log(['is', 'this', 'the', 'real', 'life']);\n  }\n\n  if (env.prev === 'bar') {\n    return tabtab.log(['is', 'this', 'just', 'fantasy']);\n  }\n\n  if (env.prev === '--loglevel') {\n    return tabtab.log(['error', 'warn', 'info', 'notice', 'verbose']);\n  }\n\n  return tabtab.log([\n    '--help',\n    '--version',\n    '--loglevel',\n    'foo',\n    'bar',\n    'install-completion',\n    'completion',\n    'someCommand:someCommand is some kind of command with a description',\n    {\n      name: 'someOtherCommand:hey',\n      description: 'You must add a description for items with \":\" in them'\n    },\n    'anotherOne'\n  ]);\n};\n\nconst run = async () => {\n  const cmd = args[0];\n\n  // Write your CLI there\n\n  // Here we install for the program `tabtab-test` (this file), with\n  // completer being the same program. Sometimes, you want to complete\n  // another program that's where the `completer` option might come handy.\n  if (cmd === 'install-completion') {\n    await tabtab\n      .install({\n        name: 'tabtab-test',\n        completer: 'tabtab-test'\n      })\n      .catch(err => console.error('INSTALL ERROR', err));\n\n    return;\n  }\n\n  if (cmd === 'uninstall-completion') {\n    // Here we uninstall for the program `tabtab-test` (this file).\n    await tabtab\n      .uninstall({\n        name: 'tabtab-test'\n      })\n      .catch(err => console.error('UNINSTALL ERROR', err));\n\n    return;\n  }\n\n  // The completion command is added automatically by tabtab when the program\n  // is completed.\n  if (cmd === 'completion') {\n    const env = tabtab.parseEnv(process.env);\n    return completion(env);\n  }\n};\n\nrun();\n```\n\nPlease refer to the\n[examples/tabtab-test-complete](./examples/tabtab-test-complete) package for a\nworking example. The following usage documentation is based on it.\n\n### 1. Install completion\n\nTo enable completion for a given program or package, you must enable the\ncompletion on your or user's system. This is done by calling `tabtab.install()`\nusually behind a `program install-completion` command or something similar.\n\n```js\n// Here we install for the program `tabtab-test`, with completer being the same\n// program. Sometimes, you want to complete another program that's where the\n// `completer` option might come handy.\ntabtab.install({\n  name: 'tabtab-test',\n  completer: 'tabtab-test'\n})\n  .then(() => console.log('Completion installed'))\n  .catch(err => console.error(err))\n```\n\nThe method returns a promise, so `await / async` usage is possible. It takes an\n`options` parameter, with:\n\n-   `name`: The program to complete\n-   `completer`: The program that does the completion (can be the same program).\n\n`tabtab.install()` will ask the user which SHELL to use, and optionally a path\nto write to. This will add a new line to either `~/.bashrc`, `~/.zshrc` or\n`~/.config/fish/config.fish` file to source tabtab completion script.\n\nOnly one line will be added, even if it is called multiple times.\n\n### 2. Log completion\n\nOnce the completion is enabled and active, you can write completions for the\nprogram (here, in this example `tabtab-test`). Briefly, adding completions is\nas simple as logging output to `stdout`, with a few particularities (namely on\nBash, and for descriptions), but this is taken care of by `tabtab.log()`.\n\n```js\ntabtab.log([\n  '--help',\n  '--version',\n  'command'\n  'command-two'\n]);\n```\n\nThis is the simplest way of adding completions. You can also use an object,\ninstead of a simple string, with `{ name, description }` property if you want\nto add descriptions for each completion item, for the shells that support them\n(like Zsh or Fish). Or use the simpler `name:description` form.\n\n```js\ntabtab.log([\n  { name: 'command', description: 'Description for command' },\n  'command-two:Description for command-two'\n]);\n```\n\nThe `{ name, description }` approach is preferable in case you have completion\nitems with `:` in them.\n\nNote that you can call `tabtab.log()` multiple times if you prefer to do so, it\nsimply logs to the console in sequence.\n\n### 3. Parsing env\n\nIf you ever want to add more intelligent completion, you'll need to check and\nsee what is the last or previous word in the completed line, so that you can\nadd options for a specific command or flag (such as loglevels for `--loglevel`\nfor instance).\n\nTabtab adds a few environment variables for you to inspect and use, this is\ndone by calling `tabtab.parseEnv()` method.\n\n```js\nconst env = tabtab.parseEnv(process.env);\n// env:\n//\n// - complete    A Boolean indicating whether we act in \"plumbing mode\" or not\n// - words       The Number of words in the completed line\n// - point       A Number indicating cursor position\n// - line        The String input line\n// - partial     The String part of line preceding cursor position\n// - last        The last String word of the line\n// - lastPartial The last word String of partial\n// - prev        The String word preceding last\n```\n\nUsually, you'll want to check against `env.last` or `env.prev`.\n\n```js\nif (env.prev === '--loglevel') {\n  tabtab.log(['error', 'warn', 'info', 'notice', 'verbose']);\n}\n```\n\n## Completion mechanism\n\nFeel free to browse the [scripts](./scripts) directory to inspect the various\ntemplate files used when creating a completion with `tabtab.install()`.\n\nHere is a Bash completion snippet created by tabtab.\n\n```bash\n###-begin-tabtab-test-completion-###\nif type complete &>/dev/null; then\n  _tabtab-test_completion () {\n    local words cword\n    if type _get_comp_words_by_ref &>/dev/null; then\n      _get_comp_words_by_ref -n = -n @ -n : -w words -i cword\n    else\n      cword=\"$COMP_CWORD\"\n      words=(\"${COMP_WORDS[@]}\")\n    fi\n\n    local si=\"$IFS\"\n    IFS=$'\\n' COMPREPLY=($(COMP_CWORD=\"$cword\" \\\n                           COMP_LINE=\"$COMP_LINE\" \\\n                           COMP_POINT=\"$COMP_POINT\" \\\n                           tabtab-test completion -- \"${words[@]}\" \\\n                           2>/dev/null)) || return $?\n    IFS=\"$si\"\n    if type __ltrim_colon_completions &>/dev/null; then\n      __ltrim_colon_completions \"${words[cword]}\"\n    fi\n  }\n  complete -o default -F _tabtab-test_completion tabtab-test\nfi\n###-end-tabtab-test-completion-###\n```\n\nThe system is quite simple (though hard to nail it down, thank you npm). A new\nBash function is created, which is invoked whenever `tabtab-test` is tab\ncompleted. This function then invokes the completer `tabtab-test completion`\nwith `COMP_CWORD`, `COMP_LINE` and `COMP_POINT` environment variables (which is\nparsed by `tabtab.parseEnv()`).\n\nThe same mechanism can be applied to Zsh and Fish.\n\n### Completion install\n\nAs described in the [`Usage > Install Completion`](#1-install-completion)\nsection, installing a completion involves adding a new line to source in either\n`~/.bashrc`, `~/.zshrc` or `~/.config/fish/config.fish` file.\n\nIn the `3.0.0` version, it has been improved to only add a single line instead\nof multiple ones, one for each completion package installed on the system.\n\nThis way, a single line is added to enable the completion of for various\nprograms without cluttering the Shell configuration file.\n\nExample for `~/.bashrc`\n\n```bash\n# tabtab source for packages\n# uninstall by removing these lines\n[ -f ~/.config/tabtab/__tabtab.bash ] && . ~/.config/tabtab/__tabtab.bash || true\n```\n\nIt'll load a file `__tabtab.bash`, created in the `~/.config/tabtab` directory,\nwhich will hold all the source lines for each tabtab packages defining a\ncompletion.\n\n```bash\n# tabtab source for foo package\n# uninstall by removing these lines\n[ -f ~/.config/tabtab/foo.bash ] && . ~/.config/tabtab/foo.bash || true\n\n# tabtab source for tabtab-test package\n# uninstall by removing these lines\n[ -f ~/.config/tabtab/tabtab-test.bash ] && . ~/.config/tabtab/tabtab-test.bash || true\n```\n\n### Completion uninstall\n\nYou can follow the file added in your SHELL configuration file and disable a\ncompletion by removing the above lines.\n\nOr simply disable tabtab by removing the line in your SHELL configuration file.\n\nOr, you can use `tabtab.uninstall()` to do this for you.\n\n```js\nif (cmd === 'uninstall-completion') {\n  // Here we uninstall for the program `tabtab-test`\n  await tabtab\n    .uninstall({\n      name: 'tabtab-test'\n    })\n    .catch(err => console.error('UNINSTALL ERROR', err));\n\n  return;\n}\n```\n\n## Debugging\n\ntabtab internally logs a lot of things, using the\n[debug](https://www.npmjs.com/package/debug) package.\n\nWhen testing a completion, it can be useful to see those logs, but writing to\n`stdout` or `stderr` while completing something can be troublesome.\n\nYou can use the `TABTAB_DEBUG` environment variable to specify a file to log to\ninstead.\n\n    export TABTAB_DEBUG=\"/tmp/tabtab.log\"\n    tail -f /tmp/tabtab.log\n\n    # in another shell\n    tabtab-test <tab>\n\nSee [tabtabDebug.js](./lib/utils/tabtabDebug.js) file for details.\n\n## API Documentation\n\nPlease refer to [api](./api) directory to see generated documentation (using\n[jsdoc2md](https://github.com/jsdoc2md/jsdoc-to-markdown))\n\n## Changelog\n\nPlease refer to [CHANGELOG](./CHANGELOG.md) file to see all possible changes to this project.\n\n## Credits\n\nnpm does pretty amazing stuff with its completion feature. bash and zsh\nprovides command tab-completion, which allow you to complete the names\nof commands in your $path.  usually these functions means bash\nscripting, and in the case of npm, it is partially true.\n\nthere is a special `npm completion` command you may want to look around,\nif not already.\n\n    npm completion\n\nrunning this should dump [this\nscript](https://raw.github.com/isaacs/npm/caafb7323708e113d100e3e8145b949ed7a16c22/lib/utils/completion.sh)\nto the console. this script works with both bash/zsh and map the correct\ncompletion functions to the npm executable. these functions takes care\nof parsing the `comp_*` variables available when hitting tab to complete\na command, set them up as environment variables and run the `npm\ncompletion` command followed by `-- words` where words match value of\nthe command being completed.\n\nthis means that using this technique npm manage to perform bash/zsh\ncompletion using node and javascript. actually, the comprehensiveness of npm\ncompletion is quite amazing.\n\nthis whole package/module is based entirely on npm's code and @isaacs\nwork.\n\n* * *\n\n> [mit](./LICENSE)  ·  > [mklabs.github.io](https://mklabs.github.io)  ·  > [@mklabs](https://github.com/mklabs)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/tabtab.git"
+  },
+  "scripts": {
+    "api": "for file in `echo index.js installer.js prompt.js`; do jsdoc2md lib/$file > api/$file.md; done",
+    "changelog": "auto-changelog",
+    "coverage": "c8 report --reporter=text-lcov | coveralls",
+    "coverage-html": "npm run mocha && c8 report --reporter=html && serve coverage",
+    "docs": "npm run api && npm run readme && npm run changelog",
+    "eslint": "eslint lib/ test/",
+    "mocha": "DEBUG='tabtab*' mocha --timeout 5000",
+    "posttest": "npm run eslint",
+    "readme": "remark readme.md --use toc --output",
+    "test": "mkdirp ~/.config/tabtab && DEBUG='tabtab*' c8 mocha --timeout 5000",
+    "watch": "npm-watch"
+  },
+  "version": "0.0.1",
+  "watch": {
+    "test": "{lib,test}/**/*.js"
+  }
+}

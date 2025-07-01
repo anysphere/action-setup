@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/get-context@1.1.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fget-context",
+        "name": "@pnpm/get-context",
+        "rawSpec": "1.1.0",
+        "spec": "1.1.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/get-context@1.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/get-context@1.1.0",
+  "_location": "/@pnpm/get-context",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/get-context_1.1.0_1582976834455_0.3873226318958434"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/get-context@1.1.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fget-context",
+    "name": "@pnpm/get-context",
+    "rawSpec": "1.1.0",
+    "spec": "1.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-store",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/get-context/-/get-context-1.1.0.tgz",
+  "_shasum": "9b6eab99bd3ba5185769103fdf11bdbac95f11c7",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/get-context@1.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/read-projects-context": "1.0.3",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "is-ci": "2.0.0",
+    "make-dir": "3.0.2",
+    "path-absolute": "1.0.1",
+    "ramda": "0.27.0"
+  },
+  "description": "Gets context information about a project",
+  "devDependencies": {
+    "@pnpm/get-context": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/is-ci": "^2.0.0",
+    "@types/ramda": "^0.26.43"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Xeuaud0a/+G6xHCRSk65384wFDXand48LrXcw+yZhQPTF936lldQbAzu1/IOfFJhSUjL1k17LXNBkK7tCDKPMA==",
+    "shasum": "9b6eab99bd3ba5185769103fdf11bdbac95f11c7",
+    "tarball": "https://registry.npmjs.org/@pnpm/get-context/-/get-context-1.1.0.tgz",
+    "fileCount": 19,
+    "unpackedSize": 26174,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk9CCRA9TVsSAnZWagAALXkP/A+AI438rq/ve9QvVNJs\nR21wHN2xlqBew2MdtqkthgRX+sveRcHSmsyU5xsgl/80LZGx3YDn0LVn89Y4\nQw1f5mkZeqdDTQpboEHWswF1rBUrFodNIf3WkLMCPEeBDLbSwuUiMUvI4Gcc\nO6P7zdzoEfp7YSyXCdMW+RTaGvG6jxqlVAFVPkmvdqRwj0bF8qCOH5oUn/Ia\nFQQLDHXZqpCcaroCvekuKON+jRSgPdsJxvnsJzU+2beQCLP+xts/QY+0xcX2\n7RPB14jpziQ3y9uSSGvVeKTeQdIZ1GqWcFS23GuU/T5DcNlAp21DbQ06AOKa\n/Y2V0zSFXDAX/W8HcXuA4O1UVb6F9MvuH2YjCrlpgcMDY8klSx0jVxi/bPi8\nWvyKZZEHixuyakfNfNIe/H9z0169kvNdrRwthMCTo+t2MvoDQBRbyj7WvaS1\nY4w6Lt1pqQ4iO/q1kVaCJg7LoJY1OGWeAY/PhmcYdRN5gLV4+V3aaHfqO6EZ\nLqzG+vhaJpsqTidKpyy10Xye0Twnl2GwxxVclEXK08bF5ZF19d0EbwHuHcyE\npaJkGcBrRsu9IZGk/H6rxyJ2ZTxQB9IsHqmIX3p7MMEypj4HBLZ242xGVUsH\n4SaUkNBqWY6SNKOLaCFQITJmy63UeYO17hXDEZO4vvnmb8O3+ImGAcFXJjOX\nPTg9\r\n=mCoQ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "scripts"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/get-context",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/get-context\n\n> Gets context information about a project\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/get-context.svg)](https://www.npmjs.com/package/@pnpm/get-context)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/get-context\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/get-context"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.1.0"
+}

@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "map-obj@^4.0.0",
+        "scope": null,
+        "escapedName": "map-obj",
+        "name": "map-obj",
+        "rawSpec": "^4.0.0",
+        "spec": ">=4.0.0 <5.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/camelcase-keys"
+    ]
+  ],
+  "_from": "map-obj@^4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "map-obj@4.1.0",
+  "_location": "/map-obj",
+  "_nodeVersion": "8.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/map-obj_4.1.0_1560578851920_0.028448962438873515"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "map-obj@^4.0.0",
+    "scope": null,
+    "escapedName": "map-obj",
+    "name": "map-obj",
+    "rawSpec": "^4.0.0",
+    "spec": ">=4.0.0 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/camelcase-keys"
+  ],
+  "_resolved": "https://registry.npmjs.org/map-obj/-/map-obj-4.1.0.tgz",
+  "_shasum": "b91221b542734b9f14256c0132c897c5d7256fd5",
+  "_shrinkwrap": null,
+  "_spec": "map-obj@^4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/camelcase-keys",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/map-obj/issues"
+  },
+  "dependencies": {},
+  "description": "Map object keys and values into a new object",
+  "devDependencies": {
+    "ava": "^2.0.0",
+    "tsd": "^0.7.3",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-glc9y00wgtwcDmp7GaE/0b0OnxpNJsVf3ael/An6Fe2Q51LLwN1er6sdomLRzz5h0+yMpiYLhWYF5R7HeqVd4g==",
+    "shasum": "b91221b542734b9f14256c0132c897c5d7256fd5",
+    "tarball": "https://registry.npmjs.org/map-obj/-/map-obj-4.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 7054,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBIskCRA9TVsSAnZWagAAY9AP/1k8+pmTqJ90rEGXi6vZ\nEByP6XwafRMz5yae+2GFxy0MTkvR38Me8vz5tN134XdBpJ6JMbTXSXWpX/yU\nvggfsIds1jA5jP/ivfcOJwlshutX9xmnmLAsj6idQ1We/0syS58xCtKLmOYs\nXNyzserR6QX0/SVOwTkpP/ayKktCArCVfQ34kaLraEb9UDn79NDN5by90a9R\n3d+SonjPYMC3RKPmOWbWHsJ3tkWR6/CPsgplKSrshZDwWHdgeP6L2vH4Ion2\narxIXMQfBtuk5ndb8IeWcY5HnKi2MH+L2DkvH9zDDpi94BRQmyWi1kYAJmBo\nlINFKbE7HmAjvCYbvl1hmHYAGR+jm/UyHleKOjt9kuDQHXFoATZMKGeDHuFn\n3qL88+p1or3x80yhNGtrS0JgAbltaoY2amhktocGE/cs9hEhVeSWfH3GK8PT\nYDLwZ2GS/RRsCNR5D20iRn+0Yum9+t6DxqrXVcQKN549N+QzaJ1t0EkwvaSw\nLpppEedOPS/kZe2MnlrL5yCn82mlMhqvWkNwNtrXUHZ3MHWL+YNKN0eTK6rP\n4gt1XuFCZ/KfsgTGFTvL6T8HPSwWFchn/5QK4hzi+JoNTFMGfqUL+5G2kHus\nml6YJv8QPTKe4ElJZv8yoSZvKXQwLtuGuz8KukY9cqvmcDRr0uvCFls6+cw7\nCQ22\r\n=I4Q7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "ab153427cc788e28448f2e1800eaec1c43610d38",
+  "homepage": "https://github.com/sindresorhus/map-obj#readme",
+  "keywords": [
+    "map",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "iterate",
+    "iterator",
+    "rename",
+    "modify",
+    "deep",
+    "recurse",
+    "recursive"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "map-obj",
+  "optionalDependencies": {},
+  "readme": "# map-obj [![Build Status](https://travis-ci.org/sindresorhus/map-obj.svg?branch=master)](https://travis-ci.org/sindresorhus/map-obj)\n\n> Map object keys and values into a new object\n\n\n## Install\n\n```\n$ npm install map-obj\n```\n\n\n## Usage\n\n```js\nconst mapObject = require('map-obj');\n\nconst newObject = mapObject({foo: 'bar'}, (key, value) => [value, key]);\n//=> {bar: 'foo'}\n```\n\n\n## API\n\n### mapObject(source, mapper, options?)\n\n#### source\n\nType: `object`\n\nSource object to copy properties from.\n\n#### mapper\n\nType: `Function`\n\nMapping function.\n\n- It has signature `mapper(sourceKey, sourceValue, source)`.\n- It must return a two item array: `[targetKey, targetValue]`.\n\n#### options\n\nType: `object`\n\n##### deep\n\nType: `boolean`<br>\nDefault: `false`\n\nRecurse nested objects and objects in arrays.\n\n##### target\n\nType: `object`<br>\nDefault: `{}`\n\nTarget object to map properties on to.\n\n\n## Related\n\n- [filter-obj](https://github.com/sindresorhus/filter-obj) - Filter object keys and values into a new object\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-map-obj?utm_source=npm-map-obj&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/map-obj.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.1.0"
+}

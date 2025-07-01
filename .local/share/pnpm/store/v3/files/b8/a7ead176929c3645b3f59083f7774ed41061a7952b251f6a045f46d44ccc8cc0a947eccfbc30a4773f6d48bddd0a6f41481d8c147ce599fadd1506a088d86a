@@ -1,0 +1,140 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/error@1.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ferror",
+        "name": "@pnpm/error",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils"
+    ]
+  ],
+  "_from": "@pnpm/error@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/error@1.0.0",
+  "_location": "/@pnpm/error",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/error_1.0.0_1564510133185_0.05789706550380802"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/error@1.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ferror",
+    "name": "@pnpm/error",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/cli-utils",
+    "/@pnpm/config",
+    "/@pnpm/default-reporter",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/filter-workspace-packages",
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/link-bins",
+    "/@pnpm/local-resolver",
+    "/@pnpm/lockfile-file",
+    "/@pnpm/npm-resolver",
+    "/@pnpm/outdated",
+    "/@pnpm/package-is-installable",
+    "/@pnpm/plugin-commands-audit",
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-listing",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/plugin-commands-script-runners",
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/pnpmfile",
+    "/@pnpm/read-project-manifest",
+    "/@pnpm/resolve-dependencies",
+    "/@pnpm/store-connection-manager",
+    "/@pnpm/tarball-fetcher",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/error/-/error-1.0.0.tgz",
+  "_shasum": "e2f6b84eebec9cc5578d875cdd8adb41b3d20638",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/error@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/cli-utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "An error class for pnpm errors",
+  "devDependencies": {
+    "rimraf": "2.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-csAZ7TEl83BD/PzUpLvGNWGUb8ouaDCGyPgDwc+pAJSovg++FKDB0CdoF+VPgBstYen2p+7OOMpEAJHAYK0Ccw==",
+    "shasum": "e2f6b84eebec9cc5578d875cdd8adb41b3d20638",
+    "tarball": "https://registry.npmjs.org/@pnpm/error/-/error-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2868,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdQIe1CRA9TVsSAnZWagAAEzQP/jbowvk69myTKKS3nN5U\nqml2CnLTofI8P9wU24zxI/XvQ423aMDHx5YDjih4r6XUvGg/ycmYNvif1oBN\nCO78/Fj4igrbWg/NgbMjD8E+geQU0WyottyYyCK9q3P430w9VgGY+xRNZ0J1\nQV2MKZcHzfzh5Vet8vIaoFWB2psettEzqw+x9LtxlmrkVKI7zZvmEHv88uxY\njuhjmzyazG8YjbcVS1Z0QlD6wfdzhz6Th6RDx6zS+OXiM2oPTFklYV5NsQ5b\nEsJU2QVE62tilkdx1e+gnXMKxAhVsxy1JF/5LwByDeBxcAcTv4cpiKXdXN/H\n4WoHGGeuLn1ajvGrx4RfwE15U1PQdbXtJ2DQ1mVShcUfrBhbfvMi+IyhyRpF\np2PG7FmJh9kCcUrNVHH/Pf2mDOjPligyAA82kQ/0vv5rGpk98XUdTZzUC7G3\n8AGd6SklIvi4dNuE/V/30PlTcYZyAzzDXQl2krlzRWmxhbHmInzygFx9To2I\noYcqagGsV+mXiOOK2XbU+U6fyMSuXUQY2A4whbpEcpqRVU0TyO2pGlCRkkYc\nwkIUJqkDoleceRmt6SeqvAkYmLu5wa1Uk2mqjpWyom7NGVWT7cCpnDov6as/\nLRyjD2Edtc7+8jh398xBraIILJfqkNOpkOTujl4cbVMhfLZteadT0WynBmXA\nGf68\r\n=3UCg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "error"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/error",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/error\n\n> An error class for pnpm errors\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/error.svg)](https://www.npmjs.com/package/@pnpm/error)\n<!--/@-->\n\n## Installation\n\n```sh\npnpm add @pnpm/error\n```\n\n### Usage\n\n```ts\nimport PnpmError from '@pnpm/error'\n\ntry {\n    throw new PnpmError('THE_ERROR_CODE', 'The error message')\n} catch (err) {\n    console.log(err.code)\n    //> ERR_PNPM_THE_ERROR_CODE\n    console.log(err.message)\n    //> The error message\n}\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/error"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && pnpm run lint",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

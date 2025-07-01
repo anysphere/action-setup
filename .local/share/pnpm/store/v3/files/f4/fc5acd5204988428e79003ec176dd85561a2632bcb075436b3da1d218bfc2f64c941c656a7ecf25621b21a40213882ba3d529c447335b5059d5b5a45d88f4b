@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/colorize-semver-diff@1.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fcolorize-semver-diff",
+        "name": "@pnpm/colorize-semver-diff",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation"
+    ]
+  ],
+  "_from": "@pnpm/colorize-semver-diff@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/colorize-semver-diff@1.0.0",
+  "_location": "/@pnpm/colorize-semver-diff",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/colorize-semver-diff_1.0.0_1579114849879_0.7744428268871746"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/colorize-semver-diff@1.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fcolorize-semver-diff",
+    "name": "@pnpm/colorize-semver-diff",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-outdated"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/colorize-semver-diff/-/colorize-semver-diff-1.0.0.tgz",
+  "_shasum": "177e9ad754affe57394ac05a242e73617ecd9864",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/colorize-semver-diff@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/colorize-semver-diff/issues"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "description": "Makes a colorful semver diff",
+  "devDependencies": {
+    "@pnpm/tsconfig": "^1.0.0",
+    "@pnpm/tslint-config": "^1.0.0",
+    "@types/node": "^12.12.21",
+    "@types/tape": "^4.2.33",
+    "rimraf": "^3.0.0",
+    "tape": "^4.12.0",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-GTsO3rA0vKVx9w3IrB6rrxFfhguAqJxSl0Bg0DG/GxlzKYEe9YlSBImZgR/UxTrSDQICodpCJ/lYC1Vo4+K3eA==",
+    "shasum": "177e9ad754affe57394ac05a242e73617ecd9864",
+    "tarball": "https://registry.npmjs.org/@pnpm/colorize-semver-diff/-/colorize-semver-diff-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5155,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeH2FiCRA9TVsSAnZWagAA85gQAJ6j5FOIeq33naupXdD3\nEFAmkBOKDxiidKGWWs+xjCaKzh1C3XQzTinIGBhzbOUDD8uwmf/Kwas0qGkE\nPWa6+d4SmFi7hT+T8ZqHxNQI7HKO96bsxRUqXOJ7wrU2XjIKfLvD1Mv/P9Tr\ng9VjQJGSoT+rwylTQLaF8c+mUq1UjExF9+qJmAXGq3mfNSBY7Bt5j8WiPtuL\nHzZM74kfeACZhYPa39REO4rf0Uq7RkIBF7z8WjoAyCnNQsTA1G/XdpLq1Qhi\ni8gFXfAxyqKrGa+lQi3fVuV1fpRJCub/BhEYjzd4bcCoBPnj+rc7YqNNFe9t\nZuCvuD4yEtlV9TDwfM2HVk/f+SiIxuI6CCydTcvQY4rYqU9orkPaRj3JntU2\n9rBTS0tnmaLyXMMZTw8Q2ilTViZIRWAYnXGOP5vR0eG9ywJdS/FD0CXXeMq6\nIPE0pnD+Ud41rzAES6qxlL0im+8KjAsrELBO5tY6u8MRkX6QzLbOugo2n54V\n2a0Yw639U78Sy14WaGDB1G+45CPaBPwqwtS/ZSlBLTCwOSphTp1CMh5JCSlJ\nfbXwNYCXKYyM8VQsncOpgSwGuX7CFcu2x9xIeN2A+DT/09lvuJgygkQwkP6q\nXWulDSQee0f/Xbst+m3OgpdymW8wBdCEE+piLdvXm7FsNj5Ne+SnlgVGV1nF\nO2lD\r\n=3+zm\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "gitHead": "ed75a58871b6ff6e701bc43e8e7044a211ca9365",
+  "homepage": "https://github.com/pnpm/colorize-semver-diff#readme",
+  "keywords": [
+    "semver",
+    "diff",
+    "color"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/colorize-semver-diff",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/colorize-semver-diff\n\n> Makes a colorful semver diff\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/colorize-semver-diff.svg)](https://www.npmjs.com/package/@pnpm/colorize-semver-diff) [![Build Status](https://img.shields.io/travis/pnpm/colorize-semver-diff/master.svg)](https://travis-ci.org/pnpm/colorize-semver-diff)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/colorize-semver-diff\n```\n\n## Usage\n\n```ts\nimport colorizeSemverDiff from '@pnpm/colorize-semver-diff'\n\nconsole.log(colorizeSemverDiff({\n  change: 'feature',\n  diff: [['2'], ['1', '0', 'rc', '1']]\n}))\n```\n\n## API\n\n### colorizeSemverDiff(semverDiff)\n\nReturns a string with ANSI colors.\n\n#### semverDiff.change\n\ntype: `unknown`, `breaking`, `feature`, `fix`\n\n#### semverDiff.diff[0]\n\ntype: `string[]`\n\nAn array of version parts that are unchanged. For instance, in a diff between\n`1.0.0` and `1.2.0` the unchanged part will be `['1']`.\n\n#### semverDiff.diff[1]\n\ntype: `string[]`\n\nAn array of version parts that are changed. For instance, in a diff between\n`1.0.0` and `1.2.0` the changed part will be `['2', '0']`.\n\n## Related\n\n* [@pnpm/semver-diff](https://github.com/pnpm/semver-diff) - Gets the difference between two semver versions\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/colorize-semver-diff.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run lint && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.0"
+}

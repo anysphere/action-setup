@@ -1,0 +1,130 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/resolve-dependencies@14.2.7",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fresolve-dependencies",
+        "name": "@pnpm/resolve-dependencies",
+        "rawSpec": "14.2.7",
+        "spec": "14.2.7",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/resolve-dependencies@14.2.7",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/resolve-dependencies@14.2.7",
+  "_location": "/@pnpm/resolve-dependencies",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/resolve-dependencies_14.2.7_1582579025820_0.4115997916820846"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/resolve-dependencies@14.2.7",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fresolve-dependencies",
+    "name": "@pnpm/resolve-dependencies",
+    "rawSpec": "14.2.7",
+    "spec": "14.2.7",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/resolve-dependencies/-/resolve-dependencies-14.2.7.tgz",
+  "_shasum": "68c33df5894219ae568873323cf6c016495c4dce",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/resolve-dependencies@14.2.7",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/package-is-installable": "4.0.4",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "dependency-path": "4.0.5",
+    "path-exists": "4.0.0",
+    "ramda": "0.27.0",
+    "replace-string": "3.0.0",
+    "semver": "7.1.3"
+  },
+  "description": "Resolves dependency graph of a package",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/resolve-dependencies": "link:",
+    "@types/ramda": "^0.26.41",
+    "@types/semver": "^7.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-1Bp5oSxKQKubYVvmgF/FuF+gaL8GMa9VzlytKoB14VMVcgfvroG0SNqySWbtpXburH8wnYUMPck9/mVLRFhMqA==",
+    "shasum": "68c33df5894219ae568873323cf6c016495c4dce",
+    "tarball": "https://registry.npmjs.org/@pnpm/resolve-dependencies/-/resolve-dependencies-14.2.7.tgz",
+    "fileCount": 13,
+    "unpackedSize": 43491,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVD1SCRA9TVsSAnZWagAAGiEP/inkBbly8kwcYMXYVYGh\nzzloUeIeF9gP5Agd+Eu+NVP7d7uMFPBXAdC24/wMIwv5CjATxS9COSnmHxUR\n8EUnXW2c7wPrQQJvfqLPE7AVcR0QoEPpNsXsgB7vN4zzzBh0Jc8I7+IjAu04\njv63S43yLrhCGzL1EuI/ajHYcr5DROtnVeNvNYY9NoyavguOun7/3vmLwYF5\n7uYegw0+bFxoylC5mpSW1YmcrI+PT15PuKzmfBTKhfzi+UAX5TW1TyDXbvdj\n56SFLsmCZd5hGf83HuRtxZVV5X2BqNcuS2Wd6axozcrUCrx+11Z/UpM1j7pA\nlr9ruEH4ho5Oi/npMGcQrHvRPSbRH7uxM+TickO+p+Q45UxdvCNg3TmFsQM+\n9JW3ovpU2YfLkSSTBoEWVcZ0UMACtugHXCWz9+ILC0fyB5AN7KXcwFJugMia\nw7RIK3nJ4YYADLs5wRPOalDn2/01hbMn7rRHX19NC8xypIhsNTSlOiRlzw6k\nrQgvf8bv89d6zSC4uVxLgavJcg/7+IIqXCwpOlns9QRDPH71RX1PrGEbbt8b\nJXEq+VrrJe6+bm0mV1afZrwbVonWBrQwxyEvgNrN28It6DBcZpnW+kS4ETb4\nIeT0FYx/XgGo78mwlUb+ETDzSXcxkUmd1AemqyCBDIg0gJOlLIDaKFGk2k7O\nxLK5\r\n=Fo9d\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/resolve-dependencies#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/resolve-dependencies",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/resolve-dependencies\n\n> Resolves dependency graph of a package\n\n## Install\n\n```\npnpm install @pnpm/resolve-dependencies\n```\n\n## API\n\n### `resolveDependencies(...args)`\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/resolve-dependencies"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "14.2.7"
+}

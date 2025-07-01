@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-audit@0.2.10",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-audit",
+        "name": "@pnpm/plugin-commands-audit",
+        "rawSpec": "0.2.10",
+        "spec": "0.2.10",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-audit@0.2.10",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-audit@0.2.10",
+  "_location": "/@pnpm/plugin-commands-audit",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-audit_0.2.10_1582976776791_0.43470360954798726"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-audit@0.2.10",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-audit",
+    "name": "@pnpm/plugin-commands-audit",
+    "rawSpec": "0.2.10",
+    "spec": "0.2.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-audit/-/plugin-commands-audit-0.2.10.tgz",
+  "_shasum": "0a26b1b89074505fc92d1740f3959e5d3bd24029",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-audit@0.2.10",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/audit": "1.0.7",
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-file": "3.0.4",
+    "chalk": "3.0.0",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0",
+    "table": "5.4.6"
+  },
+  "description": "pnpm commands for dependencies audit",
+  "devDependencies": {
+    "@pnpm/plugin-commands-audit": "link:",
+    "@pnpm/types": "5.0.0",
+    "@types/ramda": "^0.26.43",
+    "@types/table": "^4.0.7",
+    "strip-ansi": "6.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-JvfiHUR+aV3pVa9u4bcCS2ZEiVDOx6uD/kJb4M8+UJs+1cqJgQyEP61oaCiPNqbeACtACPGUYxixP48UdiOY7A==",
+    "shasum": "0a26b1b89074505fc92d1740f3959e5d3bd24029",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-audit/-/plugin-commands-audit-0.2.10.tgz",
+    "fileCount": 7,
+    "unpackedSize": 8191,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk8JCRA9TVsSAnZWagAAjzIP/iOb8vrqNd1FDQwm1nvB\n5o+p3i2DMbp3FqU0QuDoU/vfk6UpfXQo+KsTqTrGn3ZPgPUrVue5nMZ5o1RZ\n0Xcx6Uqwku5Kauu80L5FR4oiLA9UzZrrzjIKBxm2jWr+04ISDWmJtwLUExpT\nGzHvsn1JWNKseihouaj7xqfynAVpeYTVGxeNZfjctuzypuflVIhqvpWKUZmH\nyX3ra/LRqlZ3DOw5hCpCt2jSY0OArgRZrysF5pjlPTeGwqNcLwVWOdStqxOR\nkvag8l6XCNcbKPLU7v7BwUf3iyCQc0rb7tL5Y7jrVKg2RqdRSw5bnZPF6E6j\nj/Eq6CDVTlPg36PTW/W45JOYkl6rNawZKfIPq4zpELbDCkBkEL/yrcQ2kAL2\nT9rocB7fpCY48PZHlf1PQRJqUzbq+FbbZNYUuofpJBPB8TvfZRmsjRyyHqop\nkS6OAmFQ4Bpu2HEeYDJpHjVwARhx2sVFXGBTfewpvJsDOaFXC43ic4fQsyCX\n+8gNCqp84NifsVv28DdO0nrG5InkRBxJwui+JRc7Cvf1c0mxR9fxxLfZu/0P\nTosvuKFC0eCE7ykjhbKuxXf+JOX/jIKFV8Q3nWEAooDd4fsijt3sgINBodb5\nqw0CV0qkjTsUOtr/bSdz4qYR011O/coyWFqlUeqNrjTimcqOCDfGXrPZrDc3\nFtVV\r\n=5Uj5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "audit"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-audit",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/plugin-commands-audit\n\n> pnpm commands for dependencies audit\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-audit.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-audit)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-audit\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-audit"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.10"
+}

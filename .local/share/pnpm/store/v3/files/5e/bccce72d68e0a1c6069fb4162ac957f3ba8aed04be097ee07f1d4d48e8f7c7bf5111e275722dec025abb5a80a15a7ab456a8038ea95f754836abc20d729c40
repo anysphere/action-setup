@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "get-source@^1.0.42",
+        "scope": null,
+        "escapedName": "get-source",
+        "name": "get-source",
+        "rawSpec": "^1.0.42",
+        "spec": ">=1.0.42 <2.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/stacktracey"
+    ]
+  ],
+  "_from": "get-source@^1.0.42",
+  "_hasShrinkwrap": false,
+  "_id": "get-source@1.0.42",
+  "_location": "/get-source",
+  "_nodeVersion": "8.16.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/get-source_1.0.42_1569607475824_0.19004275584878427"
+  },
+  "_npmUser": {
+    "name": "xpl",
+    "email": "rocket.mind@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "get-source@^1.0.42",
+    "scope": null,
+    "escapedName": "get-source",
+    "name": "get-source",
+    "rawSpec": "^1.0.42",
+    "spec": ">=1.0.42 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/stacktracey"
+  ],
+  "_resolved": "https://registry.npmjs.org/get-source/-/get-source-1.0.42.tgz",
+  "_shasum": "e46d88c56d9439242906857760d941965e23682b",
+  "_shrinkwrap": null,
+  "_spec": "get-source@^1.0.42",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/stacktracey",
+  "author": {
+    "name": "Vitaly Gordon",
+    "email": "rocket.mind@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/xpl/get-source/issues"
+  },
+  "dependencies": {
+    "data-uri-to-buffer": "^2.0.0",
+    "source-map": "^0.6.1"
+  },
+  "description": "Platform-agnostic source code inspection, with sourcemaps support",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chromedriver": "^2.46.0",
+    "coveralls": "^3.0.3",
+    "istanbul": "^0.4.5",
+    "memory-fs": "^0.3.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "selenium-webdriver": "^3.6.0",
+    "webpack": "^3.12.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-uM5xCIG5w2meVbiZaID4ajH6J8OfApqhlKXtZwsS/IIM9PLb0b2kc5sRdy78yEDfxsIYEWNk0OVxai6OpDCExA==",
+    "shasum": "e46d88c56d9439242906857760d941965e23682b",
+    "tarball": "https://registry.npmjs.org/get-source/-/get-source-1.0.42.tgz",
+    "fileCount": 20,
+    "unpackedSize": 27020,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjk80CRA9TVsSAnZWagAAbAoQAIJ/QkbYxgy/y24d3J7Y\nvE4zJHvmhYtZokQ2GmSj0s/4lN1l0b5YwXEQNdK5XIboxDuZuslO0/ypB6TB\nKsmYIwiewyPin9uo/2ua2e7kGYgBuuhezeqtrbg7GBrdo6/aRDJ4PBkrh6SD\noLYh9E3zpBaEXl9nXkWzpJh9qqg43kwj3LVffvwbyQ+sXdN7+d2DUq1Tg80L\nuOS7HIiEvcP6UZz2yz1Ee/um5aXJG9zdr+LtcZ4whMVgYWqXN0I2RXrNAIOO\ne6m0BqR8kAohDbTVJZgFukqwp44UDn0XkjbmztwJ/J6gsHVZM7KQ5j8ntpNu\nCyFywAhs4SiwabYFvjHr1Nsp8VdUEOZ4XhN+7mQUzkOHBunszYrhEXz8iPqQ\njfJq64z0NEMZeBEtfSirV+I5x7VxsXQORw0HhAy2fyy+qWrmN7ydV/UOVSGF\nvMgDeuAZmzDU8/CLSZVsTorU2KtS258gOyXzkwYb9+f008keeKbeM1+gZTpN\nn61YJZq/ciOgMJB0S5ZHLGMf4VYLxt8IOUIMbkTQUx7Ph+OyDmXuki7ZadVm\ny200nNjmd0JZ4a2OUgjCyRPqJVcSk25L+cOrX7z0Huy0fwOKqFxTqDaxlPPo\nSvALMTd1iJcpyBywF+PsnRvmF9rMrAFqpoR6afwfbXT8vYlyP21za6/Hm8nm\nHutZ\r\n=5X3L\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "96e5fcb9e01a85b29282dc6cdf830cde51535a6b",
+  "homepage": "https://github.com/xpl/get-source",
+  "keywords": [
+    "sources",
+    "sourcemap",
+    "read source",
+    "cached sources"
+  ],
+  "license": "Unlicense",
+  "main": "get-source",
+  "maintainers": [
+    {
+      "name": "x84",
+      "email": "igor.kroitor@gmail.com"
+    },
+    {
+      "name": "xpl",
+      "email": "rocket.mind@gmail.com"
+    }
+  ],
+  "name": "get-source",
+  "optionalDependencies": {},
+  "readme": "# get-source\n\n[![Build Status](https://travis-ci.org/xpl/get-source.svg?branch=master)](https://travis-ci.org/xpl/get-source) [![Coverage Status](https://coveralls.io/repos/github/xpl/get-source/badge.svg)](https://coveralls.io/github/xpl/get-source) [![npm](https://img.shields.io/npm/v/get-source.svg)](https://npmjs.com/package/get-source)\n\nPlatform-agnostic source code inspection, with sourcemaps support.\n\n```bash\nnpm install get-source\n```\n\n## Features\n\n- [x] Allows to read source code files in Node and browsers\n- [x] Full sourcemap support (path resolving, external/embedded/inline linking, and long chains)\n- [x] **Synchronous** API — which is good when you implement a debugging tool (e.g. [logging](https://github.com/xpl/ololog))\n- [x] Built-in cache\n\n## What for\n\n- [x] Call stacks enhanced with source code information (see the [StackTracey](https://github.com/xpl/stacktracey) library)\n- [x] [Advanced logging](https://github.com/xpl/ololog) / assertion printing\n- [x] [Error displaying components](https://github.com/xpl/panic-overlay) for front-end web development\n\n## Usage\n\n```javascript\ngetSource = require ('get-source')\n```\n```javascript\nfile = getSource ('./scripts/index.min.js')\n```\n\nWill read the file synchronously (either via XHR or by filesystem API, depending on the environment) and return it's cached representation. Result will contain the following fields:\n\n```javascript\nfile.path  // normalized file path\nfile.text  // text contents\nfile.lines // array of lines\n```\n\nAnd the `resolve` method:\n\n```javascript\nfile.resolve ({ line: 1, column: 8 }) // indexes here start from 1 (by widely accepted convention). Zero indexes are invalid.\n```\n\nIt will look through the sourcemap chain, returning following:\n\n```javascript\n{\n   line:       <original line number>,\n   column:     <original column number>,\n   sourceFile: <original source file object>,\n   sourceLine: <original source line text>\n}\n```\n\nIn that returned object, `sourceFile` is the same kind of object that `getSource` returns. So you can access its `text`, `lines` and `path` fields to obtain the full information. And the `sourceLine` is returned just for the convenience, as a shortcut.\n\n## Error handling\n\n```javascript\nnonsense = getSource ('/some/nonexistent/file')\n\nnonsense.text  // should be '' (so it's safe to access without checking)\nnonsense.error // should be an Error object, representing an actual error thrown during reading/parsing\n```\n```javascript\nresolved = nonsense.resolve ({ line: 5, column: 0 })\n\nresolved.sourceLine // empty string (so it's safe to access without checking)\nresolved.error      // should be an Error object, representing an actual error thrown during reading/parsing\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpl/get-source.git"
+  },
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc --reporter=html --reporter=text mocha test/test.path test/test.node --reporter spec",
+    "test-browser": "mocha test/test.browser --reporter spec",
+    "test-node": "mocha test/test.node --reporter spec",
+    "test-path": "mocha test/test.path --reporter spec"
+  },
+  "version": "1.0.42"
+}

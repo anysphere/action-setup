@@ -1,0 +1,140 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/tarball-fetcher@5.1.10",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ftarball-fetcher",
+        "name": "@pnpm/tarball-fetcher",
+        "rawSpec": "5.1.10",
+        "spec": "5.1.10",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-fetcher"
+    ]
+  ],
+  "_from": "@pnpm/tarball-fetcher@5.1.10",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/tarball-fetcher@5.1.10",
+  "_location": "/@pnpm/tarball-fetcher",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tarball-fetcher_5.1.10_1582752522913_0.9636128144884144"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/tarball-fetcher@5.1.10",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ftarball-fetcher",
+    "name": "@pnpm/tarball-fetcher",
+    "rawSpec": "5.1.10",
+    "spec": "5.1.10",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/tarball-fetcher/-/tarball-fetcher-5.1.10.tgz",
+  "_shasum": "23fab54362157db251c8b5bac6c82a3e8b9edc16",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/tarball-fetcher@5.1.10",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/error": "1.0.0",
+    "@pnpm/fetcher-base": "6.0.0",
+    "credentials-by-uri": "2.0.0",
+    "fetch-from-npm-registry": "4.0.1",
+    "graceful-fs": "4.2.1",
+    "make-dir": "3.0.2",
+    "mem": "6.0.1",
+    "mz": "2.7.0",
+    "path-temp": "2.0.0",
+    "retry": "0.12.0",
+    "rimraf": "3.0.2",
+    "ssri": "6.0.1",
+    "unpack-stream": "6.0.0"
+  },
+  "description": "Fetcher for packages hosted as tarballs",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/tarball-fetcher": "link:",
+    "@types/graceful-fs": "^4.1.3",
+    "@types/mz": "^2.7.0",
+    "@types/retry": "^0.12.0",
+    "@types/rimraf": "^2.0.3",
+    "@types/ssri": "^6.0.1",
+    "cp-file": "8.0.1",
+    "nock": "12.0.1",
+    "tempy": "0.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-IN9aQdtcPSrRtW1gk5EKBe8MFNxIjUB4eWFiq72cJ8HQo95N53P2MWcO8THBlGxQ2mDMIC7rQ+vRsjUw0PLeog==",
+    "shasum": "23fab54362157db251c8b5bac6c82a3e8b9edc16",
+    "tarball": "https://registry.npmjs.org/@pnpm/tarball-fetcher/-/tarball-fetcher-5.1.10.tgz",
+    "fileCount": 11,
+    "unpackedSize": 18972,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuMLCRA9TVsSAnZWagAAnTUQAJ6jwOpdQWAJiErVEfrI\n46Ay+p3pq0a3YecICFf/upsaBzzBQJLVhs3ZiXAWV4AqgJzYvDhtKm3GRjGq\nDmvOxds4LSYk+ifkNCxIpJoclC475A4nm516CWWvYprgQarXivN1RGbKEWK4\nK/B3kWddJETTWbcVO5gbmSBiU0JZEDBpzitbqhcPNTqOeZuYBjOV6oC1OZI9\nCDO0u7bD3UcFozymrKPhvlJZsCMfKVwKipao5E9mrAYctJirzi78V/w7pkh+\nRtAmJgpkfyZzHZdt2zMTG2npImGRlYh9RP8Y2dQ/NjtWvXCgbBS7eDvrCl0h\nha4o/TYxPhgwUlRaFQr0pu2GSPUWSVOW3xVDplT5GCeXRy7TqMdeeqcekFW4\nSwZTMwtSZxgb+qEWCR2CJS76/dQpNJGw1sf6RDkTfJsdGAMLqm9g8pdX7KhS\nrCkkCrGfhsiA+JVWsPQVMmV2gkKjOTiz3PecRbF9/jrZTBlh/3hB/wUxXM+Y\ncUiu+lZXfwlmd97gYKO1I2stM5a+PMXN42aHFAS+6n2vgq+KRFWnUwqOqfxP\nLLSBhuRuuf1q5ta3HTgGa2ruA8bRWXylHrZx0x2GKALtzIVLcxgyGBgo0sOE\njBhgPsgCVYwDLwI/OYJLRK44cBr4l+i25Gq1DuuUpYvxyPDTMMsuijQ38GmH\nSLiK\r\n=k5J6\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/tarball-fetcher#readme",
+  "keywords": [
+    "pnpm",
+    "fetcher",
+    "tarball"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/tarball-fetcher",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/tarball-fetcher\n\n> Fetcher for packages hosted as tarballs\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/tarball-fetcher.svg)](https://www.npmjs.com/package/@pnpm/tarball-fetcher)\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/tarball-fetcher\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/tarball-fetcher"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test && node example",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.1.10"
+}

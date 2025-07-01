@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "write-yaml-file@3.0.1",
+        "scope": null,
+        "escapedName": "write-yaml-file",
+        "name": "write-yaml-file",
+        "rawSpec": "3.0.1",
+        "spec": "3.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest"
+    ]
+  ],
+  "_from": "write-yaml-file@3.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "write-yaml-file@3.0.1",
+  "_location": "/write-yaml-file",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/write-yaml-file_3.0.1_1559244309002_0.8605063750869766"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "write-yaml-file@3.0.1",
+    "scope": null,
+    "escapedName": "write-yaml-file",
+    "name": "write-yaml-file",
+    "rawSpec": "3.0.1",
+    "spec": "3.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/modules-yaml",
+    "/@pnpm/write-project-manifest"
+  ],
+  "_resolved": "https://registry.npmjs.org/write-yaml-file/-/write-yaml-file-3.0.1.tgz",
+  "_shasum": "5d8a1dcf50fc28c05498a380677188d08ccbb260",
+  "_shrinkwrap": null,
+  "_spec": "write-yaml-file@3.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "js-yaml": "^3.8.1",
+    "make-dir": "^3.0.0",
+    "pify": "^4.0.0",
+    "write-file-atomic": "^2.4.3"
+  },
+  "description": "Stringify and write YAML to a file atomically",
+  "devDependencies": {
+    "standard": "12.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-OHzbrlgjw/K/BAH6LdEOcSQFz5nkk0I/25CjKLIVFvcg2Ej7+QE/GTnitgqWnhlsdghor7OV5gfttQPGogQ1XA==",
+    "shasum": "5d8a1dcf50fc28c05498a380677188d08ccbb260",
+    "tarball": "https://registry.npmjs.org/write-yaml-file/-/write-yaml-file-3.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 3982,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc8C4VCRA9TVsSAnZWagAA2PQP/0iectffwG4sAsg3oIzR\n9diqFLZkiu+B4hT1ASvPb0gqAYnU1h8KtCNFlzAx/r74zio7hun5cS9A/dp8\nApjD3lbOcJsG6yZAor+Pn1UtGQaO29jlx7Sntq+zxaTtiZ303mLBd7h7zn82\nNf2eub0JHVYvAPo8SDFLhfO4/1JmPzv2eaZ8CvIi+I3Wob4Zezvve1aGeAS0\nQCcWrCp2gj5oKptu7GdIodgwdjtyqd5BOYRTu22zOQqGXKYqvub+GRUoQ9rB\nAj19IOfQvioAYyxw1S2MwZ5/KfgL4HDHSpmshQqGpFtN5QLzK/6Qb5+HXRkE\nIMtEtw6dysfFrK4obsWaYzcVZ3iU2issOHIMQU6rWKas0lqCRU9sZtKGT2eu\nKljBCk042ey6aYGHu8mdj0e0b8M4ItPoRz/L/kqVfjXiVY447teIS2+UOTdL\nhXiUhSQfHIIredy5DrOSl85rgn84iFv5wQyQxV10HlkFXh5MwGRdckEakHhq\nrjjvdjNEeD3zu/gecckQRbBIKVf4W8FjfTUUIPsp6+nEcxXIjnBIx8civUV+\nQ+v33qg5TO6D+TF20QTHxQv8EJplMSP/rDvJJKzlJtP3qrC3Q+uDb+Qx6IUi\nGMB1oF25tEHjfaL1Sf1j/x9d/avfyr9HWNDzPm5yPUPCuj+32klA/Ttcaw+h\nuT6c\r\n=LshM\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/write-yaml-file#readme",
+  "keywords": [
+    "write",
+    "yaml",
+    "stringify",
+    "file",
+    "fs",
+    "graceful",
+    "stable",
+    "atomic",
+    "atomically"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "write-yaml-file",
+  "optionalDependencies": {},
+  "readme": "# write-yaml-file\n\n> Stringify and write YAML to a file atomically\n\nCreates directories for you as needed.\n\n## Installation\n\n```\n<pnpm|yarn|npm> add write-yaml-file\n```\n\n## Usage\n\n```js\nconst writeYamlFile = require('write-yaml-file')\n\nwriteYamlFile('foo.yaml', {foo: true}).then(() => {\n  console.log('done')\n})\n```\n\n## API\n\n### `writeYamlFile(filepath, data, [options])`\n\nReturns a promise.\n\n### `writeYamlFile.sync(filepath, data, [options])`\n\n#### `options`\n\nSame options that can be passed in to [js-yaml](https://www.npmjs.com/package/js-yaml#safedump-object---options-)\n\n##### mode\n\nType: `number`\nDefault `438` *(0666 in octal)*\n\n[Mode](https://en.wikipedia.org/wiki/File_system_permissions#Numeric_notation) used when writing the file.\n\n## Related\n\n- [load-yaml-file](https://github.com/LinusU/load-yaml-file) - Read and parse a YAML file\n\n## License\n\n[MIT](LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/write-yaml-file"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "typings": "index.d.ts",
+  "version": "3.0.1"
+}

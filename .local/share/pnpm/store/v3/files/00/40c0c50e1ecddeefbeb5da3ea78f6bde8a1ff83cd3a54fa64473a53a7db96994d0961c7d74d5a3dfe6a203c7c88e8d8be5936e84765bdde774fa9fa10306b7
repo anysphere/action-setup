@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/tarball-resolver@3.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ftarball-resolver",
+        "name": "@pnpm/tarball-resolver",
+        "rawSpec": "3.0.4",
+        "spec": "3.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver"
+    ]
+  ],
+  "_from": "@pnpm/tarball-resolver@3.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/tarball-resolver@3.0.4",
+  "_location": "/@pnpm/tarball-resolver",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tarball-resolver_3.0.4_1578428944860_0.9903449264241322"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/tarball-resolver@3.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ftarball-resolver",
+    "name": "@pnpm/tarball-resolver",
+    "rawSpec": "3.0.4",
+    "spec": "3.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/tarball-resolver/-/tarball-resolver-3.0.4.tgz",
+  "_shasum": "1bc7be0a628361e9cb491541095517065eb4197a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/tarball-resolver@3.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/resolver-base": "7.0.0"
+  },
+  "description": "Resolver for tarball dependencies",
+  "devDependencies": {
+    "@pnpm/tarball-resolver": "link:",
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1bc7be0a628361e9cb491541095517065eb4197a",
+    "tarball": "https://registry.npmjs.org/@pnpm/tarball-resolver/-/tarball-resolver-3.0.4.tgz",
+    "integrity": "sha512-NlQ56tI7Jx3/2CJcTwWqXf9H24FzxvMLEkS6Zs8jUnBhsRBZ1QOZC75Tr6KwLMwbjZysl4Bfi8TedkhLjjQe9w==",
+    "fileCount": 5,
+    "unpackedSize": 3991,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOoRCRA9TVsSAnZWagAAMIYP/3P3Ut1GtEWQ2l7tqKvC\n35QBebhyxBBsAqEwT0LpPmPDv867rV2XmtZDhCE9bfkzDyHuYky+Wee6iCF9\nX1K4GsOaW8GO+gsA8DwlS4vAtH8TpL3qyI5APgQyG6nd8S9IEhHHiBYZoyb8\nV1ABTuXXjHtJJayaeDij3VirKemrl2KPggWTSvRuPbYUH/GX/We8snd1FMxd\ndygFVaFZGNUXfq3iD2LHtgr04FoBucyyz187YVDpIjG+NmtGxAb7vkplw8Te\npnFZrGDdy/CtgKWnEm8wAJmqSAH30GodegIEXqj9y2KS1yF7o8SM4342S3VV\n90AMmEDSnZjpxxS1QghnL0vKb2bHDJr4sJZZ1VXg61XSXEn9qJtJU5tnl5ga\n6Jk8zSp7XUh15TNPbjM3FpPswEPZBzIWH1k9MYUSeeug81kyl0EFgiJJPeUR\n3uszCDOfCwPPjDKyP1ZqnLyowOzDF08/urJvGTqlBjQGCOiwyqFjmiV3FeBN\nE5+F4e/8TNvrlCQfUzLS2fK5mbwtckuecA4UWBOI710hb0/gXSVW98a97RYF\nQfw6bZQa4lG6II6lmnFi0Z1EFEgXg09nSpmeT4CYl74OlBt2Uh8MpCeoCTa5\n7uTmwEnaMOqTiN8x9awcUwKz7SCnTSuyCwcvSDsGWK2oectN4DzR/Fb/3dxR\nwgW7\r\n=dfyb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/tarball-resolver#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/tarball-resolver",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/tarball-resolver\n\n> Resolver for tarball dependencies\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/tarball-resolver.svg)](https://www.npmjs.com/package/@pnpm/tarball-resolver)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/tarball-resolver\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst resolveFromTarball = require('@pnpm/tarball-resolver').default\n\nresolveFromTarball({pref: 'http://registry.npmjs.org/is-array/-/is-array-1.0.1.tgz'})\n  .then(resolveResult => console.log(JSON.stringify(resolveResult, null, 2)))\n  //> {\n  //    \"id\": \"registry.npmjs.org/is-array/-/is-array-1.0.1\",\n  //    \"normalizedPref\": \"http://registry.npmjs.org/is-array/-/is-array-1.0.1.tgz\",\n  //    \"resolution\": {\n  //      \"tarball\": \"http://registry.npmjs.org/is-array/-/is-array-1.0.1.tgz\"\n  //    },\n  //    \"resolvedVia\": \"url\"\n  //  }\n```\n<!--/@-->\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/tarball-resolver"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.4"
+}

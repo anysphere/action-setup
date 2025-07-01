@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/parse-cli-args@0.4.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fparse-cli-args",
+        "name": "@pnpm/parse-cli-args",
+        "rawSpec": "0.4.0",
+        "spec": "0.4.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/parse-cli-args@0.4.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/parse-cli-args@0.4.0",
+  "_location": "/@pnpm/parse-cli-args",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/parse-cli-args_0.4.0_1582578920929_0.024044001737300036"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/parse-cli-args@0.4.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fparse-cli-args",
+    "name": "@pnpm/parse-cli-args",
+    "rawSpec": "0.4.0",
+    "spec": "0.4.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/parse-cli-args/-/parse-cli-args-0.4.0.tgz",
+  "_shasum": "e848fdc81d0a95979804257977a0bb01c9f6115f",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/parse-cli-args@0.4.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/find-workspace-dir": "1.0.0",
+    "nopt": "4.0.1"
+  },
+  "description": "Parses the CLI args passed to pnpm",
+  "devDependencies": {
+    "@pnpm/parse-cli-args": "link:",
+    "@types/nopt": "3.0.29"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-PfzyhMBhpNxjPrLm0ZHwx6awgVmPmsR2Ks08Emnz68FBNO0bTDc71AcwW9C/MRyelvEV4ESRQ5eSQA2dMTVzPw==",
+    "shasum": "e848fdc81d0a95979804257977a0bb01c9f6115f",
+    "tarball": "https://registry.npmjs.org/@pnpm/parse-cli-args/-/parse-cli-args-0.4.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6981,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVDzpCRA9TVsSAnZWagAAxZUP/AqP3YKKE+N0s7X5q5yk\nQPOHFeX9HSj2TLHwH/Q76gKTig8+i0dd4+SwVPwKpNnsZBytjcZFkf5EjTKD\nUbh5TjSWcRYwB0kPAtt1Ev5xwG8VhtgKCMtZoEcYLqnPz7M4V56+TAqadx6z\nHphFh6Unzw2hPZTjHxQ2G8NtPrzearST1oZ5a9LE8CdnVLCrQjYJGCqslYwm\nkZq7cVozYa4DXCXNhpfFPCtCGYmAqxNPmLL0veg0+OYAUZ0y88fSZIKfX0iU\nHBhb7N+J5zLtSMto8fd3/vvcm32RUaF5FlaPVOZwmgqRg5327O4ztyLhWhnW\nv5LUqLZqN7HTCEyDxASjxnU/EYg9GPl9gMIzmPZ/6Xb9jpcFSHJR/f7+naBM\nrZ2NUuKurodlf8n3gVOPt476CkTOSKpJtGpZWbSTPn0fbfZCu9+/ol96V2UD\nx2E1YxNt984VJMfP1jV46tidnaAV6V+LC7JCi0UJr4GCpkpL/yDRF/mpiWVm\n/Y94e7q5C/0sS7BDiZybh/OokswAduTnuTTIJh0qYRwFXdh/nAgi8eRi9gVf\nRksEjvcRjPh8W5HXOQ+MKnvCdVqt7TCdsRYoVpHx/iSU84rHaF5pln6TCHEP\nRUY2jgC53S+wOXc5qNMOYPTgzcY66i+wlwQ2EwVBrFJPk+tJau3imKnhhH8j\n7mQO\r\n=bNH3\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/parse-cli-args",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/parse-cli-args\n\n> Parses the CLI args passed to pnpm\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/parse-cli-args.svg)](https://www.npmjs.com/package/@pnpm/parse-cli-args)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/parse-cli-args\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/parse-cli-args"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.4.0"
+}

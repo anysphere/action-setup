@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dependencies-hierarchy@8.0.11",
+        "scope": null,
+        "escapedName": "dependencies-hierarchy",
+        "name": "dependencies-hierarchy",
+        "rawSpec": "8.0.11",
+        "spec": "8.0.11",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/list"
+    ]
+  ],
+  "_from": "dependencies-hierarchy@8.0.11",
+  "_hasShrinkwrap": false,
+  "_id": "dependencies-hierarchy@8.0.11",
+  "_location": "/dependencies-hierarchy",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dependencies-hierarchy_8.0.11_1582101727747_0.9527913352657393"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dependencies-hierarchy@8.0.11",
+    "scope": null,
+    "escapedName": "dependencies-hierarchy",
+    "name": "dependencies-hierarchy",
+    "rawSpec": "8.0.11",
+    "spec": "8.0.11",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/list"
+  ],
+  "_resolved": "https://registry.npmjs.org/dependencies-hierarchy/-/dependencies-hierarchy-8.0.11.tgz",
+  "_shasum": "4beff3c313e4a44ec631864e59a035b72cf9f335",
+  "_shrinkwrap": null,
+  "_spec": "dependencies-hierarchy@8.0.11",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/list",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/read-modules-dir": "2.0.1",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "dependency-path": "4.0.5",
+    "normalize-path": "3.0.0",
+    "resolve-link-target": "1.0.1"
+  },
+  "description": "Creates a dependencies hierarchy for a symlinked `node_modules`",
+  "devDependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/logger": "3.1.0",
+    "@types/normalize-path": "3.0.0",
+    "dependencies-hierarchy": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-iAHJO4cnZd91JHC1ALNzpZfBJvPhQX1oVmfab0sOg8arUgpfkPqk0095TlffRj1P2N8V/XJrZuxzQ6Ck3X7swg==",
+    "shasum": "4beff3c313e4a44ec631864e59a035b72cf9f335",
+    "tarball": "https://registry.npmjs.org/dependencies-hierarchy/-/dependencies-hierarchy-8.0.11.tgz",
+    "fileCount": 5,
+    "unpackedSize": 15837,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPTgCRA9TVsSAnZWagAAKEEQAJhO03uWNCbvrwkEyPTP\nsX21u5IoDrlfh19MfiK/DMZ75h5mfvTp0CphLjQef6aOu7C1a69iRKZiP4dc\nYh6huQxhYPYkgC/L2nD9/PfYCOTEyPrAoIfyhU8qSupn4YTyZ+wMtEYeqGVF\nhgT74A/SpR81C43W+jByk8blXQ3qkcdMBSYe1YFL8effNfIlLqfkO4b632qb\n0sxb1yDGJc2OcKP5hM7zng2bRDdVblL1PS7oLBjwNyTmL2py/zEgQUYPg+K1\nzPajHuMziYaOXDV+E0/EIdvpwLYRY+3c5TnEeYSF+djN0zg9E1vUJWTqnMll\nauUte4PEMlYU/vy4cKD78AD6/xPCqYK+iuJdqTHIdU/1ueTbMEppc3UQ5nQH\n8U2HGVIOPJQ+AZFp+CptXcGwKZfGwuAAXSX7+qkhXS9ER/7YRhvS02nhpCQW\n+TeQJ/toRBNb3yKxq3u4BejGCcDCNOY2O+iPxAB/ll2Fh5KY2/yx3vOJQASV\nvnVW7vuhTNWPBQPqrFjlIVII8luP/J6SbEiJa5BzNjVBVaxnx43Q/6ucVxRj\nMcWeYPtojkehXEnD8as9P6nVpEsE5mTz83qC32KXgDrDDeZooOwo2Ndw2tPF\nqtiMl9+4XaGWWEVWMsrzzSDFaHmTUoRwOu6eoImePagK8My6l6Hqz++NvZnc\nKk3u\r\n=NVMb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/dependencies-hierarchy#readme",
+  "keywords": [
+    "hierarchy",
+    "pnpm",
+    "dependencies",
+    "node_modules"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "dependencies-hierarchy",
+  "optionalDependencies": {},
+  "readme": "# dependencies-hierarchy\n\n> Creates a dependencies hierarchy for a symlinked \\`node_modules\\`\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/dependencies-hierarchy.svg)](https://www.npmjs.com/package/dependencies-hierarchy)\n<!--/@-->\n\nA symlinked `node_modules` is created when installing using [pnpm](https://github.com/pnpm/pnpm).\n\n## Installation\n\n```\n<pnpm|npm|yarn> add dependencies-hierarchy\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/dependencies-hierarchy"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest": "pnpm install -rf -C fixtures --frozen-lockfile --no-shared-workspace-lockfile --no-link-workspace-packages && pnpm install -rf -C fixtureWithLinks --frozen-lockfile --link-workspace-packages --no-shared-workspace-lockfile",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "8.0.11"
+}

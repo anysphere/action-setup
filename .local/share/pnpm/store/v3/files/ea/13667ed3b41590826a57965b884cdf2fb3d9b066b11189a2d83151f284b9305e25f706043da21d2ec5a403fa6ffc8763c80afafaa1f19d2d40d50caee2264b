@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/core-loggers@4.0.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fcore-loggers",
+        "name": "@pnpm/core-loggers",
+        "rawSpec": "4.0.1",
+        "spec": "4.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/core-loggers@4.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/core-loggers@4.0.1",
+  "_location": "/@pnpm/core-loggers",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/core-loggers_4.0.1_1578428396398_0.908734119955708"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/core-loggers@4.0.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fcore-loggers",
+    "name": "@pnpm/core-loggers",
+    "rawSpec": "4.0.1",
+    "spec": "4.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/build-modules",
+    "/@pnpm/default-reporter",
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/lifecycle",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/package-is-installable",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/pnpmfile",
+    "/@pnpm/resolve-dependencies",
+    "/@pnpm/symlink-dependency",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/core-loggers/-/core-loggers-4.0.1.tgz",
+  "_shasum": "2f115c93e699f438097cc77ce3bac0d854e616ce",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/core-loggers@4.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "^5.0.0"
+  },
+  "description": "Core loggers of pnpm",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "rimraf": "3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "2f115c93e699f438097cc77ce3bac0d854e616ce",
+    "tarball": "https://registry.npmjs.org/@pnpm/core-loggers/-/core-loggers-4.0.1.tgz",
+    "integrity": "sha512-ssOxOGSJi4JA7mNm4Y9Crynaia1+C/XuLeqH21SX29j2u3zZbr3MuFurzuCj7p0q/BkJ8fexfTi27lr3Ew1wOg==",
+    "fileCount": 41,
+    "unpackedSize": 13624,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOfsCRA9TVsSAnZWagAAv+AP/3Uyq/+utXqIRUYQ1Tvl\nArix76yIEJf3uLkrwv/2cK0fs1QyoBbDr/GvvT7NIYml4hEilmNuk/WaFBfQ\nYVls2A//ovTCd2ExxkfANAivye0VVSsHA5vzIkVGIUzXJtqNBdck/h8nwDdc\nJ89DM2YsRi+6UUcfyyxuCHuRCHkYJxHPuRjlKFoeJhIKhW6rAuqFLrDjCEwf\nAhtCPFfIn8+vTfcr2VUNIkxD3QxwcxgVFNS7MhD/l3fPk1Dc/fd81s0zI4+k\nU3CwKOHSVHhISr21DJkG1NINaWfk1CQFANk0cVwkw5aUk+UbOmQ1s3zA3gwI\nUEIZb3x7MeJqejQ2Hn6sKU/WIUmTwpUom4J0lJYIw6SVGENlKdVmCNrekHWc\ndxHPcqF2/JcwYj8FJYH7dnFK/gTiGA/E/FlCV3G48sKPbcX8SbNn8Eumo1LW\nRBCNxGMuzT5Nh3u5CpJ1uJ/wdZkh35XP6AsHPfvDSg4SaGRuG2gu9t6vPvY0\npKQ8Mh1C5c8H0op9hHJxp4qQ1rFMQCtEzNGMYlDzkBL6DkR637PGGP0desU9\noD5Vtpsnaykbj4bNJtsdPCF7bW37ibfIGcaIeK0Gy6sUAQqaDpaJUyTsX2r+\nxYPceT+jcrlWK6IayckkTg/gJ2sDPsNo9UL/HS2FSiYWoHU04trWESdjPtvN\n825A\r\n=9auW\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/core-loggers",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/core-loggers\n\n> Core loggers of pnpm\n\n## Installation\n\n```\npnpm i @pnpm/core-loggers\n```\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/core-loggers"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.1"
+}

@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "hosted-git-info@3.0.4",
+        "scope": null,
+        "escapedName": "hosted-git-info",
+        "name": "hosted-git-info",
+        "rawSpec": "3.0.4",
+        "spec": "3.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-resolver"
+    ]
+  ],
+  "_from": "hosted-git-info@3.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "hosted-git-info@3.0.4",
+  "_location": "/@pnpm/git-resolver/hosted-git-info",
+  "_nodeVersion": "13.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/hosted-git-info_3.0.4_1582760860322_0.38779425147547086"
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "_npmVersion": "6.14.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hosted-git-info@3.0.4",
+    "scope": null,
+    "escapedName": "hosted-git-info",
+    "name": "hosted-git-info",
+    "rawSpec": "3.0.4",
+    "spec": "3.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/git-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-3.0.4.tgz",
+  "_shasum": "be4973eb1fd2737b11c9c7c19380739bb249f60d",
+  "_shrinkwrap": null,
+  "_spec": "hosted-git-info@3.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-resolver",
+  "author": {
+    "name": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org"
+  },
+  "bugs": {
+    "url": "https://github.com/npm/hosted-git-info/issues"
+  },
+  "dependencies": {
+    "lru-cache": "^5.1.1"
+  },
+  "description": "Provides metadata and conversions from repository urls for Github, Bitbucket and Gitlab",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "standard-version": "^4.4.0",
+    "tap": "^12.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4oT62d2jwSDBbLLFLZE+1vPuQ1h8p9wjrJ8Mqx5TjsyWmBMV5B13eJqn8pvluqubLf3cJPTfiYCIwNwDNmzScQ==",
+    "shasum": "be4973eb1fd2737b11c9c7c19380739bb249f60d",
+    "tarball": "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-3.0.4.tgz",
+    "fileCount": 7,
+    "unpackedSize": 25405,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVwOcCRA9TVsSAnZWagAA7koQAIDkkOhz02vRcBQ4zHOn\nuN+bA8weGnjpU2pP3UcHD8jqsZT/lb1pzQBpZ1IEtrljldKpTXGB+htvIVy7\n4aT1DmqfaC8H/T2/MPkfahFvda5NRfiT1nE3U3baur4DXGOc7NNqMkEq6sgP\nMFWhTiTp4ex1uqfG/cw1Rf3Aa+9riJ2cgYjVVRfoW3eQEHfLjFqUDTU2oxQ7\ne1vkk+BDjEG3k6aNQSrq0jVHAIba35H6aRXNzyfwBC5RCTugWoUXzdkJRco2\nBwvNmrISwGSaiV2cxeajlyZC6lXC/1RU96S/bbJWCDhsCKdqd4XtlRZ2D9MT\nqDHzBTQsCaIEYq0DmWyDUTtcl5cU7DtW4Us3z7p1M7Py9AMIzy8cZDZPa/5n\nv7Ejj01p1sCRTHuV+uuihgYj2UsJjsbDBfwT0xaWbBf9NqZ74MQaLrz0MO0e\nTOl6Rpwzxf2ZBuCd8o01EYY/A/zGoZQkjaHzBRVD+KJcaogIx4obc+pMBN9J\nG16nzUE3jtcUhg6lFcdep9fOUyVdG1vGJTaAR6p1k2oBAaBKxzBY5oL5SZAS\niQxNRzsMOxUZppdWzBgMK0Qiak7WIiOZE3KCmWTH8B+MOGl753YYgXmKU4NI\n77xRNelx3kCO2CyvpRedhaE3xSYTC5UxXwsib9f/FDCWWh7G8hOCOsKxUD4T\nz5Kl\r\n=OjzX\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "index.js",
+    "git-host.js",
+    "git-host-info.js"
+  ],
+  "gitHead": "8e0b0ec70b01e048a260abd68a703a6c912cd5af",
+  "homepage": "https://github.com/npm/hosted-git-info",
+  "keywords": [
+    "git",
+    "github",
+    "bitbucket",
+    "gitlab"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "adam_baldwin",
+      "email": "evilpacket@gmail.com"
+    },
+    {
+      "name": "ahmadnassri",
+      "email": "ahmad@ahmadnassri.com"
+    },
+    {
+      "name": "claudiahdz",
+      "email": "cghr1990@gmail.com"
+    },
+    {
+      "name": "darcyclarke",
+      "email": "darcy@darcyclarke.me"
+    },
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    },
+    {
+      "name": "mikemimik",
+      "email": "mike@mikecorp.ca"
+    },
+    {
+      "name": "ruyadorno",
+      "email": "ruyadorno@hotmail.com"
+    }
+  ],
+  "name": "hosted-git-info",
+  "optionalDependencies": {},
+  "readme": "# hosted-git-info\n\nThis will let you identify and transform various git hosts URLs between\nprotocols.  It also can tell you what the URL is for the raw path for\nparticular file for direct access without git.\n\n## Example\n\n```javascript\nvar hostedGitInfo = require(\"hosted-git-info\")\nvar info = hostedGitInfo.fromUrl(\"git@github.com:npm/hosted-git-info.git\", opts)\n/* info looks like:\n{\n  type: \"github\",\n  domain: \"github.com\",\n  user: \"npm\",\n  project: \"hosted-git-info\"\n}\n*/\n```\n\nIf the URL can't be matched with a git host, `null` will be returned.  We\ncan match git, ssh and https urls.  Additionally, we can match ssh connect\nstrings (`git@github.com:npm/hosted-git-info`) and shortcuts (eg,\n`github:npm/hosted-git-info`).  Github specifically, is detected in the case\nof a third, unprefixed, form: `npm/hosted-git-info`.\n\nIf it does match, the returned object has properties of:\n\n* info.type -- The short name of the service\n* info.domain -- The domain for git protocol use\n* info.user -- The name of the user/org on the git host\n* info.project -- The name of the project on the git host\n\n## Version Contract\n\nThe major version will be bumped any time…\n\n* The constructor stops accepting URLs that it previously accepted.\n* A method is removed.\n* A method can no longer accept the number and type of arguments it previously accepted.\n* A method can return a different type than it currently returns.\n\nImplications:\n\n* I do not consider the specific format of the urls returned from, say\n  `.https()` to be a part of the contract.  The contract is that it will\n  return a string that can be used to fetch the repo via HTTPS.  But what\n  that string looks like, specifically, can change.\n* Dropping support for a hosted git provider would constitute a breaking\n  change.\n\n## Usage\n\n### var info = hostedGitInfo.fromUrl(gitSpecifier[, options])\n\n* *gitSpecifer* is a URL of a git repository or a SCP-style specifier of one.\n* *options* is an optional object. It can have the following properties:\n  * *noCommittish* — If true then committishes won't be included in generated URLs.\n  * *noGitPlus* — If true then `git+` won't be prefixed on URLs.\n\n## Methods\n\nAll of the methods take the same options as the `fromUrl` factory.  Options\nprovided to a method override those provided to the constructor.\n\n* info.file(path, opts)\n\nGiven the path of a file relative to the repository, returns a URL for\ndirectly fetching it from the githost.  If no committish was set then\n`master` will be used as the default.\n\nFor example `hostedGitInfo.fromUrl(\"git@github.com:npm/hosted-git-info.git#v1.0.0\").file(\"package.json\")`\nwould return `https://raw.githubusercontent.com/npm/hosted-git-info/v1.0.0/package.json`\n\n* info.shortcut(opts)\n\neg, `github:npm/hosted-git-info`\n\n* info.browse(path, fragment, opts)\n\neg, `https://github.com/npm/hosted-git-info/tree/v1.2.0`,\n`https://github.com/npm/hosted-git-info/tree/v1.2.0/package.json`,\n`https://github.com/npm/hosted-git-info/tree/v1.2.0/REAMDE.md#supported-hosts`\n\n* info.bugs(opts)\n\neg, `https://github.com/npm/hosted-git-info/issues`\n\n* info.docs(opts)\n\neg, `https://github.com/npm/hosted-git-info/tree/v1.2.0#readme`\n\n* info.https(opts)\n\neg, `git+https://github.com/npm/hosted-git-info.git`\n\n* info.sshurl(opts)\n\neg, `git+ssh://git@github.com/npm/hosted-git-info.git`\n\n* info.ssh(opts)\n\neg, `git@github.com:npm/hosted-git-info.git`\n\n* info.path(opts)\n\neg, `npm/hosted-git-info`\n\n* info.tarball(opts)\n\neg, `https://github.com/npm/hosted-git-info/archive/v1.2.0.tar.gz`\n\n* info.getDefaultRepresentation()\n\nReturns the default output type. The default output type is based on the\nstring you passed in to be parsed\n\n* info.toString(opts)\n\nUses the getDefaultRepresentation to call one of the other methods to get a URL for\nthis resource. As such `hostedGitInfo.fromUrl(url).toString()` will give\nyou a normalized version of the URL that still uses the same protocol.\n\nShortcuts will still be returned as shortcuts, but the special case github\nform of `org/project` will be normalized to `github:org/project`.\n\nSSH connect strings will be normalized into `git+ssh` URLs.\n\n## Supported hosts\n\nCurrently this supports Github, Bitbucket and Gitlab. Pull requests for\nadditional hosts welcome.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/hosted-git-info.git"
+  },
+  "scripts": {
+    "postrelease": "npm publish && git push --follow-tags",
+    "posttest": "standard",
+    "prerelease": "npm t",
+    "release": "standard-version -s",
+    "test": "tap -J --100 --no-esm test/*.js",
+    "test:coverage": "tap --coverage-report=html -J --100 --no-esm test/*.js"
+  },
+  "version": "3.0.4"
+}

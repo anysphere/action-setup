@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "zen-observable@^0.8.6",
+        "scope": null,
+        "escapedName": "zen-observable",
+        "name": "zen-observable",
+        "rawSpec": "^0.8.6",
+        "spec": ">=0.8.6 <0.9.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@zkochan/zen-push"
+    ]
+  ],
+  "_from": "zen-observable@^0.8.6",
+  "_hasShrinkwrap": false,
+  "_id": "zen-observable@0.8.15",
+  "_location": "/zen-observable",
+  "_nodeVersion": "13.0.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/zen-observable_0.8.15_1574188483430_0.6477618617506495"
+  },
+  "_npmUser": {
+    "name": "zenparsing",
+    "email": "zenparsing@gmail.com"
+  },
+  "_npmVersion": "6.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "zen-observable@^0.8.6",
+    "scope": null,
+    "escapedName": "zen-observable",
+    "name": "zen-observable",
+    "rawSpec": "^0.8.6",
+    "spec": ">=0.8.6 <0.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@zkochan/zen-push"
+  ],
+  "_resolved": "https://registry.npmjs.org/zen-observable/-/zen-observable-0.8.15.tgz",
+  "_shasum": "96415c512d8e3ffd920afd3889604e30b9eaac15",
+  "_shrinkwrap": null,
+  "_spec": "zen-observable@^0.8.6",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@zkochan/zen-push",
+  "bugs": {
+    "url": "https://github.com/zenparsing/zen-observable/issues"
+  },
+  "dependencies": {},
+  "description": "An Implementation of ES Observables",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "eslint": "^6.5.0",
+    "mocha": "^6.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==",
+    "shasum": "96415c512d8e3ffd920afd3889604e30b9eaac15",
+    "tarball": "https://registry.npmjs.org/zen-observable/-/zen-observable-0.8.15.tgz",
+    "fileCount": 37,
+    "unpackedSize": 72504,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd1DXDCRA9TVsSAnZWagAAw3UP/2ZApbak58ai03RPZ+b7\ni0oD3VKXl1Inil3wILL3d6zdn370ZS0k3fctEagYAMnEtAoT4skUcC8wiKSQ\n9zpKw8jJJmyHEP/H0H3sQg2yKxOUs+3TvGLBvKBBjLbXDc6AonFZkkKuEOXN\npo1aEZnbYYQHErDdXOVGE2o7NOofJd9seJniY4yeDza8S0GpT0Cxmlg8P4OG\nGnpJ+dgxz3RI9xo9Yp6mCcaGtGTvL3sJh+xCrCh/XLfcvFy9Djp22aQxHvPn\nXYWcS7VEHni/4hrr/O/AgxSntK29hNTOsO7I8tBlLKQTD4t/NzMnp2TAEqks\nRfz+lcAxxKLLyGj9eo3mo3zoXyp+cwKgXZosiHM6HKxYX/lDBDqhoa31LKzo\nB/re2hMDFmmavVULalpjWAGEc3LNfz6ZJvJ0SPJAXLLkcHxfNcxp45TxmZty\ncCs+PeVAHDlEmDbZ1ZJSPM1uHQgdSYdwUBeN90+UozoPPcJr61IYZcSxZizI\nbupV5l6PeMfBPWjTTEER6ck782EHKQF6r3LQpDV3XtanJSn3L3V0D6ao1dTK\nCswR9HOqAKIicpkoXjwrKC4orNOaOeF0Y6fsl/GB04BRJfBpUEr3sowNeGM+\nFPXwEe3QqipghHT06zAS1N87wtVOSoC8oYzhWkBuAt4PAVA+Bidct3Kp0ZDC\ngs/Q\r\n=P+tR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "328fb66a99242900c0fd4a330e9ff66ecfa3a887",
+  "homepage": "https://github.com/zenparsing/zen-observable",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "zenparsing",
+      "email": "zenparsing@gmail.com"
+    }
+  ],
+  "name": "zen-observable",
+  "optionalDependencies": {},
+  "readme": "# zen-observable\n\nAn implementation of Observables for JavaScript. Requires Promises or a Promise polyfill.\n\n## Install\n\n```sh\nnpm install zen-observable\n```\n\n## Usage\n\n```js\nimport Observable from 'zen-observable';\n\nObservable.of(1, 2, 3).subscribe(x => console.log(x));\n```\n\n## API\n\n### new Observable(subscribe)\n\n```js\nlet observable = new Observable(observer => {\n  // Emit a single value after 1 second\n  let timer = setTimeout(() => {\n    observer.next('hello');\n    observer.complete();\n  }, 1000);\n\n  // On unsubscription, cancel the timer\n  return () => clearTimeout(timer);\n});\n```\n\nCreates a new Observable object using the specified subscriber function.  The subscriber function is called whenever the `subscribe` method of the observable object is invoked.  The subscriber function is passed an *observer* object which has the following methods:\n\n- `next(value)` Sends the next value in the sequence.\n- `error(exception)` Terminates the sequence with an exception.\n- `complete()` Terminates the sequence successfully.\n- `closed` A boolean property whose value is `true` if the observer's subscription is closed.\n\nThe subscriber function can optionally return either a cleanup function or a subscription object.  If it returns a cleanup function, that function will be called when the subscription has closed.  If it returns a subscription object, then the subscription's `unsubscribe` method will be invoked when the subscription has closed.\n\n### Observable.of(...items)\n\n```js\n// Logs 1, 2, 3\nObservable.of(1, 2, 3).subscribe(x => {\n  console.log(x);\n});\n```\n\nReturns an observable which will emit each supplied argument.\n\n### Observable.from(value)\n\n```js\nlet list = [1, 2, 3];\n\n// Iterate over an object\nObservable.from(list).subscribe(x => {\n  console.log(x);\n});\n```\n\n```js\n// Convert something 'observable' to an Observable instance\nObservable.from(otherObservable).subscribe(x => {\n  console.log(x);\n});\n```\n\nConverts `value` to an Observable.\n\n- If `value` is an implementation of Observable, then it is converted to an instance of Observable as defined by this library.\n- Otherwise, it is converted to an Observable which synchronously iterates over `value`.\n\n### observable.subscribe([observer])\n\n```js\nlet subscription = observable.subscribe({\n  next(x) { console.log(x) },\n  error(err) { console.log(`Finished with error: ${ err }`) },\n  complete() { console.log('Finished') }\n});\n```\n\nSubscribes to the observable.  Observer objects may have any of the following methods:\n\n- `next(value)` Receives the next value of the sequence.\n- `error(exception)` Receives the terminating error of the sequence.\n- `complete()` Called when the stream has completed successfully.\n\nReturns a subscription object that can be used to cancel the stream.\n\n### observable.subscribe(nextCallback[, errorCallback, completeCallback])\n\n```js\nlet subscription = observable.subscribe(\n  x => console.log(x),\n  err => console.log(`Finished with error: ${ err }`),\n  () => console.log('Finished')\n);\n```\n\nSubscribes to the observable with callback functions. Returns a subscription object that can be used to cancel the stream.\n\n### observable.forEach(callback)\n\n```js\nobservable.forEach(x => {\n  console.log(`Received value: ${ x }`);\n}).then(() => {\n  console.log('Finished successfully')\n}).catch(err => {\n  console.log(`Finished with error: ${ err }`);\n})\n```\n\nSubscribes to the observable and returns a Promise for the completion value of the stream.  The `callback` argument is called once for each value in the stream.\n\n### observable.filter(callback)\n\n```js\nObservable.of(1, 2, 3).filter(value => {\n  return value > 2;\n}).subscribe(value => {\n  console.log(value);\n});\n// 3\n```\n\nReturns a new Observable that emits all values which pass the test implemented by the `callback` argument.\n\n### observable.map(callback)\n\nReturns a new Observable that emits the results of calling the `callback` argument for every value in the stream.\n\n```js\nObservable.of(1, 2, 3).map(value => {\n  return value * 2;\n}).subscribe(value => {\n  console.log(value);\n});\n// 2\n// 4\n// 6\n```\n\n### observable.reduce(callback [,initialValue])\n\n```js\nObservable.of(0, 1, 2, 3, 4).reduce((previousValue, currentValue) => {\n  return previousValue + currentValue;\n}).subscribe(result => {\n  console.log(result);\n});\n// 10\n```\n\nReturns a new Observable that applies a function against an accumulator and each value of the stream to reduce it to a single value.\n\n### observable.concat(...sources)\n\n```js\nObservable.of(1, 2, 3).concat(\n  Observable.of(4, 5, 6),\n  Observable.of(7, 8, 9)\n).subscribe(result => {\n  console.log(result);\n});\n// 1, 2, 3, 4, 5, 6, 7, 8, 9\n```\n\nMerges the current observable with additional observables.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenparsing/zen-observable.git"
+  },
+  "scripts": {
+    "build": "git clean -dfX ./lib && node ./scripts/build",
+    "lint": "eslint src/*",
+    "prepublishOnly": "npm run lint && npm test && npm run build",
+    "test": "mocha --recursive --require ./scripts/mocha-require"
+  },
+  "version": "0.8.15"
+}

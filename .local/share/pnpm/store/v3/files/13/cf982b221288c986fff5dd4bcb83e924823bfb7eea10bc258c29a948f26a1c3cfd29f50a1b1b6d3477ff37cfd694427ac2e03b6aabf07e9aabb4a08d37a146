@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/git-resolver@4.0.9",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fgit-resolver",
+        "name": "@pnpm/git-resolver",
+        "rawSpec": "4.0.9",
+        "spec": "4.0.9",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver"
+    ]
+  ],
+  "_from": "@pnpm/git-resolver@4.0.9",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/git-resolver@4.0.9",
+  "_location": "/@pnpm/git-resolver",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/git-resolver_4.0.9_1582976810385_0.27846465592258207"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {
+    "lru-cache": "5.1.1"
+  },
+  "_requested": {
+    "raw": "@pnpm/git-resolver@4.0.9",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fgit-resolver",
+    "name": "@pnpm/git-resolver",
+    "rawSpec": "4.0.9",
+    "spec": "4.0.9",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/git-resolver/-/git-resolver-4.0.9.tgz",
+  "_shasum": "fe3d2450e09fc5462a378a0a29fa6a9a0e5f8b8c",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/git-resolver@4.0.9",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/fetch": "1.0.2",
+    "@pnpm/resolver-base": "7.0.0",
+    "graceful-git": "3.0.1",
+    "hosted-git-info": "3.0.4",
+    "semver": "7.1.3"
+  },
+  "description": "Resolver for git-hosted packages",
+  "devDependencies": {
+    "@pnpm/git-resolver": "link:",
+    "@types/hosted-git-info": "3.0.0",
+    "@types/is-windows": "^1.0.0",
+    "@types/semver": "^7.1.0",
+    "is-windows": "1.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Q8WFvUgMbMg0GNqwCgEMYkr52qi9TyeLQht0d2YV7nyKSy6s4RAO981+tSUcNgCwwkVwwckcs5L3IGppnnwvcg==",
+    "shasum": "fe3d2450e09fc5462a378a0a29fa6a9a0e5f8b8c",
+    "tarball": "https://registry.npmjs.org/@pnpm/git-resolver/-/git-resolver-4.0.9.tgz",
+    "fileCount": 7,
+    "unpackedSize": 12121,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk8qCRA9TVsSAnZWagAAed4P+gPPLcGRUlWQzU/wt5df\nlOvoYPwG4qtGw3dPOeSYMe8mBXo1qWYpkPGjuVomrc3SqbVAw+EQopuXOnYH\nTA25yfnDldH6w7KD5NitIv3zZ2yjlNkaPXUpmyVBk0SjND2spC7QVkWO821w\nMhYkE9B6YyuyoD/3vzMBqO51zgyJuf/BJIc/PwGX9vNc3rDSGFnH+qaBlM+H\nvMrqGPJK3/fwOPFNoNiv6bZq0/cGphZhvX0FMgUxuKLJjMao52GN4QgQ9QVE\nHAYjoVxsOLoh2F7/EgH0QVpjbXBQGT3cUtWvXtDIp83uOQVblaKl+7lKRQU2\nUR8//QTHXln3nY/di/hspi30g+sWvjA/1NnNKh2cnv0quLNLFNhtitIM+/M3\n1kcrkUMfVt1A0U7rKnn0rYrQutMB1X0l9cCNw1vLt8+a/Vn1boPL5unWYDBs\nLzlis2mQA4Q/z1NuhAPL7aS+g5hwSEjvjLge3H4TXSFs3H82jROYDreD3ozI\nk76DSRb0FyzD7DN+ag0gtzAwZiVovs8s+dzftnuOcl5Y3Dgttz5Snp3mnZmd\nBryx2vwXWQB6N1elBsGrddDiyKaQL/5kDcvI1NNYrYwerX6BgPMPURzTZxw5\nir+kc/X0hpGPHtzYbGD7rZQnNeXBWdKoUIhwmMcfp4lW1EoZF5bwuNXZhpXO\nBJJi\r\n=g+52\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/git-resolver#readme",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/git-resolver",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/git-resolver\n\n> Resolver for git-hosted packages\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/git-resolver.svg)](https://www.npmjs.com/package/@pnpm/git-resolver)\n<!--/@-->\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/git-resolver\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst createResolveFromNpm = require('@pnpm/git-resolver').default\n\nconst resolveFromNpm = createResolveFromNpm({})\n\nresolveFromNpm({\n  pref: 'kevva/is-negative#16fd36fe96106175d02d066171c44e2ff83bc055'\n})\n.then(resolveResult => console.log(JSON.stringify(resolveResult, null, 2)))\n//> {\n//    \"id\": \"github.com/kevva/is-negative/16fd36fe96106175d02d066171c44e2ff83bc055\",\n//    \"normalizedPref\": \"github:kevva/is-negative#16fd36fe96106175d02d066171c44e2ff83bc055\",\n//    \"resolution\": {\n//      \"tarball\": \"https://codeload.github.com/kevva/is-negative/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055\"\n//    },\n//    \"resolvedVia\": \"git-repository\"\n//  }\n```\n<!--/@-->\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/git-resolver"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.9"
+}

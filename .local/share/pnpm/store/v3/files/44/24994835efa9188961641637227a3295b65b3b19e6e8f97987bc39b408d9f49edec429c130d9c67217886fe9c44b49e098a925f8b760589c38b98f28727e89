@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-settle@3.1.0",
+        "scope": null,
+        "escapedName": "p-settle",
+        "name": "p-settle",
+        "rawSpec": "3.1.0",
+        "spec": "3.1.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/link-bins"
+    ]
+  ],
+  "_from": "p-settle@3.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-settle@3.1.0",
+  "_location": "/p-settle",
+  "_nodeVersion": "8.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-settle_3.1.0_1554268690547_0.8972712823974991"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-settle@3.1.0",
+    "scope": null,
+    "escapedName": "p-settle",
+    "name": "p-settle",
+    "rawSpec": "3.1.0",
+    "spec": "3.1.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/link-bins"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-settle/-/p-settle-3.1.0.tgz",
+  "_shasum": "6194f4f929364a8843be54ced118389b7b9ee017",
+  "_shrinkwrap": null,
+  "_spec": "p-settle@3.1.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/link-bins",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-settle/issues"
+  },
+  "dependencies": {
+    "p-limit": "^2.2.0",
+    "p-reflect": "^2.0.0"
+  },
+  "description": "Settle promises concurrently and get their fulfillment value or rejection reason",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "delay": "^4.1.0",
+    "mock-require": "^3.0.3",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-gkN3UDlyofG81IRhxLnonSIi8BBrwcPlKMJS6tcJRubofyekqQPMdB5LXPrmCkeu/m/YKx5PzkUVQLezda5/JQ==",
+    "shasum": "6194f4f929364a8843be54ced118389b7b9ee017",
+    "tarball": "https://registry.npmjs.org/p-settle/-/p-settle-3.1.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6021,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcpEITCRA9TVsSAnZWagAAluwP/1sdCiPfoM/yXFOz4Mkc\nlkbBbIEC7bR8G0z4HRRCEeC2/hMkzywNQ7K98jpTFlsNXoun1cTok+nRC3h0\n/xARuI9vhoneCqrWPW8MyvaiAN9PDMNHrb725Jrl3reZ2oxyMGXx5hXduMp8\nyMwxqVDQKf2JXecIuoS7M+RZ33EsUopLjxI36aiadJMxk+qYu5GrMh8LAAUV\nKGPLHLLVAoxjegC9d1I42Ao2vK3rtJvAd8BCJWQDjrjyOdHDLsBu32lOFCe3\n7yvnTyHPUTRJcFSfWIFTqvFsh3tUS5bVjXSn3r+9uXpbXm33XqS2S6T9ARqC\nTYPeyan+NMyuSlDoMA6XeR7RCtVzSIkpy8ytZDm1qO3kKMTjo62iNJuE3adx\ncAK8sCmK/G8IEhVYTe3IWmVRXkykoW7j4go4k9iiJzEpSZNbC+Ohr0mxOTMd\nvf3/w3+cDAeq2eGDTA2I/Es1U9K0yU4UQUpAfVcf68AwQkCu1CSp26jD5hmf\nS3T8YP5eZSSpjFYekdZPLtrDNlo128soIhZ8+Z+/plnlPKmOadgUpzYPy7aq\n9KDG1TGhqXgzQVZB1yz8UFxrMBmWZuUgxIfOv4Rhxs4aI8yBM3pGFBYU7Yjq\nKWyKBrZDWZgSD6f2djDhMUZa1XGZlh6+zCh5hs47u6QYP4Zhgv5j9MWYjy1F\nESVe\r\n=1arh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "ed2986dc03293414adb1211d8f0fcb1e04c63fad",
+  "homepage": "https://github.com/sindresorhus/p-settle#readme",
+  "keywords": [
+    "promise",
+    "settle",
+    "settled",
+    "resolved",
+    "iterator",
+    "fulfill",
+    "reject",
+    "fulfilled",
+    "rejected",
+    "reflect",
+    "inspect",
+    "error",
+    "async",
+    "await",
+    "promises",
+    "concurrently",
+    "concurrency",
+    "parallel",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "p-settle",
+  "optionalDependencies": {},
+  "readme": "# p-settle [![Build Status](https://travis-ci.org/sindresorhus/p-settle.svg?branch=master)](https://travis-ci.org/sindresorhus/p-settle)\n\n> Settle promises concurrently and get their fulfillment value or rejection reason\n\n\n## Install\n\n```\n$ npm install p-settle\n```\n\n\n## Usage\n\n```js\nconst {promisify} = require('util');\nconst fs = require('fs');\nconst pSettle = require('p-settle');\n\nconst pReadFile = promisify(fs.readFile);\n\n(async () => {\n\tconst files = [\n\t\t'a.txt',\n\t\t'b.txt' // Doesn't exist\n\t].map(fileName => pReadFile(fileName, 'utf8'));\n\n\tconsole.log(await pSettle(files));\n\t/*\n\t[\n\t\t{\n\t\t\tisFulfilled: true,\n\t\t\tisRejected: false,\n\t\t\tvalue: '🦄'\n\t\t},\n\t\t{\n\t\t\tisFulfilled: false,\n\t\t\tisRejected: true,\n\t\t\treason: [Error: ENOENT: no such file or directory, open 'b.txt']\n\t\t}\n\t]\n\t*/\n})();\n```\n\n\n## API\n\n### pSettle(promises, [options])\n\nReturns a `Promise<Object[]>` that is fulfilled when all promises in `promises` are settled.\n\nThe objects in the array have the following properties:\n\n- `isFulfilled`\n- `isRejected`\n- `value` or `reason` *(Depending on whether the promise fulfilled or rejected)*\n\n#### promises\n\nType: `Array<Promise<unknown>>`\n\n#### options\n\nType: `Object`\n\n##### concurrency\n\nType: `number`<br>\nDefault: `Infinity`<br>\nMinimum: `1`\n\nNumber of concurrently pending promises.\n\n\n## Related\n\n- [p-reflect](https://github.com/sindresorhus/p-reflect) - Make a promise always fulfill with its actual fulfillment value or rejection reason\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-settle.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "3.1.0"
+}

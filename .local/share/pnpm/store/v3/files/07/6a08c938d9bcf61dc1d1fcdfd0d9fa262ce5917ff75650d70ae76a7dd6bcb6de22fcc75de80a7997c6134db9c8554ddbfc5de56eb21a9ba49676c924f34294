@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "fetch-from-npm-registry@4.0.1",
+        "scope": null,
+        "escapedName": "fetch-from-npm-registry",
+        "name": "fetch-from-npm-registry",
+        "rawSpec": "4.0.1",
+        "spec": "4.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher"
+    ]
+  ],
+  "_from": "fetch-from-npm-registry@4.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "fetch-from-npm-registry@4.0.1",
+  "_location": "/fetch-from-npm-registry",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fetch-from-npm-registry_4.0.1_1582101458408_0.5938776169661237"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "fetch-from-npm-registry@4.0.1",
+    "scope": null,
+    "escapedName": "fetch-from-npm-registry",
+    "name": "fetch-from-npm-registry",
+    "rawSpec": "4.0.1",
+    "spec": "4.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver",
+    "/@pnpm/tarball-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/fetch-from-npm-registry/-/fetch-from-npm-registry-4.0.1.tgz",
+  "_shasum": "0d64f609ef258b7d5352a9be759379326e633c01",
+  "_shrinkwrap": null,
+  "_spec": "fetch-from-npm-registry@4.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/tarball-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/fetch": "1.0.2",
+    "@pnpm/npm-registry-agent": "2.0.3"
+  },
+  "description": "A fetch lib specifically for using with the npm registry",
+  "devDependencies": {
+    "fetch-from-npm-registry": "link:",
+    "nock": "11.9.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-F85lpaTDlh1Uy7wSmOYh/aobeuuv475+kjaRi9x9XcNxeBGvakK3ECaBpBHsOS20zI+c8eIG/63/yNH9MyyTCA==",
+    "shasum": "0d64f609ef258b7d5352a9be759379326e633c01",
+    "tarball": "https://registry.npmjs.org/fetch-from-npm-registry/-/fetch-from-npm-registry-4.0.1.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6637,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPPSCRA9TVsSAnZWagAAdeoP+QGshCbjDh63glkMTlKQ\ncQ/Rut97EUDNri26v5ljQgLnQLW1byaCu6i6UvI8cnZK4QH65NeGhlXonVkT\n90dKNfzto1g1XUO9mR5efFaEoPgGcTwuKWFGR5rgLhTZP+y8DakJfgnVLzEZ\nt2SmaNeo2e0R/JWo5ew8I6Ixng+9ATTRFAFaBRhp1tn7RUUEIEZLKxQ2malF\nnPd5Vxw6yWVzBF9foQPof9cT0nU31IPO9o5vBDi7qK4zgDqft56w0OYsjOMA\nTnVtV1m4lIbkBychAL4vjVyEuY5uL7TmSwnT5UZO52KEJFqdM9gWMP9D7TYV\nPrXUOb9BPzpIVgGpw0W4jzto3CNQW+reVdpcPACuy8NjchdX1Ce9JVdwC3cu\n9n5Y44iWoixrw/gywq/XipsPE/YehOcvETpAxKaLW6Hh4+IJR2o+t0KoUm26\n67/Tqr4qoFcXPK9i+UfSPwTozQ1iGBEG7FIkuPSfNnLV9NYVX+wYhmlOhuAV\nN3CfFiA6ZG0y2dBBDMYku4T8QmAj9hXC8ys/2T1cZK77UNT8VmOHM9ZKHsxI\nJ9OQbsrBL2QeCqgQFqkVOeLQC59/PnXAWhfhLqqES2XcGykmqZ+bDw8IefnV\nLps1+cS+LH7ZtNjOmcCVE1BhnOVtGHPsX3rVt2I/Cta9SOFHMXezpPrC6TuE\nlnxw\r\n=dAMr\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/fetch-from-npm-registry#readme",
+  "keywords": [
+    "fetch",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "fetch-from-npm-registry",
+  "optionalDependencies": {},
+  "readme": "# fetch-from-npm-registry\n\n> A fetch lib specifically for using with the npm registry\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/fetch-from-npm-registry.svg)](https://www.npmjs.com/package/fetch-from-npm-registry)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add fetch-from-npm-registry\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst createFetcher = require('fetch-from-npm-registry').default\n\nconst fetchFromNpmRegistry = createFetcher({userAgent: 'fetch-from-npm-registry'})\n\nfetchFromNpmRegistry('https://registry.npmjs.org/is-positive')\n  .then(res => res.json())\n  .then(metadata => console.log(JSON.stringify(metadata.versions['1.0.0'], null, 2)))\n  //> {\n  //    \"name\": \"is-positive\",\n  //    \"version\": \"1.0.0\",\n  //    \"devDependencies\": {\n  //      \"ava\": \"^0.0.4\"\n  //    },\n  //    \"_hasShrinkwrap\": false,\n  //    \"directories\": {},\n  //    \"dist\": {\n  //      \"shasum\": \"88009856b64a2f1eb7d8bb0179418424ae0452cb\",\n  //      \"tarball\": \"https://registry.npmjs.org/is-positive/-/is-positive-1.0.0.tgz\"\n  //    },\n  //    \"engines\": {\n  //      \"node\": \">=0.10.0\"\n  //    }\n  //  }\n```\n<!--/@-->\n\n## API\n\n### `fetchFromNpmRegistry(url, opts)`\n\n#### Arguments\n\n- **url** - _String_ - url to request\n- **opts.fullMetadata** - _Boolean_ - If true, don't attempt to fetch filtered (\"corgi\") registry metadata. (default: false)\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/fetch-from-npm-registry"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.1"
+}

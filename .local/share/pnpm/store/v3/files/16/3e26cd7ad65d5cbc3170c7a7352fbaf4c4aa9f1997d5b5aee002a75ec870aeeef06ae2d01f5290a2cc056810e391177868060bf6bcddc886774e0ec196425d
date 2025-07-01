@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "graceful-git@3.0.1",
+        "scope": null,
+        "escapedName": "graceful-git",
+        "name": "graceful-git",
+        "rawSpec": "3.0.1",
+        "spec": "3.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-resolver"
+    ]
+  ],
+  "_from": "graceful-git@3.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "graceful-git@3.0.1",
+  "_location": "/graceful-git",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/graceful-git_3.0.1_1576768974628_0.6212481440252766"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "graceful-git@3.0.1",
+    "scope": null,
+    "escapedName": "graceful-git",
+    "name": "graceful-git",
+    "rawSpec": "3.0.1",
+    "spec": "3.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/git-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/graceful-git/-/graceful-git-3.0.1.tgz",
+  "_shasum": "b6b7053b9a711683f36f0ce78363bf1c256e1c6d",
+  "_shrinkwrap": null,
+  "_spec": "graceful-git@3.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "execa": "^4.0.0",
+    "retry": "^0.12.0"
+  },
+  "description": "Executes git commands gracefully. Retries them on errors",
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "package-preview": "3.0.0",
+    "tape": "^4.11.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-1dshAo83MPbG3snfKY+h5QtoNj5g9mG8ywvofkUJjYrOANvMARUEYz8IjQ1xkRpJvB6E8NJ5Z64vvS3D7f3RgA==",
+    "shasum": "b6b7053b9a711683f36f0ce78363bf1c256e1c6d",
+    "tarball": "https://registry.npmjs.org/graceful-git/-/graceful-git-3.0.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 3784,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd+5XRCRA9TVsSAnZWagAAts8P/0GSXJfgJrXJGwBo/h+P\nM891QM6yIt0/vfGRsISfpjbildxEu7VLK0XTHmr0fhvzjJdljgwDLRyLyMxJ\nwsZ4QvQKiypklanCHVOrh+YepqX+uA6X0K6tbNrNH37HyOXwARThHjvPdSFP\n9P8Y/+IDjWJxkRIoVFLmbDuYuwA9YF5uJJkt/27WXoy1ojDOXj1RKHM+wev6\nooH/xfmElg5hztT72OjEMhS99W+bapmAjbRjw0yDspY2XgGR1IBvdWopyJIL\niwZadinSVFE1IQPCja5MT7pZMBlZ9Xp7d6fAAudZWRivwv+R20LQbsXDH3L7\nKMcmirxeeka2tZ4ZsFDD0NLhk+Mw/ZJbe1rVuSxsvGufKIR3j7JmWA7LKH1/\nyvNxdfOHpLGN5C8h5Lceahboknz1Da8L0CuDm/BYZQAiOzB8JQM5UJX57Jyt\nLl/VX5SwmLx6NiaNoEprLefpQJ12kce/0H+mGEwGbltdA0UKPl+xGw5E+9e1\n3nIltB9sMF3Pd4LgZFYtrA4yk37oa8zNDVwAUpzQFDVgiNeMGvyLaCnhs1Yw\nlTuBNEGnq6QQJspKUGZtuYp5qxOfTMhtr2SXZRanyk/KEZ2rDoiF/qcl7QCJ\nOeyz1j5PdMgVya9IDqDiLEHlgJ/ovbu4v28bdRHR+px0CAneFNes9C0n1cum\n6mv5\r\n=3sMw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/graceful-git#readme",
+  "keywords": [
+    "git",
+    "retry",
+    "retries",
+    "exec"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "graceful-git",
+  "optionalDependencies": {},
+  "readme": "# graceful-git\n\n> Executes git commands gracefully. Retries on errors\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/graceful-git.svg)](https://www.npmjs.com/package/graceful-git)\n<!--/@-->\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add graceful-git\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst gracefulGit = require('graceful-git')\n\ngracefulGit(['status', 'README.md'])\n  .then(result => console.log(result.stdout))\n  .catch(err => console.error(err))\n  //> On branch master\n  //  Your branch is based on 'origin/master', but the upstream is gone.\n  //    (use \"git branch --unset-upstream\" to fixup)\n  //  nothing to commit, working directory clean\n```\n<!--/@-->\n\n## API\n\n### `git(args, [opts]) => Promise`\n\n**Arguments:**\n\n- `args` - _string\\[]_ - arguments passed to the Git CLI\n- `opts.cwd` - _Path_ - the directory in which the Git command should be executed\n- `...opts` - _object_ - optional. Parameters used by [retry](https://www.npmjs.com/package/retry) when git operation fails.\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/graceful-git"
+  },
+  "scripts": {
+    "md": "preview && mos",
+    "test": "preview && tape test.js"
+  },
+  "version": "3.0.1"
+}

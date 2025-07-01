@@ -1,0 +1,131 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/hoist@2.1.7",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fhoist",
+        "name": "@pnpm/hoist",
+        "rawSpec": "2.1.7",
+        "spec": "2.1.7",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/hoist@2.1.7",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/hoist@2.1.7",
+  "_location": "/@pnpm/hoist",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/hoist_2.1.7_1582752630472_0.2962951552006201"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/hoist@2.1.7",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fhoist",
+    "name": "@pnpm/hoist",
+    "rawSpec": "2.1.7",
+    "spec": "2.1.7",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/hoist/-/hoist-2.1.7.tgz",
+  "_shasum": "4eaa07953c54edab65174d0d6bb07583d5776aff",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/hoist@2.1.7",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/link-bins": "5.1.5",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/lockfile-walker": "2.0.1",
+    "@pnpm/pkgid-to-filename": "2.0.0",
+    "@pnpm/symlink-dependency": "3.0.3",
+    "@pnpm/types": "5.0.0",
+    "dependency-path": "4.0.5",
+    "ramda": "0.27.0"
+  },
+  "description": "Hoists dependencies in a node_modules created by pnpm",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@types/ramda": "^0.26.42"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-YXrPmsNsxgnwocFa345AWeV0NvSpgbIo/f2Hj/BiZWnD+oZeLIx3Nf2G+AtoWXV1rS9Cpk9M/bcGnBGZzWmGPg==",
+    "shasum": "4eaa07953c54edab65174d0d6bb07583d5776aff",
+    "tarball": "https://registry.npmjs.org/@pnpm/hoist/-/hoist-2.1.7.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8928,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuN2CRA9TVsSAnZWagAAX98P/2PRGNoDu+TwwsOl/dWL\nAOhfSvhod8Jnz6qSGjv0VsHIlFXphwGO5u3QYXYdFrNzS89b98OclSpz6NBx\n9psE7bv4T70ntCCkwCbe9T5OQeC8TX4A6sltD3MJKWTBrhvzSJAd7Gmp7y11\nM0gHTB349enl92veVqIGEcWY7cX/ntb8Mmt7olc1tAxLcXgM4s1ejDcvteKQ\nfUx2TbwLgQyWYfbUIctvRF4K+W3DCm6qGl1fROhLXPVrQlW5jgO6Kn+Rq9KZ\n2FpKlwyOyecK1doNzEzfduvvThHIa053BmVdJ2Iov6DoS6/+5L+5dPl5XBwu\nn3WVnHvWnWrBiW2l/lCk72pbLhS7KAbT1RZdfcccpJgf4gOibx0y3YsHhV+E\nPlXFCr47rCu5G4TJJsyH9IqpFrmdLFdnfwTFgDQC0AUBouwuTIRG9ReCRXBL\ntJaWaE53i2FFL/cxY5HVpprelBFxU3MCkyN0gifaLM5e2cgR7xBt4i6kvTzc\nMXLyaEwPVz5FGEkgbo4+HMM6RA30aGkK5c9ORQVtlGF0QhlaCqoh7IK6PlHL\n+BRqnFs/s0DctsfkXmufTkjBo5uw6+I7GjE6CuqE8NqlHZ1awIYWI2P/jjX2\nw8Sh9C58XvxAwiuBwhtCyFGbgcxo2X35d+x3gyP1P9umxpNyd1Zku5RsG+AR\nIRck\r\n=CJeH\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/hoist#readme",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/hoist",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/hoist\n\n> Hoists dependencies in a node_modules created by pnpm\n\nFormerly `@pnpm/shamefully-flatten`.\n\n## Installation\n\n```\npnpm add @pnpm/hoist\n```\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/hoist"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "2.1.7"
+}

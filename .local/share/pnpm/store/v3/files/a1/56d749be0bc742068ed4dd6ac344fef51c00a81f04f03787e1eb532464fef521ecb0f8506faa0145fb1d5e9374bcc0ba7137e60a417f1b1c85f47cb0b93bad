@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/build-modules@4.1.5",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fbuild-modules",
+        "name": "@pnpm/build-modules",
+        "rawSpec": "4.1.5",
+        "spec": "4.1.5",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/build-modules@4.1.5",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/build-modules@4.1.5",
+  "_location": "/@pnpm/build-modules",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/build-modules_4.1.5_1582101545690_0.7503182179584977"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/build-modules@4.1.5",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fbuild-modules",
+    "name": "@pnpm/build-modules",
+    "rawSpec": "4.1.5",
+    "spec": "4.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/build-modules/-/build-modules-4.1.5.tgz",
+  "_shasum": "77a48e34536f4e488a8b909f1a1706946994cdd3",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/build-modules@4.1.5",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/lifecycle": "8.0.2",
+    "@pnpm/link-bins": "5.1.5",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "graph-sequencer": "2.0.0",
+    "ramda": "0.27.0",
+    "run-groups": "2.0.2"
+  },
+  "description": "Build packages in node_modules",
+  "devDependencies": {
+    "@pnpm/build-modules": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/ramda": "^0.26.41"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-HnB8gztwtJg4UJVXrA16o82cveDnvKqiSG2PZbIfMrhOEyNEOjU8dZqFnRl5bd/BeKvCkUBlDEYG8aaOcThQqA==",
+    "shasum": "77a48e34536f4e488a8b909f1a1706946994cdd3",
+    "tarball": "https://registry.npmjs.org/@pnpm/build-modules/-/build-modules-4.1.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 10405,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPQqCRA9TVsSAnZWagAAa88P/1C95ZNwfN6iGjzRm8PC\n1pw1Zn5ge1beIiy7lP9sYgQeOkHpFyzNrUwDgnLEwUfbJmlYhYrAAp0qQWGH\n2iKXS8WsNFDR5M7Cawvi/4VQcTM3Qq+UbMs2jKTbbfECOPHsNeELbS2cfCO+\ntjFgx1308aUJSmgPMxOAReOHvYe00f2x479C7pM4VnI12RzqKGJbFSdbM/Dp\nQmcvE87dsOblh82njP9LlX6xbLCpZ9HPRNq55qEyesxNru6K60FiiPJ+Bmn8\noSiTEOLKo/kWF5+cBBqRDJmDz/BGIr3FR5g6GJgI4pPnPX8FsjsfjKo/wnWz\nXV/n4bMJ87R+PJ1XhdRbVAc4Vw/cqtSPGZ7PjGsvuovdJOx5jLPP5cADAPNZ\nbePSQr9g23z+u2f33Mi+zhQPG8TIW6oAy/qiYTyLLp7aw9hZm04mVGLTG+k5\npEEMbNyfQ6k1pQo13OOVh2sNFRqAoJFi0ancdvCSgGKX4+bYVsxhf66Zx6LH\n1+FY/IsNLoy4ZDCLXjWoXh0MmFdB4HbhswJlUzgvW5a4omqwLn02VQJrLbVC\nefi02JjhvVQiY0oguImx5IJBZSwm1UgO3ev/B9UUrnr0usZd516D8n5WQuWc\nwLZ7mMDpk6cYBtL0NBM8cJGBsmNexzbHCE8TVuaOoQNF5znUWBH3DcWkNAw2\nCltQ\r\n=zZuh\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/build-modules",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/build-modules\n\n> Build packages in node_modules\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/build-modules.svg)](https://www.npmjs.com/package/@pnpm/build-modules)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/build-modules\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/build-modules"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.1.5"
+}

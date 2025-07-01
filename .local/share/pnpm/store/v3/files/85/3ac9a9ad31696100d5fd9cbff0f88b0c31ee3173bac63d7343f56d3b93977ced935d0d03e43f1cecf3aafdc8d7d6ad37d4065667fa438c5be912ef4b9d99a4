@@ -1,0 +1,145 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/link-bins@5.1.5",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flink-bins",
+        "name": "@pnpm/link-bins",
+        "rawSpec": "5.1.5",
+        "spec": "5.1.5",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/link-bins@5.1.5",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/link-bins@5.1.5",
+  "_location": "/@pnpm/link-bins",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/link-bins_5.1.5_1582101556442_0.7040373561053814"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/link-bins@5.1.5",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flink-bins",
+    "name": "@pnpm/link-bins",
+    "rawSpec": "5.1.5",
+    "spec": "5.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/build-modules",
+    "/@pnpm/headless",
+    "/@pnpm/hoist",
+    "/@pnpm/plugin-commands-rebuild",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/link-bins/-/link-bins-5.1.5.tgz",
+  "_shasum": "70186e685558158a1c0a5f180c841c90dccffa5d",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/link-bins@5.1.5",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/error": "1.0.0",
+    "@pnpm/package-bins": "4.0.3",
+    "@pnpm/read-modules-dir": "2.0.1",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/cmd-shim": "4.2.1",
+    "is-subdir": "1.1.1",
+    "is-windows": "1.0.2",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "normalize-path": "3.0.0",
+    "p-settle": "3.1.0",
+    "ramda": "0.27.0"
+  },
+  "description": "Link bins to node_modules/.bin",
+  "devDependencies": {
+    "@pnpm/link-bins": "link:",
+    "@types/is-windows": "^1.0.0",
+    "@types/mz": "^2.7.0",
+    "@types/ncp": "^2.0.3",
+    "@types/node": "^12.12.27",
+    "@types/normalize-path": "^3.0.0",
+    "@types/ramda": "^0.26.41",
+    "@types/sinon": "^7.5.1",
+    "@types/tape": "^4.2.34",
+    "ncp": "^2.0.0",
+    "path-exists": "^4.0.0",
+    "sinon": "8.1.1",
+    "tempy": "0.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-eh6iFEjUCXvPReAmMztmJv0V7KCI/AqMKDDVlYU7O2DOjTc+iKLUzpAElwaAcjrCHXkbWN5bQ04pBuzPeIS0aQ==",
+    "shasum": "70186e685558158a1c0a5f180c841c90dccffa5d",
+    "tarball": "https://registry.npmjs.org/@pnpm/link-bins/-/link-bins-5.1.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9229,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPQ0CRA9TVsSAnZWagAA7aEP/iTT8QapC1RuUI4EVWlw\n1tkiOsDB28eXOlAyCpcHknoFrf3cMNArtmfdEk4XOfxMb57sOnq5txHBUM2F\n2gsq1c6u5azF1QDoSjaXZ9jrr1IBrGhiw5nT2vqiw7VoB/Cj46RdWgrrDeXR\n6iiCFaV1bWYJzJ+p7EJ0rMs3GaNRujAp7jXYjw3+ouWlJUG0tpjlCCq2R9hd\nixrsNDfV9BpAEdV61LBcsj1GU5L+odQpmDCA9YodQfkCSO/QQW7YhtJu7Au1\nWGpj8fFZU0gVjrzfMVxJDyyCcN/jP8e3CMFzw+QrcCsxYZ5YzWfL+Zd/kzcA\nyvSI6mGv9OtpwwY2Oi7UgDvjUTgH3OER8UhWyKF0KBa2hoqylWiTa2HH/gNl\nUnqRXfRLsBRJJIBCVFaieuKBdzXez7WB3micPLg8sBk/DFPCc7D6F+4jPCiV\npVQSSXrwK1ILmyLj7ROjdbM5f36vc4fKqh9vi1Mc8VdNWQDN5L0SnKqHYQHt\nHpPA+XB6yOZzirB9b4eP5M2FRi4qvL8H4H1nkgWr5YUuBhltIB2hFCOwCxLB\ntbcz0cwJFX3PhnJzijrso4z+Mrhl0iF8dmUS4Eh6Dd4PF2NErfgYiG+6uZiP\n3QdaJIdZp6jz7HIiRF8r78u+Smedfz4n/Ziot4LhjIQea6kP96J23s3J3R9K\n2v4p\r\n=tPqo\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/link-bins#readme",
+  "keywords": [
+    "pnpm",
+    "bin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/link-bins",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/link-bins\n\n> Link bins to node_modules/.bin\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/link-bins.svg)](https://www.npmjs.com/package/@pnpm/link-bins) [![Build Status](https://img.shields.io/travis/pnpm/link-bins/master.svg)](https://travis-ci.org/pnpm/link-bins)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/link-bins\n```\n\n## Usage\n\n```ts\nimport linkBins, {linkBinsOfPackages} from '@pnpm/link-bins'\n\nfunction warn (msg) { console.warn(msg) }\n\nawait linkBins('node_modules', 'node_modules/.bin', {warn})\n\nconst packages = [{manifest: packageJson, location: pathToPackage}]\nawait linkBinsOfPackages(packages, 'node_modules/.bin', {warn})\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/link-bins"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json --project . --fix",
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ncp test/fixtures test/fixtures_for_testing && ts-node test --type-check && rimraf test/fixtures_for_testing",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.1.5"
+}

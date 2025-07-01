@@ -1,0 +1,143 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/default-reporter@6.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fdefault-reporter",
+        "name": "@pnpm/default-reporter",
+        "rawSpec": "6.0.0",
+        "spec": "6.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/default-reporter@6.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/default-reporter@6.0.0",
+  "_location": "/@pnpm/default-reporter",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/default-reporter_6.0.0_1582976753619_0.8248937243802545"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/default-reporter@6.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fdefault-reporter",
+    "name": "@pnpm/default-reporter",
+    "rawSpec": "6.0.0",
+    "spec": "6.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/default-reporter/-/default-reporter-6.0.0.tgz",
+  "_shasum": "d17d633684a3f10dc9d3a610f082a2793eeca1f8",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/default-reporter@6.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/config": "8.1.0",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/zen-push": "1.0.0",
+    "ansi-diff": "1.1.1",
+    "chalk": "3.0.0",
+    "common-tags": "1.8.0",
+    "most": "1.8.0",
+    "normalize-path": "3.0.0",
+    "pretty-bytes": "5.3.0",
+    "pretty-time": "1.1.0",
+    "ramda": "0.27.0",
+    "right-pad": "1.0.1",
+    "semver": "7.1.3",
+    "stacktracey": "1.2.123",
+    "string-length": "4.0.0",
+    "strip-ansi": "6.0.0"
+  },
+  "description": "The default reporter of pnpm",
+  "devDependencies": {
+    "@pnpm/default-reporter": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/common-tags": "1.8.0",
+    "@types/normalize-path": "3.0.0",
+    "@types/pretty-time": "1.1.0",
+    "@types/ramda": "^0.26.43",
+    "@types/semver": "^7.1.0",
+    "delay": "4.3.0",
+    "ghooks": "2.0.4",
+    "load-json-file": "6.2.0",
+    "normalize-newline": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-o1TnPFbMXq10NmWwzeWaPBAjiZvpVMcnzeV7BTv+buk8YDihGDDgCi74O+EVC3Ypse+uSJ3z7zNGpEmA9hvHQA==",
+    "shasum": "d17d633684a3f10dc9d3a610f082a2793eeca1f8",
+    "tarball": "https://registry.npmjs.org/@pnpm/default-reporter/-/default-reporter-6.0.0.tgz",
+    "fileCount": 47,
+    "unpackedSize": 65004,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk7yCRA9TVsSAnZWagAAnnMP/j2Ppw1KTMYWwCFg8K+F\n+poPV8lqOk0TAunlK4RFZQ90858I2IFPmOV6H5QLUfZyJVhXD5D4ucx5CE7M\nV/n1Yg0P8oVggfFu+G9SmGb0Jc0bCQUW+wCpkIYh5Mg4EWtTvgMVHcek8MAF\nw1+0b3x6pnitmznJv6/p2x0SqCfl865f7mZDzje1QPqh5h8WdTtcSwCxwEaC\ntPY2ygFPZZKOuF48skGnnhlLG/yAq+xqS07tUMyiRuOnQjduyQSBv1TCrV2O\nzXHh+fewxuQMWcY5tZkd/CKNxt/7b7uDiK2b0zGJkWJmEur1TwlxPnTTL0Iw\nKDBsyuoxxBA3d71U1VOVQXewrVM1E0iX+iQLNQkLh66w/5QD0DrDXfHSD/eV\nsR6QHTTdhiRPJYEK1MqB23IyE7GpGlO1ucwqtiElM1fFmKEAM/z0wCOxDrlU\nvRSFoTp/xlhnZLXoEJd4uaAzfoIsgDKs/NLkVseEOXrLo4vo5L01H4feKSt+\nstYBzjAK6ex3mPl/JBelpUqIFkGGJGoj1Fe46KBJiPr8E9uHXAyKg4Mg+uYG\nJ/4Pxkkq4kcpUxvToi0nr8k7Fa1DcEUxU51ZPTjY6vXy0MGYU5rWnFiXEF+K\nxkHaMcTnNLeVP58ngupICA2UedvIFdIEKxjNlsvfBzD2kDlUn4nC/mSpmbNu\nbvGs\r\n=JiGb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "pnpm-reporter"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/default-reporter",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/default-reporter\n\n> The default reporter of pnpm\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/default-reporter\n```\n\n## Style Guide\n\n1. Never use blue or grey as font color as they are hard to read in many consoles.\n   1. Use dim instead of grey\n   1. Use cyan bright instead of blue\n1. Don't hide the CLI cursor. (It is easier to never hide but it is really needed only when scripts are running.)\n1. Don't use green and yellow to distinct something.\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/default-reporter"
+  },
+  "scripts": {
+    "just-test": "pnpm run tsc && ts-node test --type-check",
+    "just-test-preview": "ts-node test --type-check",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretty-test": "ts-node test | tap-diff",
+    "test": "pnpm run just-test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "6.0.0"
+}

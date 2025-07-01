@@ -1,0 +1,239 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "supi@0.38.16",
+        "scope": null,
+        "escapedName": "supi",
+        "name": "supi",
+        "rawSpec": "0.38.16",
+        "spec": "0.38.16",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-import"
+    ]
+  ],
+  "_from": "supi@0.38.16",
+  "_hasShrinkwrap": false,
+  "_id": "supi@0.38.16",
+  "_location": "/supi",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/supi_0.38.16_1583083890726_0.7521081785677435"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "supi@0.38.16",
+    "scope": null,
+    "escapedName": "supi",
+    "name": "supi",
+    "rawSpec": "0.38.16",
+    "spec": "0.38.16",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-import",
+    "/@pnpm/plugin-commands-installation"
+  ],
+  "_resolved": "https://registry.npmjs.org/supi/-/supi-0.38.16.tgz",
+  "_shasum": "67a60b959df9dffd9fea8930fded08f4d8a12f9d",
+  "_shrinkwrap": null,
+  "_spec": "supi@0.38.16",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-import",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/build-modules": "4.1.5",
+    "@pnpm/check-package": "3.0.1",
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/filter-lockfile": "3.0.8",
+    "@pnpm/fs-locker": "3.0.1",
+    "@pnpm/get-context": "1.1.0",
+    "@pnpm/headless": "12.1.10",
+    "@pnpm/hoist": "2.1.7",
+    "@pnpm/lifecycle": "8.0.2",
+    "@pnpm/link-bins": "5.1.5",
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/lockfile-utils": "2.0.9",
+    "@pnpm/lockfile-walker": "2.0.1",
+    "@pnpm/matcher": "1.0.0",
+    "@pnpm/modules-cleaner": "8.0.8",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/package-requester": "11.0.4",
+    "@pnpm/pkgid-to-filename": "2.0.0",
+    "@pnpm/prune-lockfile": "2.0.6",
+    "@pnpm/read-modules-dir": "2.0.1",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/resolve-dependencies": "14.2.7",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/symlink-dependency": "3.0.3",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "@zkochan/npm-package-arg": "1.0.2",
+    "@zkochan/rimraf": "1.0.0",
+    "common-tags": "1.8.0",
+    "dependency-path": "4.0.5",
+    "encode-registry": "2.0.2",
+    "get-npm-tarball-url": "2.0.1",
+    "graceful-fs": "4.2.1",
+    "graph-sequencer": "2.0.0",
+    "import-from": "3.0.0",
+    "is-inner-link": "2.0.2",
+    "is-subdir": "1.1.1",
+    "load-json-file": "6.2.0",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "normalize-path": "3.0.0",
+    "p-every": "2.0.0",
+    "p-filter": "2.1.0",
+    "p-limit": "2.2.2",
+    "path-absolute": "1.0.1",
+    "ramda": "0.27.0",
+    "run-groups": "2.0.2",
+    "semver": "7.1.3",
+    "semver-utils": "1.1.4",
+    "version-selector-type": "2.0.1"
+  },
+  "description": "Fast, disk space efficient installation engine",
+  "devDependencies": {
+    "@pnpm/assert-project": "2.0.0",
+    "@pnpm/assert-store": "1.0.0",
+    "@pnpm/default-fetcher": "5.1.13",
+    "@pnpm/default-resolver": "7.3.6",
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/package-store": "8.0.4",
+    "@pnpm/prepare": "0.0.0",
+    "@pnpm/store-path": "2.1.1",
+    "@pnpm/test-fixtures": "0.0.0",
+    "@types/common-tags": "1.8.0",
+    "@types/fs-extra": "^8.1.0",
+    "@types/graceful-fs": "4.1.3",
+    "@types/is-ci": "2.0.0",
+    "@types/is-windows": "^1.0.0",
+    "@types/mkdirp": "1.0.0",
+    "@types/mz": "^2.7.0",
+    "@types/ncp": "2.0.3",
+    "@types/normalize-path": "3.0.0",
+    "@types/ramda": "^0.26.43",
+    "@types/semver": "^7.1.0",
+    "@types/sinon": "^7.5.2",
+    "@types/tape-promise": "4.0.0",
+    "anonymous-npm-registry-client": "0.1.2",
+    "cross-spawn": "7.0.1",
+    "deep-require-cwd": "1.0.0",
+    "dir-is-case-sensitive": "1.0.2",
+    "execa": "4.0.0",
+    "exists-link": "2.0.0",
+    "fs-extra": "8.1.0",
+    "is-ci": "2.0.0",
+    "is-windows": "1.0.2",
+    "ncp": "2.0.0",
+    "npm-run-all": "4.1.5",
+    "path-exists": "4.0.0",
+    "path-name": "1.0.0",
+    "read-yaml-file": "1.1.0",
+    "resolve-link-target": "1.0.1",
+    "sinon": "9.0.0",
+    "supi": "link:",
+    "symlink-dir": "3.1.2",
+    "tape-promise": "4.0.0",
+    "write-json-file": "4.0.0",
+    "write-yaml-file": "3.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-OvkE5t+HOwXLL354yZmwVM0LV7MFZzIgAYHY0jUZnlCy+k4OLzjzY8ZMDNF5Jv3aO7KXJQON/79MOT+wmz8eqw==",
+    "shasum": "67a60b959df9dffd9fea8930fded08f4d8a12f9d",
+    "tarball": "https://registry.npmjs.org/supi/-/supi-0.38.16.tgz",
+    "fileCount": 53,
+    "unpackedSize": 131847,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeW/FzCRA9TVsSAnZWagAAwpIP/R9KECw5x59YTQHN7PM4\nnUmO9eZyMU+a11C2i4dVAgBlmxh/UQMcqydY3ZrCK56bhMeTEdC3bGLeElE+\nMJTPDSbhbtQeMEluZGmufyoROKd2/xyXWA7DH3T3NPQmHgBY8bHCNMAhw0P+\nnIfKqrMYHefXbrWIbsh5iHb9WMJQBU/v8JPahjS1J8gcGKfPLXZwpd6csolR\nPC/M5qOJw7J/naJ6TduGu3Dqjxp5DKEIA0+/gwbemrBPgK3w50/WXv5on9dI\n/3o3hAG0tzYUv9lsx9sPohN0A31UWOgijf3gSGZIA7udnWi8S/+323egXiM/\n/yynr3TXc4sjrZdZU0QkDRggjVlhY0fLTSP1OwxvPVk9jkgnOehITRUewxGs\n1jmlDKhJIoLciFG4y5V0AVKXNBPW/hfaxSTSKqcWGYFqGunMA2BFiDEE878i\nMnUS+hGFKV9Nkst55IPH/JO1i84mOSDz4Yi540g1pDmaU69kZBKSpBcsKdu4\nhTXh2oLHqZ9s9Sn8GcdBtHIEkVumfauAdHCZbM54ErgL/dyIMAe6hkFAhpeK\nGO6nf4GQ6bLkeB+2xKzW7UFi94T3zurCBVtCM4+5Uhm/WTePzzT4iviNs/PT\n6+UcMe9qExMN2evx7ucVUOTmKwIrCWYmSuXz8nZmjl/KFX2j0eR9Nyc8xYJw\nZgIg\r\n=3bNS\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "dependency manager",
+    "install",
+    "installer",
+    "uninstall",
+    "remove",
+    "link",
+    "prune",
+    "shrinkwrap",
+    "lockfile",
+    "fast",
+    "rapid",
+    "efficient",
+    "package.json",
+    "packages",
+    "dependencies",
+    "symlinks",
+    "hardlinks",
+    "modules",
+    "npm",
+    "package manager"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "supi",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "<p align=\"center\">\n  <img alt=\"supi - pnpm's installation engine\" src=\"https://cdn.rawgit.com/pnpm/supi/master/logo.svg\" width=\"200\">\n</p>\n\n# supi\n\n> Fast, disk space efficient installation engine. Used by [pnpm](https://github.com/pnpm/pnpm)\n\n## Install\n\nInstall it via npm.\n\n```\n<pnpm|yarn|npm> add supi\n```\n\nIt also depends on `@pnpm/logger` version `1`, so install it as well via:\n\n```\n<pnpm|yarn|npm> add @pnpm/logger@1\n```\n\n## API\n\n### `supi.mutateModules(importers, options)`\n\nTODO\n\n### `supi.link(linkFromPkgs, linkToNodeModules, [options])`\n\nCreate symbolic links from the linked packages to the target package's `node_modules` (and its `node_modules/.bin`).\n\n**Arguments:**\n\n* `linkFromPkgs` - *String[]* - paths to the packages that should be linked.\n* `linkToNodeModules` - *String* - path to the dependent package's `node_modules` directory.\n* `options.reporter` - *Function* - A function that listens for logs.\n\n### `supi.linkToGlobal(linkFrom, options)`\n\nCreate a symbolic link from the specified package to the global `node_modules`.\n\n**Arguments:**\n\n* `linkFrom` - *String* - path to the package that should be linked.\n* `globalDir` - *String* - path to the global directory.\n* `options.reporter` - *Function* - A function that listens for logs.\n\n### `supi.linkFromGlobal(pkgNames, linkTo, options)`\n\nCreate symbolic links from the global `pkgName`s to the `linkTo/node_modules` folder.\n\n**Arguments:**\n\n* `pkgNames` - *String[]* - packages to link.\n* `linkTo` - *String* - package to link to.\n* `globalDir` - *String* - path to the global directory.\n* `options.reporter` - *Function* - A function that listens for logs.\n\n### `supi.storeStatus([options])`\n\nReturn the list of modified dependencies.\n\n**Arguments:**\n\n* `options.reporter` - *Function* - A function that listens for logs.\n\n**Returns:** `Promise<string[]>` - the paths to the modified packages of the current project. The paths contain the location of packages in the store,\nnot in the projects `node_modules` folder.\n\n### `supi.storePrune([options])`\n\nRemove unreferenced packages from the store.\n\n## Hooks\n\nHooks are functions that can step into the installation process.\n\n### `readPackage(pkg)`\n\nThis hook is called with every dependency's manifest information.\nThe modified manifest returned by this hook is then used by supi during installation.\n\n**Example:**\n\n```js\nconst supi = require('supi')\n\nsupi.installPkgs({\n  hooks: {readPackage}\n})\n\nfunction readPackage (pkg) {\n  if (pkg.name === 'foo') {\n    pkg.dependencies = {\n      bar: '^2.0.0',\n    }\n  }\n  return pkg\n}\n```\n\n### `afterAllResolved(lockfile: Lockfile): Lockfile`\n\nThis hook is called after all dependencies are resolved. It recieves and returns the resolved lockfile object.\n\n## Acknowledgements\n\nThanks to [Valentina Kozlova](https://github.com/ValentinaKozlova) for the supi logo\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/supi"
+  },
+  "scripts": {
+    "?commit": "echo 'Run Git commit wizard'",
+    "commit": "commit",
+    "commitmsg": "commitlint -e",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc && pnpm run test:e2e",
+    "test-with-preview": "preview && pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.38.16"
+}

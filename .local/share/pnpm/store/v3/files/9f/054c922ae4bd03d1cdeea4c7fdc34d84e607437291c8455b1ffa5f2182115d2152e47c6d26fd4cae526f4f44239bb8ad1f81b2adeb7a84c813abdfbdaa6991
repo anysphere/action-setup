@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/server@7.0.2",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fserver",
+        "name": "@pnpm/server",
+        "rawSpec": "7.0.2",
+        "spec": "7.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager"
+    ]
+  ],
+  "_from": "@pnpm/server@7.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/server@7.0.2",
+  "_location": "/@pnpm/server",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/server_7.0.2_1582752575409_0.3661778016987558"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/server@7.0.2",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fserver",
+    "name": "@pnpm/server",
+    "rawSpec": "7.0.2",
+    "spec": "7.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-server",
+    "/@pnpm/store-connection-manager"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/server/-/server-7.0.2.tgz",
+  "_shasum": "36b17357e4f700add03e5a294912ab0c8bc92c42",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/server@7.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-connection-manager",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/fetch": "1.0.2",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "p-limit": "2.2.2",
+    "promise-share": "1.0.0",
+    "uuid": "7.0.1"
+  },
+  "description": "A pnpm installer server",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/package-requester": "11.0.4",
+    "@pnpm/package-store": "8.0.4",
+    "@pnpm/server": "link:",
+    "@pnpm/tarball-fetcher": "5.1.10",
+    "@types/mz": "^2.7.0",
+    "@types/node-fetch": "^2.5.5",
+    "@types/uuid": "7.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "is-port-reachable": "3.0.0",
+    "mz": "2.7.0",
+    "node-fetch": "2.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Zc8JVd4Oyu1n9hFmlUxePTTTlK4c50OTZsX13Dm0EsmLlxT486CGpD+DMv6TGiUXzytQWhbmVkzIuQScYvq5VQ==",
+    "shasum": "36b17357e4f700add03e5a294912ab0c8bc92c42",
+    "tarball": "https://registry.npmjs.org/@pnpm/server/-/server-7.0.2.tgz",
+    "fileCount": 11,
+    "unpackedSize": 17328,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuM/CRA9TVsSAnZWagAAfcIP/jsNdDhnXPeoOy0A6+Ap\nLyPe2R2O8rT7GgBmEmuUKzDAS/BWCVL585QBkJdCv7SxGcykbp8mMRKTFbSW\nHHvRz6Juyw2GL2MxcAzk6GIajpUozUfuk8l3sdpuJk6awi5jWgw+Mzr+0ItG\nmxHDeZzSJ3IF3IKBX7LnoLloNqwcZhjX9yvvlNvpjMauy4TvcvxzL9+lcu0m\nrsm/cclPmYNAkfoVM+Kuustz0Lql3qUSQaWGYN9e8wktrJZq2GU4qIo4OFa0\noNAYjPYAXY7ZjRJUk0tYm27AmuobnhirBj4IIOkD6OhWhwbDj4yG12HHhwc7\npyWf99egz6/gi0ALX9rpd+HzzMfdxA5kVoojmF77O+PfnWFQ5zOq9a7LVCoc\nm5dh6FmqY0Rrll3W77Ti1qg3KM3EGePTV7sz1tMpdi0e2/2lCxJWJZb9xPbB\nBPh5ZqqhyKKeDTswcnxZKXrWCmH35UG2KI7kpfSmi9Q+TbZ/DslS/6A99NKG\nDHhi0ztyWc1SOi3OH6/ohgN3R6G1WQTMkA8WNrPnabWTELVWIpW19n/mB/4N\nzLyKEOipou5E+K8V9smJ9RQiw/W6+oNC/Fr2/29culg4zMO7DvzurIeXah1N\nTvncKpWkm1o8kM7ep8flJcXMlT8uMhRJ+AiF2WgjCaehDvGgwIG9M6D2p6dl\n/39j\r\n=vxcr\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/server#readme",
+  "keywords": [
+    "pnpm",
+    "server"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/server",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/server\n\n> A pnpm installer server\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/server.svg)](https://www.npmjs.com/package/@pnpm/server)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/logger @pnpm/server\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/server"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "rimraf .store && pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.0.2"
+}

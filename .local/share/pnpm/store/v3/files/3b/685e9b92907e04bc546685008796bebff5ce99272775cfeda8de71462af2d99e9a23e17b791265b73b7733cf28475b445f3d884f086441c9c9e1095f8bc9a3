@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "camelcase-keys@6.1.2",
+        "scope": null,
+        "escapedName": "camelcase-keys",
+        "name": "camelcase-keys",
+        "rawSpec": "6.1.2",
+        "spec": "6.1.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation"
+    ]
+  ],
+  "_from": "camelcase-keys@6.1.2",
+  "_hasShrinkwrap": false,
+  "_id": "camelcase-keys@6.1.2",
+  "_location": "/camelcase-keys",
+  "_nodeVersion": "13.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/camelcase-keys_6.1.2_1580377582332_0.5705906232067266"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "camelcase-keys@6.1.2",
+    "scope": null,
+    "escapedName": "camelcase-keys",
+    "name": "camelcase-keys",
+    "rawSpec": "6.1.2",
+    "spec": "6.1.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild"
+  ],
+  "_resolved": "https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-6.1.2.tgz",
+  "_shasum": "531a289aeea93249b63ec1249db9265f305041f7",
+  "_shrinkwrap": null,
+  "_spec": "camelcase-keys@6.1.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/camelcase-keys/issues"
+  },
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "map-obj": "^4.0.0",
+    "quick-lru": "^4.0.1"
+  },
+  "description": "Convert object keys to camel case",
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "matcha": "^0.7.0",
+    "tsd": "^0.11.0",
+    "xo": "^0.25.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-QfFrU0CIw2oltVvpndW32kuJ/9YOJwUnmWrjlXt1nnJZHCaS9i6bfOpg9R4Lw8aZjStkJWM+jc0cdXjWBgVJSw==",
+    "shasum": "531a289aeea93249b63ec1249db9265f305041f7",
+    "tarball": "https://registry.npmjs.org/camelcase-keys/-/camelcase-keys-6.1.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8805,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeMqXuCRA9TVsSAnZWagAAON4QAJKGQcadUjKGPIa/rj8w\nfT8PQ9FS6s4nmGYswrC93Lb9u1sw0KyOjwnpiLkueGqsPM5OSfZFV1FGzV69\nLYXobWWtPzq+lbbISUu10KAIcG+V8AFV2a3KNELHinL6BOSk/IaeeAGmJPBX\nh94SdRV5cnyi1FeR2hC9qRk5l2UUvKwlTTChO/xitTVEJdV+l3w3xzNnMGVb\n9pMhLUCDxHkVeA+zu+Ndi7w8CaLRpVZunQKsK0FWs5CHTxKuhVYhD53lb+T/\nWpnENNcK++5/GYOOthv2qog+Ww/IyfAtIgOPs+B+5ao052jyKV1NBv0iJgT2\nOGLIbyqrYFsPboNwdNoOGOfEr3WjBYSUGHVyHQ4dQ+de+VDc9IIfUJt0CpWy\ng1RZ4LXeqGvAAit8nqJ0mlMkq1KigVlkoqJBIONylIrGfMpX/tE0pFk8H1a+\nez9ECpNHQnblZB/yr88aB4gKVoNpTD14f2tNSYURKy11aqqO3FZdp0eVuvE3\nry15jsSkSVclk5BlwzOvdn63+oI1K6iWQKNfiwVIHkG9pfYcYGvowcpEprYJ\ns3RAuCW2rlv7Xx0zcsqbKR7PwV29htpuzCy4W8dWAuqzbqFgO06vsNm5jjh6\nrDASAPeP29HH0GxuvRA+llwH7mlY0PldqcsYpScdcua790CCugKcYo16L0Xn\nO3XX\r\n=Ar/H\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "gitHead": "ab19b0a3b5e6d1aed8b2a988874b139080464091",
+  "homepage": "https://github.com/sindresorhus/camelcase-keys#readme",
+  "keywords": [
+    "map",
+    "obj",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "val",
+    "iterate",
+    "camelcase",
+    "camel-case",
+    "camel",
+    "case",
+    "dash",
+    "hyphen",
+    "dot",
+    "underscore",
+    "separator",
+    "string",
+    "text",
+    "convert",
+    "deep",
+    "recurse",
+    "recursive"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "camelcase-keys",
+  "optionalDependencies": {},
+  "readme": "# camelcase-keys [![Build Status](https://travis-ci.org/sindresorhus/camelcase-keys.svg?branch=master)](https://travis-ci.org/sindresorhus/camelcase-keys)\n\n> Convert object keys to camel case using [`camelcase`](https://github.com/sindresorhus/camelcase)\n\n## Install\n\n```\n$ npm install camelcase-keys\n```\n\n## Usage\n\n```js\nconst camelcaseKeys = require('camelcase-keys');\n\n// Convert an object\ncamelcaseKeys({'foo-bar': true});\n//=> {fooBar: true}\n\n// Convert an array of objects\ncamelcaseKeys([{'foo-bar': true}, {'bar-foo': false}]);\n//=> [{fooBar: true}, {barFoo: false}]\n\ncamelcaseKeys({'foo-bar': true, nested: {unicorn_rainbow: true}}, {deep: true});\n//=> {fooBar: true, nested: {unicornRainbow: true}}\n\ncamelcaseKeys({a_b: 1, a_c: {c_d: 1, c_e: {e_f: 1}}}, {deep: true, stopPaths: ['a_c.c_e']}),\n//=> {aB: 1, aC: {cD: 1, cE: {e_f: 1}}}\n\n// Convert object keys to pascal case\ncamelcaseKeys({'foo-bar': true, nested: {unicorn_rainbow: true}}, {deep: true, pascalCase: true});\n//=> {FooBar: true, Nested: {UnicornRainbow: true}}\n```\n\n```js\nconst camelcaseKeys = require('camelcase-keys');\n\nconst argv = require('minimist')(process.argv.slice(2));\n//=> {_: [], 'foo-bar': true}\n\ncamelcaseKeys(argv);\n//=> {_: [], fooBar: true}\n```\n\n## API\n\n### camelcaseKeys(input, options?)\n\n#### input\n\nType: `object | object[]`\n\nAn object or array of objects to camel-case.\n\n#### options\n\nType: `object`\n\n##### exclude\n\nType: `Array<string | RegExp>`\\\nDefault: `[]`\n\nExclude keys from being camel-cased.\n\n##### stopPaths\n\nType: `string[]`\\\nDefault: `[]`\n\nExclude children at the given object paths in dot-notation from being camel-cased. For example, with an object like `{a: {b: '🦄'}}`, the object path to reach the unicorn is `'a.b'`.\n\n```js\ncamelcaseKeys({\n\ta_b: 1,\n\ta_c: {\n\t\tc_d: 1,\n\t\tc_e: {\n\t\t\te_f: 1\n\t\t}\n\t}\n}, {\n\tdeep: true,\n\tstopPaths: [\n\t\t'a_c.c_e'\n\t]\n}),\n/*\n{\n\taB: 1,\n\taC: {\n\t\tcD: 1,\n\t\tcE: {\n\t\t\te_f: 1\n\t\t}\n\t}\n}\n*/\n```\n\n##### deep\n\nType: `boolean`\\\nDefault: `false`\n\nRecurse nested objects and objects in arrays.\n\n##### pascalCase\n\nType: `boolean`\\\nDefault: `false`\n\nUppercase the first character as in `bye-bye` → `ByeBye`.\n\n## camelcase-keys for enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of camelcase-keys and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-camelcase-keys?utm_source=npm-camelcase-keys&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n\n## Related\n\n- [snakecase-keys](https://github.com/bendrucker/snakecase-keys)\n- [kebabcase-keys](https://github.com/mattiloh/kebabcase-keys)\n\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/camelcase-keys.git"
+  },
+  "scripts": {
+    "bench": "matcha bench/bench.js",
+    "test": "xo && ava && tsd"
+  },
+  "version": "6.1.2",
+  "xo": {
+    "overrides": [
+      {
+        "files": "bench/bench.js",
+        "rules": {
+          "import/no-unresolved": "off"
+        }
+      }
+    ]
+  }
+}

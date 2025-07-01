@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/semver-diff@1.0.2",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fsemver-diff",
+        "name": "@pnpm/semver-diff",
+        "rawSpec": "1.0.2",
+        "spec": "1.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation"
+    ]
+  ],
+  "_from": "@pnpm/semver-diff@1.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/semver-diff@1.0.2",
+  "_location": "/@pnpm/semver-diff",
+  "_nodeVersion": "8.15.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/semver-diff_1.0.2_1566930290770_0.21724341712902073"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/semver-diff@1.0.2",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fsemver-diff",
+    "name": "@pnpm/semver-diff",
+    "rawSpec": "1.0.2",
+    "spec": "1.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-outdated"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/semver-diff/-/semver-diff-1.0.2.tgz",
+  "_shasum": "2070b6b543482860e107e76f13246ab4d4337d2b",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/semver-diff@1.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/semver-diff/issues"
+  },
+  "dependencies": {},
+  "description": "Gets the difference between two semver versions",
+  "devDependencies": {
+    "@pnpm/tsconfig": "^1.0.0",
+    "@pnpm/tslint-config": "^1.0.0",
+    "@types/node": "^12.7.2",
+    "@types/tape": "^4.2.33",
+    "rimraf": "^3.0.0",
+    "tape": "^4.11.0",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-JyAtKNsJCE0k6ZpkAF6wFQ7Ib5jflJcTXGpwOp9cipFI2v+2XNn2JUglxsg/JFPZvEdjkoW8VwxeDNMY7Pg8JQ==",
+    "shasum": "2070b6b543482860e107e76f13246ab4d4337d2b",
+    "tarball": "https://registry.npmjs.org/@pnpm/semver-diff/-/semver-diff-1.0.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4613,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZXVzCRA9TVsSAnZWagAAwNgP/ApelLZGlZitTXvtp8BZ\nm9+YsRwURPoZAgL1AyOt3HdBsCRbgroJRPwzbARwhAweQ0x08ZuNzLjtNOj3\nKMCfejm5V8RBiMjzWSjo71/5XSUlx8dbAQrkhkAnAE8lPOfUGV3c+l+ggWfx\niIqA2pzCAz7aRt+Q3TI7BBxKWkVfvp6/Y83KutCD7KaJlagAEs8RoN1n3hi8\nF4NnsDBLr2a+VZUZkgqd4YeEA7P3116ufth10EBWzlZsJuSapfT+BLbnzidS\nCaxVtZex1STL4jr9Syy6LkIToCMPPyGDhlUdA+by0I+8q5WLJ0bfNQ3qaE8y\n1xq6nmDMhlD4Sa7c/KI555Fdhis4x/nBDkY/UH3+p/n8+l/LtHwVdio9HlZ7\n6eWC5LYNDMGV0fSvpHcgDeuicR9LKqSezJP12aabqIB009a5lAhTvitAeOz1\nzq3OkPSasbG7X/ir+sI5xM+A4bB1yAnvLaCXyGLZAwU7v21er9ML/oI6t8U2\nrbYSRur/8AUORT+qeuf60GKpUi/XfnkblLo3kvm+5sLZyOVwAZlUIrnDY3+w\n36IcH3bSG/utf0+6k9Ubq/wj6LP8Hvc/C8Voi5EbZ3NOaucXZBFHincmcULl\neFYFz53IwMHoUPqDJa1iS4Mkkfo1Z+UqE8r8JrGSKR2AeaTNzpraCoR+YTk6\nfJQU\r\n=279K\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib/"
+  ],
+  "gitHead": "a43431399e86ed596823b1774cac50725e784615",
+  "homepage": "https://github.com/pnpm/semver-diff#readme",
+  "keywords": [
+    "pnpm",
+    "semver",
+    "diff"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/semver-diff",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/semver-diff\n\n> Gets the difference between two semver versions\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/semver-diff.svg)](https://www.npmjs.com/package/@pnpm/semver-diff) [![Build Status](https://img.shields.io/travis/pnpm/semver-diff/master.svg)](https://travis-ci.org/pnpm/semver-diff)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/semver-diff\n```\n\n## Usage\n\n```ts\nimport semverDiff from '@pnpm/semver-diff'\n\nsemverDiff('2.0.0', '2.1.0')\n//> { change: 'feature', diff: [['2'], ['1', '0']] }\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/semver-diff.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts test.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run lint && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.2"
+}

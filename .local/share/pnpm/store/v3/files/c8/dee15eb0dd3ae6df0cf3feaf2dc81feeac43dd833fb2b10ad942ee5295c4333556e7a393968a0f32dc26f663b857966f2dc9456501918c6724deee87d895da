@@ -1,0 +1,143 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/npm-resolver@7.3.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fnpm-resolver",
+        "name": "@pnpm/npm-resolver",
+        "rawSpec": "7.3.4",
+        "spec": "7.3.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver"
+    ]
+  ],
+  "_from": "@pnpm/npm-resolver@7.3.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/npm-resolver@7.3.4",
+  "_location": "/@pnpm/npm-resolver",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/npm-resolver_7.3.4_1582578963321_0.41859154710783075"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/npm-resolver@7.3.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fnpm-resolver",
+    "name": "@pnpm/npm-resolver",
+    "rawSpec": "7.3.4",
+    "spec": "7.3.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-resolver",
+    "/@pnpm/plugin-commands-publishing",
+    "/@pnpm/resolve-dependencies"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/npm-resolver/-/npm-resolver-7.3.4.tgz",
+  "_shasum": "1b5bf9d287a55fed235f022af756fe686e0584a9",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/npm-resolver@7.3.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/error": "1.0.0",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "credentials-by-uri": "2.0.0",
+    "encode-registry": "2.0.2",
+    "fetch-from-npm-registry": "4.0.1",
+    "load-json-file": "6.2.0",
+    "mem": "6.0.1",
+    "normalize-path": "3.0.0",
+    "p-limit": "2.2.2",
+    "p-memoize": "4.0.0",
+    "parse-npm-tarball-url": "3.0.0",
+    "semver": "7.1.3",
+    "ssri": "6.0.1",
+    "version-selector-type": "2.0.1",
+    "write-json-file": "4.0.0"
+  },
+  "description": "Resolver for npm-hosted packages",
+  "devDependencies": {
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/npm-resolver": "link:",
+    "@types/normalize-path": "^3.0.0",
+    "@types/semver": "^7.1.0",
+    "@types/ssri": "^6.0.1",
+    "nock": "12.0.1",
+    "path-exists": "4.0.0",
+    "tempy": "0.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-9iIhyfcUQuqsCE+RRJXT88Cd8gLQ61MagHFEpstfV/v/hywvNuQvzUGHHouz1DuFZlEZiLoQj90KeIyS+lZTLw==",
+    "shasum": "1b5bf9d287a55fed235f022af756fe686e0584a9",
+    "tarball": "https://registry.npmjs.org/@pnpm/npm-resolver/-/npm-resolver-7.3.4.tgz",
+    "fileCount": 17,
+    "unpackedSize": 28339,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVD0TCRA9TVsSAnZWagAAc/oP/2MgOggQuQQMVVqQWg3u\nz02RI1RlEtXbQss5ZeE9MarsoD9FcJo6k2j+U1PcN9HSPPCdpFi2DXo5/0BR\nJ8mobCz/HYyWnFLBnjGTmGkPua8YWkpferfVEBDJ+D+/xd+P4yl5kDSecC7j\nlOQUuYm/7Sb+za5QDM4KX4P6tmhvfzW/q1DkG8DAqIHUfCDPE6qC+6mp/4Al\np26ucCSvaTh67lNbvzGbCnxnplXqDwJ4fdBZq4+D7kG/PlvSOnQRNq6S7Lnk\ndSphgrGAjTOvA5XfGBZMz7n+rpbpUTtoAlDpkS/G/uokgn6JHjQ0ku42lUdF\nvRnXpmQOjRoC9f2C2psCdegKRaasqUMrX9M2Q7YouwKWwK3n0AIeINvddBsr\nJ3BNz3wvQpm0o6mN0MoUY8lRMtmdl0uBD4m3UL7WWgAz6+heHph7H1UOpQM6\n9TR0viTaIIJekSYkqLjNiMmOGCUds3Nh7Q1rbo5G0vefM8Sql78yEDAmlngA\n16eGiZih48V+HlTY1Ppsd2vYyVpvEUXl2tWV5dxozfEiikgRNdxHIO2izJnc\nHo9JGgXO7MrXoksIHPXUbxBWMyD4WG0nhf1tnbznWU9U4hdLTPNWl7Kcw5z/\nGN5HQITG+BM0JhQ0jK61UJf+AadaegfC0bzZq1uzZNBYnGvpyfrnGadj1fFq\nZOD6\r\n=fHZt\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/npm-resolver#readme",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/npm-resolver",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/npm-resolver\n\n> Resolver for npm-hosted packages\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/npm-resolver.svg)](https://www.npmjs.com/package/@pnpm/npm-resolver)\n<!--/@-->\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/npm-resolver\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst createResolveFromNpm = require('@pnpm/npm-resolver').default\n\nconst resolveFromNpm = createResolveFromNpm({\n  metaCache: new Map(),\n  store: '.store',\n  offline: false,\n  rawConfig: {\n    registry: 'https://registry.npmjs.org/',\n  },\n})\n\nresolveFromNpm({alias: 'is-positive', pref: '1.0.0'}, {\n  registry: 'https://registry.npmjs.org/',\n})\n.then(resolveResult => console.log(JSON.stringify(resolveResult, null, 2)))\n//> {\n//    \"id\": \"registry.npmjs.org/is-positive/1.0.0\",\n//    \"latest\": \"3.1.0\",\n//    \"package\": {\n//      \"name\": \"is-positive\",\n//      \"version\": \"1.0.0\",\n//      \"devDependencies\": {\n//        \"ava\": \"^0.0.4\"\n//      },\n//      \"_hasShrinkwrap\": false,\n//      \"directories\": {},\n//      \"dist\": {\n//        \"shasum\": \"88009856b64a2f1eb7d8bb0179418424ae0452cb\",\n//        \"tarball\": \"https://registry.npmjs.org/is-positive/-/is-positive-1.0.0.tgz\"\n//      },\n//      \"engines\": {\n//        \"node\": \">=0.10.0\"\n//      }\n//    },\n//    \"resolution\": {\n//      \"integrity\": \"sha1-iACYVrZKLx632LsBeUGEJK4EUss=\",\n//      \"registry\": \"https://registry.npmjs.org/\",\n//      \"tarball\": \"https://registry.npmjs.org/is-positive/-/is-positive-1.0.0.tgz\"\n//    },\n//    \"resolvedVia\": \"npm-registry\"\n//  }\n```\n<!--/@-->\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/npm-resolver"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "rimraf .store && pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.3.4"
+}

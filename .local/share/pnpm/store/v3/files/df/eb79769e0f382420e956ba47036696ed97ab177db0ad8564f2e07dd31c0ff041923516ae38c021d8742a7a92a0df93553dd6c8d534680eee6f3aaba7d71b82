@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/command@0.1.0-0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fcommand",
+        "name": "@pnpm/command",
+        "rawSpec": "0.1.0-0",
+        "spec": "0.1.0-0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/command@0.1.0-0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/command@0.1.0-0",
+  "_location": "/@pnpm/command",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/command_0.1.0-0_1580157423395_0.22037649214046295"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/command@0.1.0-0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fcommand",
+    "name": "@pnpm/command",
+    "rawSpec": "0.1.0-0",
+    "spec": "0.1.0-0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/cli-utils",
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-script-runners"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/command/-/command-0.1.0-0.tgz",
+  "_shasum": "060634bb39c4b112fd938c12fd35242e41ee2ab4",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/command@0.1.0-0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "Types and utils for pnpm commands",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-h3rMvYmNKgQmD+ihvh5iKWrFUvVv0bZGW0lBe3FRS30HtR6Vvh2REG3+tIFHyMWMU65YzvpBZJ/ibJI9xVXF6g==",
+    "shasum": "060634bb39c4b112fd938c12fd35242e41ee2ab4",
+    "tarball": "https://registry.npmjs.org/@pnpm/command/-/command-0.1.0-0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2416,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeL0nvCRA9TVsSAnZWagAAhigP/0uc9tadgLYspnTRMJWj\nW81n8ASGEujolZZMCyTSzM3+igdO1VZZFch8hGljKzDEnka58qefe+DPjzmb\nG0NRN5+/BqdI7m1DFmbKLJL+KdBLawRBzhmxufsXAq6dT+uyKCT/dZM9v1zn\nF9jmAcHHCHNmiwlxlBUeY83YvCAKUyxFijwi+8Wjzb2UTH2Tjy4ZuJ3+6IGc\nUUXzRX58IqsGarNTxHjrOmlgqOA9lAfCV3RXXHT9+RLZe9EQ828R0jdk/Ana\nzb9ix43Aofw/fs0qBp4muC9WFV64jWQmNAdZNmqgbOUl4v2pF5S2IS3XxMAH\nOinw33P6D8p8x/U4GVKDaEvrYo1OoWwFBI3lOW0TBfdJqQQgU1KSbzdbpE5A\ndhZa5yZSNH5uhpsRy0Bd4gy5GoWcDGtLqyHNYH5a7aprChWzjSfqzlfeuyW1\nW42yimJLwmR9d+2O/CqQikIaWl8ifoPpKpMwG7FC58F/bTsk/HaMPKZFCRh3\nAzAcJ8V/nUzw4rEamcur+G+xl+BY1rv7PMUgOhsXYRpK4FW5Ebw8HLygJCQ4\njFMvGC7lRXUfUjvwWrnyF6AcMijHNNtMx9MSsMSvP2U3GUmkrgHLmuVHXlMn\nRPkcrl2+ilKgJsW6Y45upyKJjnD7m8beTTx3UyJWo3iUvYd12ihdWQAwmxHl\nJUm+\r\n=fYm6\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/command",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/command\n\n> Types and utils for pnpm commands\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/command.svg)](https://www.npmjs.com/package/@pnpm/command)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/command\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-installation"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.1.0-0"
+}

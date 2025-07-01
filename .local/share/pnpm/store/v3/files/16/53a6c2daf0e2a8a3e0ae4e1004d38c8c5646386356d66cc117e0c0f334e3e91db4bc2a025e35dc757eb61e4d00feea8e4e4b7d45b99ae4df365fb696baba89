@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/list@4.0.17",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flist",
+        "name": "@pnpm/list",
+        "rawSpec": "4.0.17",
+        "spec": "4.0.17",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-listing"
+    ]
+  ],
+  "_from": "@pnpm/list@4.0.17",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/list@4.0.17",
+  "_location": "/@pnpm/list",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/list_4.0.17_1582101720338_0.6987209656338347"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/list@4.0.17",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flist",
+    "name": "@pnpm/list",
+    "rawSpec": "4.0.17",
+    "spec": "4.0.17",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-listing"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/list/-/list-4.0.17.tgz",
+  "_shasum": "8c812ef1e817d39189407e3f83f09cb1764f9427",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/list@4.0.17",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-listing",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/matcher": "1.0.0",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/npm-package-arg": "1.0.2",
+    "archy": "1.0.0",
+    "chalk": "3.0.0",
+    "cli-columns": "3.1.2",
+    "dependencies-hierarchy": "8.0.11",
+    "p-limit": "2.2.2",
+    "ramda": "0.27.0",
+    "semver": "7.1.3"
+  },
+  "description": "List installed packages in a symlinked `node_modules`",
+  "devDependencies": {
+    "@pnpm/list": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/archy": "0.0.31",
+    "@types/common-tags": "1.8.0",
+    "@types/ramda": "^0.26.41",
+    "@types/semver": "^7.1.0",
+    "common-tags": "1.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-impmi1FYRbGn3R7GuY41UFsaOW/ekhh4Z/la1MW3wOqsTG+ccXpewCsGMslKRE40aN/WgAV0p3ajMyLR2w8q0w==",
+    "shasum": "8c812ef1e817d39189407e3f83f09cb1764f9427",
+    "tarball": "https://registry.npmjs.org/@pnpm/list/-/list-4.0.17.tgz",
+    "fileCount": 19,
+    "unpackedSize": 19120,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPTYCRA9TVsSAnZWagAAjgUP+wXR9hQkC3uBDNi4+ARd\n63daeq1n+cOLIpKW83o92kQEPu94cwVHN5o0aoB9nOvpxrrr1iI4ZVngtrTf\nGpdSURWiMl1Qd6YgFy1J/7tNX0o5XZdbrusvNjComXYYlIhyC8y54kYrfdib\ntNcrJuTwOn7aqfkaMLz0dXgZ0bf5x0igDnO4IyTgcM5NITDhWCcpMLhMQAKQ\nVPkTiku+DO0KsBXqjX/6JvOdSZmj6dIMcG7ndVwHasWN7qE2/eYxmRBK9bPw\npzKllB1IcesccizMDxFCMAwgrKulla7xWpqYRvsEcRo69eadNHG+QBQjxNjT\npoWyh5jjS53oojg/oDpI+MzjZykQxzKv6FMeWUVWFM114jiVkSqEDvAm/9az\nBu9aOPjG0R+sFiWYvFh2dj7m1UgAqskBEhrqcKitBY9P7ogL4o+ILL6Qal/Q\nnuGf7+3YtI3TQ7/Wk7K6aIj6RG+kv/GbIRKm7qwnhiqyjy1MmN5eAMDqh+su\nTIa5vz6kSOMLMibE9tUvuTM2IRQGDW0pR6q6OTG7rww/I92cdz9CCKIno7g5\n6cFKMm4Om2Dc+FZjsycQk/ZRhzKaRHMMKfqswy26QJJUpplm3Yt8ETmbgfsu\nO8q2nGsE/O0vYkjqe896vEFbSFQxzpnXn3jxpIK2z9A8tCS3qW0uMuUQJRvP\nS/TY\r\n=KGa9\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/list#readme",
+  "keywords": [
+    "pnpm",
+    "list",
+    "ls"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/list",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/list\n\n> List installed packages in a symlinked \\`node_modules\\`\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/list.svg)](https://www.npmjs.com/package/@pnpm/list)\n<!--/@-->\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/list\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/list"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepareFixtures": "cd test && node ../../pnpm recursive install --no-link-workspace-packages --no-shared-workspace-lockfile -f && cd ..",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest": "pnpm run pretest --filter dependencies-hierarchy",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.17"
+}

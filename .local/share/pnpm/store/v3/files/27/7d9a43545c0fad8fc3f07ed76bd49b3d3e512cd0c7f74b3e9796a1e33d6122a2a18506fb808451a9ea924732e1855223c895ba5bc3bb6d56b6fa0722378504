@@ -1,0 +1,174 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-queue@6.3.0",
+        "scope": null,
+        "escapedName": "p-queue",
+        "name": "p-queue",
+        "rawSpec": "6.3.0",
+        "spec": "6.3.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester"
+    ]
+  ],
+  "_from": "p-queue@6.3.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-queue@6.3.0",
+  "_location": "/p-queue",
+  "_nodeVersion": "10.18.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-queue_6.3.0_1581956175318_0.3826380733095638"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-queue@6.3.0",
+    "scope": null,
+    "escapedName": "p-queue",
+    "name": "p-queue",
+    "rawSpec": "6.3.0",
+    "spec": "6.3.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/package-requester"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-queue/-/p-queue-6.3.0.tgz",
+  "_shasum": "19bfa4485db7e6a0c135049ff6716375880d9c3a",
+  "_shrinkwrap": null,
+  "_spec": "p-queue@6.3.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester",
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "files": [
+      "test/**"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-queue/issues"
+  },
+  "dependencies": {
+    "eventemitter3": "^4.0.0",
+    "p-timeout": "^3.1.0"
+  },
+  "description": "Promise queue with concurrency control",
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^0.6.0",
+    "@types/benchmark": "^1.0.31",
+    "@types/node": "^12.12.7",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "ava": "^2.0.0",
+    "benchmark": "^2.1.4",
+    "codecov": "^3.3.0",
+    "del-cli": "^3.0.0",
+    "delay": "^4.2.0",
+    "eslint-config-xo-typescript": "^0.16.0",
+    "in-range": "^2.0.0",
+    "nyc": "^14.0.0",
+    "random-int": "^2.0.0",
+    "time-span": "^3.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "3.7.2",
+    "xo": "^0.25.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-fg5dJlFpd5+3CgG3/0ogpVZUeJbjiyXFg0nu53hrOYsybqSiDyxyOpad0Rm6tAiGjgztAwkyvhlYHC53OiAJOA==",
+    "shasum": "19bfa4485db7e6a0c135049ff6716375880d9c3a",
+    "tarball": "https://registry.npmjs.org/p-queue/-/p-queue-6.3.0.tgz",
+    "fileCount": 13,
+    "unpackedSize": 31643,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeSrxPCRA9TVsSAnZWagAAsm4QAI6Dwb2uQYI26KxTwTRC\n3qdheWPSNkYIXNiZi/zymKeN6ik8nTY9KbAXXuWwCNWkOP5501i7QMTd1k4m\nbK6T0+aRSJT9QHoBoPu43HCQ05PGC6tj2Q4sXzwc5VqyKYLCZ9mIhcx8Ij4v\nLOABkQGmjQ0JP+oppuiYIwQYBG7Httb4A/RbyHWLtnRxQuXqetBWO+OuT28V\nB1/4UuWoe3QaqKQnDb75g1PR+0WlX/jJMLiM4DyslfDAo1h+1kLMgsylZOKZ\nydyG114/7A58ZOiU/4m/NzLhEcV2E+bqESYhMe2htNL4FlqGyhYN9Ho0Rv9T\nomhyRO8UNM30oR5tTtG+bDgGq1OfqdFsyNHvhKuA/Wtp9Xz/2ZYbbGDIK0KA\n6YfBmjLxsxfLdOdwi+uWLyB4KhtQ23ExmmqLvuvCBY9thZOw1TEciZSb89FZ\nNfdaGiIiz42lmSCCFZOQb58n6EUdjt9pf7hoGiQHqE21jQDonKo2eG18oCOm\nC8OiK8HON3DiEe6IlfGrNoA754Thkb/mRF9SIJC4PlAK00B4rt4e/N8zFxp9\nwN6Nr9iJOhyqJx5ags4kHROLQxW+bVsgTt/EgMu9Pr05QCXZU9kaj0N8F5Z5\nY43dn2Qr02h973Ucm78XbfCI2duHgfYWXEWVwHhi/vIzlMscD08FwsITZ6zS\nI3S5\r\n=cAT2\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "dist"
+  ],
+  "gitHead": "2af8cf9c5dc6343c8bf1344f4c59683c49684163",
+  "homepage": "https://github.com/sindresorhus/p-queue#readme",
+  "keywords": [
+    "promise",
+    "queue",
+    "enqueue",
+    "limit",
+    "limited",
+    "concurrency",
+    "throttle",
+    "throat",
+    "rate",
+    "batch",
+    "ratelimit",
+    "priority",
+    "priorityqueue",
+    "fifo",
+    "job",
+    "task",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "maintainers": [
+    {
+      "name": "floatdrop",
+      "email": "floatdrop@gmail.com"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "p-queue",
+  "nyc": {
+    "extension": [
+      ".ts"
+    ]
+  },
+  "optionalDependencies": {},
+  "readme": "# p-queue [![Build Status](https://travis-ci.org/sindresorhus/p-queue.svg?branch=master)](https://travis-ci.org/sindresorhus/p-queue) [![codecov](https://codecov.io/gh/sindresorhus/p-queue/branch/master/graph/badge.svg)](https://codecov.io/gh/sindresorhus/p-queue)\n\n> Promise queue with concurrency control\n\nUseful for rate-limiting async (or sync) operations. For example, when interacting with a REST API or when doing CPU/memory intensive tasks.\n\n\n## Install\n\n```\n$ npm install p-queue\n```\n\n\n## Usage\n\nHere we run only one promise at the time. For example, set `concurrency` to 4 to run four promises at the same time.\n\n```js\nconst {default: PQueue} = require('p-queue');\nconst got = require('got');\n\nconst queue = new PQueue({concurrency: 1});\n\n(async () => {\n\tawait queue.add(() => got('sindresorhus.com'));\n\tconsole.log('Done: sindresorhus.com');\n})();\n\n(async () => {\n\tawait queue.add(() => got('ava.li'));\n\tconsole.log('Done: ava.li');\n})();\n\n(async () => {\n\tconst task = await getUnicornTask();\n\tawait queue.add(task);\n\tconsole.log('Done: Unicorn task');\n})();\n```\n\n\n## API\n\n### PQueue(options?)\n\nReturns a new `queue` instance, which is an [`EventEmitter3`](https://github.com/primus/eventemitter3) subclass.\n\n#### options\n\nType: `object`\n\n##### concurrency\n\nType: `number`\\\nDefault: `Infinity`\\\nMinimum: `1`\n\nConcurrency limit.\n\n##### timeout\n\nType: `number`\n\nPer-operation timeout in milliseconds. Operations fulfill once `timeout` elapses if they haven't already.\n\n##### throwOnTimeout\n\nType: `boolean`\\\nDefault: `false`\n\nWhether or not a timeout is considered an exception.\n\n##### autoStart\n\nType: `boolean`\\\nDefault: `true`\n\nWhether queue tasks within concurrency limit, are auto-executed as soon as they're added.\n\n##### queueClass\n\nType: `Function`\n\nClass with a `enqueue` and `dequeue` method, and a `size` getter. See the [Custom QueueClass](#custom-queueclass) section.\n\n##### intervalCap\n\nType: `number`\\\nDefault: `Infinity`\\\nMinimum: `1`\n\nThe max number of runs in the given interval of time.\n\n##### interval\n\nType: `number`\\\nDefault: `0`\\\nMinimum: `0`\n\nThe length of time in milliseconds before the interval count resets. Must be finite.\n\n##### carryoverConcurrencyCount\n\nType: `boolean`\\\nDefault: `false`\n\nWhether the task must finish in the given interval or will be carried over into the next interval count.\n\n### queue\n\n`PQueue` instance.\n\n#### .add(fn, options?)\n\nAdds a sync or async task to the queue. Always returns a promise.\n\n##### fn\n\nType: `Function`\n\nPromise-returning/async function.\n\n#### options\n\nType: `object`\n\n##### priority\n\nType: `number`\\\nDefault: `0`\n\nPriority of operation. Operations with greater priority will be scheduled first.\n\n#### .addAll(fns, options?)\n\nSame as `.add()`, but accepts an array of sync or async functions and returns a promise that resolves when all functions are resolved.\n\n#### .pause()\n\nPut queue execution on hold.\n\n#### .start()\n\nStart (or resume) executing enqueued tasks within concurrency limit. No need to call this if queue is not paused (via `options.autoStart = false` or by `.pause()` method.)\n\nReturns `this` (the instance).\n\n#### .onEmpty()\n\nReturns a promise that settles when the queue becomes empty.\n\nCan be called multiple times. Useful if you for example add additional items at a later time.\n\n#### .onIdle()\n\nReturns a promise that settles when the queue becomes empty, and all promises have completed; `queue.size === 0 && queue.pending === 0`.\n\nThe difference with `.onEmpty` is that `.onIdle` guarantees that all work from the queue has finished. `.onEmpty` merely signals that the queue is empty, but it could mean that some promises haven't completed yet.\n\n#### .clear()\n\nClear the queue.\n\n#### .size\n\nSize of the queue.\n\n\n#### .sizeBy(options)\n\nSize of the queue, filtered by the given options.\n\nFor example, this can be used to find the number of items remaining in the queue with a specific priority level.\n\n```js\nconst queue = new PQueue();\n\nqueue.add(async () => '🦄', {priority: 1});\nqueue.add(async () => '🦄', {priority: 0});\nqueue.add(async () => '🦄', {priority: 1});\n\nconsole.log(queue.sizeBy({priority: 1}));\n//=> 2\n\nconsole.log(queue.sizeBy({priority: 0}));\n//=> 1\n```\n\n#### .pending\n\nNumber of pending promises.\n\n#### [.timeout](#timeout)\n\n#### [.concurrency](#concurrency)\n\n#### .isPaused\n\nWhether the queue is currently paused.\n\n\n## Events\n\n#### active\n\nEmitted as each item is processed in the queue for the purpose of tracking progress.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue({concurrency: 2});\n\nlet count = 0;\nqueue.on('active', () => {\n\tconsole.log(`Working on item #${++count}.  Size: ${queue.size}  Pending: ${queue.pending}`);\n});\n\nqueue.add(() => Promise.resolve());\nqueue.add(() => delay(2000));\nqueue.add(() => Promise.resolve());\nqueue.add(() => Promise.resolve());\nqueue.add(() => delay(500));\n```\n\n\n## Advanced example\n\nA more advanced example to help you understand the flow.\n\n```js\nconst delay = require('delay');\nconst {default: PQueue} = require('p-queue');\n\nconst queue = new PQueue({concurrency: 1});\n\n(async () => {\n\tawait delay(200);\n\n\tconsole.log(`8. Pending promises: ${queue.pending}`);\n\t//=> '8. Pending promises: 0'\n\n\t(async () => {\n\t\tawait queue.add(async () => '🐙');\n\t\tconsole.log('11. Resolved')\n\t})();\n\n\tconsole.log('9. Added 🐙');\n\n\tconsole.log(`10. Pending promises: ${queue.pending}`);\n\t//=> '10. Pending promises: 1'\n\n\tawait queue.onIdle();\n\tconsole.log('12. All work is done');\n})();\n\n(async () => {\n\tawait queue.add(async () => '🦄');\n\tconsole.log('5. Resolved')\n})();\nconsole.log('1. Added 🦄');\n\n(async () => {\n\tawait queue.add(async () => '🐴');\n\tconsole.log('6. Resolved')\n})();\nconsole.log('2. Added 🐴');\n\n(async () => {\n\tawait queue.onEmpty();\n\tconsole.log('7. Queue is empty');\n})();\n\nconsole.log(`3. Queue size: ${queue.size}`);\n//=> '3. Queue size: 1`\n\nconsole.log(`4. Pending promises: ${queue.pending}`);\n//=> '4. Pending promises: 1'\n```\n\n```\n$ node example.js\n1. Added 🦄\n2. Added 🐴\n3. Queue size: 1\n4. Pending promises: 1\n5. Resolved 🦄\n6. Resolved 🐴\n7. Queue is empty\n8. Pending promises: 0\n9. Added 🐙\n10. Pending promises: 1\n11. Resolved 🐙\n12. All work is done\n```\n\n\n## Custom QueueClass\n\nFor implementing more complex scheduling policies, you can provide a QueueClass in the options:\n\n```js\nclass QueueClass {\n\tconstructor() {\n\t\tthis._queue = [];\n\t}\n\n\tenqueue(run, options) {\n\t\tthis._queue.push(run);\n\t}\n\n\tdequeue() {\n\t\treturn this._queue.shift();\n\t}\n\n\tget size() {\n\t\treturn this._queue.length;\n\t}\n\n\tfilter(options) {\n\t\treturn this._queue;\n\t}\n}\n```\n\n`p-queue` will call corresponding methods to put and get operations from this queue.\n\n\n## Related\n\n- [p-limit](https://github.com/sindresorhus/p-limit) - Run multiple promise-returning & async functions with limited concurrency\n- [p-throttle](https://github.com/sindresorhus/p-throttle) - Throttle promise-returning & async functions\n- [p-debounce](https://github.com/sindresorhus/p-debounce) - Debounce promise-returning & async functions\n- [p-all](https://github.com/sindresorhus/p-all) - Run promise-returning & async functions concurrently with optional limited concurrency\n- [More…](https://github.com/sindresorhus/promise-fun)\n\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-p-queue?utm_source=npm-p-queue&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-queue.git"
+  },
+  "scripts": {
+    "bench": "ts-node bench.ts",
+    "build": "del dist && tsc",
+    "prepublishOnly": "npm run build",
+    "test": "xo && npm run build && nyc ava"
+  },
+  "types": "dist",
+  "version": "6.3.0",
+  "xo": {
+    "extends": "xo-typescript",
+    "extensions": [
+      "ts"
+    ],
+    "rules": {
+      "@typescript-eslint/member-ordering": "off",
+      "@typescript-eslint/strict-boolean-expressions": "off",
+      "@typescript-eslint/require-await": "off",
+      "@typescript-eslint/no-misused-promises": "off",
+      "require-atomic-updates": "off"
+    }
+  }
+}

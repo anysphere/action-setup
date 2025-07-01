@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-memoize@4.0.0",
+        "scope": null,
+        "escapedName": "p-memoize",
+        "name": "p-memoize",
+        "rawSpec": "4.0.0",
+        "spec": "4.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/npm-resolver"
+    ]
+  ],
+  "_from": "p-memoize@4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-memoize@4.0.0",
+  "_location": "/p-memoize",
+  "_nodeVersion": "10.18.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-memoize_4.0.0_1581957044836_0.5621187995125203"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.13.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-memoize@4.0.0",
+    "scope": null,
+    "escapedName": "p-memoize",
+    "name": "p-memoize",
+    "rawSpec": "4.0.0",
+    "spec": "4.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/npm-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-memoize/-/p-memoize-4.0.0.tgz",
+  "_shasum": "1f955b6c38aaa4b74d243e354eae51a7ecb48e94",
+  "_shrinkwrap": null,
+  "_spec": "p-memoize@4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/npm-resolver",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/p-memoize/issues"
+  },
+  "dependencies": {
+    "mem": "^6.0.1",
+    "mimic-fn": "^3.0.0"
+  },
+  "description": "Memoize promise-returning & async functions",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.11.0",
+    "xo": "^0.26.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-oMxCJKVS75Bf2RWtXJNQNaX2K1G0FYpllOh2iTsPXZqnf9dWMcis3BL+pRdLeQY8lIdwwL01k/UV5LBdcVhZzg==",
+    "shasum": "1f955b6c38aaa4b74d243e354eae51a7ecb48e94",
+    "tarball": "https://registry.npmjs.org/p-memoize/-/p-memoize-4.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6057,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeSr+1CRA9TVsSAnZWagAAyrwP/1MJ3T80XFoPRwzKcMG/\n1Zomu/Ofasi/pddPD00joNdgPQCGDUE8mTDeaQW28bGjKjwrMb4jdFXOY2b9\nCbWGn+aytU7EOy0SeWGVcXrsoVP3Or+vTIMz3LDc2NoMTddss6DeMK+N+An7\n96p2PLFDr8hdpz7AMBvhK6Y/RpzGshDaQ5dtjmY3NMIu+5JeOdr4cFlSFQv1\nokC3qpvnNnow88h1+wRZq4nV2qJkRe6RH7c7CMJiQ6Y+Eq6sP8nT2IBwfO2p\naxxNbUc2Ld+7T07kow4VKB3wnofGlF7zqTwvdsNt24GsySq8+n8+/y2/gMSB\nkZEJSugEpPI0D3W40pBgQo2mxeMEVWHS/aw3aRa8HtNStLa/HZpBlRPdI1hK\nfHA6S5/PUATnyLZE338OK3P7Dg70v1h7j7/UuCtlMawO5XaKVHAvV+QKqPOK\ntW6hd2KLVTys/lCmQ4zqTxSlqmo/D5YLGgqxKuSsDs6ajsMSR8+IV7D88Tiu\nwtbG2+xXc4uBhHTPzsIR50cjXCga/hY1brbtAUapzpDDHxqzFAS6gy9ElEEx\n8uf+SQlhTEiJH+yb8W/0HrGLUOmHqXWpo+ekYbPuGCwK1NdoeDx/qV5o9lZX\n8MpmlCGg5ZzYSH6rLpsUuE/vodJeymc7Sek12pFif+X1x77v3w7F26mnBh+f\nCaQ1\r\n=a6pw\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sindresorhus/p-memoize?sponsor=1",
+  "gitHead": "19fab6101ffc7c7d718b94c64f57cf6e8ef7d844",
+  "homepage": "https://github.com/sindresorhus/p-memoize#readme",
+  "keywords": [
+    "promise",
+    "memoize",
+    "mem",
+    "memoization",
+    "function",
+    "cache",
+    "caching",
+    "optimize",
+    "performance",
+    "ttl",
+    "expire",
+    "async",
+    "await",
+    "promises",
+    "time",
+    "out",
+    "cancel",
+    "bluebird"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "bfred-it",
+      "email": "npm@bfred.it"
+    },
+    {
+      "name": "fregante",
+      "email": "opensource@bfred.it"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "p-memoize",
+  "optionalDependencies": {},
+  "readme": "# p-memoize [![Build Status](https://travis-ci.org/sindresorhus/p-memoize.svg?branch=master)](https://travis-ci.org/sindresorhus/p-memoize)\n\n> [Memoize](https://en.wikipedia.org/wiki/Memoization) promise-returning & async functions\n\nUseful for speeding up consecutive function calls by caching the result of calls with identical input.\n\n## Install\n\n```\n$ npm install p-memoize\n```\n\n## Usage\n\n```js\nconst pMemoize = require('p-memoize');\nconst got = require('got');\n\nconst memGot = pMemoize(got, {maxAge: 1000});\n\n(async () => {\n\tmemGot('sindresorhus.com');\n\n\t// This call is cached\n\tmemGot('sindresorhus.com');\n\n\tsetTimeout(() => {\n\t\t// This call is not cached as the cache has expired\n\t\tmemGot('sindresorhus.com');\n\t}, 2000);\n})();\n```\n\n## API\n\n### pMemoize(fn, options?)\n\nReturns a memoized version of the `fn` function.\n\n#### fn\n\nType: `Function`\n\nPromise-returning or async function to be memoized.\n\n#### options\n\nType: `object`\n\nSee the [`mem` options](https://github.com/sindresorhus/mem#options) in addition to the below option.\n\n##### cachePromiseRejection\n\nType: `boolean`\\\nDefault: `false`\n\nCache rejected promises.\n\n### pMemoize.clear(memoized)\n\nClear all cached data of a memoized function.\n\nWill throw if passed a non-memoized function.\n\n## Related\n\n- [p-debounce](https://github.com/sindresorhus/p-debounce) - Debounce promise-returning & async functions\n- [p-throttle](https://github.com/sindresorhus/p-throttle) - Throttle promise-returning & async functions\n- [More…](https://github.com/sindresorhus/promise-fun)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/p-memoize.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.0.0"
+}

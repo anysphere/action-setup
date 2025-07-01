@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/local-resolver@5.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flocal-resolver",
+        "name": "@pnpm/local-resolver",
+        "rawSpec": "5.0.0",
+        "spec": "5.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver"
+    ]
+  ],
+  "_from": "@pnpm/local-resolver@5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/local-resolver@5.0.0",
+  "_location": "/@pnpm/local-resolver",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/local-resolver_5.0.0_1578428567263_0.42650283602526806"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/local-resolver@5.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flocal-resolver",
+    "name": "@pnpm/local-resolver",
+    "rawSpec": "5.0.0",
+    "spec": "5.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-resolver"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/local-resolver/-/local-resolver-5.0.0.tgz",
+  "_shasum": "ca2c53bb0b0befbf2f3b33a559cd7c3eee6fbb8a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/local-resolver@5.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-resolver",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/error": "1.0.0",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "graceful-fs": "4.2.1",
+    "normalize-path": "3.0.0",
+    "ssri": "6.0.1"
+  },
+  "description": "Resolver for local packages",
+  "devDependencies": {
+    "@pnpm/local-resolver": "link:",
+    "@types/graceful-fs": "4.1.3",
+    "@types/normalize-path": "3.0.0",
+    "@types/ssri": "^6.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ca2c53bb0b0befbf2f3b33a559cd7c3eee6fbb8a",
+    "tarball": "https://registry.npmjs.org/@pnpm/local-resolver/-/local-resolver-5.0.0.tgz",
+    "integrity": "sha512-Bx3Hr25agZ7dkE0MxstAHaoq9pKx/sfKhSLzE5D8LZBycb1HNXNgbejwjUg2ZVjAoz8T1nCHJsvU9lNIvfFLWQ==",
+    "fileCount": 7,
+    "unpackedSize": 9163,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOiXCRA9TVsSAnZWagAAI0MP/iujXySmSnf8kwYjN498\nK/Va+122nqHJbxGMakqAyRraTFNqCAbuUNzYx676U1c1VxgxbQeld2tb8WNI\nvo5oYYjiy5ByZv3u7iyA7gFgitb2IETaQX2BjvoyiPZ/RscLyrovEXqYgwQe\nHjdhubxqRZ6jEWledAVr1m7SNoZXCRqhFXKDxC7wRdOG2T8EtMlmhvHW7Mr3\nF6GINmuz3A1Viko4HfB5tDcBXcTBCAhohMePAsZI3s8zUY4hBY1nvEez/TXy\n+fkYdVBMhKBsYPbV9ife2lUGjmCIUpiJ1kiJfIiJByMusASJPxj1WsEE+Srs\nLTN4G8f7vPl+K7rwBnhx7DEvH3u3lJBfU0aRPjV3Nz0Lq+pp3v9jw0rLj/x/\nLQpGksTI4p+L8EIdR081/MDhBljZUpSL1AnG9+1jghzX3VdjPAAz2w7fr1m0\nlfmOQXs2dBqkmgPE1pZPoLuIM7BlOTIFJSgUKBpC3e2U77KavOu7Y3Suvely\nwN7XTfLBTuiib2IDnnV8qG9q+pZhAPpSOg20DzKT8UTM8mGk4l/a1I7q2dY0\njTF6QLMGGsLlLa522FX+TM3WlKmbqDE36kksKwuf4OQZ/k73DLcopAV8P29l\nlbCAaajDdS5ByOHUImLtJhVxocU1iqCNo4pEWElf3LuTCoFMQEtzxC7pzGs0\nUGp8\r\n=dXR7\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/local-resolver#readme",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/local-resolver",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/local-resolver\n\n> Resolver for local packages\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/local-resolver.svg)](https://www.npmjs.com/package/@pnpm/local-resolver)\n<!--/@-->\n\n## Installation\n\n```\n<pnpm|npm|yarn> add @pnpm/local-resolver\n```\n\n## Usage\n\n```js\n'use strict'\nconst resolveFromLocal = require('@pnpm/local-resolver').default\n\nresolveFromLocal({pref: './example-package'}, {prefix: process.cwd()})\n  .then(resolveResult => console.log(resolveResult))\n//> { id: 'link:example-package',\n//    normalizedPref: 'link:example-package',\n//    package:\n//     { name: 'foo',\n//       version: '1.0.0',\n//       readme: '# foo\\n',\n//       readmeFilename: 'README.md',\n//       description: '',\n//       _id: 'foo@1.0.0' },\n//    resolution: { directory: 'example-package', type: 'directory' }\n//    resolvedVia: 'local-filesystem' }\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/local-resolver"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --ts-node",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.0.0"
+}

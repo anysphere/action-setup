@@ -1,0 +1,141 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-listing@0.2.11",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-listing",
+        "name": "@pnpm/plugin-commands-listing",
+        "rawSpec": "0.2.11",
+        "spec": "0.2.11",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-listing@0.2.11",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-listing@0.2.11",
+  "_location": "/@pnpm/plugin-commands-listing",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-listing_0.2.11_1582976887245_0.07949121857727404"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-listing@0.2.11",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-listing",
+    "name": "@pnpm/plugin-commands-listing",
+    "rawSpec": "0.2.11",
+    "spec": "0.2.11",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-listing/-/plugin-commands-listing-0.2.11.tgz",
+  "_shasum": "cd3dd1da06724ec7756b932e5e8063bd5595a885",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-listing@0.2.11",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/common-cli-options-help": "0.1.4",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/list": "4.0.17",
+    "@pnpm/types": "5.0.0",
+    "common-tags": "1.8.0",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0"
+  },
+  "description": "The list and why commands of pnpm",
+  "devDependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/filter-workspace-packages": "2.0.2",
+    "@pnpm/logger": "^3.1.0",
+    "@pnpm/plugin-commands-installation": "0.2.15",
+    "@pnpm/plugin-commands-listing": "link:",
+    "@pnpm/prepare": "0.0.0",
+    "@types/common-tags": "1.8.0",
+    "@types/mz": "^2.7.0",
+    "@types/ramda": "^0.26.43",
+    "execa": "4.0.0",
+    "mz": "2.7.0",
+    "strip-ansi": "6.0.0",
+    "write-yaml-file": "3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-TkirMMXWhxd9BBTKTwNbZc2MkwaPlWV6fvfwkZx2MnqVeepjmjdEs2fs44hRzXsidRyyEHs8V3iu44+hduhxyQ==",
+    "shasum": "cd3dd1da06724ec7756b932e5e8063bd5595a885",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-listing/-/plugin-commands-listing-0.2.11.tgz",
+    "fileCount": 13,
+    "unpackedSize": 16547,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk93CRA9TVsSAnZWagAArNIP/2o/t2n2krdValXNPc8+\nN2sl+W9E8/CSVtQXLyJCKbdLpcONH2FvmKEEwAGuURvLn+oFvYfxcqclHzOj\nuWn3F4zhDeVqx8HfGxvMqx6P5VOPqtAJWLP0OsB31iZTAwTk1mUayEXlWbrN\n/C8xwc/V09uMlbygJjJncG9K0r0q6thhb0k9W7J5k6IRzH1ynZaEB5jVVrd1\n5KZ610AizgaM4MzwnsJJlKyWk3dBZoATGN+4m3uZGmUZ+WLHmdhjp7AjuTyT\ntqvIpp5KpTc8MQ+EtAbNLMQCwO2KsvSORHaEH3FwtTh4fcnRoyMqvCMO6pwS\n8SlQidP+Jd2rc42TLUFSpERNWDcBBtr6ED1YdUDKzOmxzrC2vMPn9BT1DSwk\nkP37hxtpn7OHOkDD9C38oYcS9E766bcEksrrojlgGqVSPf21EC2tuy8ykJYk\nlaQZbcsjWNjB/Wp7HGVqpbOVqjY5kjxt8+YnwujlUrUyVXIGlg1eYGS7ejI8\n15CMMvXOkYs9vp8MRE8WRdw1tqHF5bKy5P3G6xYcrGyZ2EQ5BT+aiI1OvdiK\nScHjcH9Vdb6xRyZM1HflqDYNQ4sbtcYld63R14IMufDkCDZWkeVl3vJ/46Kk\nWEEED49rYU/YjRVRw2hiicPrcIplawA1FWYjZEkQrw46MLEoE/aKDsW0Gbww\nv4/R\r\n=3hPH\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-listing",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/plugin-commands-listing\n\n> The list and why commands of pnpm\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-listing.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-listing)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-listing\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-listing"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7773 pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.11"
+}

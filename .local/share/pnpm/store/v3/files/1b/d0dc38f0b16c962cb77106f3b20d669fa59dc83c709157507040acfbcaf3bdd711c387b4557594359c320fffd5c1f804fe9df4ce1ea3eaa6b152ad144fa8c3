@@ -1,0 +1,145 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "graceful-fs@4.2.1",
+        "scope": null,
+        "escapedName": "graceful-fs",
+        "name": "graceful-fs",
+        "rawSpec": "4.2.1",
+        "spec": "4.2.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "graceful-fs@4.2.1",
+  "_hasShrinkwrap": false,
+  "_id": "graceful-fs@4.2.1",
+  "_location": "/graceful-fs",
+  "_nodeVersion": "12.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/graceful-fs_4.2.1_1564898680936_0.4561090715904119"
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "_npmVersion": "6.10.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "graceful-fs@4.2.1",
+    "scope": null,
+    "escapedName": "graceful-fs",
+    "name": "graceful-fs",
+    "rawSpec": "4.2.1",
+    "spec": "4.2.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/",
+    "/@pnpm/file-reporter",
+    "/@pnpm/local-resolver",
+    "/@pnpm/plugin-commands-publishing/write-json-file",
+    "/@pnpm/read-project-manifest",
+    "/@pnpm/tarball-fetcher",
+    "/@zkochan/npm-lifecycle",
+    "/can-link",
+    "/configstore",
+    "/cp-file",
+    "/dint",
+    "/dir-is-case-sensitive",
+    "/fs-vacuum",
+    "/is-inner-link",
+    "/load-json-file",
+    "/proper-lockfile",
+    "/read-ini-file",
+    "/read-package-json",
+    "/read-yaml-file",
+    "/rename-overwrite",
+    "/resolve-link-target",
+    "/root-link-target",
+    "/supi",
+    "/symlink-dir",
+    "/write-file-atomic",
+    "/write-json-file",
+    "/write-json5-file",
+    "/write-yaml-file"
+  ],
+  "_resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.1.tgz",
+  "_shasum": "1c1f0c364882c868f5bff6512146328336a11b1d",
+  "_shrinkwrap": null,
+  "_spec": "graceful-fs@4.2.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-graceful-fs/issues"
+  },
+  "dependencies": {},
+  "description": "A drop-in replacement for fs, making various improvements.",
+  "devDependencies": {
+    "import-fresh": "^2.0.0",
+    "mkdirp": "^0.5.0",
+    "rimraf": "^2.2.8",
+    "tap": "^12.7.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-b9usnbDGnD928gJB3LrCmxoibr3VE4U2SMo5PBuBnokWyDADTqDPXg4YpwKF1trpH+UbGp7QLicO3+aWEy0+mw==",
+    "shasum": "1c1f0c364882c868f5bff6512146328336a11b1d",
+    "tarball": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 26326,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdRnV5CRA9TVsSAnZWagAAI+cP/09vQFDgflZI5LDhq7Kn\nPzOQDHXsrAHDvKW1F55RxTFIXjPqExI8byFKOsPRDmeK/grBCEiovq3YGig/\nqC/HpiPuxWBo5WoOqScn7nuvbqN5vtAGjSbA9XN1nQHG+yFLv4A9V6/U6YCi\nVMcwIq4J3FzciBWGQ78R4DvmeCLyKCEXoxxQsHNl8+qrWtnrNF2rWvab4dtV\nypHI6HY2DdI5Lx/trflzyrKe3ycS6SiD+oJ+exxL/YewB4xHHftxVhALUoGS\nyT6AVg4vWz/LWdE2M4IG4jzjb9Mk3bBlpODIc1AlfDib5RHQ62oH9roQiq5A\nYKSWQ4BfOdz/c1c+YjXVEkCaSG5IKd9ULq2I/awfI714sy0CMsdFino29umN\nUODANsl9nrk8RGJ65lIKZVeF4EGFKHF7CcbuBpO5AkMKf32/uIXTkprUWrO4\nMVoaxp5HXasSp8fH1y9CryITWwdgFksnFrlgnUL3l6AaNWzLTajEWQmzeVdj\n3ADQ/GglE6bxJMnMzaD2c5KbS3+CnpqKxIqPbiPFtjyJeNGQCjKx/PgXDsp7\nmNo3KAcbTFYBjc/34sczullnv95TGCZOm6Oyz8XncI1afKqdTPBztf6MXmXl\nNKs+Z2k/p4o95MyLTwHBzRAZfXUhA87StuFijMJhyVD5JPx1Ja88ItqoLzog\nJWsf\r\n=Oyod\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "fs.js",
+    "graceful-fs.js",
+    "legacy-streams.js",
+    "polyfills.js",
+    "clone.js"
+  ],
+  "gitHead": "7e8a5605310d1f995d56dcc2690660c58e5554b0",
+  "homepage": "https://github.com/isaacs/node-graceful-fs#readme",
+  "keywords": [
+    "fs",
+    "module",
+    "reading",
+    "retry",
+    "retries",
+    "queue",
+    "error",
+    "errors",
+    "handling",
+    "EMFILE",
+    "EAGAIN",
+    "EINVAL",
+    "EPERM",
+    "EACCESS"
+  ],
+  "license": "ISC",
+  "main": "graceful-fs.js",
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "name": "graceful-fs",
+  "optionalDependencies": {},
+  "readme": "# graceful-fs\n\ngraceful-fs functions as a drop-in replacement for the fs module,\nmaking various improvements.\n\nThe improvements are meant to normalize behavior across different\nplatforms and environments, and to make filesystem access more\nresilient to errors.\n\n## Improvements over [fs module](https://nodejs.org/api/fs.html)\n\n* Queues up `open` and `readdir` calls, and retries them once\n  something closes if there is an EMFILE error from too many file\n  descriptors.\n* fixes `lchmod` for Node versions prior to 0.6.2.\n* implements `fs.lutimes` if possible. Otherwise it becomes a noop.\n* ignores `EINVAL` and `EPERM` errors in `chown`, `fchown` or\n  `lchown` if the user isn't root.\n* makes `lchmod` and `lchown` become noops, if not available.\n* retries reading a file if `read` results in EAGAIN error.\n\nOn Windows, it retries renaming a file for up to one second if `EACCESS`\nor `EPERM` error occurs, likely because antivirus software has locked\nthe directory.\n\n## USAGE\n\n```javascript\n// use just like fs\nvar fs = require('graceful-fs')\n\n// now go and do stuff with it...\nfs.readFileSync('some-file-or-whatever')\n```\n\n## Global Patching\n\nIf you want to patch the global fs module (or any other fs-like\nmodule) you can do this:\n\n```javascript\n// Make sure to read the caveat below.\nvar realFs = require('fs')\nvar gracefulFs = require('graceful-fs')\ngracefulFs.gracefulify(realFs)\n```\n\nThis should only ever be done at the top-level application layer, in\norder to delay on EMFILE errors from any fs-using dependencies.  You\nshould **not** do this in a library, because it can cause unexpected\ndelays in other parts of the program.\n\n## Changes\n\nThis module is fairly stable at this point, and used by a lot of\nthings.  That being said, because it implements a subtle behavior\nchange in a core part of the node API, even modest changes can be\nextremely breaking, and the versioning is thus biased towards\nbumping the major when in doubt.\n\nThe main change between major versions has been switching between\nproviding a fully-patched `fs` module vs monkey-patching the node core\nbuiltin, and the approach by which a non-monkey-patched `fs` was\ncreated.\n\nThe goal is to trade `EMFILE` errors for slower fs operations.  So, if\nyou try to open a zillion files, rather than crashing, `open`\noperations will be queued up and wait for something else to `close`.\n\nThere are advantages to each approach.  Monkey-patching the fs means\nthat no `EMFILE` errors can possibly occur anywhere in your\napplication, because everything is using the same core `fs` module,\nwhich is patched.  However, it can also obviously cause undesirable\nside-effects, especially if the module is loaded multiple times.\n\nImplementing a separate-but-identical patched `fs` module is more\nsurgical (and doesn't run the risk of patching multiple times), but\nalso imposes the challenge of keeping in sync with the core module.\n\nThe current approach loads the `fs` module, and then creates a\nlookalike object that has all the same methods, except a few that are\npatched.  It is safe to use in all versions of Node from 0.8 through\n7.0.\n\n### v4\n\n* Do not monkey-patch the fs module.  This module may now be used as a\n  drop-in dep, and users can opt into monkey-patching the fs builtin\n  if their app requires it.\n\n### v3\n\n* Monkey-patch fs, because the eval approach no longer works on recent\n  node.\n* fixed possible type-error throw if rename fails on windows\n* verify that we *never* get EMFILE errors\n* Ignore ENOSYS from chmod/chown\n* clarify that graceful-fs must be used as a drop-in\n\n### v2.1.0\n\n* Use eval rather than monkey-patching fs.\n* readdir: Always sort the results\n* win32: requeue a file if error has an OK status\n\n### v2.0\n\n* A return to monkey patching\n* wrap process.cwd\n\n### v1.1\n\n* wrap readFile\n* Wrap fs.writeFile.\n* readdir protection\n* Don't clobber the fs builtin\n* Handle fs.read EAGAIN errors by trying again\n* Expose the curOpen counter\n* No-op lchown/lchmod if not implemented\n* fs.rename patch only for win32\n* Patch fs.rename to handle AV software on Windows\n* Close #4 Chown should not fail on einval or eperm if non-root\n* Fix isaacs/fstream#1 Only wrap fs one time\n* Fix #3 Start at 1024 max files, then back off on EMFILE\n* lutimes that doens't blow up on Linux\n* A full on-rewrite using a queue instead of just swallowing the EMFILE error\n* Wrap Read/Write streams as well\n\n### 1.0\n\n* Update engines for node 0.6\n* Be lstat-graceful on Windows\n* first\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/node-graceful-fs.git"
+  },
+  "scripts": {
+    "postpublish": "git push origin --follow-tags",
+    "postversion": "npm publish",
+    "preversion": "npm test",
+    "test": "node test.js | tap -"
+  },
+  "version": "4.2.1"
+}

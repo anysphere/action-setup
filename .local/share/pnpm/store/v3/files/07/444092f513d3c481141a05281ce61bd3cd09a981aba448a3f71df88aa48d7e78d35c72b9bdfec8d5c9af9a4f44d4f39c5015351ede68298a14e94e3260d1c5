@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/package-bins@4.0.3",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fpackage-bins",
+        "name": "@pnpm/package-bins",
+        "rawSpec": "4.0.3",
+        "spec": "4.0.3",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/link-bins"
+    ]
+  ],
+  "_from": "@pnpm/package-bins@4.0.3",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/package-bins@4.0.3",
+  "_location": "/@pnpm/package-bins",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/package-bins_4.0.3_1582101563635_0.03774489066737541"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/package-bins@4.0.3",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fpackage-bins",
+    "name": "@pnpm/package-bins",
+    "rawSpec": "4.0.3",
+    "spec": "4.0.3",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/link-bins",
+    "/@pnpm/modules-cleaner"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/package-bins/-/package-bins-4.0.3.tgz",
+  "_shasum": "196190ada0a8d42ec0a359fba8043c25161c0a07",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/package-bins@4.0.3",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/link-bins",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "5.0.0",
+    "graceful-fs": "4.2.3",
+    "is-subdir": "1.1.1",
+    "p-filter": "2.1.0"
+  },
+  "description": "Returns bins of a package",
+  "devDependencies": {
+    "@pnpm/package-bins": "link:",
+    "@types/graceful-fs": "^4.1.3",
+    "@types/node": "^12.12.27",
+    "@types/tape": "^4.2.34"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-02xQqR+AjGZhWdJxTFgrRfME9bBRtVwZNRvAh5v3SrVxSTaB2Rw9FcoDAaE2SieK9Lmyi78/bHxVfa/ZISX0kw==",
+    "shasum": "196190ada0a8d42ec0a359fba8043c25161c0a07",
+    "tarball": "https://registry.npmjs.org/@pnpm/package-bins/-/package-bins-4.0.3.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4891,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPQ8CRA9TVsSAnZWagAAWiAP/1Y7g8/8kPsBES6x9p09\nPcLzdDnF6wWkVLWYpNghkPoTLGyKdriuv1CLUTXs+KVtWENvDornyYMOmZxl\nzwZTG0lyJm2KgqxeYzFIGBQPTuOtdjZwpQNpnC0kyhWSb7BXnoU5ju6sizEe\nmepOhRTuyBbXkzeWYNuEVaynHKPb3hGwS9KmjLo5vDK1rwddct7DTOBby0nj\nBOsrZ2CU9kg9N4r1j4t3VPb+UUSc/rra2+ykP/Xfg4IeEPcEkQW7rIU45F3z\nldMgSukVzMc4wJCkt/EpYF9PCVSigjLB3DGSu+6/MV8KL81LBFFmu4NsAhRh\n1dsTr3ZjqkVtEOVZGYLF8sY616RqveXr965pXEaNkclXQL0NiCfrCQtlxIIm\nxZC5sB2H9NjGeGCdoIA1uKGqGn3N7c7zA/iTAHlkBawcS2B52018QzkDjtUN\nSXPxiNPbO/dUI0C+NEh8Fcwjxq9WBUIg+AQZckiivZEAF3BNeF9D+TiT5qOS\njamAEkQf4Ub7uYGardc6rkudRf0+S59txOTATSvytnDGoGJP9QPrjrlrZVbN\n/fzUbFe1++rlMNs5KkEHfuP80p4WTLrBzkzcKxgbuWlS0QgEMt70ea62LfmI\nNQqePeHK6R8B/ou6dvizBGmf+MxZKxkcmFSPKn26W+LRyC9FYNU6hyha5UfU\numdH\r\n=khK2\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/package-bins#readme",
+  "keywords": [
+    "pnpm",
+    "bins"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/package-bins",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/package-bins\n\n> Returns bins of a package\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/package-bins.svg)](https://www.npmjs.com/package/@pnpm/package-bins) [![Build Status](https://img.shields.io/travis/pnpm/package-bins/master.svg)](https://travis-ci.org/pnpm/package-bins)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/package-bins\n```\n\n## Usage\n\n```ts\nimport getBinsFromPkg from '@pnpm/package-bins'\n\nawait getBinsFromPkg(path.resolve('package.json'), process.cwd())\n//> [{name: 'bin-name', path: 'path-to-bin'}]\n```\n\n## API\n\n### `getBinsFromPkg(packageJson, pathToPkg): Promise<Array<{name: string, path: string}>>`\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/package-bins"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json --project . --fix",
+    "lint": "tslint -c ../../tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.3"
+}

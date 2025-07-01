@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/lockfile-types@2.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flockfile-types",
+        "name": "@pnpm/lockfile-types",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit"
+    ]
+  ],
+  "_from": "@pnpm/lockfile-types@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/lockfile-types@2.0.0",
+  "_location": "/@pnpm/lockfile-types",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lockfile-types_2.0.0_1578428580196_0.8836437153874903"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/lockfile-types@2.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flockfile-types",
+    "name": "@pnpm/lockfile-types",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/audit",
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/hoist",
+    "/@pnpm/lockfile-file",
+    "/@pnpm/lockfile-utils",
+    "/@pnpm/lockfile-walker",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/prune-lockfile",
+    "/@pnpm/resolve-dependencies"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/lockfile-types/-/lockfile-types-2.0.0.tgz",
+  "_shasum": "2b3cd02bdb1423f34e2999dec292a9affc434f5a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/lockfile-types@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/audit",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {},
+  "description": "Types for the pnpm-lock.yaml lockfile",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2b3cd02bdb1423f34e2999dec292a9affc434f5a",
+    "tarball": "https://registry.npmjs.org/@pnpm/lockfile-types/-/lockfile-types-2.0.0.tgz",
+    "integrity": "sha512-2QdGuZDwZJR78xX8kodNHilgkyl0V72erAG9q9n1ceFaB2wHZUnUAN2+4EIjdKZV/47z7BN7W12BnzRlZkfR1g==",
+    "fileCount": 4,
+    "unpackedSize": 3861,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOikCRA9TVsSAnZWagAARdoP/j+rChcsdFSJKoJdsP/7\nBMcGM9rficE+KA0jnZxx7HoDYKwjSltPvdew9JpFRQ6eQ/7I+zzDTk09Y3AK\nFrk5Af6vQDQpUuVAXbQhAMwDnr5TWWgMVUY67llzH8ACbKIufcso9cBI/r22\nUvl97AeRyREMkGynryJarFPDb0KzBDR6qDM0BZS86Ujbr/zthK//uyBMskw2\nb03YwXM+hr3I6dWdmESA1izoNihoXdMZUC9oeqBOZev3JbQ4hCjFyBu2JiIF\nOqjbfQmLcgQj5FBrtsA55WoYw4Mt7JCNuzuMU7kQ03+c/xI217i90UACr2+U\nFCqSqWzxLpUdPjZ6XiYoVlaMIaAaGvg7DsI+4hTsImRl6y2auK4mI7D74AMS\nhipeKtRkb8f+sQQOSxSZ9QOY5E8K7KXp68d7wCkqcPKMbmA6n/ESyLFhAxdq\ne3asUBhhesyk/JLFOSMtMJR6LYnv5ZuYK1ptY0hIhAylcOzxXTvjU2Yd/vdM\ngvud9yompXD9n/ZHuyCWtLOZz42+I0xsIytw9bh89NQJ2Dzv4dX27aN0mxPQ\nM10zo2kyXRI57lESw7ElPhE8gn78Vg6JiFwHQYa39tX5YZKC6MFlwlvKrhc/\nVhSdgVc3hcxsK8V66/ge4y40DBXPUpYH/DadGMgSLyFASS8QPh0JEjopR2Yx\nluJq\r\n=zJMs\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-types#readme",
+  "keywords": [
+    "pnpm",
+    "types"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/lockfile-types",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/lockfile-types\n\n> Types for the lockfile\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-types"
+  },
+  "scripts": {},
+  "version": "2.0.0"
+}

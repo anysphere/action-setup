@@ -1,0 +1,163 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-publishing@0.2.14",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-publishing",
+        "name": "@pnpm/plugin-commands-publishing",
+        "rawSpec": "0.2.14",
+        "spec": "0.2.14",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-publishing@0.2.14",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-publishing@0.2.14",
+  "_location": "/@pnpm/plugin-commands-publishing",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-publishing_0.2.14_1583083915440_0.019818231419908017"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {
+    "detect-indent": "6.0.0",
+    "graceful-fs": "4.2.1",
+    "imurmurhash": "0.1.4",
+    "is-plain-obj": "2.1.0",
+    "is-typedarray": "1.0.0",
+    "make-dir": "3.0.2",
+    "signal-exit": "3.0.2",
+    "typedarray-to-buffer": "3.1.5"
+  },
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-publishing@0.2.14",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-publishing",
+    "name": "@pnpm/plugin-commands-publishing",
+    "rawSpec": "0.2.14",
+    "spec": "0.2.14",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-publishing/-/plugin-commands-publishing-0.2.14.tgz",
+  "_shasum": "c499d047272686fb8af8dd24a0f5aaae72fc7979",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-publishing@0.2.14",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/read-project-manifest": "1.0.0",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/run-npm": "2.0.0",
+    "@pnpm/store-path": "2.1.1",
+    "@pnpm/types": "5.0.0",
+    "@pnpm/utils": "0.12.4",
+    "@zkochan/rimraf": "1.0.0",
+    "cp-file": "8.0.1",
+    "enquirer": "2.3.4",
+    "fast-glob": "3.2.2",
+    "lru-cache": "5.1.1",
+    "mz": "2.7.0",
+    "p-filter": "2.1.0",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0",
+    "write-json-file": "4.2.1"
+  },
+  "description": "The pack and publish commands of pnpm",
+  "devDependencies": {
+    "@pnpm/filter-workspace-packages": "2.0.2",
+    "@pnpm/plugin-commands-publishing": "link:",
+    "@pnpm/prepare": "0.0.0",
+    "@types/cross-spawn": "^6.0.1",
+    "@types/lru-cache": "^5.1.0",
+    "@types/mz": "^2.7.0",
+    "@types/proxyquire": "1.3.28",
+    "@types/ramda": "^0.26.43",
+    "@types/sinon": "7.5.2",
+    "cross-spawn": "7.0.1",
+    "execa": "4.0.0",
+    "path-exists": "4.0.0",
+    "proxyquire": "2.1.3",
+    "sinon": "9.0.0",
+    "tempy": "0.4.0",
+    "write-yaml-file": "3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-XXjC+toMx5sNcGrOzHImnqbRsZP6rogPiMDvtZh8xEkldwhvP58MMidSBjBhTM+2cyEtLTf3Ufnyt0+qxUULqA==",
+    "shasum": "c499d047272686fb8af8dd24a0f5aaae72fc7979",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-publishing/-/plugin-commands-publishing-0.2.14.tgz",
+    "fileCount": 13,
+    "unpackedSize": 19033,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeW/GLCRA9TVsSAnZWagAA6g0P/1FJp61+YHgrYernzyaa\n3kd7/zWe36/kOaP9sY8TOo4etIIj2Js76/+Lk1ZxFueV9nen5jSTTQIhZm7W\n+EnIhfX3bb9xAOA5NGZoAy+QL63rV05ctTWH4s62oy3rxBME98+V/Btumm19\ncPiGv/O3ejedf9Z9Gw/tc41CrKsLEwxZCe0X+XETQg4Qop7bBKGO8a9wLIk9\nVYKK6X3XDEthmEMZHxvDHQgKsW5HSkX93xKyDvslwI49SovLAXACcfpKHhEQ\nkJCFBKVZGRsRiwUuTIwEFN1sryrA/XdlY0g+RmwXvfSo2TeF6GqJnYa800qt\nYeB9O0f0fYcIPgK6CpghG0jqx21Cvlv4fGoZtEWz9HQ+WD6PctioieosppNu\ntCcDdGaacfikhjYVa8yad8H09ORfDjOWbl/7hmEaFuTvIH7qE4/8N/N/Hb8y\n2pn3d+FdU4++H9o6UHFH4aslbcV03pBF6OvgYhI/D5RNRszuw8lBq885qGbR\nLRrHLtqZnZv/b4vQo2e5ic2ymMzSbpSemUpiLxd8AZwshIk3uY39Yp6J/syg\nMEdMda9tDtW3S0US0Y8uyfdKxAERtQ7qt+GHKYNHlGhprlv19o+uy1aPdAMZ\nE3mnSxKzK3WuEDoc84kYWBv0mSYl0ahOWKJkqXWLviRRg6pVAQKq9dBIO2ck\nXwAC\r\n=c2nr\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "pack",
+    "publish"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-publishing",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/plugin-commands-publishing\n\n> The pack and publish commands of pnpm\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-publishing.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-publishing)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-publishing\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-publishing"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7771 pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.14"
+}

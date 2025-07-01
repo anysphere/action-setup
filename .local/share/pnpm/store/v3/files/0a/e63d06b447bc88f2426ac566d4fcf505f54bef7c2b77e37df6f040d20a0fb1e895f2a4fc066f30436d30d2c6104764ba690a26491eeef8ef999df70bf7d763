@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/store-controller-types@7.0.0",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fstore-controller-types",
+        "name": "@pnpm/store-controller-types",
+        "rawSpec": "7.0.0",
+        "spec": "7.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store"
+    ]
+  ],
+  "_from": "@pnpm/store-controller-types@7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/store-controller-types@7.0.0",
+  "_location": "/@pnpm/store-controller-types",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/store-controller-types_7.0.0_1578428907686_0.44387520981514816"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/store-controller-types@7.0.0",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fstore-controller-types",
+    "name": "@pnpm/store-controller-types",
+    "rawSpec": "7.0.0",
+    "spec": "7.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/build-modules",
+    "/@pnpm/headless",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/package-requester",
+    "/@pnpm/package-store",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/resolve-dependencies",
+    "/@pnpm/server",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/store-controller-types/-/store-controller-types-7.0.0.tgz",
+  "_shasum": "94e73c445a5da4405d812880cc3cfd6ff005eec8",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/store-controller-types@7.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/types": "5.0.0"
+  },
+  "description": "Types for the store controller",
+  "devDependencies": {
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "94e73c445a5da4405d812880cc3cfd6ff005eec8",
+    "tarball": "https://registry.npmjs.org/@pnpm/store-controller-types/-/store-controller-types-7.0.0.tgz",
+    "integrity": "sha512-vkw8cXP5507knVdmr8b1/CC+Q8ffCmeO2M3Z/DmFSszK5CiDEdjRut9pDBaLeSwQBVUVqHaJ6Rrm2ezEDMFKvg==",
+    "fileCount": 5,
+    "unpackedSize": 5578,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOnsCRA9TVsSAnZWagAAlQMQAItqhsY9DvyAEsE0VCIp\npq4cOP0BMP1lEyZF8mB0xo7aVoV51cQntSM6PySGyZVP5K04ByCZ/glQZO81\nNs/BFRvu96jQlsVLR7p0VUzJt6j9jJOrSM+f0e8DRTIUfx2eaJeh6/d2zpQe\nR6HyG7Ny0qahnJklkAf7b+NI/tiB2gxXXNaDhMNi18wvlCZtStaLKoyxRf15\nWBfCvzp2OiZG+9aLKRhlotPnv4OwXlCxDJ1c1JiD6mVwFTcLft1vvg1efUcu\nQgtWONcdhnoy2FDMOvNVpp8D2dGVTMLwjtZ1OOnK78UpvQjfAIL3mbVngQwy\n3Ujd6csXGk+V3whfJdYhtNJDf2y9awn587VsvLLyDlckkF7ZiStHsdg16O+C\nlSYsH1ns+SOu98x6comzN7wKb2xd+JFgVwRB+ldqRsO8oBLVQK5TQm6v+D2x\n+ch4jRslFK4n4wqXKyhhXGdm9UFaI0S/kmqi/n0pHOgEP6pPh54IHo5FTzhZ\nQA9fMXNb+/aqoitf0WIGYcPWGYkBPF5jGKd2+AzJ2UqLglt2MNoY/VWIr794\nVxs36/R9JmjzW+tZHesyXq2zgIwcbECbH5kZei5jJSTT7o5nxjb0GS8+ib/Y\nIxzAFGDyS5ukD96rZx3t/psSNS+vsEEBs5tUFAKKgaglNZsoE51Oo9yfJvo2\nCich\r\n=FBjH\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/store-controller-types#readme",
+  "keywords": [
+    "pnpm",
+    "types"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/store-controller-types",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/store-controller-types\n\n> Types for the store controller\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/store-controller-types"
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "7.0.0"
+}

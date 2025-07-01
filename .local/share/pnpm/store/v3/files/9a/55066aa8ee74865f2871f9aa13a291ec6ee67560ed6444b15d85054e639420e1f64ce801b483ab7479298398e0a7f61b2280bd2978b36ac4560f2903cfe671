@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "promise-share@1.0.0",
+        "scope": null,
+        "escapedName": "promise-share",
+        "name": "promise-share",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester"
+    ]
+  ],
+  "_from": "promise-share@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "promise-share@1.0.0",
+  "_location": "/promise-share",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/promise-share_1.0.0_1568401292485_0.04365677439064153"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.11.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "promise-share@1.0.0",
+    "scope": null,
+    "escapedName": "promise-share",
+    "name": "promise-share",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/package-requester",
+    "/@pnpm/server"
+  ],
+  "_resolved": "https://registry.npmjs.org/promise-share/-/promise-share-1.0.0.tgz",
+  "_shasum": "e25e366d1439758da2724b8e75a2f137ba012d92",
+  "_shrinkwrap": null,
+  "_spec": "promise-share@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-requester",
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "p-reflect": "^2.1.0"
+  },
+  "description": "Creates a getter function for a promise result",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-lpABypysb42MdCZjMJAdapxt+uTU9F0BZW0YeYVlPD/Gv390c43CdFwBSC9YM3siAgyAjLV94WDuDnwHIJjxiw==",
+    "shasum": "e25e366d1439758da2724b8e75a2f137ba012d92",
+    "tarball": "https://registry.npmjs.org/promise-share/-/promise-share-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2811,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJde+eNCRA9TVsSAnZWagAA94gP/0SIj0fXfvlceMZR+NSm\ne4D8FgQ1U/0WwkH9pFYQR4Y8F/EjQsOX7UlYORge0y5Vk/AOT1PcX6pBlH37\nhNG1Gj/VHMHqCfJhREh5T8OFgNDnVXbiv4yOSSvDr8dGtE25afWP2HTKrdU4\nheR4HiNxLHYakzjytwCZOwF+sVU43hDtp+y586fJ4n7Ha5GqnsVEcfh7DcQu\nh0GkVTOZzowtF3yaZ07AbMYNvbLipU2Smr4DRggpAzqpGkuHEDbeHPMJmkg6\n5ywZlJCHyxwbQ5kOM1xzoRrDilVA0Vg4e84PlQzKuIiBcrfi/Cm3jjCpYdxv\nq1yULN8GNWNA+8sk9O9SxCh5hZElD3okUJqUfnKnGfHZxnGnxqQPtLc8JB65\nKSthJ0oYuNzuPYJD2WZqXLUkimomUdP5sIu57AW+F/TSheJbB0MvMrYKgDZv\nLam9VYbs0/K2pTY3plZFZ2pkBcynqgQhXHqlnylAweSl2mNdK1PJEraqcxen\nLkpFdNd0AmGqQN/7SDQN+xjPtlSYwB03E5xdZuMxB65tCu86YsRMHqWjAuGv\neAyx19Jy9Y+c1AgXOUc+DbUDnc5ahhyP9y1PP6Z9wdunMtm4m2rwfx37U8hf\nmVH0QhSfEQQS0XWSgDawIfsGewVAF79nvzN4qCYlHqF7si3YUG9ad62NkAkc\nQaf6\r\n=elL0\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/promise-share#readme",
+  "keywords": [
+    "promise"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "promise-share",
+  "optionalDependencies": {},
+  "readme": "# promise-share\n\n> Creates a getter function for a promise result\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/promise-share.svg)](https://www.npmjs.com/package/promise-share)\n<!--/@-->\n\nHelps to avoid *UnhandledPromiseRejectionWarning*.\nIf you need to export a result as a promise, use this function to wrap the promise.\nWhen you'll need the result of the promise, run the function.\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add promise-share\n```\n\n## Usage\n\n```js\n'use strict'\nconst promiseShare = require('promise-share')\n\nconst file = promiseShare(readFileAsync())\n\nconsole.log(await file())\n//> file content\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/promise-share"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "1.0.0"
+}

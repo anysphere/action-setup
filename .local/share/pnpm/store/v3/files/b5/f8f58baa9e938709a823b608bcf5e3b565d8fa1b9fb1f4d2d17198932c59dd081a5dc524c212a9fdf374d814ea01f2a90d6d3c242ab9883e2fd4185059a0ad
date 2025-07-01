@@ -1,0 +1,158 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/package-requester@11.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fpackage-requester",
+        "name": "@pnpm/package-requester",
+        "rawSpec": "11.0.4",
+        "spec": "11.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store"
+    ]
+  ],
+  "_from": "@pnpm/package-requester@11.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/package-requester@11.0.4",
+  "_location": "/@pnpm/package-requester",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/package-requester_11.0.4_1582752567525_0.3544097473137029"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/package-requester@11.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fpackage-requester",
+    "name": "@pnpm/package-requester",
+    "rawSpec": "11.0.4",
+    "spec": "11.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/headless",
+    "/@pnpm/package-store",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/package-requester/-/package-requester-11.0.4.tgz",
+  "_shasum": "673ed959a5141feed0ad13d5e3df49d119a2712a",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/package-requester@11.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/check-package": "3.0.1",
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/fetcher-base": "6.0.0",
+    "@pnpm/pkgid-to-filename": "2.0.0",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/resolver-base": "7.0.0",
+    "@pnpm/store-controller-types": "7.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "load-json-file": "6.2.0",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "p-limit": "2.2.2",
+    "p-queue": "6.3.0",
+    "path-exists": "4.0.0",
+    "promise-share": "1.0.0",
+    "ramda": "0.27.0",
+    "rename-overwrite": "2.0.2",
+    "ssri": "6.0.1",
+    "symlink-dir": "3.1.2",
+    "write-json-file": "4.0.0"
+  },
+  "description": "Concurrent downloader of npm-compatible packages",
+  "devDependencies": {
+    "@pnpm/local-resolver": "5.0.0",
+    "@pnpm/logger": "3.1.0",
+    "@pnpm/npm-resolver": "7.3.4",
+    "@pnpm/package-requester": "link:",
+    "@pnpm/tarball-fetcher": "5.1.10",
+    "@types/mz": "^2.7.0",
+    "@types/ncp": "^2.0.3",
+    "@types/normalize-path": "3.0.0",
+    "@types/ramda": "^0.26.42",
+    "@types/sinon": "^7.5.2",
+    "@types/ssri": "6.0.1",
+    "delay": "4.3.0",
+    "ncp": "2.0.0",
+    "nock": "12.0.1",
+    "normalize-path": "3.0.0",
+    "sinon": "9.0.0",
+    "tempy": "0.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-kq73OOYwqO1Oxay7t9BvATveY0470dYV4cMxV3PJF6W2VfQml7vvvYQZim48xVp97BV0zDkLQ3IijGrBarwUEA==",
+    "shasum": "673ed959a5141feed0ad13d5e3df49d119a2712a",
+    "tarball": "https://registry.npmjs.org/@pnpm/package-requester/-/package-requester-11.0.4.tgz",
+    "fileCount": 7,
+    "unpackedSize": 24013,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVuM3CRA9TVsSAnZWagAADwcP/348fdTsSMLKOemQZ8Hq\n2YyUoIRykxsHlYGpDguZyGPyIS8W3Ko3F0vx5V0BXsWnPwAk0SZbeCNwY4u0\n8p+j7A7lyJ03XzSP1vMGGUKuKAMV7aDUpwj59jdWngIUTG47e+DGLxlBrNTJ\nLwU2JREzLAKeBE3YrrGInIcHnrx8YArL3MZIXQ2w1kAeu28l1ggKQLK9Nln2\n9iPoUkZlCsLQDLqndbAZWTdHziffcw3BEh68l/XYfSOiS+jUU6GrXcO6M6c5\npl6YVoffklpCkvSHy6avr/gn/qCEZBgdTaqjQkgzpDzNDjMYfZD8HAZpPgt2\nq9w89YCO3V4Ml9jXO2Fl2gvl553wSCyBzPNo9Asf/7xC2h6LPKF8D2KearZW\n9KlUjFrqtdYcQgZjJaxjNilcAlqpD015Mq2V4uxbpVLYFYxdDgVCu/BstlIn\nqHsiX68hH3X3MhTB9WXfq4js2++CK4BB9J9pIrrhwxYT2gnYAlB1cobBgdvn\nLPLVqayXjM2dvKtzuobiFJtWWtp5wcgnTXybwgkZ+wXTWrUh5oBMdK4Txz/r\nnfcUnzn9Faj4397SP6e+qQxz1BMLPv7fO6P9vNqhtVKesqGIBiAIw02lIvEM\nRYsQIE2SWIeVLLtiUW5kQ40PJBDsf2wtTI9KAEHZhIcD6HBpLNF/AjzQspa7\n6jxS\r\n=15IA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/package-requester#readme",
+  "keywords": [
+    "pnpm",
+    "resolver",
+    "npm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/package-requester",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/package-requester\n\n> Concurrent downloader of npm-compatible packages\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/package-requester.svg)](https://www.npmjs.com/package/@pnpm/package-requester)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/logger @pnpm/package-requester\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/package-requester"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "start": "pnpm run tsc -- --watch",
+    "test": "pnpm run tsc && rimraf .store && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc --pretty"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "11.0.4"
+}

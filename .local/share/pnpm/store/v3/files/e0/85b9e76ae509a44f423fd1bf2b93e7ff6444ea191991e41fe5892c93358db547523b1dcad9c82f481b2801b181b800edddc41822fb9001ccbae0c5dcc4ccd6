@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/fs-locker@3.0.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2ffs-locker",
+        "name": "@pnpm/fs-locker",
+        "rawSpec": "3.0.1",
+        "spec": "3.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store"
+    ]
+  ],
+  "_from": "@pnpm/fs-locker@3.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/fs-locker@3.0.1",
+  "_location": "/@pnpm/fs-locker",
+  "_nodeVersion": "8.15.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fs-locker_3.0.1_1560723112296_0.9037204632550215"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/fs-locker@3.0.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2ffs-locker",
+    "name": "@pnpm/fs-locker",
+    "rawSpec": "3.0.1",
+    "spec": "3.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/package-store",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/fs-locker/-/fs-locker-3.0.1.tgz",
+  "_shasum": "c5a14118748dd600a30126b91afb8b0a2c03c499",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/fs-locker@3.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/package-store",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/fs-locker/issues"
+  },
+  "dependencies": {
+    "make-dir": "^3.0.0",
+    "proper-lockfile": "3"
+  },
+  "description": "An fs locker for pnpm",
+  "devDependencies": {
+    "@types/node": "10",
+    "package-preview": "^2.0.0",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.8.0",
+    "typescript": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-o9d47i3E6XtVDIjxPjl9mg+phHnjScYtjhx5KiAZEcgV4nEjXCtnrQ8MjH8yjN8JVeCQH3FiioR1i+iD9DzkRw==",
+    "shasum": "c5a14118748dd600a30126b91afb8b0a2c03c499",
+    "tarball": "https://registry.npmjs.org/@pnpm/fs-locker/-/fs-locker-3.0.1.tgz",
+    "fileCount": 6,
+    "unpackedSize": 7273,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBr6oCRA9TVsSAnZWagAAqpQQAKGATGXaVt427mB8lbJs\nvdZaq0n0ylhzOJ1rt5WEdtEN81OfIYLZ/WVx/mqIm2JHZGZEx0KXtNxDdUpS\n7p072kL0HiikBvGBoOCfTw5sGSSmKbKNYI7JRt7dQg4qJaIQlUN/6rZZSiCg\ns534IrI32b2QFFIZiub3R/t8LJeUE1QMsSimdPWHznNVdkVlPiT0nOV7Y6U8\nH476+2/WG41bNoFnQpixrIvl15uvCdxriB1FjveFuG3RGzrIurtlDIqJYMuA\nVFx54GSQe9492kEqcBWzYL32+e2B7G9shMqeEi3NbtRZ+zuV/bbZT6nleLR/\nhDWqrbn6n7hmKcbGJlYcF97qELQf5Tno1Lqvz2Z9B+XL5MlbhIFYgUNFNSfT\nA74zXpyBKwqpQT1/4hppWFqlBB74Xq7n9N9qOruq6HilOqQwgGMinaPPRwRX\nrmGRL3bAiJCYyyiwX4Ap6W+IXdFgmzfS7Ktc8Ak/Xfol40RkUTRrLuGk7VjY\nRDA5NKxdWLpYyqpXBYinaAkRa0FDNzfCgtmcHUQ7dQI0GpG6Mo4zskcTSRC3\nY17N+///pMnK9A5c86PWhYmuXwLXYpC1EZyvD3NWHmXgb19Uwfaa+kE56Gei\nq2pTWmwM9jfI2cadG5EyxocxMgvJTv2gS2pWMIehQTUKDriA6CbkZpHJz5uO\nm0SL\r\n=rUvB\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "21d94bcefda30ea1eab462a1a21aff087d27bc9a",
+  "homepage": "https://github.com/pnpm/fs-locker#readme",
+  "keywords": [
+    "pnpm",
+    "server"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/fs-locker",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/fs-locker\n\n> An fs locker for pnpm\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/fs-locker.svg)](https://www.npmjs.com/package/@pnpm/fs-locker) [![Build Status](https://img.shields.io/travis/pnpm/fs-locker/master.svg)](https://travis-ci.org/pnpm/fs-locker)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|yarn|npm> add @pnpm/fs-locker\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\n'use strict'\nconst lock = require('@pnpm/fs-locker').default\nconst path = require('path')\n\nconst locks = path.resolve('_locks')\n\nlock(process.cwd(), {stale: 100, locks})\n  .then(unlock => {\n    // do some stuff...\n    return unlock() // or unlock.sync()\n  })\n  .then(() => {\n    console.log('folder unlocked')\n    //> folder unlocked\n  })\n  .catch(err => console.error(err))\n```\n<!--/@-->\n\n## API\n\n### `lock(filename, opts) => unlock[.sync]()`\n\nLocks the specified file. Returns an async and sync unlock function.\n\n#### Arguments\n\n- `filename` - the file to lock\n- `opts.stale` - duration in milliseconds in which the lock is considered stale\n- `opts.locks` - the folder that contains the lock files\n- `opts.whenLocked` - function that is called if a lock is found when trying to create the lock\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/fs-locker.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json --project .",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run lint && preview",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.1"
+}

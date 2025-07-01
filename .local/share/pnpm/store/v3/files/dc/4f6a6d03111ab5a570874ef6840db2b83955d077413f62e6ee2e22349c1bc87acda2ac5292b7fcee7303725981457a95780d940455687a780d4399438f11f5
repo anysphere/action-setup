@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/lockfile-file@3.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flockfile-file",
+        "name": "@pnpm/lockfile-file",
+        "rawSpec": "3.0.4",
+        "spec": "3.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-audit"
+    ]
+  ],
+  "_from": "@pnpm/lockfile-file@3.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/lockfile-file@3.0.4",
+  "_location": "/@pnpm/lockfile-file",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lockfile-file_3.0.4_1582101385376_0.47236766659545903"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/lockfile-file@3.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flockfile-file",
+    "name": "@pnpm/lockfile-file",
+    "rawSpec": "3.0.4",
+    "spec": "3.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-audit",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/read-projects-context",
+    "/dependencies-hierarchy",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/lockfile-file/-/lockfile-file-3.0.4.tgz",
+  "_shasum": "7bd4542fefe516f3ca3258eec54a308534711c71",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/lockfile-file@3.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-audit",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-types": "2.0.0",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/rimraf": "1.0.0",
+    "js-yaml": "3.13.1",
+    "make-dir": "3.0.2",
+    "normalize-path": "3.0.0",
+    "ramda": "0.27.0",
+    "read-yaml-file": "1.1.0",
+    "write-file-atomic": "2.4.3"
+  },
+  "description": "Read/write pnpm-lock.yaml files",
+  "devDependencies": {
+    "@pnpm/lockfile-file": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/js-yaml": "^3.12.2",
+    "@types/normalize-path": "3.0.0",
+    "@types/ramda": "^0.26.41",
+    "@types/write-file-atomic": "3.0.0",
+    "tempy": "0.4.0",
+    "write-yaml-file": "3.0.1",
+    "yaml-tag": "1.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4Y8qofnhLIwysPrOV6M162XO3GGpeLTSQbJY9mUs+Ya0E9Yz3UcjTt1THvxuIg2k8h3dkct72leqUdCu5AQq8Q==",
+    "shasum": "7bd4542fefe516f3ca3258eec54a308534711c71",
+    "tarball": "https://registry.npmjs.org/@pnpm/lockfile-file/-/lockfile-file-3.0.4.tgz",
+    "fileCount": 19,
+    "unpackedSize": 16686,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPOJCRA9TVsSAnZWagAAwdEP/AkRaCfthRTZEfHZLlPt\n+m96tuqTLvfid0AN7OJ5MIOZ3iW30FTDshMCgg4YvkKyaCny2ydsQ8cDmvG7\nh7RnVIfdkN0V2z3JoFjcT1aX4G9aRhVzmW/8R81mxfl0OupDNY3xLR3zCHUf\nIW6V2bcVYXHUFKDBqZ+ItHlphSGl6I0sfgGiFTnHfIPh+MKmhcfQmP31XkrU\ncV+9OcOPnG34h8p+Lme5urCKoqyxTDHZ/SoriVoFoFLoJJBjQDJLkdCzcJHS\nTh78XIVTJDStZ5U+jzvR562yVlkKHiT7WeZppNo8+sHIAYKz6o/tFBtBBKEH\n5GXhkf7gOMCa4q56U5IBr9m+Ei4MKoJ1vNLUU4Y7/Nt9QSepUMy6aYB9RKw4\n/TJwTFj/k3hIk23woajjQ2aHgB1BBb9zg6FTHRxy8X12wQOt763rFGrHc8Bx\nROhPDzyNKY7+Fwo6a/b0j9je1dmiidex9eMzWXVdzGl7OmyocLODyis9kdCZ\nIAHKFLAuWL6LeMVwbwHsbrACi6liSQz7mjjJs94bP8eiv7W8yQHYzOBx9VRj\nXD3komJZlhbbg0zjoS/4MfNK3VIy4bzkn84MXzn/9no+SJZNmmoAkZLiZKOq\nZXVED+JqcBSiq8VrYMCF7v9c/HEVphCZpGFh7I4coPd7m30QW+/iNCg6tPKR\nAvKC\r\n=Bk6U\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib/"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-file#readme",
+  "keywords": [
+    "pnpm",
+    "shrinkwrap",
+    "lockfile"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/lockfile-file",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": ">=3.1.0"
+  },
+  "readme": "# @pnpm/lockfile-file\n\n> Read/write pnpm-lock.yaml files\n\nReads and writes the wanted (`pnpm-lock.yaml`) and current (`node_modules/.pnpm-lock.yaml`) lockfile files of pnpm.\nLockfile files are the state files of the `node_modules` installed via pnpm. They are like\nthe `package-lock.json` of npm or the `yarn.lock` of Yarn.\n\n## Install\n\n```\n<pnpm|yarn|npm> add @pnpm/lockfile-file\n```\n\n## API\n\n### `readWantedLockfile(pkgPath, opts) => Promise<Lockfile>`\n\nReads the `pnpm-lock.yaml` file from the root of the package.\n\n#### Arguments\n\n* `pkgPath` - *Path* - the path to the project\n* `opts.ignoreIncompatible` - *Boolean* - `false` by default. If `true`, throws an error\nif the lockfile file format is not compatible with the current library.\n\n### `readCurrentLockfile(virtualStoreDir, opts) => Promise<Lockfile>`\n\nReads the lockfile file from `<virtualStoreDir>/lock.yaml`.\n\n### `existsWantedLockfile(pkgPath) => Promise<Boolean>`\n\nReturns `true` if a `pnpm-lock.yaml` exists in the root of the package.\n\n### `writeLockfiles(opts) => Promise<void>`\n\nWrites the wanted/current lockfile files. When they are empty, removes them.\n\n#### Arguments\n\n* `opts.wantedLockfile`\n* `opts.wantedLockfileDir`\n* `opts.currentLockfile`\n* `opts.currentLockfileDir`\n* `[opts.forceSharedFormat]`\n\n### `writeWantedLockfile(pkgPath, wantedLockfile) => Promise<void>`\n\nWrites the wanted lockfile file only. Sometimes it is needed just to update the wanted lockfile\nwithout touching `node_modules`.\n\n### `writeCurrentLockfile(virtualStoreDir, currentLockfile) => Promise<void>`\n\nWrites the current lockfile file only.\n\n## License\n\n[MIT](LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/lockfile-file"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "3.0.4"
+}

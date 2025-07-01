@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/lifecycle@8.0.2",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2flifecycle",
+        "name": "@pnpm/lifecycle",
+        "rawSpec": "8.0.2",
+        "spec": "8.0.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/lifecycle@8.0.2",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/lifecycle@8.0.2",
+  "_location": "/@pnpm/lifecycle",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/lifecycle_8.0.2_1578428537827_0.6762182102235264"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/lifecycle@8.0.2",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2flifecycle",
+    "name": "@pnpm/lifecycle",
+    "rawSpec": "8.0.2",
+    "spec": "8.0.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/build-modules",
+    "/@pnpm/headless",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/lifecycle/-/lifecycle-8.0.2.tgz",
+  "_shasum": "0f3d3f551831b6f14214c481121aded7a67bb4e2",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/lifecycle@8.0.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/core-loggers": "4.0.1",
+    "@pnpm/read-package-json": "3.0.2",
+    "@pnpm/types": "5.0.0",
+    "@zkochan/npm-lifecycle": "3.1.4",
+    "path-exists": "4.0.0",
+    "run-groups": "2.0.2"
+  },
+  "description": "Package lifecycle hook runner",
+  "devDependencies": {
+    "@pnpm/lifecycle": "link:",
+    "@pnpm/logger": "3.1.0",
+    "@types/rimraf": "^2.0.3",
+    "json-append": "1.1.1",
+    "load-json-file": "6.2.0",
+    "rimraf": "3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0f3d3f551831b6f14214c481121aded7a67bb4e2",
+    "tarball": "https://registry.npmjs.org/@pnpm/lifecycle/-/lifecycle-8.0.2.tgz",
+    "integrity": "sha512-uWEFScocjESYDTJt02nvEG2F3TI7yzoZiU8Hp2d69vnxaz8P9ifmqhXAmMVMfbhrlPMaxLOb0u/ZG7VnFnL5mw==",
+    "fileCount": 9,
+    "unpackedSize": 10889,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOh6CRA9TVsSAnZWagAAEyoP/RUbllE8dg/QsbhaBUV5\nt1Jw+k+/W5+F+RbWsdTO8Z6ZpMfDuDxLpLAzT7sYOVoHZ11YQVE7iW/aDHJ4\nPQ4Ag4C/6KLtePFV+hdTu0htjs6Sl0z4TWl6xPYpb4P67tCnNBoZQ1lMRGd9\nr3AVsH4nw6xEOd8e75CRwg9x0ASWb7NPSOPY1Uzpx6jqhyld24WAFr63c2AS\nNHfondKa3lrxy3Ber+3rIhaLvJSuVzMVygKTAmkLAjUan868oYB/28ZDgy1X\nJLqeWKdqjHfs83rpRnaZN9dugAbOKK9vGs7OEblNgEdV3G1rWWhF5PWZfT4R\nc0STZc/OrkDK6H1gyT4MeoXz4lHJtAJA+bQS2dLWzUc6YyFssBh1E736Wita\nzaeGpjIGXA+g+0YoSS4iWwQVLWYg3WSwxUhnM2xCQDviBzLyj7y6eyGYyo3V\n+iJZ/QH/gYtcDu8roBB6F/LNm5/lSqbcpelgKn1xveIoOYmuFgGn3a27nw4m\nIoY8r7X8hca/Dxiw1ny5oTxa/+LMOsUFV0G/uaUx1Jd198WsQut0eU3JiCHM\nYmWL8ZFngqwiPdRNi+1ZKhC3qS/DpOAlGmVkUM2oa8bEqEoqRUG0Uku8FcUW\nbve7sc3XN/oGP6TKR9XzXfQZCD9PGpUMjq/U6PeYJ9BnfWlVNTjYqHs1Ege2\n+SeQ\r\n=/gQN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/tree/master/packages/lifecycle#readme",
+  "keywords": [
+    "pnpm",
+    "lifecycle",
+    "scripts"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/lifecycle",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@pnpm/logger": "^3.1.0"
+  },
+  "readme": "# @pnpm/lifecycle\n\n> Package lifecycle hook runner\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/lifecycle.svg)](https://www.npmjs.com/package/@pnpm/lifecycle)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/logger @pnpm/lifecycle\n```\n\n## Usage\n\n```ts\nimport runLifecycleHook, {runPostinstallHooks} from '@pnpm/lifecycle'\n\nconst targetPkgRoot = path.resolve('node_modules/target-pkg')\nconst pkg = require(path.join(targetPkgRoot, 'package.json'))\n\n// Run a specific hook\nawait runLifecycleHook('preinstall', pkg, {\n  pkgId: 'target-pkg/1.0.0',\n  pkgRoot: targetPkgRoot,\n  rawConfig: {},\n  rootNodeModulesDir: path.resolve('node_modules'),\n  unsafePerm: true,\n})\n\n// Run all install hooks\nawait runPostinstallHooks({\n  pkgId: 'target-pkg/1.0.0',\n  pkgRoot: targetPkgRoot,\n  rawConfig: {},\n  rootNodeModulesDir: path.resolve('node_modules'),\n  unsafePerm: true,\n})\n```\n\n## API\n\n### `runLifecycleHook(stage, packageManifest, opts): Promise<void>`\n\n### `runPostinstallHooks(opts): Promise<void>`\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/lifecycle"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "8.0.2"
+}

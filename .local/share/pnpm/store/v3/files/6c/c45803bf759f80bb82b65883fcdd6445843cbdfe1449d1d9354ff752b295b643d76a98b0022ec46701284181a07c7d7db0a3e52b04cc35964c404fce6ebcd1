@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "write-json5-file@2.1.2",
+        "scope": null,
+        "escapedName": "write-json5-file",
+        "name": "write-json5-file",
+        "rawSpec": "2.1.2",
+        "spec": "2.1.2",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest"
+    ]
+  ],
+  "_from": "write-json5-file@2.1.2",
+  "_hasShrinkwrap": false,
+  "_id": "write-json5-file@2.1.2",
+  "_location": "/write-json5-file",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/write-json5-file_2.1.2_1566069128926_0.15020628424019966"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "write-json5-file@2.1.2",
+    "scope": null,
+    "escapedName": "write-json5-file",
+    "name": "write-json5-file",
+    "rawSpec": "2.1.2",
+    "spec": "2.1.2",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/write-project-manifest"
+  ],
+  "_resolved": "https://registry.npmjs.org/write-json5-file/-/write-json5-file-2.1.2.tgz",
+  "_shasum": "e7a1863d3cb21c6bf6fbdfed251c7194409ae40b",
+  "_shrinkwrap": null,
+  "_spec": "write-json5-file@2.1.2",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/write-project-manifest",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "json5": "^2.0.0",
+    "make-dir": "^3.0.0",
+    "sort-keys": "^4.0.0",
+    "write-file-atomic": "^2.4.3"
+  },
+  "description": "Stringify and write JSON to a file atomically",
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "standard": "13.1.0",
+    "tape": "^4.6.3",
+    "tempfile": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4LUqyx4CwxVDLEbp83IF6s+3VHduw3PvDYowgbjPLJeD3bVt+vtnLfR4FbbPu7lCs9LSoqwDwGfnzhe/fJyACQ==",
+    "shasum": "e7a1863d3cb21c6bf6fbdfed251c7194409ae40b",
+    "tarball": "https://registry.npmjs.org/write-json5-file/-/write-json5-file-2.1.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 6408,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdWFGJCRA9TVsSAnZWagAALTAP+QCOJvxoXCPMrLR0JNTD\nV7I1Y/FE7SmCa+FAi6wzoW+s4dysT5HCmr1QCPwRXQp6Y39QYhOUXmmayeBr\nnOhi0T/whjPxHXDoHpYZTRxMoo0wK1Py2LIr5iGSpF5ctL/AOrtUxXLqTjUx\n6c8lHiQS6CruuaCBNezs3tq+2mibS2qiKVtuxj63PzrlXeEf+rm7czEtMr2c\nwGIclcUHc/uYIiz01E1zoPA989XPaubxPBY7KWX8iTmrM6v3ZcI/ZSTHBn2I\nBF/9NYcj3jDHa+gQWmXcHs4JZd3PsmUVjianvBkDOiomwTJLh6NYH93Z5u+D\nnxaGpetJ3FSIaJs9tEvq2WxhlZr7NJD/AjXt7BWPTRHE6GErGYSamCtPWZS3\n4LGeXtjjcueG9N4T5ycfT9FVdDSgfXE5dADSm1HYcGei6T49ffvrCGNUJ3nW\nJxo/EmRF98NG4YWV21C5ZKj42n6iN8s48Q+24CnlsqUelc9zziUFAddfHk3d\nsYl3XUX2YQ/1PC6ojiLt0aGu9apnA8GJTAuKHwoawMaORcPSioYB2iIFc202\nUerTraqsNsERBEWh6T4rEWJT5ULXqFh4XlJKU23jYuKo42ezTo0wE5ejNA7L\n7n2uDUT83c1CNGO/jwBwntXhawM6Re52tzkmC/oBUOXtOexcJUm2/1EXtVQV\nmm1s\r\n=lAvA\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/write-json5-file#readme",
+  "keywords": [
+    "write",
+    "json5",
+    "stringify",
+    "file",
+    "fs",
+    "graceful",
+    "atomic",
+    "atomically"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "write-json5-file",
+  "optionalDependencies": {},
+  "readme": "# write-json5-file\n\n> Stringify and write JSON to a file atomically\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/write-json5-file.svg)](https://www.npmjs.com/package/write-json5-file)\n<!--/@-->\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add write-json5-file\n```\n\n## Usage\n\n```js\nconst writeJson5File = require('write-json5-file')\n\nwriteJson5File('foo.json5', {foo: true}).then(() => {\n\tconsole.log('done')\n})\n```\n\n## API\n\n### `writeJson5File(filepath, data, [options])`\n\nReturns a promise.\n\n### `writeJson5File.sync(filepath, data, [options])`\n\n#### options\n\n##### indent\n\nType: `string`, `number`\nDefault: `\\t`\n\nIndentation as a string or number of spaces.\nPass in `null` for no formatting.\n\n##### sortKeys\n\nType: `boolean`, `function`\nDefault: `false`\n\nSort the keys recursively.\nOptionally pass in a [`compare`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) function.\n\n##### replacer\n\nType: `function`\n\nPassed into [`JSON.stringify`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#The_replacer_parameter).\n\n##### mode\n\nType: `number`\nDefault `438` _(0666 in octal)_\n\n[Mode](https://en.wikipedia.org/wiki/File_system_permissions#Numeric_notation) used when writing the file.\n\n## Related\n\n- [read-json5-file](../read-json5-file) - Read and parse a JSON5 file\n- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically\n- [json5](https://github.com/json5/json5) - JSON for the ES5 era\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/write-json5-file"
+  },
+  "scripts": {
+    "md": "mos",
+    "test": "standard && tape test.js"
+  },
+  "version": "2.1.2"
+}

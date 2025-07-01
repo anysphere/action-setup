@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dependency-path@4.0.5",
+        "scope": null,
+        "escapedName": "dependency-path",
+        "name": "dependency-path",
+        "rawSpec": "4.0.5",
+        "spec": "4.0.5",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-utils"
+    ]
+  ],
+  "_from": "dependency-path@4.0.5",
+  "_hasShrinkwrap": false,
+  "_id": "dependency-path@4.0.5",
+  "_location": "/dependency-path",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dependency-path_4.0.5_1582101405113_0.0029373668388648078"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dependency-path@4.0.5",
+    "scope": null,
+    "escapedName": "dependency-path",
+    "name": "dependency-path",
+    "rawSpec": "4.0.5",
+    "spec": "4.0.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/filter-lockfile",
+    "/@pnpm/headless",
+    "/@pnpm/hoist",
+    "/@pnpm/lockfile-utils",
+    "/@pnpm/lockfile-walker",
+    "/@pnpm/modules-cleaner",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-store",
+    "/@pnpm/prune-lockfile",
+    "/@pnpm/resolve-dependencies",
+    "/dependencies-hierarchy",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/dependency-path/-/dependency-path-4.0.5.tgz",
+  "_shasum": "237badd1a2edfe5f8b80dcbb6db591cdf297d3e6",
+  "_shrinkwrap": null,
+  "_spec": "dependency-path@4.0.5",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/lockfile-utils",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "5.0.0",
+    "encode-registry": "2.0.2",
+    "semver": "7.1.3"
+  },
+  "description": "Utilities for working with symlinked node_modules",
+  "devDependencies": {
+    "@types/semver": "^7.1.0",
+    "dependency-path": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-D04vc/lHL+WV1arsdhwQdnBbqKldyejkSuacc1J1H6QgdCKsK13ApVFFqCTOYcpHvOg03FK7xeqJ3StFRM9huw==",
+    "shasum": "237badd1a2edfe5f8b80dcbb6db591cdf297d3e6",
+    "tarball": "https://registry.npmjs.org/dependency-path/-/dependency-path-4.0.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 8995,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeTPOdCRA9TVsSAnZWagAA22EQAIhMm8Cd6R7J5M/bbT61\nOcPN+1THTwsqnSHxPXw2+UKWuf1ed5VFDnk4+YgqjYjOB/tilaYbVoY+1Zyy\nyBHw+zU9MlAGZtn3dHyrUVNHmWkEP87abUMEzVGf5NBn8+v3a99a4y+gQtf/\n9+0NAOBUqwuvIrsjEFnoZeOHeymuzQ2+Uh5l2P0GUZbhJQkkT94bdQ67LHg8\n+MGXoSA96+bpPUaS/m+klVTofErDFcTss8rwza3H1kRPG3ZSPCTWPJXX4K7x\naeXvuObofiJpOSCXANe6Rqs5REi7Vt/OIgPZ4KkPKRUrUxm9KJdhHjx8FdJI\nR6bIigaHdJSeekNoltq32/d6qiVc5nB+SS1tcugR/sBwaM6Sb0f00zqfaB4V\nX6/C1RO79jZZG5WTETK5MHSG1LmtXBJuqqf40UAHGR05MaRDzokzoMr41J43\n+OZie2kVlc1otertqr7xQdctpW41LPZiMJBb3N8q4oPtBWb5ZtpfGuNi+UoL\n4oZ+dueBMo6ZTorsFjK9aMEofQ8Eu68prwQxLQAeFK57XsSy/MEhRXqIG08I\nuZce7k2Gj3uRqi/ti2RS+x5IdGC/QcSr3gs6OBBMOwEdgAZDuGrjWsNZr3C3\n1zKLU5bmjpTjAW4348KGzueLVGfFWrCGIKGRsBy296ZVFJPd21ua5vGuf6fV\nGvl/\r\n=iILs\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/dependency-path#readme",
+  "keywords": [
+    "node_modules",
+    "pnpm",
+    "path"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "name": "dependency-path",
+  "optionalDependencies": {},
+  "readme": "# dependency-path\n\n> Utilities for working with symlinked node_modules\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/dependency-path.svg)](https://www.npmjs.com/package/dependency-path)\n<!--/@-->\n\nLike `path` but for packages in a symlinked `node_modules`. Symlinked `node_modules` is a unique dependencies layout that\n[pnpm](https://github.com/pnpm/pnpm) creates.\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add dependency-path\n```\n\n## Usage\n\n<!--@example('./example.js')-->\n```js\nconst dependencyPath = require('dependency-path')\n\nconst registry = 'https://registry.npmjs.org/'\n\nconsole.log(dependencyPath.isAbsolute('/foo/1.0.0'))\n//> false\n\n// it is confusing currently because relative starts with /.\n// It will be changed in the future to vice versa\nconsole.log(dependencyPath.resolve(registry, '/foo/1.0.0'))\n//> registry.npmjs.org/foo/1.0.0\n\nconsole.log(dependencyPath.relative(registry, 'registry.npmjs.org/foo/1.0.0'))\n//> /foo/1.0.0\n\nconsole.log(dependencyPath.refToAbsolute('1.0.1', 'foo', registry))\n//> registry.npmjs.org/foo/1.0.1\n\nconsole.log(dependencyPath.refToAbsolute('github.com/foo/bar/twe0jger043t0ew', 'foo', registry))\n//> github.com/foo/bar/twe0jger043t0ew\n\nconsole.log(dependencyPath.refToRelative('1.0.1', 'foo', registry))\n//> /foo/1.0.1\n\nconsole.log(dependencyPath.parse('/foo/2.0.0'))\n//> { isAbsolute: false, name: 'foo', version: '2.0.0' }\n```\n<!--/@-->\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/dependency-path"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && pnpm link . && ts-node test",
+    "tsc": "tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "4.0.5"
+}

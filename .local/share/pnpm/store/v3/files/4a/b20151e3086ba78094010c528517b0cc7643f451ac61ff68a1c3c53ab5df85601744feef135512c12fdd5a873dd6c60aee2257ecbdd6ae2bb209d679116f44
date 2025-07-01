@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/sort-packages@1.0.4",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fsort-packages",
+        "name": "@pnpm/sort-packages",
+        "rawSpec": "1.0.4",
+        "spec": "1.0.4",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation"
+    ]
+  ],
+  "_from": "@pnpm/sort-packages@1.0.4",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/sort-packages@1.0.4",
+  "_location": "/@pnpm/sort-packages",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/sort-packages_1.0.4_1582976876766_0.003206378703104029"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/sort-packages@1.0.4",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fsort-packages",
+    "name": "@pnpm/sort-packages",
+    "rawSpec": "1.0.4",
+    "spec": "1.0.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/plugin-commands-installation",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/plugin-commands-script-runners"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/sort-packages/-/sort-packages-1.0.4.tgz",
+  "_shasum": "9d14763206a81427f60d5d887c4ab1d0b45e01cb",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/sort-packages@1.0.4",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/plugin-commands-installation",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/config": "8.1.0",
+    "graph-sequencer": "2.0.0"
+  },
+  "description": "Sort packages",
+  "devDependencies": {
+    "@pnpm/sort-packages": "link:"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Y3hlfzrBGbueqENxFFtlt4eDMRniCpB4OB5M+iHqCdXb/LfFqTb1N1NBs/0pDCoe/uxLRpLPcrU/3YD6MN5jqQ==",
+    "shasum": "9d14763206a81427f60d5d887c4ab1d0b45e01cb",
+    "tarball": "https://registry.npmjs.org/@pnpm/sort-packages/-/sort-packages-1.0.4.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4414,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk9tCRA9TVsSAnZWagAALF8P/11CQ/6p9iDi6LBk/UBe\nYprDBF3rvTFoAjZLiC+sgOJv9TFAue3WX8RvjNVYNZfLBCGmKMwXka/cpAju\nkyWiy2Qmd5U6VZUfn9GyU1I7lNdVbBtIeCn/E/zPNCdMIB3yo73Ua+RNcglv\n/VKF4XSRfw5T45BPBrtn00ER0CzXk9QwEHx1JmdvDvY2Zn7eJNia4IIR9Gk3\nzotVkMgq4OHALAuFQTvQQQPh1+mga1URkFEb1AOZJwSgV/4eToygpOeQgJOg\nDe8H2m4AJejPTbI7yw7GenpvBIL3MUY1/jcprQb9XciOYa4BHR24Og8B4Kve\n98jvPrAkRGhRg7zi+TpdrMRU4VTM4HLrwOMZe0kimM8QuGbd4c+Akxh8vox5\n/fTb39GMO2PF/AChMvAkq2H/4p5NYluuCdKQwL2Qc15HOAR3POGm4RBILpqy\n+azu8NULD/Mbo1/FI8RzloSv1eBtn1HgoL9dKpmgIOzQ7THrZ/LUjcxtb7dz\n2w31meEqfTMFhUPYGCRrNEZB3P4hWk8MakG5kaI5Mb9Bd7/HiHCFKwiaYuZt\nxL8CmypzD+y9ul0iW8dgzphmoZgBMRMpGVXhOcirfTy8hPpm9gxC+15CKFBU\nVcDSNbaRecLVHI0N1J/Luv3/nFDnl9cq8dItm6yt7Bea/a5uYzVXVwAijWXs\nLw6N\r\n=Myap\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/sort-packages",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/sort-packages\n\n> Sort packages\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/sort-packages.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-recursive)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/sort-packages\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/sort-packages"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.0.4"
+}

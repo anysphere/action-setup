@@ -1,0 +1,128 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/modules-yaml@5.0.1",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fmodules-yaml",
+        "name": "@pnpm/modules-yaml",
+        "rawSpec": "5.0.1",
+        "spec": "5.0.1",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi"
+    ]
+  ],
+  "_from": "@pnpm/modules-yaml@5.0.1",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/modules-yaml@5.0.1",
+  "_location": "/@pnpm/modules-yaml",
+  "_nodeVersion": "12.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/modules-yaml_5.0.1_1578428616436_0.05444895987589682"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/modules-yaml@5.0.1",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fmodules-yaml",
+    "name": "@pnpm/modules-yaml",
+    "rawSpec": "5.0.1",
+    "spec": "5.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@pnpm/get-context",
+    "/@pnpm/headless",
+    "/@pnpm/outdated",
+    "/@pnpm/plugin-commands-outdated",
+    "/@pnpm/plugin-commands-rebuild",
+    "/@pnpm/read-projects-context",
+    "/dependencies-hierarchy",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/modules-yaml/-/modules-yaml-5.0.1.tgz",
+  "_shasum": "fefecbabea3436eb6e4af2f77c56c731839df76d",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/modules-yaml@5.0.1",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/supi",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/types": "5.0.0",
+    "read-yaml-file": "1.1.0",
+    "write-yaml-file": "3.0.1"
+  },
+  "description": "Reads/writes `node_modules/.modules.yaml`",
+  "devDependencies": {
+    "@pnpm/modules-yaml": "link:",
+    "rimraf": "3.0.0",
+    "tempy": "0.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "fefecbabea3436eb6e4af2f77c56c731839df76d",
+    "tarball": "https://registry.npmjs.org/@pnpm/modules-yaml/-/modules-yaml-5.0.1.tgz",
+    "integrity": "sha512-SC0C/WuIpPir5CgvH3QOdieZt3rC0gccI9aWcRTbTyUAFrPcq1qg3k+v+CX8mJwPqhcEgbOcmkm9MNeQnt8YxA==",
+    "fileCount": 5,
+    "unpackedSize": 5208,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeFOjICRA9TVsSAnZWagAAmsQP/3GuZ3qsgYr63qJ+vj9w\nSrE+TVYg04MiGooKVHvd8WZC/yj4ts+DHsDw68yl6jUoQ82ocPrH9ApiRjJ1\neY4trzD1RJ4EksN3YMawcWKUwTcRdbVPs2MQOTSk9xG6gVQbviHSP1Ih/bfH\nZFLeYrcm4CtIzOHlIGnH9T6zvLfxDXNBEmKi2KsUQ85cZ8McYfcVI46AyRvu\nnvn2Jz+jLfXGW68Sx9qWuXAt/gHafMpKxgOoIba3EzIXtk+oJfS3kRW8CZIu\n3DuQ1ECs//V66atHlUyqtB0vFtC9N1baskALYJftqY8GQfXKYcwjsRSVDtRO\nJ2XDF+YHAbTmCUmhiB13LWtY+0wvpGCRH2c6qLLFLpD/8UVKf03L5gWGCa41\nYFBxSylkJTD/ABYxlbC/OSbyyPfZZxPfnsSP7OUfo+2GhAcno2Zaxh6neJZG\nXxHMvqtZLz3IjNGT8Y0c+f89DI5XRQbezrbB1CJnt6f/gPbGZYHdTmzRI+Wq\nI4f5NgLPpS6T8echibpJltRwCDDUAwq4QHXW0LToziBa8dLAOlS3EAwjEfjz\neozYlM0XNaG/jSwn3JrmgBLyloD8mM1Aexm+TSESfNAJ6qieIcPrRcIRRBuN\ngoO5rIgg5tuVudYA+AoVgc0tS4HlfjDhqmBSW2GLu9yr+4WW1w0cfEaiF/p6\n5Bth\r\n=GJJg\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/pnpm/pnpm/blob/master/packages/modules-yaml#readme",
+  "keywords": [
+    "pnpm",
+    "modules.yaml"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/modules-yaml",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/modules-yaml\n\n> Reads/writes \\`node_modules/.modules.yaml\\`\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/@pnpm/modules-yaml.svg)](https://www.npmjs.com/package/@pnpm/modules-yaml)\n<!--/@-->\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/modules-yaml\n```\n\n## Usage\n\n```ts\nimport {write, read} from '@pnpm/modules-yaml'\n\nawait write('node_modules', {\n  hoistedAliases: {}\n  independentLeaves: false,\n  layoutVersion: 1,\n  packageManager: 'pnpm@1.0.0',\n  pendingBuilds: [],\n  shamefullyFlatten: false,\n  skipped: [],\n  store: '/home/user/.pnpm-store',\n})\n\nconst modulesYaml = await read(`node_modules`)\n```\n\n## API\n\n### `read(pathToDir): Promise<ModulesObject>`\n\nReads `.modules.yaml` from the specified directory.\n\n### `write(pathToDir, ModulesObject): Promise<void>`\n\nWrites a `.modules.yaml` file to the specified directory.\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/modules-yaml"
+  },
+  "scripts": {
+    "fix": "tslint -c tslint.json src/**/*.ts test/**/*.ts --fix",
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "test": "pnpm run tsc && ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "5.0.1"
+}

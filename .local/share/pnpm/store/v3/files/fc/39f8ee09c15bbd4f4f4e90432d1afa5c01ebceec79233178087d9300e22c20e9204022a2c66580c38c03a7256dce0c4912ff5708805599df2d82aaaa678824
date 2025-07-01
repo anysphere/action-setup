@@ -1,0 +1,153 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@pnpm/plugin-commands-outdated@0.2.12",
+        "scope": "@pnpm",
+        "escapedName": "@pnpm%2fplugin-commands-outdated",
+        "name": "@pnpm/plugin-commands-outdated",
+        "rawSpec": "0.2.12",
+        "spec": "0.2.12",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm"
+    ]
+  ],
+  "_from": "@pnpm/plugin-commands-outdated@0.2.12",
+  "_hasShrinkwrap": false,
+  "_id": "@pnpm/plugin-commands-outdated@0.2.12",
+  "_location": "/@pnpm/plugin-commands-outdated",
+  "_nodeVersion": "12.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/plugin-commands-outdated_0.2.12_1582976899369_0.5331171002677526"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.13.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@pnpm/plugin-commands-outdated@0.2.12",
+    "scope": "@pnpm",
+    "escapedName": "@pnpm%2fplugin-commands-outdated",
+    "name": "@pnpm/plugin-commands-outdated",
+    "rawSpec": "0.2.12",
+    "spec": "0.2.12",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnpm/plugin-commands-outdated/-/plugin-commands-outdated-0.2.12.tgz",
+  "_shasum": "f0cbbf632e1ca21c65c7994431d8176196b7dccf",
+  "_shrinkwrap": null,
+  "_spec": "@pnpm/plugin-commands-outdated@0.2.12",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/pnpm/pnpm/issues"
+  },
+  "dependencies": {
+    "@pnpm/cli-utils": "0.3.8",
+    "@pnpm/colorize-semver-diff": "1.0.0",
+    "@pnpm/command": "0.1.0-0",
+    "@pnpm/common-cli-options-help": "0.1.4",
+    "@pnpm/config": "8.1.0",
+    "@pnpm/default-resolver": "7.3.6",
+    "@pnpm/error": "1.0.0",
+    "@pnpm/lockfile-file": "3.0.4",
+    "@pnpm/matcher": "1.0.0",
+    "@pnpm/modules-yaml": "5.0.1",
+    "@pnpm/outdated": "7.0.9",
+    "@pnpm/semver-diff": "1.0.2",
+    "@pnpm/store-path": "2.1.1",
+    "@pnpm/utils": "0.12.4",
+    "chalk": "3.0.0",
+    "common-tags": "1.8.0",
+    "lru-cache": "5.1.1",
+    "ramda": "0.27.0",
+    "render-help": "1.0.0",
+    "table": "5.4.6",
+    "wrap-ansi": "6.2.0"
+  },
+  "description": "The outdated command of pnpm",
+  "devDependencies": {
+    "@pnpm/constants": "3.0.0",
+    "@pnpm/filter-workspace-packages": "2.0.2",
+    "@pnpm/plugin-commands-installation": "0.2.15",
+    "@pnpm/plugin-commands-outdated": "link:",
+    "@pnpm/prepare": "0.0.0",
+    "@pnpm/types": "5.0.0",
+    "@types/common-tags": "1.8.0",
+    "@types/lru-cache": "^5.1.0",
+    "@types/mz": "^2.7.0",
+    "@types/ramda": "^0.26.43",
+    "@types/table": "^4.0.7",
+    "@types/wrap-ansi": "3.0.0",
+    "make-dir": "3.0.2",
+    "mz": "2.7.0",
+    "strip-ansi": "6.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-GIuUKF4Yv5MFaT0hjBqAL6CXDLlnEc7hxeoJ1yTcjeOXh1WkhnUNCdu7EzpTXe3SW3/ADvbt/y2DsvHlS79+ZQ==",
+    "shasum": "f0cbbf632e1ca21c65c7994431d8176196b7dccf",
+    "tarball": "https://registry.npmjs.org/@pnpm/plugin-commands-outdated/-/plugin-commands-outdated-0.2.12.tgz",
+    "fileCount": 11,
+    "unpackedSize": 20096,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeWk+DCRA9TVsSAnZWagAAiQ0P/iwRdaobc7cVfYoErZwF\nNC2lXbVXhoaJWSHVWIKpPcu7tK7rGqXKm8uL8Nue95BgI5KS9Pdq7Q2xxkxK\n02mf5QkIgtkAMtTsAcmxR2sjE+Sm7VHRQwcg6FGEG0FqNJfoabthVjeMGGIT\ntj96y1JVRc36HzP6hHvtJRVWk2V2x4VR4DYVnqsMoYTa/v4LSgEklnJXi+jP\n747B8fnCNfnmL6sScoGc0/Tn840XGRg+WXVwnRihqLALbFjXCDwIRQGWrPDv\no/Dj9O4o1Qwlx23fuAPTTC/UumcfZK63TI5Lxc45aBWd71huDgas171huc5h\n5wuhK4IN3ASNnMkH3bQm8kNr2EXUBr8SgGT1fpUwv4AZ2KmyvdYIqVYBAdAb\n4C8Y874AgXhiz8zQNgfaQ5V1XlplrQroBGg736kNSLVTmbgI+MT1/6TOA3pX\nKfIt6WrgBPg9H93gpqLYD0/+tdythgC3Yg2JKtRjIujzBZIXBUOp3fz2+PqJ\nl9Khte7AU4OKOL9nh5vsgzNdLuE5fWBxnUbGWhc2XuNevz99IgOSUkKIKH1c\nD/XKtbHwlkb0SckKmEyjE1hiT1EcjFNcZNweObUH9X6zbYsKayRpDPwd0tI4\n5mOkto416HIUPQJYot0wgNgFQklIqMerVAIzFVBIQCvGqzMlLwL2CVlpVcFF\nreLN\r\n=Vl2t\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://pnpm.js.org",
+  "keywords": [
+    "pnpm",
+    "outdated"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "etamponi",
+      "email": "emanuele.tamponi@gmail.com"
+    },
+    {
+      "name": "pnpmuser",
+      "email": "zoltan.kochan@gmail.com"
+    },
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@pnpm/plugin-commands-outdated",
+  "optionalDependencies": {},
+  "readme": "# @pnpm/plugin-commands-outdated\n\n> The outdated command of pnpm\n\n[![npm version](https://img.shields.io/npm/v/@pnpm/plugin-commands-outdated.svg)](https://www.npmjs.com/package/@pnpm/plugin-commands-outdated)\n\n## Installation\n\n```sh\n<pnpm|npm|yarn> add @pnpm/plugin-commands-outdated\n```\n\n## License\n\nMIT © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnpm/pnpm/blob/master/packages/plugin-commands-outdated"
+  },
+  "scripts": {
+    "lint": "tslint -c ../../tslint.json src/**/*.ts test/**/*.ts",
+    "prepublishOnly": "pnpm run tsc",
+    "pretest:e2e": "registry-mock prepare",
+    "registry-mock": "registry-mock",
+    "test": "pnpm run tsc && cross-env PNPM_REGISTRY_MOCK_PORT=7774 pnpm run test:e2e",
+    "test:e2e": "run-p -r registry-mock test:tap",
+    "test:tap": "ts-node test --type-check",
+    "tsc": "rimraf lib && tsc"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "0.2.12"
+}
